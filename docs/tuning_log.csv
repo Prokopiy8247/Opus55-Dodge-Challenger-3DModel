@@ -1,0 +1,23 @@
+run_id,date,phase,changes,S_exact,mass_kg,front_share,ride_hz_F,ride_hz_R,roll_gradient_deg_per_g,notes,scenario,kmh,crush_dyn_m,crush_res_m,peak_cfc60_g,pulse_ms,plastic_kJ,broken_beams,detached,max_deformation_m,hood_rise_m
+P2-001,2026-10-11,P2,"first full Hellcat skeleton: cage, crush zones, panels, glass, powertrain, SLA / 5-link, pressurized torus tires",12.45,2040,0.570,,,,"unstable at 2 kHz: rim skip beams, coil-overs and ARB on light arm nodes, light towers / hinges / latches",,,,,,,,,,,
+P2-002,2026-10-11,P2,"rim and disc mass on the rim rings, rim skip beams removed; coil-overs and ARB on the knuckle nodes; heavier towers, hinges and latches; softer panel / glass / plastic / mount beams; cell tilt clamp +-0.12; cage stiffness -8 %",2.37,2040,0.570,1.33,1.80,0.73,stable (S < 2.5); suspension values were placeholders (ARB 9000 / 4000),,,,,,,,,,,
+P2-003,2026-10-11,P2,"suspension hardpoints redesigned (instant centres 2.5 m inboard, bump steer nulled); ARB lever nodes + drop links; rear rail stations 1 / 3 / 4 weight 2.0; spring / damper / ARB / preload from tools/skeleton/suspension_design.py; per-grid triangle winding",2.355,2040,0.570,1.40,1.55,2.30,D-024..D-026; gate G-Skeleton PASS,,,,,,,,,,,
+P6-001a,2026-10-15,P6,"P6 start: P5 parameters, scenario on the test map",,,,,,,"both headlamps off (18 lamp_mount beams), hood arch 0.47 m, 18 closure stops released at the first contact",S1,50.0,0.4805,0.3545,44.5,66.0,107.6,36,headlight_L+headlight_R,0.4467,0.471
+P6-001b,2026-10-15,P6,P6 start: P5 parameters,,,,,,,ramp landing tore both headlamps off and released 10 closure stops (the D-034 open point),S5,80.0,,0.0103,7.5,,9.9,28,headlight_L+headlight_R,0.194,0.097
+P6-001c,2026-10-15,P6,P6 start: P5 parameters,,,,,,,reference for the severe end,S8,120.0,1.1136,0.7524,153.4,53.0,587.0,103,headlight_L+headlight_R+mirror_L+mirror_R,0.9753,0.627
+P6-002a,2026-10-15,P6,"stop_closure longBound 0.5 -> 2.0; lamp_mount ductile (deform 1500 N, hardening 6000 N/m, cap 4000 N, strength 1800 -> 3000 N)",,,,,,,lamps stay on at 30 km/h; hood still arches 0.39 m,S1,30.0,0.2816,0.1902,30.2,64.0,33.6,0,,0.3304,0.394
+P6-002b,2026-10-15,P6,as P6-002a,,,,,,,lamps stay on at 50 km/h,S1,50.0,0.5163,0.3787,46.3,72.0,114.4,0,,0.5279,0.472
+P6-002c,2026-10-15,P6,as P6-002a,,,,,,,"landing: no stop released, lamps on",S5,80.0,,0.0028,7.5,,10.2,0,,0.1928,0.091
+P6-003a,2026-10-15,P6,"+ hood crease zone (front strip, thresholds x0.3)",,,,,,,hood rise 0.39 -> 0.32 m,S1,30.0,0.2833,0.1882,30.7,63.0,33.8,0,,0.3404,0.321
+P6-003b,2026-10-15,P6,+ hood crease zone x0.3,,,,,,,hood rise 0.47 -> 0.37 m,S1,50.0,0.5104,0.3501,45.6,71.0,115.5,0,,0.4871,0.369
+P6-003c,2026-10-15,P6,+ hood crease zone x0.3,,,,,,,mirrors detach; lamps stay with the fascia,S8,120.0,1.1187,0.7334,149.4,54.0,595.3,64,mirror_L+mirror_R,0.9569,0.466
+P6-004a,2026-10-15,P6,hood crease zone x0.2,,,,,,,hood rise 0.27 m,S1,30.0,0.2832,0.1879,30.4,63.0,34.3,0,,0.3471,0.272
+P6-004b,2026-10-15,P6,hood crease zone x0.2,,,,,,,hood rise 0.35 m,S1,50.0,0.5103,0.3813,45.8,69.0,115.7,0,,0.5013,0.345
+P6-005a,2026-10-15,P6,"hood crease zone x0.1 (adopted, D-095)",,,,,,,"hood rise 0.20 m: the front strip folds, no arch",S1,30.0,0.2758,0.1874,30.5,63.0,33.8,0,,0.3406,0.203
+P6-005b,2026-10-15,P6,hood crease zone x0.1 (adopted),,,,,,,hood rise 0.32 m; crush unchanged,S1,50.0,0.5116,0.3974,45.4,70.0,116.9,0,,0.5137,0.323
+P6-005c,2026-10-15,P6,hood crease zone x0.1 (adopted),,,,,,,landing unchanged (hood flex 0.09 m),S5,80.0,,0.0065,7.5,,10.0,0,,0.194,0.087
+P6-006a,2026-10-15,P6,NHTSA calibration start: P6-005 parameters at 56 km/h,,,,,,,static crush equivalent (residual + 149 mm fascia) 508 mm vs NHTSA 573-642 mm; wheelbase not shortened (reading -26 / +2 mm) vs NHTSA 155 / 149 mm shorter,S1,56.0,0.5508,0.3593,55.5,66.0,140.9,0,,0.4242,0.329
+P6-006b,2026-10-15,P6,"front crush characteristic x0.8 (rail_f, rail_f_brace, crush_can: deform, hardening, deformCap)",,,,,,,static crush equivalent 575 mm; cabin travel limited by the wheels at the wall,S1,56.0,0.5565,0.4256,52.2,65.0,144.8,0,,0.5182,0.334
+P6-006c,2026-10-15,P6,"front crush characteristic x0.7 (adopted, D-096)",,,,,,,"static crush equivalent 615 mm vs NHTSA mean 608 mm; peak 52 g; rebound 4.0 m/s vs 2.7 (wheel / tyre path, open point)",S1,56.0,0.567,0.4659,52.3,63.0,145.9,0,,0.5516,0.342
+P7-001,2026-10-15,P7,"hood crease zone x0.3 (was x0.1; adopted, D-104): the T6 0.2 m drop and the O7 bump keep the strip elastic",,,,,,,"final car, S1 at 50 km/h on the final build (sleeping debris, D-098)",S1,50.0,0.5104,0.4054,44.7,68.0,120.9,0,,0.4994,0.38
+P7-001b,2026-10-15,P7,as P7-001,,,,,,,final car at the NHTSA speed,S1,56.0,0.563,0.4254,51.3,64.0,148.6,0,,0.5222,0.372

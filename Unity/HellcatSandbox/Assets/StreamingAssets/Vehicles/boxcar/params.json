@@ -1,0 +1,40 @@
+// P0.5 box car tuning values (all SI). Geometry: geometry.json (exported from Blender).
+// Negative values mean "unset": infinite for deform/strength/caps, "same as" for damping variants.
+{
+  "dt": 0.0005,
+  "gravity": 9.81,
+  "spawnRamp": 0.25,
+  "maxNodeSpeed": 400,
+  "materials": [
+    { "name": "cabin",       "spring": 5000000, "damp": 600 },
+    { "name": "bumper_face", "spring": 1500000, "damp": 300, "deform": 5000, "hardening": 20000, "strength": 45000, "deformLimitMin": 0.4 },
+    { "name": "crush",       "spring": 2500000, "damp": 400, "deform": 7000, "hardening": 45000, "strength": 60000, "deformLimitMin": 0.25 },
+    { "name": "axle",        "spring": 2000000, "damp": 100 },
+    { "name": "tire_spoke",  "spring": 80000,   "damp": 150 },
+    { "name": "tire_ring",   "spring": 200000,  "damp": 40 },
+    { "name": "arm",         "spring": 2000000, "damp": 100, "deform": 120000, "hardening": 200000, "strength": 250000 },
+    { "name": "spring",      "spring": 40000,   "damp": 0 },
+    { "name": "damper",      "spring": 0,       "damp": 1500, "dampRebound": 2200 },
+    { "name": "tierod",      "spring": 2000000, "damp": 100, "hydroMinRatio": 0.6, "hydroMaxRatio": 1.4 }
+  ],
+  "contactMaterials": [
+    { "name": "default", "muStatic": 0.6, "muSliding": 0.5 },
+    { "name": "body",    "muStatic": 0.6, "muSliding": 0.5 },
+    { "name": "tire",    "muStatic": 1.15, "muSliding": 1.0, "stribeckVel": 1.5, "loadRef": 1500, "loadSensitivity": 0.05 }
+  ],
+  "surfaces": [
+    { "name": "asphalt",  "frictionScale": 1.0,  "rollingResistance": 0.012 },
+    { "name": "concrete", "frictionScale": 0.9,  "rollingResistance": 0.012 },
+    { "name": "grass",    "frictionScale": 0.55, "rollingResistance": 0.06 },
+    { "name": "gravel",   "frictionScale": 0.6,  "rollingResistance": 0.03 },
+    { "name": "steel",    "frictionScale": 0.6,  "rollingResistance": 0.01 },
+    { "name": "wood",     "frictionScale": 0.7,  "rollingResistance": 0.02 }
+  ],
+  "brakes": [
+    { "name": "front", "maxTorque": 1500 },
+    { "name": "rear",  "maxTorque": 1000, "handbrakeTorque": 1500 }
+  ],
+  "powertrain": { "mode": "simple", "maxWheelTorque": 750, "maxPower": 120000, "reverseTorque": 600 },
+  "steering": { "rate": 3.0, "returnRate": 4.0, "speedReductionStart": 12, "speedReductionAt60": 0.4 },
+  "aero": { "mode": "global", "dragArea": 0.8, "airDensity": 1.225 }
+}

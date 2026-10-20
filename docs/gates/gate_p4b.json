@@ -1,0 +1,104 @@
+{
+ "gate": "G-Drive (P4b)",
+ "time_utc": "2026-10-15T22:25:25Z",
+ "verdict": "PASS",
+ "fails": 0,
+ "warns": 0,
+ "checks": [
+  {
+   "check": "test 15 results newer than the solver sources and the vehicle data",
+   "status": "PASS",
+   "detail": "run 2026-10-15T22:17:50Z, newest input sim\\vehicle\\hellcat\\params.json 2026-10-15 21:09:36 UTC"
+  },
+  {
+   "check": "test 15 record / replay (snapshot, partition, file, respawn)",
+   "status": "PASS",
+   "detail": "15 checks, failed: none; 250 fps replay deviation 0 m; recorded run 12.0 s with a crash at 54.5 km/h"
+  },
+  {
+   "check": "drive test newer than the solver, game sources and vehicle data",
+   "status": "PASS",
+   "detail": "run 2026-10-15T22:24:21Z, newest input sim\\vehicle\\hellcat\\params.json 2026-10-15 21:09:36 UTC"
+  },
+  {
+   "check": "drive test in the player build (not the editor)",
+   "status": "PASS",
+   "detail": "AMD Ryzen 7 5700X3D 8-Core Processor, 16 threads, NVIDIA GeForce RTX 5070, 1600x900 at 180.0 Hz, vsync 1"
+  },
+  {
+   "check": "5-minute continuous drive",
+   "status": "PASS",
+   "detail": "300.0 s simulated, 300.7 s real, 7.81 km, 8.0 laps of the 977 m loop"
+  },
+  {
+   "check": "physics Hz measured (target 2000 Hz in real time)",
+   "status": "PASS",
+   "detail": "1996 Hz mean = x0.998 real time, 279 us per substep, 3 slow-down frames of 36872"
+  },
+  {
+   "check": "display fps measured",
+   "status": "PASS",
+   "detail": "123 fps mean, 1 % low 60 fps (p99 frame 16.7 ms, max 550 ms); chase 114, cockpit 105, bumper 167, overlay_stress 110, deformation 117"
+  },
+  {
+   "check": "every camera and view at 60 fps or more",
+   "status": "PASS",
+   "detail": "slowest: cockpit 105 fps, 1996 Hz physics"
+  },
+  {
+   "check": "input latency measured (key press -> rendered reaction)",
+   "status": "PASS",
+   "detail": "10/10 probes reacted; 2.8 frames, 20.8 ms mean, 26.4 ms max (engine: Input System event -> rendered frame; the display adds its refresh interval)"
+  },
+  {
+   "check": "no divergence over the drive",
+   "status": "PASS",
+   "detail": "non-finite 0, up.y min 0.9990, floor residual max 1.68 mm, broken 0, bent beams 0, max node speed 2.51 x the car's"
+  },
+  {
+   "check": "no structural creep (bent beams after the drive)",
+   "status": "PASS",
+   "detail": "0 beams with a changed rest length after 7.8 km of driving"
+  },
+  {
+   "check": "the driver robot holds the loop",
+   "status": "PASS",
+   "detail": "path error max 2.01 m, rms 0.94 m (after the first 20 s), top speed 155 km/h"
+  },
+  {
+   "check": "in-game record / replay of the drive bit-identical (F5 / F6 path)",
+   "status": "PASS",
+   "detail": "60.0 s, 6921 frames recorded; end-state hash A61E88979F097C5C vs replay A61E88979F097C5C (58.9 s real)"
+  },
+  {
+   "check": "player log free of exceptions",
+   "status": "PASS",
+   "detail": "0 exception lines in player.log"
+  },
+  {
+   "check": "live cockpit: needles, steering wheel, pedals, mirrors (D-021)",
+   "status": "PASS",
+   "detail": "5 moving parts, 3 mirrors"
+  },
+  {
+   "check": "screenshots of every camera, view and mirror",
+   "status": "PASS",
+   "detail": "8/8 present"
+  },
+  {
+   "check": "docs/controls.md covers the brief's default keys",
+   "status": "PASS",
+   "detail": "missing: none"
+  },
+  {
+   "check": "HUD fields of brief 4.12 (and energy bars of 16)",
+   "status": "PASS",
+   "detail": "missing: none"
+  },
+  {
+   "check": "short capture",
+   "status": "PASS",
+   "detail": "p4b_showcase.mp4 61.7 MB"
+  }
+ ]
+}

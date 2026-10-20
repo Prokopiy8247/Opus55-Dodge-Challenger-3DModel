@@ -1,0 +1,21 @@
+* text=auto
+*.cs text eol=crlf
+*.py text eol=lf
+*.sh text eol=lf
+*.command text eol=lf
+*.bat text eol=crlf
+*.md text
+*.json text
+*.csv text
+*.unity text
+*.prefab text
+*.asset text
+*.meta text
+*.mat text
+*.shader text
+*.hlsl text
+*.blend binary
+*.fbx binary
+*.bytes binary
+*.png binary
+*.jpg binary

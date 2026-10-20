@@ -1,0 +1,17 @@
+{
+  "suite": "hellcat-validation",
+  "time_utc": "2026-10-14T17:43:31Z",
+  "quick": true,
+  "tests": [
+    {"id": "X24", "title": "Diagnostic: top-speed attitude drift with the P4 solver changes switched off one at a time", "pass": true, "seconds": 492.21,
+     "checks": [
+       {"name": "P4 configuration, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": -2.5604802026415618, "unit": "deg", "limit": "pitch at 30 s -0.45 deg, at the end -3.01 deg; path offset 132.12 m; broken beams 0", "pass": true, "info": true},
+       {"name": "front alignment element and steering damper off, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": -1.6826516510322613, "unit": "deg", "limit": "pitch at 30 s -0.51 deg, at the end -2.19 deg; path offset 259.13 m; broken beams 4", "pass": true, "info": true},
+       {"name": "rear alignment element off, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": -0.804998565522093, "unit": "deg", "limit": "pitch at 30 s -3.25 deg, at the end -4.06 deg; path offset 43.73 m; broken beams 2", "pass": true, "info": true},
+       {"name": "camber gain 0 front and rear, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": -2.7970926815675328, "unit": "deg", "limit": "pitch at 30 s -0.48 deg, at the end -3.28 deg; path offset 141.97 m; broken beams 0", "pass": true, "info": true},
+       {"name": "open differential, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": -1.5244987161154677, "unit": "deg", "limit": "pitch at 30 s -0.51 deg, at the end -2.03 deg; path offset 321.27 m; broken beams 0", "pass": true, "info": true},
+       {"name": "wind-up damping x3, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": -1.7820597393819817, "unit": "deg", "limit": "pitch at 30 s -0.59 deg, at the end -2.38 deg; path offset 164.44 m; broken beams 0", "pass": true, "info": true}],
+     "notes": ["P4 configuration, 120 s: rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none", "front alignment element and steering damper off, 120 s: rest-length change since the launch (sum, mm): link 63.6, panel_support_bolt 5.6, plastic_support 1.5, panel_support 1.4 | plastic work (J): link 1821.9, panel_support_bolt 2.3, panel_support 0.6, plastic_support 0.4 | armed beams: none", "rear alignment element off, 120 s: rest-length change since the launch (sum, mm): link 29.8, plastic_support 25.7, plastic_brace 11.0, panel_support 2.8 | plastic work (J): link 2550.7, plastic_support 6.7, plastic_brace 4.0, panel_support 1.1 | armed beams: none", "camber gain 0 front and rear, 120 s: rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none", "open differential, 120 s: rest-length change since the launch (sum, mm): panel_support 0.1 | plastic work (J): panel_support 0.0 | armed beams: none", "wind-up damping x3, 120 s: rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none"],
+     "files": ["X24_top_speed_P4_23.csv", "X24_top_speed_front_54.csv", "X24_top_speed_rear_33.csv", "X24_top_speed_camber_35.csv", "X24_top_speed_open_24.csv", "X24_top_speed_wind-up_25.csv"]}
+  ]
+}

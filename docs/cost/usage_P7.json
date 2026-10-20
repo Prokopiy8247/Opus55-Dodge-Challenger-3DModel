@@ -1,0 +1,26 @@
+{
+  "files": [
+    "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\21902aba-585f-4568-9a35-a94579abb2eb.jsonl",
+    "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\7c3138e0-8c03-4683-a5b8-394a4339a707\\subagents\\agent-a863be504e984ef87.jsonl",
+    "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\7c3138e0-8c03-4683-a5b8-394a4339a707.jsonl",
+    "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\87ee4b2f-57ce-4eae-9f91-dd009f0abad4\\subagents\\agent-a41f4e4608676324c.jsonl",
+    "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\87ee4b2f-57ce-4eae-9f91-dd009f0abad4\\subagents\\agent-afbc8449c2990e158.jsonl",
+    "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\87ee4b2f-57ce-4eae-9f91-dd009f0abad4.jsonl",
+    "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\c7a0ed1b-08e5-481c-9db3-6488e8a90ecc.jsonl",
+    "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\ce1e066c-f812-4f81-94c2-7addcdbaf8a6.jsonl"
+  ],
+  "first": "2026-10-15T19:44:23.450000+00:00",
+  "last": "2026-10-15T22:45:49.375000+00:00",
+  "wall_clock_h": 3.024,
+  "active_h_est": 1.581,
+  "idle_gap_rule_min": 10.0,
+  "per_model": {
+    "claude-opus-5-5 (main)": {
+      "messages": 250,
+      "input_tokens": 504,
+      "output_tokens": 265695,
+      "cache_write_tokens": 503831,
+      "cache_read_tokens": 172710979
+    }
+  }
+}

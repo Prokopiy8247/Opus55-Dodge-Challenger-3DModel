@@ -1,0 +1,191 @@
+{
+ "fit_landmarks": [
+  "wheel_badge",
+  "tach_centre",
+  "speedo_centre",
+  "screen_tl",
+  "screen_tr",
+  "screen_bl",
+  "screen_br",
+  "vent_left",
+  "vent_right"
+ ],
+ "rms_fit_px": 17.1,
+ "photo_point_at_model_depth": {
+  "wheel_badge": [
+   -0.374,
+   0.208,
+   0.884
+  ],
+  "tach_centre": [
+   -0.484,
+   0.541,
+   0.928
+  ],
+  "speedo_centre": [
+   -0.275,
+   0.535,
+   0.918
+  ],
+  "screen_tl": [
+   -0.086,
+   0.58,
+   0.93
+  ],
+  "screen_tr": [
+   0.097,
+   0.578,
+   0.926
+  ],
+  "screen_bl": [
+   -0.097,
+   0.547,
+   0.803
+  ],
+  "screen_br": [
+   0.093,
+   0.547,
+   0.798
+  ],
+  "vent_left": [
+   -0.155,
+   0.574,
+   0.873
+  ],
+  "vent_right": [
+   0.156,
+   0.571,
+   0.866
+  ],
+  "start_button": [
+   -0.194,
+   0.579,
+   0.706
+  ],
+  "knob_left": [
+   -0.078,
+   0.394,
+   0.676
+  ],
+  "knob_right": [
+   0.063,
+   0.389,
+   0.661
+  ],
+  "shifter_top": [
+   0.029,
+   0.226,
+   0.709
+  ]
+ },
+ "size": [
+  1920,
+  1280
+ ],
+ "matrix_world": [
+  [
+   0.9304275289574493,
+   -0.11314762232110939,
+   0.34857169839390956,
+   0.21639624678579644
+  ],
+  [
+   0.36646580060556555,
+   0.29433158472437165,
+   -0.8826504037387406,
+   -0.7705822021558035
+  ],
+  [
+   -0.00272586585453935,
+   0.9489818406042971,
+   0.3153189430697487,
+   1.1275003224646212
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ ],
+ "photo": "cabin2",
+ "file": "\u0421\u0430\u043b\u043e\u043d 2.jpg",
+ "focal_px": 2200.0,
+ "lens_mm_36": 41.2,
+ "camera_car_frame": [
+  0.2164,
+  -0.7706,
+  1.1275
+ ],
+ "rms_px": 17.1,
+ "rms_pct_width": 0.89,
+ "per_point_px": {
+  "wheel_badge": 4.2,
+  "tach_centre": 2.1,
+  "speedo_centre": 24.8,
+  "screen_tl": 22.2,
+  "screen_tr": 13.6,
+  "screen_bl": 15.2,
+  "screen_br": 22.1,
+  "vent_left": 20.4,
+  "vent_right": 13.5,
+  "start_button": 12.0,
+  "knob_left": 12.1,
+  "knob_right": 33.2,
+  "shifter_top": 61.0
+ },
+ "per_point_residual": {
+  "wheel_badge": [
+   -3.5,
+   2.3
+  ],
+  "tach_centre": [
+   -2.1,
+   -0.4
+  ],
+  "speedo_centre": [
+   18.2,
+   -16.8
+  ],
+  "screen_tl": [
+   -13.6,
+   17.5
+  ],
+  "screen_tr": [
+   -7.6,
+   11.3
+  ],
+  "screen_bl": [
+   8.5,
+   -12.6
+  ],
+  "screen_br": [
+   2.1,
+   -22.0
+  ],
+  "vent_left": [
+   -14.2,
+   14.6
+  ],
+  "vent_right": [
+   12.3,
+   5.7
+  ],
+  "start_button": [
+   -9.5,
+   7.3
+  ],
+  "knob_left": [
+   12.1,
+   0.6
+  ],
+  "knob_right": [
+   18.1,
+   -27.8
+  ],
+  "shifter_top": [
+   -60.9,
+   -2.8
+  ]
+ }
+}

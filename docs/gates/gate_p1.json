@@ -1,0 +1,188 @@
+{
+  "gate": "P1 (G-Model)",
+  "pass": true,
+  "fail": 0,
+  "warn": 1,
+  "checks": [
+    {
+      "check": "original .blend untouched",
+      "status": "PASS",
+      "detail": "SHA-256 compared with the P0 fingerprint"
+    },
+    {
+      "check": "dimensions within +-2 % of the spec sheet (docs/specs.md)",
+      "status": "PASS",
+      "detail": "length 5.020 m (+0.06 %); width_no_mirrors 1.986 m (-0.20 %); width_with_mirrors 2.168 m (-0.05 %); height 1.454 m (-0.41 %); wheelbase 2.951 m (+0.00 %); track_front 1.667 m (+0.00 %); track_rear 1.669 m (+0.00 %)"
+    },
+    {
+      "check": "silhouette overlays (side top / plan / front / rear) within 2 % RMS",
+      "status": "PASS",
+      "detail": "side top RMS 20.9 mm (p95 23.3; without the hood scoop 19.2), plan 15.1 mm, front 20.6 mm, rear 14.7 mm; limits 2 % of height 29 mm / width 40 mm"
+    },
+    {
+      "check": "side bottom line (rocker / bumper lower edges)",
+      "status": "WARN",
+      "detail": "RMS 54.4 mm, p95 138.7 mm: the widebody side sills sit 15-30 mm below the drawing's standard-body rocker line and the bumper lower edges are steep (1 cm bins); informational"
+    },
+    {
+      "check": "perspective photo overlays (camera fitted to the photo, model rendered on top)",
+      "status": "PASS",
+      "detail": "photo 4: f 50 mm eq., reprojection RMS 24.8 px (10 points)"
+    },
+    {
+      "check": "all parts present and named per section 2 (CH_*, no duplicates, _L/_R on their own side)",
+      "status": "PASS",
+      "detail": "128 objects, 124 meshes; missing none; bad names none; L/R parts with vertices on the other side: none"
+    },
+    {
+      "check": "every mesh has a material and UVs",
+      "status": "PASS",
+      "detail": "no material: none; no UV: none"
+    },
+    {
+      "check": "triangle budget 300k-800k (exterior incl. mechanics, with panel thickness)",
+      "status": "PASS",
+      "detail": "619,720 triangles"
+    },
+    {
+      "check": "no flipped normals (rays from 128 directions see only front faces)",
+      "status": "PASS",
+      "detail": "1,548,800 rays; parts with > 1 % back-face hits: none"
+    },
+    {
+      "check": "no non-manifold edges on body parts (closed thin shells)",
+      "status": "PASS",
+      "detail": "none"
+    },
+    {
+      "check": "no overlapping parts (all part pairs: triangle intersections; coincident faces)",
+      "status": "PASS",
+      "detail": "panel intersections none; unexpected contacts none; coincident none; 30 contacts by design (mounted details, lamp/wheel assemblies, suspension joints): CH_Bumper_R|CH_Marker_Rear_L, CH_Bumper_R|CH_Marker_Rear_R, CH_Differential|CH_HalfShaft_L, CH_Differential|CH_HalfShaft_R, CH_Door_L|CH_Door_Handle_L, CH_Door_R|CH_Door_Handle_R, CH_Engine|CH_Engine_Pulleys, CH_Fender_L|CH_Badge_Hellcat_L, CH_Fender_R|CH_Badge_Hellcat_R, CH_FuelDoor|CH_Quarter_L, CH_Hood_Extractor_L|CH_Hood_Extractor_Vent_L, CH_Hood_Extractor_R|CH_Hood_Extractor_Vent_R, CH_Hood_Scoop|CH_Hood_Scoop_Mesh, CH_Hood|CH_Hood_Extractor_L, CH_Hood|CH_Hood_Extractor_R, CH_Hood|CH_Hood_Extractor_Vent_L, CH_Hood|CH_Hood_Extractor_Vent_R, CH_Hood|CH_Hood_Scoop, CH_Knuckles_L|CH_HalfShaft_L, CH_Knuckles_L|CH_Susp_Front_Arms_L, CH_Knuckles_R|CH_HalfShaft_R, CH_Knuckles_R|CH_Susp_Front_Arms_R, CH_Mirror_Housing_L|CH_Mirror_Stalk_L, CH_Mirror_Housing_R|CH_Mirror_Stalk_R, CH_Roof|CH_Antenna, CH_Spoiler|CH_Badge_SRT_Rear, CH_Subframe_Front|CH_Susp_Front_Arms_L, CH_Subframe_Front|CH_Susp_Front_Arms_R, CH_Subframe_Rear|CH_Susp_Rear_Links_L, CH_Subframe_Rear|CH_Susp_Rear_Links_R"
+    },
+    {
+      "check": "panel gaps visible: shut lines 3.5-7 mm (median of the skin-to-skin distance)",
+      "status": "PASS",
+      "detail": "Door|Fender 5.0 mm (p10-p90 5.0-5.01, 0.8 m); Door|Quarter 5.01 mm (p10-p90 4.97-5.04, 0.79 m); Door|Rocker 5.01 mm (p10-p90 5.0-5.02, 1.28 m); Fender|Rocker 5.01 mm (p10-p90 4.94-5.03, 0.23 m); Quarter|Rocker 5.01 mm (p10-p90 5.0-5.02, 0.39 m); Hood|Fender 6.6 mm (p10-p90 6.58-8.55, 1.26 m); DeckLid|Quarter 6.58 mm (p10-p90 6.55-6.73, 0.68 m); Fascia|Fender 5.01 mm (p10-p90 4.62-5.2, 0.55 m); RearBumper|Quarter 5.01 mm (p10-p90 4.98-5.32, 0.78 m); Flare_front|Fender 3.07 mm (p10-p90 2.97-3.18, 1.41 m); Flare_rear|Quarter 3.09 mm (p10-p90 2.97-3.2, 1.5 m); Flare_front|Fascia 3.2 mm (p10-p90 3.06-3.4, 0.3 m); Flare_rear|RearBumper 3.19 mm (p10-p90 3.03-3.28, 0.26 m); Glass_Door|Glass_Quarter 4.01 mm (p10-p90 3.98-4.03, 0.33 m); Roof|Pillars 2.48 mm (p10-p90 1.5-2.64, 1.53 m)"
+    },
+    {
+      "check": "panel grids: no inverted faces; edge length 1-6 cm on the skins",
+      "status": "PASS",
+      "detail": "inverted: none; median / p99 edge (mm): Door 24/27, Fender 20/33, Quarter 22/38, Rocker 23/25, Fascia 14/20, RearBumper 13/22, Glass_Door 23/25, Glass_Quarter 19/30, Pillars 23/25, Roof 24/25, Hood 24/26, DeckLid 23/45, Flare_front 20/22, Flare_rear 20/26"
+    },
+    {
+      "check": "wheels round and correctly placed (305/35 ZR20, rolling radius ~0.35 m)",
+      "status": "PASS",
+      "detail": "FL: centre error 0.0 mm, radius 360.8 mm, out of round 0.01 mm; FR: centre error 0.0 mm, radius 360.8 mm, out of round 0.01 mm; RL: centre error 0.0 mm, radius 360.8 mm, out of round 0.01 mm; RR: centre error 0.0 mm, radius 360.8 mm, out of round 0.01 mm"
+    },
+    {
+      "check": "orthographic overlays + 3/4 renders + turntable (video assets)",
+      "status": "PASS",
+      "detail": "overlays: ortho_front.png, ortho_rear.png, ortho_side.png, ortho_top.png; stills: 12; videos: 2026-10-11_P1_turntable_1080p30.mp4"
+    }
+  ],
+  "gaps": {
+    "CH_Door|CH_Fender": {
+      "median_mm": 5.0,
+      "p10_mm": 5.0,
+      "p90_mm": 5.01,
+      "seam_length_m": 0.8
+    },
+    "CH_Door|CH_Quarter": {
+      "median_mm": 5.01,
+      "p10_mm": 4.97,
+      "p90_mm": 5.04,
+      "seam_length_m": 0.79
+    },
+    "CH_Door|CH_Rocker": {
+      "median_mm": 5.01,
+      "p10_mm": 5.0,
+      "p90_mm": 5.02,
+      "seam_length_m": 1.28
+    },
+    "CH_Fender|CH_Rocker": {
+      "median_mm": 5.01,
+      "p10_mm": 4.94,
+      "p90_mm": 5.03,
+      "seam_length_m": 0.23
+    },
+    "CH_Quarter|CH_Rocker": {
+      "median_mm": 5.01,
+      "p10_mm": 5.0,
+      "p90_mm": 5.02,
+      "seam_length_m": 0.39
+    },
+    "CH_Hood|CH_Fender": {
+      "median_mm": 6.6,
+      "p10_mm": 6.58,
+      "p90_mm": 8.55,
+      "seam_length_m": 1.26
+    },
+    "CH_DeckLid|CH_Quarter": {
+      "median_mm": 6.58,
+      "p10_mm": 6.55,
+      "p90_mm": 6.73,
+      "seam_length_m": 0.68
+    },
+    "CH_Fascia|CH_Fender": {
+      "median_mm": 5.01,
+      "p10_mm": 4.62,
+      "p90_mm": 5.2,
+      "seam_length_m": 0.55
+    },
+    "CH_RearBumper|CH_Quarter": {
+      "median_mm": 5.01,
+      "p10_mm": 4.98,
+      "p90_mm": 5.32,
+      "seam_length_m": 0.78
+    },
+    "CH_Flare_front|CH_Fender": {
+      "median_mm": 3.07,
+      "p10_mm": 2.97,
+      "p90_mm": 3.18,
+      "seam_length_m": 1.41
+    },
+    "CH_Flare_rear|CH_Quarter": {
+      "median_mm": 3.09,
+      "p10_mm": 2.97,
+      "p90_mm": 3.2,
+      "seam_length_m": 1.5
+    },
+    "CH_Flare_front|CH_Fascia": {
+      "median_mm": 3.2,
+      "p10_mm": 3.06,
+      "p90_mm": 3.4,
+      "seam_length_m": 0.3
+    },
+    "CH_Flare_rear|CH_RearBumper": {
+      "median_mm": 3.19,
+      "p10_mm": 3.03,
+      "p90_mm": 3.28,
+      "seam_length_m": 0.26
+    },
+    "CH_Glass_Door|CH_Glass_Quarter": {
+      "median_mm": 4.01,
+      "p10_mm": 3.98,
+      "p90_mm": 4.03,
+      "seam_length_m": 0.33
+    },
+    "CH_Roof|CH_Pillars": {
+      "median_mm": 2.48,
+      "p10_mm": 1.5,
+      "p90_mm": 2.64,
+      "seam_length_m": 1.53
+    }
+  },
+  "dims": {
+    "length": 5.0198,
+    "y_front": 2.4399,
+    "y_rear": -2.58,
+    "width_no_mirrors": 1.9861,
+    "width_with_mirrors": 2.168,
+    "width_body_no_flares": 1.9203,
+    "height": 1.454,
+    "ground_clearance_body": 0.1449,
+    "wheelbase": 2.951,
+    "track_front": 1.667,
+    "track_rear": 1.669
+  }
+}

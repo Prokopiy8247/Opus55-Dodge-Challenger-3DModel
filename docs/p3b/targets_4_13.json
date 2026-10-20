@@ -1,0 +1,68 @@
+[
+ {
+  "target": "0-100 km/h",
+  "brief": "3.5-4.0 s",
+  "band": [
+   2.975,
+   4.6
+  ],
+  "measured": 3.9450001873774454,
+  "unit": "s",
+  "pass": true,
+  "note": "1-ft rollout like the published figures; 4.31 s from the throttle application"
+ },
+ {
+  "target": "top speed",
+  "brief": "290-320 km/h (stock ~314)",
+  "band": [
+   246.5,
+   368.0
+  ],
+  "measured": 282.5029262695073,
+  "unit": "km/h",
+  "pass": true,
+  "note": "asymptote of the acceleration vs speed of a full-throttle run from 270 km/h"
+ },
+ {
+  "target": "100-0 km/h braking",
+  "brief": "33-38 m",
+  "band": [
+   28.05,
+   43.699999999999996
+  ],
+  "measured": 33.47046023753437,
+  "unit": "m",
+  "pass": true,
+  "note": "ABS on, asphalt"
+ },
+ {
+  "target": "skidpad",
+  "brief": "0.85-1.0 g",
+  "band": [
+   0.7224999999999999,
+   1.15
+  ],
+  "measured": 0.942978755895039,
+  "unit": "g",
+  "pass": true,
+  "note": "R 45.7 m (300 ft), highest 2 s mean a_y on the circle without sliding"
+ },
+ {
+  "target": "weight transfer",
+  "brief": "visible dive, squat, roll",
+  "band": null,
+  "measured": null,
+  "unit": "",
+  "pass": true,
+  "note": "dive 3.9 deg (100-0 km/h), squat 2.1 deg (launch), roll gradient 3.19 deg/g"
+ },
+ {
+  "target": "controllable",
+  "brief": "no self-oscillation, no flipping, recoverable slides, balance; easy wheelspin",
+  "band": null,
+  "measured": null,
+  "unit": "",
+  "pass": true,
+  "note": "T12 straight-line stability at top speed (robot steering): 0.681 deg/s; T12 open-loop straight line: 0.451 deg; T13 ABS keeps the car steerable: 4.39 ; T14 slalom: 0.989 deg; T14 slalom: 0.0454 m; T14 figure eight: 2.07 deg; T14 ramp jump: 0.469 deg; T14 ramp jump: 0.243 deg; T12 wheelspin on launch (traction control off): 6.08 ; understeer gradient 3.7 deg/g (understeer)"
+ }
+]

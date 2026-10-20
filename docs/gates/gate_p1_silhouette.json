@@ -1,0 +1,67 @@
+{
+ "dims": {
+  "length": {
+   "model": 5.0198,
+   "spec": 5.017,
+   "dev_pct": 0.06
+  },
+  "width_no_mirrors": {
+   "model": 1.9861,
+   "spec": 1.99,
+   "dev_pct": -0.2
+  },
+  "width_with_mirrors": {
+   "model": 2.168,
+   "spec": 2.169,
+   "dev_pct": -0.05
+  },
+  "height": {
+   "model": 1.454,
+   "spec": 1.46,
+   "dev_pct": -0.41
+  },
+  "width_body_no_flares": {
+   "model": 1.9203,
+   "spec": 1.923,
+   "dev_pct": -0.14
+  }
+ },
+ "silhouettes": {
+  "side_top": {
+   "rms_mm": 20.9,
+   "max_abs_mm": 223.0,
+   "p95_abs_mm": 23.3,
+   "n": 481
+  },
+  "side_top_no_scoop": {
+   "rms_mm": 19.2,
+   "max_abs_mm": 223.0,
+   "p95_abs_mm": 19.6,
+   "n": 463
+  },
+  "side_bottom_body": {
+   "rms_mm": 54.4,
+   "max_abs_mm": 229.4,
+   "p95_abs_mm": 138.7,
+   "n": 309
+  },
+  "plan_half_width_no_flares": {
+   "rms_mm": 15.1,
+   "max_abs_mm": 217.6,
+   "p95_abs_mm": 25.8,
+   "n": 501
+  },
+  "front_half_width": {
+   "rms_mm": 20.6,
+   "max_abs_mm": 36.3,
+   "p95_abs_mm": 35.5,
+   "n": 68
+  },
+  "rear_half_width": {
+   "rms_mm": 14.7,
+   "max_abs_mm": 41.1,
+   "p95_abs_mm": 35.5,
+   "n": 68
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+  "scene": "Assets/Scenes/TestMap.unity",
+  "extent_m": [300, 200],
+  "axes": "x east, z north, y up; origin at the centre",
+  "surfaces": {"asphalt": 1.0, "concrete": 0.9, "grass": 0.6, "steel": 0.6, "note": "frictionScale x the node contact material's friction (params.json)"},
+  "obstacles": [
+    {"id": "ground", "what": "asphalt proving ground", "centre": [0, 0, 0], "size": [300, 0, 200], "surface": "asphalt", "grass_band_m": 8},
+    {"id": "O1", "what": "concrete wall, full frontal", "centre": [-120, 1.5, -19.5], "size": [12, 3, 1], "surface": "concrete"},
+    {"id": "O2", "what": "concrete wall with 40 % offset line", "centre": [-90, 1.5, -19.5], "size": [12, 3, 1], "surface": "concrete", "overlap": 0.40, "car_width_m": 1.99, "lane_x": -83.801, "wall_edge_x": -84},
+    {"id": "O3", "what": "steel pole", "centre": [-60, 3, -19.85], "size": [0.3, 6, 0.3], "surface": "steel", "diameter_m": 0.30, "height_m": 6.0},
+    {"id": "O4", "what": "jersey barrier row", "centre": [-29.238, 0, -17.663], "size": [0.61, 0.81, 21.96], "surface": "concrete", "units": 6, "unit_length_m": 3.66, "height_m": 0.81, "base_width_m": 0.61, "top_width_m": 0.15, "angle_to_lane_deg": 20},
+    {"id": "O5", "what": "guardrail", "centre": [5, 0.55, -22.4], "size": [0.08, 0.7, 15.2], "surface": "steel", "posts": 9, "post_spacing_m": 1.9, "wbeam_top_m": 0.705, "wbeam_height_m": 0.31, "lane_angle_deg": 10},
+    {"id": "O6", "what": "ramp and landing pad", "centre": [-135, 0.6, 23], "size": [4, 1.2, 6], "surface": "concrete", "ramp_length_m": 6.0, "ramp_height_m": 1.2, "ramp_angle_deg": 11.31, "landing_beyond_lip_m": 25.0, "landing_pad_m": [10, 20]},
+    {"id": "O7", "what": "speed bump and curb", "centre": [-105, 0.05, 25], "size": [6, 0.1, 3], "surface": "asphalt", "bump_height_m": 0.10, "bump_length_m": 3.0, "curb_height_m": 0.15, "curb_angle_deg": 45, "curb_z": 5.0},
+    {"id": "O8", "what": "debris field", "centre": [-70, 0, 8], "size": [15, 1.2, 36], "surface": "asphalt", "barrels": 12, "barrel_m": [0.58, 0.88], "barrel_kg": 20, "boxes": 20, "box_m": 0.5, "box_kg": 5, "cones": 8, "cone_m": 0.7, "cone_kg": 1.5, "fence_panels": 6, "fence_panel_m": [2.4, 1.2], "fence_panel_kg": 15},
+    {"id": "O9", "what": "3 m ledge with lower pad", "centre": [-40, 1.5, 32.5], "size": [10, 3, 15], "surface": "concrete", "ledge_height_m": 3.0, "ledge_z": 25.0, "access_ramp_m": 30.0, "lower_pad_m": [16, 30]},
+    {"id": "O9b", "what": "30 deg bank", "centre": [-20.464, 2, 14], "size": [6.928, 4, 24], "surface": "grass", "angle_deg": 30, "height_m": 4, "foot_x": -17.0, "z_range": [2, 26]},
+    {"id": "skidpad", "what": "skidpad circle", "centre": [100, 0, 40], "size": [60, 0, 60], "surface": "asphalt", "radius_m": 30}
+  ],
+  "lanes": [
+    {"id": "O1", "spawn": [-120, -88], "heading_deg": 0, "face": [-120, -20], "run_m": 68, "clean_run_m": 65.59, "default_kmh": 50},
+    {"id": "O2", "spawn": [-83.801, -88], "heading_deg": 0, "face": [-83.801, -20], "run_m": 68, "clean_run_m": 65.59, "default_kmh": 64},
+    {"id": "O3", "spawn": [-60, -88], "heading_deg": 0, "face": [-60, -20], "run_m": 68, "clean_run_m": 65.59, "default_kmh": 50},
+    {"id": "O4", "spawn": [-30, -88], "heading_deg": 0, "face": [-30, -19.758], "run_m": 68.242, "clean_run_m": 65.832, "default_kmh": 40},
+    {"id": "O5", "spawn": [-7.14, -89.043], "heading_deg": 10, "face": [3.8, -27], "run_m": 63, "clean_run_m": 60.59, "default_kmh": 70},
+    {"id": "O6", "spawn": [-135, 89], "heading_deg": 180, "face": [-135, 26], "run_m": 63, "clean_run_m": 60.59, "default_kmh": 80},
+    {"id": "O7", "spawn": [-105, 89], "heading_deg": 180, "face": [-105, 26.5], "run_m": 62.5, "clean_run_m": 60.09, "default_kmh": 30},
+    {"id": "O8", "spawn": [-70, 89], "heading_deg": 180, "face": [-70, 25.3], "run_m": 63.7, "clean_run_m": 61.29, "default_kmh": 15},
+    {"id": "O9", "spawn": [-40, 89], "heading_deg": 180, "face": [-40, 25], "run_m": 64, "clean_run_m": 61.59, "default_kmh": 40},
+    {"id": "O9b", "spawn": [-14, 89], "heading_deg": 180, "face": [-14, 26], "run_m": 63, "clean_run_m": 60.59, "default_kmh": 40}
+  ]
+}

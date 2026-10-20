@@ -1,0 +1,11 @@
+// P0 GPU smoke test: Data[i] = Data[i] * Scale + 1 (verified on the CPU after readback).
+#pragma kernel CSMain
+
+RWStructuredBuffer<float> Data;
+float Scale;
+
+[numthreads(64, 1, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    Data[id.x] = Data[id.x] * Scale + 1.0;
+}

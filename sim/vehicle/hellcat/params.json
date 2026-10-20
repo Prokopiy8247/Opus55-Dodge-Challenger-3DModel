@@ -1,0 +1,262 @@
+// Hellcat Widebody tuning values (SI). Geometry: geometry.json (tools/blender/hcar/hskel.py).
+// Negative values mean "unset": infinite for deform/strength/caps, "same as" for damping variants.
+// Stability: tools/skeleton/stability.py (exact spectral criterion, D-024). Tuning history: docs/tuning_log.csv.
+{
+  "dt": 0.0005,
+  "gravity": 9.81,
+  "spawnRamp": 0.25,
+  "maxNodeSpeed": 400,
+  "materials": [
+    // unloadRelax (D-056): after plastic flow the elastic deformation relaxes while the beam unloads (1/s; the stability-
+    // limited springs hold 10-50x the elastic energy of real members, and the crushed front gave it back as a 20 km/h rebound)
+    // ---- body cell (passenger compartment): stiff, deforms only in severe impacts
+    { "name": "cell",          "spring": 1550000, "damp": 32,  "deform": 90000, "hardening": 400000, "deformCap": 260000, "strength": 380000, "unloadRelax": 1000 },
+    { "name": "cell_brace",    "spring": 900000,  "damp": 22,  "deform": 70000, "hardening": 300000, "deformCap": 200000, "strength": 300000, "unloadRelax": 1000 },
+    { "name": "floor",         "spring": 1100000, "damp": 28,  "deform": 60000, "hardening": 250000, "deformCap": 180000, "strength": 260000, "unloadRelax": 1000 },
+    { "name": "floor_brace",   "spring": 900000,  "damp": 25,  "deform": 45000, "hardening": 200000, "strength": 200000, "unloadRelax": 1000 },
+    { "name": "pillar",        "spring": 920000,  "damp": 23,  "deform": 55000, "hardening": 300000, "deformCap": 180000, "strength": 260000, "unloadRelax": 1000 },
+    { "name": "pillar_brace",  "spring": 500000,  "damp": 15,  "deform": 40000, "hardening": 200000, "strength": 200000, "unloadRelax": 1000 },
+    { "name": "dash",          "spring": 1000000, "damp": 30,  "deform": 40000, "hardening": 150000, "strength": 150000, "unloadRelax": 1000 },
+    // ---- front / rear crush structures
+    // P6 (D-096): front crush characteristic x0.7 (yield, hardening, cap) calibrated on NHTSA's 2013 Challenger NCAP
+    // test (56.4 km/h, static crush 573-642 mm, docs/p6/refs): x1.0 gave 508 mm, x0.8 575 mm, x0.7 615 mm
+    { "name": "rail_f",        "spring": 1500000, "damp": 40, "deform": 29400, "hardening": 140000, "deformCap": 77000, "strength": 260000, "deformLimitMin": 0.12, "unloadRelax": 1000 },
+    { "name": "rail_f_brace",  "spring": 900000,  "damp": 30, "deform": 21000, "hardening": 105000, "deformCap": 56000, "strength": 180000, "deformLimitMin": 0.12, "unloadRelax": 1000 },
+    { "name": "crush_can",     "spring": 700000,  "damp": 30, "deform": 15400, "hardening": 63000, "deformCap": 38500, "strength": 150000, "deformLimitMin": 0.20, "unloadRelax": 1000 },
+    { "name": "bumper_beam",   "spring": 1000000, "damp": 30,  "deform": 50000, "hardening": 200000, "strength": 260000, "unloadRelax": 1000 },
+    { "name": "core",          "spring": 500000,  "damp": 20,  "deform": 18000, "hardening": 60000,  "strength": 60000, "unloadRelax": 1000 },
+    { "name": "apron",         "spring": 800000,  "damp": 30,  "deform": 28000, "hardening": 140000, "strength": 120000, "unloadRelax": 1000 },
+    { "name": "apron_brace",   "spring": 500000,  "damp": 20,  "deform": 20000, "hardening": 80000,  "strength": 80000, "unloadRelax": 1000 },
+    { "name": "rail_r",        "spring": 920000,  "damp": 23,  "deform": 40000, "hardening": 200000, "deformCap": 110000, "strength": 220000, "deformLimitMin": 0.15, "unloadRelax": 1000 },
+    // rear rail sections doubled (D-049): the rear suspension mounts moved under the link loads (compliance steer: the
+    // car weaved and spun at full throttle above 250 km/h); the S cost is taken by mass balancing (D-031)
+    { "name": "rail_r_brace",  "spring": 1200000, "damp": 30,  "deform": 30000, "hardening": 150000, "strength": 160000, "deformLimitMin": 0.15, "unloadRelax": 1000 },
+    // designed bracing (tools/skeleton/brace_design.py, D-030): elastic in driving, yields early in a crash
+    { "name": "brace",         "spring": 600000,  "damp": 25,  "deform": 15000, "hardening": 60000, "deformCap": 45000, "strength": 90000, "unloadRelax": 1000 },
+    // designed braces inside the crush zones (D-057: midpoint ahead of y 1.6 or behind -2.0), tuned with the rails
+    { "name": "brace_crush",   "spring": 600000,  "damp": 25,  "deform": 15000, "hardening": 60000, "deformCap": 45000, "strength": 90000, "unloadRelax": 1000 },
+    // rigidifiers (D-040): long cabin / end diagonals standing in for the shell stiffness; yield at 25 kN, break at 90 kN
+    { "name": "rigidifier",    "spring": 1500000, "damp": 30,  "deform": 25000, "hardening": 80000, "deformCap": 60000, "strength": 90000, "unloadRelax": 1000 },
+    // ---- skins (steel / aluminium), plastic covers, glass
+    { "name": "panel",         "spring": 110000,  "damp": 8,   "deform": 950,   "hardening": 9000,   "deformCap": 6000 },
+    { "name": "panel_brace",   "spring": 70000,   "damp": 6,   "deform": 700,   "hardening": 6500,   "deformCap": 4500 },
+    { "name": "panel_inner",   "spring": 160000,  "damp": 10,  "deform": 1800,  "hardening": 13000,  "deformCap": 9000 },
+    { "name": "panel_link",    "spring": 100000,  "damp": 8,   "deform": 1300,  "hardening": 9000,   "deformCap": 6000 },
+    { "name": "weld",          "spring": 350000,  "damp": 15,  "deform": 8000,  "hardening": 30000,  "strength": 24000 },
+    { "name": "bolt",          "spring": 250000,  "damp": 12,  "strength": 13000 },
+    { "name": "hinge",         "spring": 600000,  "damp": 25,  "deform": 16000, "hardening": 60000,  "strength": 36000 },
+    { "name": "latch",         "spring": 400000,  "damp": 20,  "strength": 12000 },
+    // hood latch (D-059): holds while the hood crumples in a 50 km/h frontal (it broke at 12 kN and the hood flipped)
+    { "name": "latch_hood",    "spring": 400000,  "damp": 20,  "strength": 25000 },
+    // closure latch ties (D-063): the third direction of a latch whose striker beams lie in one plane (the hood's to the
+    // core support's lower centre, the deck lid's to the rear panel's, a door's off the B pillar); passive in the latch
+    // group and ductile, so the structure deforming under them yields or breaks the tie, never the latch
+    { "name": "latch_tie",     "spring": 400000,  "damp": 20,  "deform": 5000,  "hardening": 20000,  "deformCap": 12000, "strength": 20000, "unloadRelax": 1000 },
+    { "name": "stop",          "spring": 200000,  "damp": 20 },
+    // closure perimeter stops (hood, deck lid) on the cowl / tray lips, aprons, core support (D-034): compression only,
+    // gone once the lid lifts off by twice their length (stop_closure below)
+    { "name": "lip",           "spring": 300000,  "damp": 20,  "deform": 6000,  "hardening": 30000,  "strength": 30000 },
+    // P6 (D-095): the stops let go once a lid lifts twice their length (a buckled hood, a lid torn open), not half
+    // (the hood and deck lid flexing 2-9 cm on a hard landing released them and the lids sank into their openings, D-034)
+    { "name": "stop_closure",  "spring": 60000,   "damp": 30, "longBound": 2 },
+    { "name": "clip",          "spring": 80000,   "damp": 10,  "strength": 2600 },
+    { "name": "plastic",       "spring": 35000,   "damp": 10,  "deform": 450,   "hardening": 4000,   "deformCap": 3000 },
+    { "name": "plastic_brace", "spring": 22000,   "damp": 8,   "deform": 350,   "hardening": 3000,   "deformCap": 2400 },
+    // out-of-plane supports of single-layer panels to the cage (D-030): soft, plastic (dents stay), never inverted
+    { "name": "panel_support",      "spring": 25000, "damp": 25, "deform": 400, "hardening": 3000, "deformCap": 2500, "deformLimitMin": 0.4 },
+    { "name": "panel_support_bolt", "spring": 25000, "damp": 25, "deform": 400, "hardening": 3000, "deformCap": 2500, "deformLimitMin": 0.4, "strength": 3500 },
+    // closure weatherstrips (doors, hood, deck lid, frameless glass top): soft, well damped, break with the latch
+    { "name": "seal",               "spring": 15000, "damp": 40, "strength": 1500 },
+    { "name": "plastic_support",    "spring": 12000, "damp": 18, "deform": 250, "hardening": 2000, "deformCap": 1500, "deformLimitMin": 0.4, "strength": 1500 },
+    { "name": "glass",         "spring": 140000,  "damp": 6,   "deform": 5500,  "strength": 6500 },
+    { "name": "glass_side",    "spring": 110000,  "damp": 5,   "deform": 3000,  "strength": 3500 },
+    { "name": "glass_mount",   "spring": 100000,  "damp": 6,   "strength": 4000 },
+    // ---- powertrain and mounts
+    { "name": "engine",        "spring": 8000000, "damp": 200 },
+    { "name": "mount_engine",  "spring": 1000000, "damp": 80, "deform": 40000, "hardening": 100000, "strength": 90000, "unloadRelax": 1000 },
+    { "name": "mount_trans",   "spring": 1000000, "damp": 80,  "deform": 30000, "strength": 70000, "unloadRelax": 1000 },
+    { "name": "center_bearing", "spring": 300000, "damp": 30, "strength": 20000 },
+    { "name": "driveshaft",    "spring": 2000000, "damp": 50,  "strength": 150000 },
+    { "name": "exhaust",       "spring": 600000,  "damp": 25,  "deform": 9000,  "hardening": 40000,  "strength": 40000 },
+    { "name": "exhaust_hanger","spring": 30000,   "damp": 15,  "strength": 3000 },
+    { "name": "tank",          "spring": 800000,  "damp": 30 },
+    { "name": "tank_strap",    "spring": 300000,  "damp": 15,  "strength": 25000 },
+    // radiator pack on the core support (D-058): its own break group. Brackets bend before they tear (at 10 kN brittle mounts
+    // the pack came off at 40 and 56 km/h but not at 50: damage not monotonic in speed)
+    { "name": "radiator_mount","spring": 150000,  "damp": 15,  "deform": 8000, "hardening": 20000, "strength": 25000, "unloadRelax": 1000 },
+    { "name": "seat",          "spring": 1000000, "damp": 30,  "deform": 20000, "strength": 60000 },
+    { "name": "seat_mount",    "spring": 300000,  "damp": 120, "deform": 25000, "strength": 45000 },
+    { "name": "column",        "spring": 800000,  "damp": 40,  "deform": 6000,  "hardening": 20000,  "strength": 40000, "deformLimitMin": 0.55 },
+    { "name": "mirror",        "spring": 150000,  "damp": 6 },
+    { "name": "mirror_mount",  "spring": 100000,  "damp": 40,  "strength": 900 },
+    { "name": "lamp",          "spring": 150000,  "damp": 6 },
+    // P6 (D-095): headlamp brackets bend before they tear (1.5 kN yield, break at 3 kN after ~25 cm of stretch):
+    // as brittle 1.8 kN mounts on the fascia both lamps fell off at 30 km/h and on the S5 landing
+    { "name": "lamp_mount",    "spring": 120000,  "damp": 8, "strength": 3000, "deform": 1500, "hardening": 6000, "deformCap": 4000 },
+    // ---- chassis and suspension. spring_*, damper_*, arb_* come from tools/skeleton/suspension_design.py
+    //      (ride 1.40 / 1.55 Hz, zeta 0.24 / 0.32, roll gradient 2.3 deg/g with 60 % front share, D-025);
+    //      preload = spring force at the modelled ride height (D-026); arb_* spring in N m/rad (torsion bars)
+    { "name": "subframe",      "spring": 1500000, "damp": 50,  "deform": 70000, "hardening": 300000, "strength": 220000, "unloadRelax": 1000 },
+    { "name": "subframe_mount","spring": 1100000, "damp": 70,  "deform": 50000, "strength": 120000, "unloadRelax": 1000 },
+    { "name": "knuckle",       "spring": 4000000, "damp": 100 },
+    // front knuckle (D-051): the five-node knuckle carried 40-50 % of the front compliance steer; 6 MN/m keeps S at the body
+    // limit with the lower ball joint 1.25x heavier in its group. K-member: lower-arm pivots and the rack tied into one cradle
+    { "name": "knuckle_f",     "spring": 6000000, "damp": 100 },
+    { "name": "kmember",       "spring": 1500000, "damp": 50,  "deform": 70000, "hardening": 300000, "strength": 220000, "unloadRelax": 1000 },
+    { "name": "arm",           "spring": 2500000, "damp": 70,  "deform": 60000, "hardening": 300000, "strength": 160000, "unloadRelax": 1000 },
+    { "name": "link",          "spring": 2500000, "damp": 70,  "deform": 50000, "hardening": 250000, "strength": 140000, "unloadRelax": 1000 },
+    { "name": "tierod",        "spring": 2500000, "damp": 70,  "strength": 40000, "hydroMinRatio": 0.70, "hydroMaxRatio": 1.30 },
+    // anti-roll bar lever and drop link bushings: the 1.7 kg lever tips are in no damp group (they move with the wheels);
+    // 40 N s/m left their ~220 Hz local mode at zeta 0.026, ringing for seconds after a drop (P3); 250 -> zeta ~0.16
+    // D-051: 0.8 / 1.2 MN/m left the bars at about half their rate (links, levers and the lower arm's shock node in series)
+    { "name": "arb_link",      "spring": 2500000, "damp": 250 },
+    { "name": "arb_lever",     "spring": 2500000, "damp": 250 },
+    { "name": "spring_f",      "spring": 45240, "damp": 0, "preload": 5349 },
+    { "name": "spring_r",      "spring": 43290, "damp": 0, "preload": 4078 },
+    { "name": "damper_f",      "spring": 0, "damp": 2880, "dampRebound": 3910, "velSplit": 0.2, "dampFast": 1150, "velSplitRebound": 0.25, "dampReboundFast": 1560 },
+    { "name": "damper_r",      "spring": 0, "damp": 2490, "dampRebound": 3380, "velSplit": 0.2, "dampFast": 1000, "velSplitRebound": 0.25, "dampReboundFast": 1350 },
+    { "name": "bumpstop_f",    "spring": 0,       "damp": 0,   "shortBound": 0.20, "longBound": 0.16, "boundZone": 0.015, "limitSpring": 400000, "limitDamp": 800 },
+    { "name": "bumpstop_r",    "spring": 0,       "damp": 0,   "shortBound": 0.20, "longBound": 0.16, "boundZone": 0.015, "limitSpring": 350000, "limitDamp": 700 },
+    // D-051: torsion rates through the real link / lever / mount compliance (tools/p3b/arb_tune.py; the rigid-chain design
+    // 1960 / 550 gave half the effect); 1500 / 1650 hit the D-025 bar rates (60 % front share) but the car oversteered from
+    // 0.8 g on the skidpad (limit 0.83 g); a 74 % front share keeps it understeering to the limit (X18). D-054: front 2950
+    // with the lever tips back at x 0.62 (the more inclined link) for the same bar rate, 110 kN m/rad (arb_tune2.py)
+    { "name": "arb_front",     "spring": 2950, "damp": 0 },
+    { "name": "arb_rear",      "spring": 825, "damp": 0 },
+    { "name": "rack",          "spring": 2000000, "damp": 60 },
+    // ---- wheels: rim structure and the pressurized 305/35 ZR20 tire
+    // rim: damping saturates above 0.3 m/s like the carcass (D-043); the rim rings ring at the 24-section rolling
+    // frequency at speed (40 kW of the rig wheel's losses at 324 km/h were the rim dampers)
+    { "name": "rim",           "spring": 400000,  "damp": 20, "velSplit": 0.3, "dampFast": 0, "dampReboundFast": 0 },
+    { "name": "rim_spoke",     "spring": 250000,  "damp": 20, "velSplit": 0.3, "dampFast": 0, "dampReboundFast": 0 },
+    // tire carcass damping saturates above 0.3 m/s (D-043): viscous for free vibration, friction-like at the contact patch
+    // sidewall: most of its stiffness is the inflation's (D-045); a flat tire keeps the carcass share
+    { "name": "tire_side",     "spring": 95000,   "damp": 20,  "strength": 60000, "velSplit": 0.3, "dampFast": 0, "dampReboundFast": 0, "inflationShare": 0.95 },
+    { "name": "tire_side_diag","spring": 40000,   "damp": 12.5, "velSplit": 0.3, "dampFast": 0, "dampReboundFast": 0, "inflationShare": 0.95 },
+    { "name": "tire_tread",    "spring": 230000,  "damp": 7.5, "velSplit": 0.3, "dampFast": 0, "dampReboundFast": 0 },
+    { "name": "tire_tread_lat","spring": 130000,  "damp": 7.5, "velSplit": 0.3, "dampFast": 0, "dampReboundFast": 0 },
+    // tread band shear: doubled for the cornering stiffness (rig T9: C_alpha / Fz 0.15 -> 0.21 per deg, D-043)
+    { "name": "tire_tread_diag","spring": 230000,  "damp": 6, "velSplit": 0.3, "dampFast": 0, "dampReboundFast": 0 }
+  ],
+  // shell bending of the panel skins (D-032): plate bending stiffness bend = D (N m, homogenised skin + stiffeners),
+  // damp (N m s), yieldMoment / hardening / yieldCap per unit edge length (N m/m): above it the panel creases and keeps the dent
+  "hingeMaterials": [
+    { "name": "skin_roof",    "bend": 400, "damp": 0.04,  "yieldMoment": 150, "hardening": 300, "yieldCap": 600 },
+    { "name": "skin_hood",    "bend": 400, "damp": 0.04,  "yieldMoment": 150, "hardening": 300, "yieldCap": 600 },
+    { "name": "skin_side",    "bend": 60,  "damp": 0.006, "yieldMoment": 50,  "hardening": 150, "yieldCap": 300 },
+    { "name": "skin_plastic", "bend": 25,  "damp": 0.0025, "yieldMoment": 20, "hardening": 50,  "yieldCap": 100 },
+    // glass: brittle in bending (the pane's beams break at their strength; the hinge yields only far beyond)
+    { "name": "glass_laminated", "bend": 400, "damp": 0.04 },
+    { "name": "glass_side",   "bend": 200, "damp": 0.02 },
+    // floor pan with its ribs and seat cross members
+    { "name": "floor_pan",    "bend": 3000, "damp": 0.3, "yieldMoment": 2500, "hardening": 5000, "yieldCap": 9000 },
+    // tire belt: circumferential bending of the tread band (D-043); the largest value that leaves the exact S unchanged.
+    // Viscous damping: the belt's vibrations at speed need it (with it 20x lower or saturating above 20 rad/s the car lost
+    // its straight line at 250 km/h); its loss in the patch is part of the tire's rolling resistance at speed
+    { "name": "tire_belt",    "bend": 400,  "damp": 0.08 }
+  ],
+  // deformation damping towards each panel's own rigid motion (D-033): rate 1/s, mode damping ratio = rate / (2 omega)
+  "dampGroupMaterials": [
+    // relRate (D-038): towards the reference group's rigid motion (latch, hinge, clip, seal and hanger damping)
+    { "name": "skin",    "rate": 8,  "relRate": 15 },
+    { "name": "plastic", "rate": 14, "relRate": 15 },
+    { "name": "glass",   "rate": 6,  "relRate": 15 },
+    { "name": "exhaust", "rate": 6,  "relRate": 10 },
+    // structure 5 -> 15 (D-056): the body's elastic modes keep zeta 0.02-0.04; the crushed car rebounded with e 0.24 at 5
+    { "name": "structure", "rate": 15 },
+    // tire carcass hysteresis (deformation relative to the wheel's rigid motion), saturating above 0.3 m/s RMS (D-043);
+    // spin: centripetal compensation of the wheel's rotation (rim and belt hoop stiffness, D-044)
+    { "name": "tire", "rate": 4, "vCap": 0.3, "spin": true }
+  ],
+  "contactMaterials": [
+    // hardContact (D-055): once projected out of a solid a node stays on the inelastic projection until it leaves the zone
+    // (the 2.5 cm penalty spring, left at full depth by the projection, handed ~140 kJ back to the car in a 50 km/h wall hit)
+    { "name": "default", "muStatic": 0.6,  "muSliding": 0.5 },
+    { "name": "body",    "muStatic": 0.55, "muSliding": 0.45, "alphaNormal": 0.25, "alphaTangent": 0.22, "hardContact": true },
+    { "name": "metal",   "muStatic": 0.5,  "muSliding": 0.4,  "alphaNormal": 0.25, "alphaTangent": 0.22, "hardContact": true },
+    { "name": "plastic", "muStatic": 0.45, "muSliding": 0.35, "alphaNormal": 0.25, "alphaTangent": 0.22, "hardContact": true },
+    { "name": "glass",   "muStatic": 0.5,  "muSliding": 0.4,  "alphaNormal": 0.25, "alphaTangent": 0.22, "hardContact": true },
+    // tire: thin contact zone so the tread touches the ground at ride height (D-029); the projection stops tunnelling
+    // tire: light normal contact damping (D-043): every tread node lands in the patch once a revolution
+    // tire compound (D-048): the peak follows the node friction at the patch's slip speed, so a slow Stribeck decay
+    // (over ~12 m/s) keeps the peaks nearly speed-independent like a real tire; the 3 m/s Stribeck speed before gave
+    // 1.47 at 3 m/s but 0.99 at 28 m/s. Friction ellipse: lateral 0.88 of the longitudinal (axis along the lateral tread
+    // beams). Rig X15: braking 1.52 / 1.43 / 1.30 at 3 / 10 / 28 m/s, drive 1.50 / 1.40 / 1.21, mu_y 1.14 at 20 m/s, locked
+    // 0.99 at 14 m/s and 0.76 at 28 m/s. Tread bristle stiffness: anchor alpha 0.5 with light anchor damping (exact S of
+    // the rig wheel unchanged, 2.30): C_alpha / Fz 0.198 -> 0.25 per deg
+    // normal penalty alpha at the default 0.35: 0.30 gripped ~1 % better (fewer hard leading-edge impacts) but left the
+    // static load partly to the projection, which the contact-impulse force plate does not see (T6)
+    { "name": "tire",    "muStatic": 1.60, "muSliding": 0.75, "stribeckVel": 12.0, "stribeckExp": 1.4, "loadRef": 1000, "loadSensitivity": 0.12, "bias": 0.005,
+      "zetaNormal": 0.02, "alphaTangent": 0.5, "zetaTangent": 0.06, "muLateral": 0.88, "lateralBeams": "tire_tread_lat" }
+  ],
+  // P6 (D-095): hood crease initiators - the front strip (skin rows 5-7, the inner frame's front bay) yields at
+  // a fraction of its materials' thresholds, so the hood folds at its leading edge in a 30 km/h hit instead of
+  // arching up as one panel (0.39 m at 30 km/h before). P7 (D-104): 0.3, not P6's 0.1, which also yielded in the
+  // T6 0.2 m drop and over the O7 speed bump (0.5-2.4 mm); at 0.3 both stay elastic
+  "materialZones": [
+    { "part": "hood", "materials": ["panel", "panel_brace", "panel_inner", "panel_link"], "min": [-1.0, 0.0, 1.93], "max": [1.0, 2.0, 2.40], "deformScale": 0.3, "hardeningScale": 0.3, "capScale": 0.3 }
+  ],
+  "surfaces": [
+    { "name": "asphalt",  "frictionScale": 1.0,  "rollingResistance": 0.012 },
+    { "name": "concrete", "frictionScale": 0.9,  "rollingResistance": 0.012 },
+    { "name": "grass",    "frictionScale": 0.6,  "rollingResistance": 0.06 },
+    { "name": "gravel",   "frictionScale": 0.65, "rollingResistance": 0.03 },
+    { "name": "steel",    "frictionScale": 0.6,  "rollingResistance": 0.01 },
+    { "name": "wood",     "frictionScale": 0.7,  "rollingResistance": 0.02 }
+  ],
+  // brake holding spring while stuck (rim vs knuckle, N m/rad, N m s/rad): ~1 deg of rim creep at full torque; budgeted
+  // with the wind-up element on the knuckle's rotational inertia (D-036)
+  "brakes": [
+    { "name": "front", "maxTorque": 3600, "stickStiffness": 300000, "stickDamping": 150 },
+    { "name": "rear",  "maxTorque": 2400, "handbrakeTorque": 2600, "stickStiffness": 150000, "stickDamping": 60 }
+  ],
+  // wind-up elements (D-036): knuckle rotation about the spin axis vs the body nodes carrying the suspension (link pivots,
+  // their mounts, the spring tower). Real corners 50-300 kN m/rad; strength = bushing tear-out torque
+  "windup": [
+    // front alignment element (D-051): camber only, measured against the kingpin axis (the angle between the axle line and
+    // the steering axis, which steering leaves unchanged); the toe is the rack's
+    // steerDamping (D-054): the steering gear's damping of the toe rate; without it the front wheels' 12 Hz yaw mode on the
+    // stuck tire patches (the whole steering system against the tires' twist) rang for seconds after a drop
+    { "name": "front", "stiffness": 200000, "damping": 150, "strength": 15000,
+      "camberStiffness": 80000, "camberDamping": 30, "camberStatic": -0.5, "camberGain": -22.9, "steerDamping": 20 },
+    // rear alignment element (D-049): camber / toe stiffness of the five-link knuckle (the node-beam links alone gave 1.7 deg
+    // camber and toe-out under drive per kN; the car weaved and spun at full throttle above 200 km/h)
+    { "name": "rear",  "stiffness": 200000, "damping": 70,  "strength": 12000,
+      "camberStiffness": 80000, "camberDamping": 30, "toeStiffness": 80000, "toeDamping": 30,
+      "camberStatic": -1.0, "toeStatic": 0.1, "camberGain": -22.8, "bumpSteer": 0 }
+  ],
+  // engine mode (D-042): MY18 engine (707 hp / 881 N m), full-throttle net torque from docs/specs.md section 4 (the 717-hp
+  // estimate scaled by 650/656, 557 N m @ 1,200 rpm anchor S16, 839 N m = 707 hp @ 6,000); 8HP90 ratios (ZF S15), final
+  // drive 2.62, fuel cut 6,200 rpm, 160 ms shifts (S10). Converter, lock-up, LSD and driveline compliance are not
+  // published: typical values, see D-042. The simple-mode values are kept for vehicles without an engine table.
+  "powertrain": {
+    "mode": "engine", "maxWheelTorque": 4000, "maxPower": 480000, "reverseTorque": 2000,
+    "torqueRpm": [700, 1000, 1200, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 4800, 5000, 5500, 6000, 6200, 6500],
+    "torqueNm":  [380,  497,  557,  598,  672,  725,  786,  833,  864,  879,  881,  880,  867,  839,  813,  700],
+    "idleRpm": 700, "revLimitRpm": 6200, "engineInertia": 0.30, "frictionTorque0": 40, "frictionTorquePerRpm": 0.018,
+    "idleKp": 1.5, "idleKi": 4.0,
+    "gearRatios": [4.714, 3.143, 2.106, 1.667, 1.285, 1.000, 0.839, 0.667], "reverseRatio": 3.317, "finalDrive": 2.62,
+    "efficiency": 0.90,
+    "shiftUpRpm": 6000, "shiftUpLightRpm": 2000, "shiftDownRpm": 3500, "shiftDownLightRpm": 1100,
+    "shiftTime": 0.16, "shiftHold": 0.6, "shiftTorqueFactor": 0.5,
+    "converterStallRpm": 2600, "converterTorqueRatio": 1.9, "converterCouplingSR": 0.87, "converterOverrun": 0.6,
+    "converterLockupSpeed": 12, "lockupMinGear": 2, "lockupTime": 0.3, "clutchMaxTorque": 1400,
+    "turbineInertia": 0.06, "outputInertia": 0.25, "driveshaftStiffness": 16000, "driveshaftDamping": 30,
+    "diffPreload": 120, "diffBias": 2.5, "diffBiasCoast": 1.8, "diffStiffness": 50000, "diffDamping": 60,
+    "engineGroup": "engine_mount", "rollingRadius": 0.3504
+  },
+  // ABS (input flags bit 0) and traction control (bit 1), both per wheel slip ratio
+  // ABS and traction control: PI controllers on the slip speed (D-047); tcKi 3 -> 4 in P4 (X13: the 95th percentile of the
+  // driven-wheel slip above 36 km/h 0.345 -> 0.319 after the D-056 / D-057 body changes, 0-100 km/h 3.90 -> 3.94 s)
+  "assists": {
+    "absSlip": 0.15, "absSlipLow": 0.22, "absKp": 0.3, "absKi": 10, "absFilter": 0.004, "absMinSpeed": 2.5,
+    "tcSlip": 0.20, "tcSlipLow": 0.30, "tcFloorSpeed": 6, "tcKp": 0.3, "tcKi": 4, "tcFilter": 0.01, "tcMinFactor": 0.05,
+    "slipBlendLow": 5, "slipBlendHigh": 25
+  },
+  "steering": { "rate": 3.0, "returnRate": 4.0, "speedReductionStart": 15, "speedReductionAt60": 0.35, "wheelLockDeg": 32, "steeringWheelTurnsLockToLock": 2.6 },
+  // tire mesh rolling losses (rig, T9: 0.012-0.015 at 36-72 km/h, 0.03 at 324 km/h) are the tire's rolling resistance on
+  // asphalt; the wheel couple adds only the excess of softer surfaces (grass 0.06, gravel 0.03)
+  "tire": { "meshRollingResistance": 0.012 },
+  // global aero: Cd 0.398 x 2.49 m^2 (Dodge sheets S2-S5, docs/specs.md section 8); lift not published; 20 C air
+  "aero": { "mode": "global", "dragArea": 0.99, "liftFront": 0.0, "liftRear": 0.0, "airDensity": 1.204 }
+}

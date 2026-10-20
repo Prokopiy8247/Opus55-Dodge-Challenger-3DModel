@@ -1,0 +1,16 @@
+{
+  "suite": "hellcat-validation",
+  "time_utc": "2026-10-14T17:24:20Z",
+  "quick": false,
+  "tests": [
+    {"id": "X24", "title": "Diagnostic: top-speed attitude drift with the P4 solver changes switched off one at a time", "pass": true, "seconds": 153.11,
+     "checks": [
+       {"name": "P4 configuration: pitch drift from 30 s to the end (nose up negative)", "value": 0.14384617253354259, "unit": "deg", "limit": "pitch at 30 s -0.51 deg, at the end -0.36 deg; path offset 0.55 m; broken beams 0", "pass": true, "info": true},
+       {"name": "without spring-back suppression (D-056): pitch drift from 30 s to the end (nose up negative)", "value": -0.770925138069568, "unit": "deg", "limit": "pitch at 30 s -0.47 deg, at the end -1.24 deg; path offset 0.50 m; broken beams 0", "pass": true, "info": true},
+       {"name": "structure damp group rate 5 (as P3b): pitch drift from 30 s to the end (nose up negative)", "value": -0.15748804616859369, "unit": "deg", "limit": "pitch at 30 s -0.46 deg, at the end -0.62 deg; path offset 0.58 m; broken beams 0", "pass": true, "info": true},
+       {"name": "without hard contact (D-055): pitch drift from 30 s to the end (nose up negative)", "value": -0.770925138069568, "unit": "deg", "limit": "pitch at 30 s -0.47 deg, at the end -1.24 deg; path offset 0.50 m; broken beams 0", "pass": true, "info": true},
+       {"name": "without self-collision of the detachables (D-058): pitch drift from 30 s to the end (nose up negative)", "value": -0.770925138069568, "unit": "deg", "limit": "pitch at 30 s -0.47 deg, at the end -1.24 deg; path offset 0.50 m; broken beams 0", "pass": true, "info": true}],
+     "notes": ["P4 configuration: rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none", "without spring-back suppression (D-056): rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none", "structure damp group rate 5 (as P3b): rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none", "without hard contact (D-055): rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none", "without self-collision of the detachables (D-058): rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none"],
+     "files": ["X24_top_speed_P4_16.csv", "X24_top_speed_without_39.csv", "X24_top_speed_structure_36.csv", "X24_top_speed_without_28.csv", "X24_top_speed_without_49.csv"]}
+  ]
+}

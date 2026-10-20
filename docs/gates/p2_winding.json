@@ -1,0 +1,234 @@
+{
+ "degenerate": 0,
+ "tires": [
+  {
+   "group": "tire_FR",
+   "triangles": 240,
+   "edges_not_shared_by_two": 0,
+   "inconsistent_edges": 0,
+   "volume_l": 52.54
+  },
+  {
+   "group": "tire_FL",
+   "triangles": 240,
+   "edges_not_shared_by_two": 0,
+   "inconsistent_edges": 0,
+   "volume_l": 52.54
+  },
+  {
+   "group": "tire_RR",
+   "triangles": 240,
+   "edges_not_shared_by_two": 0,
+   "inconsistent_edges": 0,
+   "volume_l": 52.54
+  },
+  {
+   "group": "tire_RL",
+   "triangles": 240,
+   "edges_not_shared_by_two": 0,
+   "inconsistent_edges": 0,
+   "volume_l": 52.54
+  }
+ ],
+ "two_sided_triangles": [
+  2272,
+  2273,
+  2274,
+  2275
+ ],
+ "inconsistent_edges": 0,
+ "edges_shared_by_3_or_more": 0,
+ "patches": [
+  {
+   "groups": {
+    "glass_rear": 64
+   },
+   "triangles": 64,
+   "area_m2": 0.706,
+   "vote": 0.429,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "glass_windshield": 80
+   },
+   "triangles": 80,
+   "area_m2": 1.125,
+   "vote": 0.516,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "trunk": 60
+   },
+   "triangles": 60,
+   "area_m2": 1.105,
+   "vote": 0.559,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "hood": 112
+   },
+   "triangles": 112,
+   "area_m2": 1.883,
+   "vote": 0.562,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "body": 128
+   },
+   "triangles": 128,
+   "area_m2": 1.765,
+   "vote": 0.575,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "bumper_R": 80
+   },
+   "triangles": 80,
+   "area_m2": 1.386,
+   "vote": 0.634,
+   "triangles_voting_outward": 0.988,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "glass_quarter_R": 8
+   },
+   "triangles": 8,
+   "area_m2": 0.063,
+   "vote": 0.666,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "bumper_F": 80
+   },
+   "triangles": 80,
+   "area_m2": 1.339,
+   "vote": 0.67,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "glass_quarter_L": 8
+   },
+   "triangles": 8,
+   "area_m2": 0.063,
+   "vote": 0.67,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "glass_side_FL": 24
+   },
+   "triangles": 24,
+   "area_m2": 0.32,
+   "vote": 0.72,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "body": 132
+   },
+   "triangles": 132,
+   "area_m2": 0.861,
+   "vote": 0.721,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "glass_side_FR": 24
+   },
+   "triangles": 24,
+   "area_m2": 0.32,
+   "vote": 0.723,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "fender_R": 90
+   },
+   "triangles": 90,
+   "area_m2": 0.553,
+   "vote": 0.725,
+   "triangles_voting_outward": 0.911,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "fender_L": 90
+   },
+   "triangles": 90,
+   "area_m2": 0.553,
+   "vote": 0.725,
+   "triangles_voting_outward": 0.911,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "body": 132
+   },
+   "triangles": 132,
+   "area_m2": 0.861,
+   "vote": 0.728,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "door_FL": 100
+   },
+   "triangles": 100,
+   "area_m2": 1.049,
+   "vote": 0.77,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "body": 16
+   },
+   "triangles": 16,
+   "area_m2": 0.915,
+   "vote": 0.777,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "door_FR": 100
+   },
+   "triangles": 100,
+   "area_m2": 1.049,
+   "vote": 0.778,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  },
+  {
+   "groups": {
+    "body": 16
+   },
+   "triangles": 16,
+   "area_m2": 0.915,
+   "vote": 0.801,
+   "triangles_voting_outward": 1.0,
+   "orientation": "outward"
+  }
+ ],
+ "voted_triangles": 1344
+}

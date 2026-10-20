@@ -1,0 +1,4888 @@
+pages 171
+===== page 1
+ 
+ 
+REPORT NUMBER:  NCAP-MGA-2013-030 
+ 
+ 
+ 
+NEW CAR ASSESSMENT PROGRAM (NCAP) 
+Frontal Barrier Impact Test 
+ 
+ 
+ 
+CHRYSLER GROUP LLC 
+2013 Dodge Challenger SXT 2-Dr Coupe 
+NHTSA No.:  MD0300 
+ 
+ 
+ 
+MGA RESEARCH CORPORATION 
+5000 Warren Road 
+Burlington, WI  53105 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Test Date:  November 8, 2012 
+ 
+Final Report Date:  December 19, 2012 
+ 
+ 
+FINAL REPORT 
+ 
+ 
+U.S. DEPARTMENT OF TRANSPORTATION 
+National Highway Traffic Safety Administration 
+Office of Crashworthiness Standards 
+Mail Code: NVS-111 
+1200 New Jersey Ave, SE 
+Room W43-410 
+Washington, DC 20590 
+===== page 2
+ii  
+ 
+This publication is distributed by the U.S. D epartment of Transportation, National Highway 
+Traffic Safety Administration, in the interest of information exchange. The opinions, findings and 
+conclusions expressed in this publication are those of the author(s) and not necessarily those of 
+the Department of Transportation or the National Highway Traffic Safety Administration. The 
+United States Government assumes no liability for its contents or use thereof.  If trade or 
+manufacturers' names or products are mentioned,  it is only because they are considered 
+essential to the object of the publication and should not be construed as an endorsement.  The 
+United States Government does not endorse products or manufacturers. 
+ 
+ 
+ 
+   
+ 
+Prepared by:  _____________________________        
+Donna Janovicz, Project Manager 
+ 
+ 
+ 
+Approved by:  _____________________________         
+Ben Fischer, Project Engineer 
+ 
+ 
+Approval Date:  December 19, 2012 
+ 
+ 
+ 
+ 
+ 
+FINAL REPORT ACCEPTANCE BY OCWS: 
+ 
+ 
+____________________________________        
+Division Chief, New Car Assessment Program 
+NHTSA, Office of Crashworthiness Standards 
+ 
+Date:  _____________________        
+ 
+ 
+ 
+____________________________________        
+COTR, New Car Assessment Program 
+NHTSA, Office of Crashworthiness Standards 
+ 
+ 
+Date:  _____________________        
+ 
+ 
+ 
+ 
+===== page 3
+iii  
+Technical Report Documentation Page 
+1. Report No. 
+ NCAP-MGA-2013-030 
+2. Government Accession 
+No. 
+3. Recipient's Catalog No. 
+4. Title and Subtitle 
+ Final Report of New Car Assessment Program 
+ Frontal Impact Testing of  
+ 2013 Dodge Challenger SXT 2-Dr Coupe,    
+ NHTSA No.: MD0300 
+5. Report Date 
+ December 19, 2012 
+6. Performing Organization Code 
+ MGA 
+7. Author(s) 
+ Donna Janovicz, Project Manager 
+ Ben Fischer, Project Engineer 
+8. Performing Organization Report No. 
+ NCAP-MGA-2013-030 
+9. Performing Organization Name and Address 
+ MGA Research Corporation 
+ 5000 Warren Road 
+ Burlington, WI 53105 
+10. Work Unit No. 
+ 
+11. Contract or Grant No. 
+ DTNH22-12-D-00258 
+12. Sponsoring Agency Name and Address 
+ U.S. Department of Transportation 
+ National Highway Traffic Safety Administration 
+ Office of Crashworthiness Standards (NVS-111) 
+ 1200 New Jersey Ave, SE, Room W43-410 
+ Washington, D.C. 20590 
+13. Type of Report and Period Covered    
+ Final Test Report 
+ November 8 to December 19, 2012 
+14. Sponsoring Agency Code 
+ NVS-111 
+15. Supplementary Notes 
+16. Abstract 
+A 56.3 km/h NCAP Frontal Impact Test was conducted on a 2013 Dodge Challenger SXT 2-Dr Coupe in 
+accordance with the specifications of the Office of Crashworthiness Standards Frontal NCAP Laboratory 
+Test Procedure. This test was conducted to obtain data indicant of FMVSS 208, 212, 219 (partial), 301, and 
+foot well intrusion performance.  The test was conducted at MGA Research Corporation in Burlington, 
+Wisconsin, on November 8, 2012. 
+ 
+The impact velocity was 56.4 km/h and the ambient temperature at the barrier face at the time of impact 
+was 20.8°C. The target vehicle post-test maximum crush was 740 mm located at the vehicle’s centerline. 
+The test vehicle’s performance was as follows: 
+ 
+Measurement Description Units Threshold Driver ATD Passenger ATD50th 5th 
+Head Injury Criteria (HIC15) N/A 700 700 157 200
+Maximum Chest Compression mm 63 52 20 9 
+Nij N/A 1 1 0.28 0.40 
+Neck Tension N 4170 2620 1111 718 
+Neck Compression N 4000 2520 46 115 
+Left Femur Force N 10008 6805 1927 231 
+Right Femur Force N 10008 6805 2968 673 
+ 
+17. Key Words 
+ 
+ 35 mph Frontal Barrier Impact Test 
+ New Car Assessment Program (NCAP) 
+  
+18. Distribution Statement 
+Copies of this report are available from: 
+National Highway Traffic Safety Administration 
+Technical Information Services Division, NPO-411 
+1200 New Jersey Ave, SE 
+Washington, DC 20590 
+Email: tis@nhtsa.dot.gov  FAX: 202-493-2833 
+19. Security  
+Classification of Report      
+            Unclassified 
+20. Security 
+Classification of Page      
+       Unclassified 
+21. No. of Pages 
+                171 
+22. Price 
+===== page 4
+iv  
+ 
+TABLE OF CONTENTS 
+ 
+Section  Page No. 
+    1 Purpose and Summary of Test       1 
+    2 Occupant and Vehicle Information / Data Sheets       3 
+   
+Data Sheet No.  Page No. 
+    1 General Test and Vehicle Parameter Data       4 
+    2 Seat Adjustment, Fuel System, and Steering Wheel Data       8 
+    3 Dummy Longitudinal Clearance Dimensions      10 
+    4 Dummy Lateral Clearance Dimensions      11 
+    5 Seat Belt Positioning Data      12 
+    6 High-Speed Camera Locations and Data      13 
+    7 Vehicle Accelerometer Locations      15 
+    8 Photographic Reference Target Locations      16 
+    9 Load Cell Locations on Fixed Barrier      17 
+   10 Test Vehicle Summary of Results      18 
+   11 Post-Test Observations      19 
+   12 Vehicle Profile Measurements      20 
+   13 Accident Investigation Division Data      22 
+   14 Vehicle Intrusion Measurements      23 
+   15 Summary of FMVSS 212, FMVSS 219 (Partial) Data, and 301 Data      26 
+   16 FMVSS 301 Static Rollover Results      28 
+   17 Dummy/Vehicle Temperature Stabilization Data      29 
+   
+Appendix   
+    A Photographs       A 
+    B Dummy Response Data Traces       B 
+    C Dummy Calibration and Performance Verification Data        C 
+===== page 5
+ 
+1  
+SECTION 1 
+PURPOSE AND SUMMARY OF TEST 
+ 
+ 
+PURPOSE 
+ 
+This 56.3 km/h frontal barrier impact test is part of the Vehicle Barrier Impact Testing Program 
+sponsored by the National Highway Traffic Safety Administration (NHTSA) under contract 
+number DTNH22-12-D-00258.  The purpose of this test was to obtain vehicle crashworthiness 
+and occupant restraint system performance data for consumer information purposes.  
+ 
+The 56.3 km/h frontal barrier impact was conducted in accordance with the Office of 
+Crashworthiness Standards Frontal NCAP Laboratory Test Procedure. 
+ 
+ 
+SUMMARY 
+ 
+A flat rigid barrier was impacted by a 2013 Dodge Challenger SXT 2-Dr Coupe at a velocity of 
+56.4 km/h.  The test was performed at MGA Research Corporation on November 8, 2012.  Pre-
+and post-test photographs of the vehicle and dummies can be found in Appendix A. 
+ 
+Two (2) real-time cameras and fourteen (14) high-speed cameras were used to document the 
+frontal barrier impact event.  Camera locations and other pertinent camera information can be 
+found in this report. 
+ 
+One Part 572E 50th percentile male anthropomorphic test device (ATD), was placed in the driver 
+seating position and one Part 572O 5th percentile female test device (ATD) was placed in the 
+right-front passenger seating position according to dummy placement instructions specified in 
+the Frontal NCAP Laboratory Test Procedure. 
+ 
+Both ATDs were fully instrumented with head, chest and pelvis tri-axial accelerometers, chest 
+displacement potentiometers, upper neck transducers, right/left femur load cells, and lower leg 
+instrumentation. Seat belt load cells were also installed on the driver’s and passenger’s lap and 
+shoulder belts to measure dummy torso and pelvic section loading.  
+ 
+The driver (position 1) ATD (Serial No. 036) and the right-front passenger (position 2) ATD 
+(Serial No. 634) were calibrated previous to this test.  Certification details, along with 
+instrumentation calibration data, are found in Appendix C of this report. 
+ 
+The 112 channels of data were recorded on an on-board data acquisition system.  Appendix B 
+contains the vehicle and dummy response data traces. 
+ 
+There was 100 percent windshield retention and no intrusion into the protected zone of the 
+windshield during the event.  There was no Stoddard Solvent leakage after the event or during 
+any phase of the static rollover. 
+ 
+The maximum static crush of the vehicle was 740 mm and both the driver and passenger side 
+doors remained closed during the impact event and were operable after the impact.  
+ 
+ 
+ 
+===== page 6
+ 
+2  
+The driver’s visible contact points were as follows:   The driver’s head and chest contacted the 
+airbag.  The driver’s head also contacted the headrest.  The driver’s knees contacted the knee 
+bolster.  The passenger’s visible contact points were as follows:  The passenger’s head and 
+chest contacted the airbag.  The passenger’s head also contacted the headrest.  The 
+passenger’s knees contacted the glove box. 
+ 
+ 
+The occupant data is summarized below: 
+ 
+ATD position HIC 15 Nij 
+Neck 
+Tension 
+(N) 
+Neck 
+Comp.
+(N) 
+3ms 
+Chest 
+Clip 
+(Gs) 
+Chest 
+Disp. 
+(mm) 
+Left 
+Femur 
+(N) 
+Right 
+Femur 
+(N) 
+Driver (50th) 157 0.28 1111 46 38 20 1927 2968 
+Passenger (5th) 200 0.40 718 115 45 9 231 673 
+ 
+ 
+The test data can be found on the NHTSA website at www.nhtsa.dot.gov. 
+ 
+ 
+TEST NOTES 
+Top of Engine X has no valid data after 40ms. 
+Bottom of Engine X has no valid data after 59ms. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MGA does not endorse or certify products.  The manufacturer’s name appears solely for 
+identification purposes. 
+ 
+ 
+===== page 7
+ 
+3  
+SECTION 2 
+OCCUPANT AND VEHICLE INFORMATION / DATA SHEETS 
+ 
+===== page 8
+ 
+4  
+DATA SHEET NO. 1 
+GENERAL TEST AND VEHICLE PARAMETER DATA 
+ 
+ 
+TEST VEHICLE INFORMATION AND OPTIONS 
+NHTSA No. MD0300 Traction Control S ystem (TCS) Yes
+Model Year 2013 Power Steering Yes 
+Make Dodge Power Window Auto-Reverse No 
+Model Challenger Driver Frontal Airbag Yes 
+Body Style Coupe Driver Curtain Airbag Yes 
+VIN 2C3CDYAG9DH536253 Driver Head/Torso Airbag No 
+Body Color Redline Pearl Driver Torso Airbag No 
+Odometer (km/mi) 113 / 70 Driver Torso/Pelvis Airbag Yes 
+Engine Displacement (L) 3.6 Driver Pelvis Airbag No 
+Type/No. Cylinders 6 Driver Knee Airbag No 
+Engine Placement Longitudinal Front Pass. Frontal Airbag Yes 
+Transmission Type Automatic Front Pass. Curtain Airbag  Yes 
+Transmission Speeds 5 Front Pass. Head/Torso Airbag No 
+Overdrive Yes Front Pass. Torso Airbag No 
+Final Drive Rear Wheel Drive Front Pass. Torso/Pelvis Airbag Yes 
+Roof Rack No Front Pass. Pelvis Airbag No 
+Sunroof/T-Top No Front Pass. Knee Airbag No 
+Running Boards No Driver Pretensioner Yes 
+Tilt Steering Wheel Yes Driver Load Limiter Yes 
+Power Seats Driver Only Front Pass. Pretensioner Yes 
+Anti-Lock Brakes (ABS) Yes Front Pass. Load Limiter Yes 
+Automatic Door Locks (ADLs) Yes Other  N/A 
+ 
+Does owner’s manual provide instructions to turn off automatic door locks? Yes 
+ 
+DATA FROM CERTIFICATION LABEL 
+ 
+VEHICLE SEATING AND WEIGHT CAPACITY DATA 
+Measured Parameter Front Rea r Third Total
+Type of Seats Bucket Bench   
+Designated Seating Capacity (DSC) 2 3  5 
+Capacity Weight (VCW) (kg)    392 
+Cargo Weight (RCLW) (kg)    52 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+Manufactured By CHRYSLER GROUP LLC 
+ GVWR (kg) 2246 
+ GAWR Front (kg) 1275 
+Date of Manufacture SEP 12  GAWR Rear (kg) 1275 
+===== page 9
+ 
+5  
+DATA SHEET NO. 1 (CONTINUED) 
+GENERAL TEST AND VEHICLE PARAMETER DATA 
+ 
+ 
+VEHICLE TIRE INFORMATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Measured Parameter Front Rear 
+Max. Tire Pressure (kPa) 300 300 
+Cold Pressure (kPa) 220 220 
+Recommended Tire Size P235/55R18 P235/55R18 
+Tire Size on Vehicle P235/55R18 P235/55R18 
+Tire Manufacturer Michelin Michelin 
+Tire Model Pilot HX MXM4 Pilot HX MXM4 
+Treadwear 300 300 
+Traction A A 
+Temperature Grade A A 
+Tire Plies Sidewall 2 2 
+Tire Plies Body 5 5 
+Load Index/Speed Symbol 99V 99V 
+Tire Material Rubber Rubber 
+DOT Safety Code Left B93J PN2X B93J PN2X 
+DOT Safety Code Right B93J PN2X B93J PN2X 
+ 
+ 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+
+===== page 10
+ 
+6  
+DATA SHEET NO. 1 (CONTINUED) 
+GENERAL TEST AND VEHICLE PARAMETER DATA 
+ 
+ 
+TEST VEHICLE WEIGHTS 
+ 
+ 
+ 
+ 
+ Units 
+As Delivered (UVW) As Tested (ATW) 
+Front Rear  Total Front  Rear Total 
+Left k g 455.9 417.3 492.2 492.6 
+Right kg 465.4 422.3  478.1 484.9  
+Ratio % 52.3 47.7  49.8 50.2  
+Totals k g 921.3 839.6 1760.9 970.3 977.5 1947.8
+ 
+TARGET TEST WEIGHT CALCULATION 
+Measured Parameter Units Value 
+Total Delivered Weight (UVW) kg 1760.9 
+Weight of 1 P572E ATD & 1 P572O ATD kg 140.6 
+Rated Cargo/Luggage Weight (RCLW) kg 52 
+Calculated Vehicle Target Weight (TVTW) kg 1953.5 
+  
+TEST VEHICLE ATTITUDES AND CG 
+   
+ 
+Units LF RF LR RR CG (aft of front axle)
+As Delivered mm 764 763 781 784 1409 
+As Tested mm 758 758 764 761 1483 
+Post Test mm 1008 970 757 763  
+ 
+GENERAL TEST VEHICLE DATA 
+Measurement Description Units Value 
+Total Vehicle Wheel Base mm 2955 
+Total Vehicle Length at Left Side mm 4857 
+Total Vehicle Length at Centerline mm 5024 
+Total Vehicle Length at Right Side mm 4857 
+Weight of Ballast in Cargo Area kg 42.6 
+Weight of Vehicle Components Removed kg 30.4 
+Amount of Stoddard Solvent in Fuel Tank L 67.2 
+ 
+List of components removed to meet test weight:  Right taillight, jack and tools, spare tire, trunk 
+lining, engine splash shields, rear floor mats, and trunk floor. 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 11
+ 
+7  
+DATA SHEET NO. 1 (CONTINUED) 
+GENERAL TEST AND VEHICLE PARAMETER DATA 
+ 
+ 
+TARGET VEHICLE STRUCTURAL MEASUREMENT 
+ Elements Pre-Test (mm) 
+1 Total Length 5024 
+2 Total Width 1918 
+3 Bumper Top Height 510 
+4 Bumper Bottom Height 400 
+5 Longitudinal Member Top Height 510 
+6 Distance between Longitudinal Members 790 
+7 Longitudinal Member Width 62 
+8 Engine Top Height 942 
+9 Engine Bottom Height 178 
+10 Engine and Gearbox Width 1091 
+11 Front Bumper-Engine Distance 300 
+12 Front Shock Absorber Fixing Height 820 
+13 Bonnet Leading Edge Height 877 
+14 Front Shock Absorber Fixing Width 988 
+15 Front Bumper – Front Axle Distance 952 
+16 Front Axle – A-Pillar Distance 752 
+17 A-Pillar – B-Pillar Distance 1275 
+18 B-Pillar – Rear Axle Distance 938 
+19 B-Pillar – C-Pillar Distance 462 
+20 Roof Sill Bottom Height 1288 
+21 Roof Sill Top Height 1420 
+22 Floor Sill Bottom Height 167 
+23 Floor Sill Top Height 388 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 12
+ 
+8  
+DATA SHEET NO. 2 
+SEAT ADJUSTMENT, FUEL SYSTEM, AND STEERING WHEEL DATA 
+ 
+ 
+NOMINAL DESIGN RIDING POSITION 
+The driver seat back is positioned as close as possible to the 
+manufacturer’s design angle. For the passenger seat back, seat back 
+is adjusted following Appendix F, “Driver & Passenger Dummy 
+Seating & Positioning Procedures” in the NCAP Test Procedure 
+dated September 2012. 
+ 
+ Degrees 
+Driver Seat Back Angle 15.4° on headrest post 
+Passenger Seat Back Angle 16.6° on headrest post 
+ 
+SEAT FORE/AFT POSITIONS 
+The driver and passenger seat fore/aft positions are adjusted following Appendix F, “Driver & 
+Passenger Dummy Seating & Positioning Procedures” in the NCAP Test Procedure dated 
+September 2012. 
+ 
+ Total Fore/Aft Travel Placed in Position # 
+Driver Seat 333 mm 167 mm (foremost as 0) 
+Passenger Seat 220 mm, 22 Detents (1st as 0) 0 Detent (foremost as 0) 
+ 
+SEAT BELT UPPER ANCHORAGES 
+The seat belt upper anchorages are positioning following the manufacturer’s specified position 
+as listed in Form 1. 
+ 
+ Total # of Positions Placed in Position # 
+Driver Seat Fixed Fixed 
+Passenger Seat Fixed Fixed 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+Upright 
+Position  
+Adjuster
+Inclinometer 
+Seat
+Back
+Angle 
+(Degrees)
+FRONT SEAT ASSEMBLY
+Seat Cushion 
+===== page 13
+ 
+9  
+DATA SHEET NO. 2 (CONTINUED) 
+SEAT ADJUSTMENT, FUEL SYSTEM, AND STEERING WHEEL DATA 
+ 
+ 
+FUEL TANK CAPACITY DATA 
+ Liters 
+Usable Capacity of “Standard Tank” 72.3 
+Usable Capacity of “Optional Tank”
+92-94% of Usable Capacity 66.5 to 68.0 
+Actual Amount of Solvent used 67.2 
+1/3 of Usable Capacity 24.1 
+ 
+ 
+FUEL PUMP 
+Describe the fuel pump type, its behavior, and the location of 
+the fuel filler pipe. 
+The vehicle is equipped with an elec tric fuel pump.  The fuel 
+pump starts pumping fuel when t he key is in “ON” position.  
+The fuel pipe is on the left side. 
+ 
+ 
+STEERING COLUMN ADJUSTMENT 
+Steering wheel and column adjustments are made so that the 
+steering wheel hub is at the geometric center of the locus it 
+describes when moved through its full range of motion. An aluminum 
+plate is placed across the rim of the steering wheel, an inclinometer 
+is placed on the plate and the angle is measured.  
+ 
+STEERING COLUMN POSITION 
+ De grees Fore/Aft Position (mm) 
+Lowermost Position 1 70.0 210 
+Geometric Center Position 2 67.5 180 
+Uppermost Position 3 65.0 150 
+Telescoping Steering Wheel Travel  60 
+Test Position 67.5 180 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+LEFT SIDE VIEW
+STEERING COLUMN ASSEMBLY
+1
+2
+3
+Vapor Volume
+Unusable Capacity
+Filler Neck Volume
+Filler Cap
+VEHICLE FUEL TANK ASSEMBLY
+Fuel Line
+Usable
+Capacity
+===== page 14
+ 
+10  
+DATA SHEET NO. 3 
+DUMMY LONGITUDINAL CLEARANCE DIMENSIONS 
+ 
+ 
+ 
+LEFT SIDE VIEW 
+ 
+Code Measurement Description Driver S/N 036 Passen ger S/N 634Length (mm) Angle (°) Length (mm) Angle (°) 
+WA° Windshield Angle  26.5   
+SWA° Steering Wheel Angle  67.5   
+SCA° Steering Column Angle  22.5   
+SA° Seat Back Angle (on headrest post)  15.4  16.6 
+HZ Head to Roof (Z) 223 90 236 90 
+HH Head to Header 414 17.6 351 38.2 
+HW Head to Windshield 729 0 763 0 
+NR Nose to Rim 394 8.8   
+CD Chest to Dash 542  386  
+CS Chest to Steering Hub 294 1.9   
+RA Rim to Abdomen 194 0   
+KDL Left Knee to Dash 180 30.4 126 36.0 
+KDR Right Knee to Dash 173 32.6 123 31.4 
+PA° Pelvic Angle  23.8  21.8 
+TA° Tibia Angle  41.5  48.3 
+SK Striker to Knee 846 93.0 950 92.6 
+ST Striker to Head 616 34.5 643 50.2 
+SH Striker to H-Point 478 109.9 649 104.4 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 15
+ 
+11  
+DATA SHEET NO. 4 
+DUMMY LATERAL CLEARANCE DIMENSIONS 
+ 
+ 
+ 
+FRONT VIEW OF DUMMY 
+ 
+ 
+Code Measurement Description Driver S/N 036 Passen ger S/N 634Length (mm) 
+AD Arm to Door 150 103 
+HD H-Point to Door 158 186 
+HR Head to Side Header 244 282 
+HS Head to Side Window 361 390 
+KK Knee to Knee 335 227 
+SHY Striker to H-Point (Y Direction) 325 330 
+AA Ankle to Ankle 350 167 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 16
+ 
+12  
+DATA SHEET NO. 5 
+SEAT BELT POSITIONING DATA 
+ 
+ 
+  
+Dummy’s Centerline
+TBI
+'D' Ring
+Shoulder Belt 
+Portion 
+Lap Belt 
+Portion 
+1/8" Thick 
+Aluminum 
+Plate 
+Inboard 
+Anchorage 
+Floorpan
+Buckle 
+Assembly 
+PBL 
+PBU 
+Outboard 
+Anchor 
+Locking 
+Retractor 
+ 
+FRONT VIEW OF DUMMY 
+ 
+ 
+SEAT BELT POSITIONING MEASUREMENTS 
+Measurement Description Units Driver Passenger 
+PBU - Top surface of reference to belt upper edgem m 390 370
+PBL - Top surface of reference to belt lower edge mm 320 295 
+ 
+BELT LENGTH DATA 
+Measurement Description Units Driver Passenger 
+Shoulder Belt Length as measured on ATD mm 1010 
+Lap Belt Length as measured on ATD mm 780  
+Remainder of belt on reel mm 1310  
+Total Belt Length for Continuous Webbing Systems mm 3100 3100 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 17
+ 
+13  
+DATA SHEET NO. 6 
+HIGH-SPEED CAMERA LOCATIONS AND DATA 
+ 
+ 
+CAMERA POSITIONS FOR FRONTAL IMPACTS 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+5
+108
+1 – Real-Time Camera 
+2
+7
+6
+34
+9
+11 
+12 
+13 
+14 – Pit Camera Engine Compartment View
+15 – Pit Camera Fuel Tank View 
+16 & 17 – Frontal Airbag Deployments, Optional 
+===== page 18
+ 
+14  
+DATA SHEET NO. 6 (CONTINUED) 
+CAMERA LOCATIONS AND DATA 
+ 
+ 
+CAMERA LOCATIONS 
+No. Camera View 
+Coordinates (mm) Lens 
+(mm) 
+Speed 
+(fps) X* Y* Z* 
+1 Real-Time Left Overall     30 
+2 Driver Close-Up 1840 -6880 -1850 35 1000 
+3 Left Front Half 1440 -5400 -1260 24 1000 
+4 Left Angle 5650 -5100 -2030 50 1000 
+5 Steering Column - Top 570 -5000 -1260 24 1000 
+6 Steering Column - Bottom 550 -4970 -860 24 1000 
+7 Right Overall 2330 6980 -1370 20 1000 
+8 Passenger Close-Up 1830 7030 -1890 35 1000 
+9 Right Front Half 1430 5610 -1330 24 1000 
+10 Right Angle 5750 4710 -2030 50 1000 
+11 Windshield -60 0 -2810 20 1000 
+12 Driver Windshield -220 -450 -2030 8.5 1000 
+13 Passenger Windshield -220 450 -2740 8.5 1000 
+14 Pit Front 1270 0 3150 24 1000 
+15 Pit Rear 3180 0 3150 24 1000 
+16 Onboard Driver Side (optional)      
+17 Onboard Passenger Side (optional)      
+18 Real-Time Pan View     30 
+ 
+*COORDINATES: 
++X = forward of impact plane      
++Y = right of monorail centerline   
++Z = below ground level 
+ 
+Cameras 16 & 17 were not used for this test. 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 19
+ 
+15  
+DATA SHEET NO. 7 
+VEHICLE ACCELEROMETER LOCATIONS 
+  
+ 
+ 
+Z 
+Y X 
+4 
+3 
+1/7, 
+2/8, 
+5/6 
+1, 6, 7
+2, 5, 8
+3/4 
+ 
+ 
+VEHICLE ACCELEROMETER PRE-TEST LOCATIONS 
+No. Accelerometer Location 
+Measurements (mm) 
+X Y Z 
+1  Left Rear Accelerometer – X Direction 2058 -276 -218 
+2  Right Rear Accelerometer – X Direction 2070 238 -198 
+3  Engine Top X 3994 -20 -943 
+4  Engine Bottom X 4257 58 -188 
+5  Left Rear Accelerometer – Z Direction 2058 -276 -218 
+6  Right Rear Accelerometer – Z Direction 2070 238 -198 
+7  Left Rear Accelerometer Redundant  – X Direction 2058 -276 -218 
+8  Right Rear Accelerometer Redundant – X Direction 2070 238 -198 
+ 
+Reference Points: X - Rear Surface of Vehicle (+ forward)    
+   Y - Vehicle Centerline (+ to right)   
+   Z - Ground Plane (+ down) 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 20
+ 
+16  
+ 
+DATA SHEET NO. 8 
+PHOTOGRAPHIC REFERENCE TARGET LOCATIONS 
+ 
+ 
+ 
+Item Value (mm) 
+A 320 
+B 959 
+C 2518 
+D 670 
+E 1836 
+F 152 
+G  
+H 1326 
+I 1460 
+J 998 
+K 998 
+L 1568 
+M 1326 
+N 1568 
+O 998 
+P 998 
+Q 1460 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+ 
+I J K 
+C 
+F 
+D E 
+A
+B 
+B 
+H 
+M 
+G 
+L 
+N O P Q 
+===== page 21
+ 
+17  
+DATA SHEET NO. 9 
+LOAD CELL LOCATIONS ON FIXED BARRIER 
+ 
+ 
+Advanced Research Load Cell Barrier 
+ 
+Photo for Reference Only 
+ 
+  
+1-1 1-2 1-3 1-4 1-5 1-6 1-7 1-8 1-9 1-10 1-11 1-12 1-13 1-14 1-15 1-16 
+2-1 2-2 2-3 2-4 2-5 2-6 2-7 2-8 2-9 2-10 2-11 2-12 2-13 2-14 2-15 2-16 
+3-1 3-2 3-3 3-4 3-5 3-6 3-7 3-8 3-9 3-10 3-11 3-12 3-13 3-14 3-15 3-16 
+4-1 4-2 4-3 4-4 4-5 4-6 4-7 4-8 4-9 4-10 4-11 4-12 4-13 4-14 4-15 4-16 
+5-1 5-2 5-3 5-4 5-5 5-6 5-7 5-8 5-9 5-10 5-11 5-12 5-13 5-14 5-15 5-16 
+6-1 6-2 6-3 6-4 6-5 6-6 6-7 6-8 6-9 6-10 6-11 6-12 6-13 6-14 6-15 6-16 
+7-1 7-2 7-3 7-4 7-5 7-6 7-7 7-8 7-9 7-10 7-11 7-12 7-13 7-14 7-15 7-16 
+8-1 8-2 8-3 8-4 8-5 8-6 8-7 8-8 8-9 8-10 8-11 8-12 8-13 8-14 8-15 8-16 
+9-1 9-2 9-3 9-4 9-5 9-6 9-7 9-8 9-9 9-10 9-11 9-12 9-13 9-14 9-15 9-16 
+10-1 10-2 10-3 10-4 10-5 10-6 10-7 10-8 10-9 10-10 10-11 10-12 10-13 10-14 10-15 10-16
+11-1 11-2 11-3 11-4 11-5 11-6 11-7 11-8 11-9 11-10 11-11 11-12 11-13 11-14 11-15 11-16
+ Load Cells are 121 mm x 121 mm with a 7 mm gap in between each load cell. 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+Row 1 Column 1 
+1370 mm 
+Floor to Bottom of Barrier = 80 mm 
+2000 mm 
+Centerline 
+===== page 22
+ 
+18  
+DATA SHEET NO. 10 
+TEST VEHICLE SUMMARY OF RESULTS 
+ 
+ 
+INSTRUMENTATION 
+Driver Dummy Data Channels 52
+Passenger Dummy Data Channels 52 
+Vehicle Structure Accelerometers 8 
+Barrier Channels 0 
+Total 112 
+ 
+CAMERA COVERAGE 
+High-Speed Vehicle Onboard 0
+High-Speed Offboard 14 
+Real-Time 2 
+Total 16 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 23
+ 
+19  
+DATA SHEET NO. 11 
+POST-TEST OBSERVATIONS 
+ 
+ 
+TEST DUMMY INFORMATION AND CONTACT LOCATIONS 
+Description Drive r Passenger
+Dummy Type / Serial No. HIII 50% / 036 HIII 5% / 634
+Head Contact Airbag, Headrest Airbag, Headrest 
+Upper Torso Contact Airbag Airbag 
+Lower Torso Contact None None 
+Left Knee Contact Knee Bolster Glove Box 
+Right Knee Contact Knee Bolster Glove Box 
+ 
+DOOR OPENING AND SEAT TRACK INFORMATION 
+Description Drive r Passenger
+Locked/Unlocked Doors Doors were unlocked Doors were unlocked 
+Front Door Opening Door remained closed and latched; Door opened without tools Door remained closed and latched; Door opened without tools 
+Rear Door Opening Door remained closed and latched; Door opened without tools Door remained closed and latched; Door opened without tools 
+Seat Track Shift (mm) 0 0 
+Seat Back Failure None None 
+ 
+POST TEST STRUCTURAL OBSERVATIONS 
+Critical Areas of Performance Observations and Conclusions 
+Windshield Damage None
+Window Damage None 
+Other Notable Effects None 
+ 
+VEHICLE REBOUND FROM BARRIER 
+Measured Parameter Units Value
+Left Side mm 910
+Center mm 920 
+Right Side mm 915 
+Average mm 915 
+ 
+SUPPLEMENTAL RESTRAINT SYSTEM INFORMATION 
+Restraint Type Left Front (Driver) P1 Ri ght Front (Passenger) P2Mounted Deployed Mounted Deployed 
+Frontal Airbag Yes Yes Yes Yes
+Curtain Side Airbag Yes No Yes No
+Torso/Pelvis Side Airbag Yes No Yes No
+Knee Airbag No  No  
+Seat Belt Pretensioner Yes Yes Yes Yes 
+Seat Belt Load Limiter Yes  Yes  
+Other No  No  
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 24
+ 
+20  
+DATA SHEET NO. 12 
+VEHICLE PROFILE MEASUREMENTS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 25
+ 
+21  
+DATA SHEET NO. 12 (CONTINUED) 
+VEHICLE PROFILE MEASUREMENTS 
+ 
+ 
+RSOV (Rear Surface of Vehicle) 
+No. Measurement Description Units Pre-Test Post-Test Difference 
+1 Total Length of Vehicle at Centerline mm 5024 4284 740 
+2 RSOV to Front of Engine mm 4379 4206 173 
+3 RSOV to Firewall mm 3854 3736 118 
+4 RSOV to Upper Leading Edge of Right Door mm 3226 3234 -8 
+5 RSOV to Upper Leading Edge of Left Door mm 3226 3221 5 
+6 RSOV to Lower Leading Edge of Right Door mm 3314 3304 10 
+7 RSOV to Lower Leading Edge of Left Door mm 3310 3302 8 
+8 RSOV to Upper Trailing Edge of Right Door mm 1975 1988 -13 
+9 RSOV to Upper Trailing Edge of Left Door mm 1975 1980 -5 
+10 RSOV to Lower Trailing Edge of Right Door mm 2049 2041 8 
+11 RSOV to Lower Trailing Edge of Left Door mm 2049 2039 10 
+12 RSOV to Bottom of “A” Post of Right Side mm 3320 3325 -5 
+13 RSOV to Bottom of “A” Post of Left Side mm 3320 3320 0 
+14 RSOV to Firewall, Right Side mm 3880 3792 88 
+15 RSOV to Firewall, Left Side mm 3887 3821 66 
+16 RSOV to Steering Column mm 2782 2862 -80 
+17 Center of Steering Column to “A” Post mm 406 404 2 
+18 Center of Steering Column to Headliner mm 405 423 -18 
+19 RSOV to Right Side of Front Bumper mm 4857 4284 573 
+20 RSOV to Left Side of Front Bumper mm 4857 4284 573 
+21 Length of Engine Block mm 488 488 0 
+RD RSOV to Right Side of Dash Panel mm 2999 3019 -20 
+CD RSOV to Center of Dash Panel mm 3055 3058 -3 
+LD RSOV to Left Side of Dash Panel mm 2998 3006 -8 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 26
+ 
+22  
+DATA SHEET NO. 13 
+ACCIDENT INVESTIGATION DIVISION DATA 
+ 
+ 
+VEHICLE INFORMATION 
+VIN: 2C3CDYAG9DH536253 Wheelbase (mm): 2955 
+Vehicle Size Category: Passenger Test Weight (kg): 1947.8 
+ 
+ACCELEROMETER DATA 
+Accelerometer Locations:   As per measurements on Page 15                                                              
+Cal. Procedure/Interval:   MGA procedure / 6 month 
+Integration Algorithm:     Trapezoidal   
+Linearity:  > 99% 
+Impact Velocity (km/h):   56.4 
+Velocity Change (km/h):   66.0 
+Time of Separation (msec):  134.2 
+ 
+ 
+CRUSH PROFILE 
+Collision Deformation Classification:  Frontal    
+Midpoint of Damage:  Centerline  
+Damage Region Length (mm):  1432 
+Impact Mode:  Frontal 
+ 
+ 
+ 
+ 
+No.  Measurement Descri ption Units Pre-Test Post-Test Difference
+C1  Crush zone 1 at left side mm 4857 4284 573
+C2  Crush zone 2 at left side mm 4903 4296 607 
+C3  Crush zone 3 at left side mm 4937 4295 642 
+C4  Crush zone 4 at right side mm 4937 4298 639 
+C5  Crush zone 5 at right side mm 4903 4292 611 
+C6  Crush zone 6 at right side mm 4857 4284 573 
+L  C1 TO C6 mm 1432 1434 -2 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 27
+ 
+23  
+DATA SHEET NO. 14 
+VEHICLE INTRUSION MEASUREMENTS 
+ 
+ 
+DOOR OPENING WIDTH 
+ 
+Item Description Units Pre-Test Post-Test Difference 
+A Left Side Upper mm 1261 1260 1 
+B Left Side Lower mm 1254 1256 -2 
+D Right Side Upper mm 1261 1255 6 
+E Right Side Lower mm 1254 1252 2 
+ 
+WHEELBASE MEASUREMENTS 
+  
+ 
+Item Description Units Pre-Test Post-Test Difference 
+C Left Side Wheelbase mm 2955 2800 155 
+F Right Side Wheelbase mm 2955 2806 149 
+ 
+ 
+ 
+C
+B
+A
+F
+E
+D
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 28
+ 
+24  
+DATA SHEET NO. 14 (CONTINUED) 
+VEHICLE INTRUSION MEASUREMENTS 
+ 
+ 
+DRIVER COMPARTMENT INTRUSION 
+Item Description Units Pre-Test Post-Test Difference 
+AB Door Opening (Inside Window Jam) mm 1102 1102 0 
+CX Left Knee Bolster to X mm 263 279 -16 
+DX Right Knee Bolster to X mm 253 265 -12 
+EX Brake Pedal to X mm 604 528 76 
+FX Foot Rest to X mm 616 606 10 
+GX Center of Steering Column Wheel Hub to X mm 59 157 -98 
+X = Front of Seat Track (stationary) 
+ 
+ 
+ 
+ A  B
+ X
+G
+ FX
+ AB
+ CX
+ DX
+ EX
+GX
+ 
+ 
+DRIVER COMPARTMENT   
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 29
+ 
+25  
+A 
+D 
+E B F 
+C 
+Lower Edge of Protected Zone
+FRONT VIEW OF WINDSHIELD
+Zero Point 
+Y 
+X 
+DATA SHEET NO. 15 
+SUMMARY OF FMVSS 212, FMVSS 219 (PARTIAL) DATA, AND 301 DATA 
+ 
+ 
+Windshield Mounting Details: 
+Windshield glass is secured to the vehicle frame with a rubber trim and glue. 
+ 
+The standard requires that the post-test retention measurement be a minimum of 75 percent of 
+the pre-test total periphery measurement for vehicles not equipped with occupant passive 
+restraints and 50 percent for each side of the windshield for vehicles which are equipped with 
+occupant passive restraints. 
+ 
+Temperature of windshield molding during test:  20.8°C 
+ 
+WINDSHIELD PERIPHERY MEASUREMENTS 
+ 
+Measurement Pre-Test (mm) Post-Test (mm) % of Retention 
+Left Side 2201 2201 100 
+Right Side 2201 2201 100 
+Total 4402 4402 100 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AREA OF PROTECTED ZONE FAILURES - NONE 
+A.  Provide coordinates of the area that the 
+protected zone was penetrated more than 
+0.25 inches by a vehicle component other 
+than one that is normally in contact with 
+the windshield. None 
+ 
+ 
+XY  
+  
+  
+  
+  
+ 
+B.   Provide coordinates of the area 
+beneath the protected zone that the inner 
+surface of the windshield was penetrated 
+by a vehicle component. None 
+ 
+ 
+ 
+XY  
+  
+  
+  
+  
+ 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+Item Units  Value 
+A mm 1268 
+B mm 312 
+C mm 1874 
+D mm 630 
+E mm 395 
+F mm 633 
+===== page 30
+ 
+26  
+DATA SHEET NO. 15 (CONTINUED) 
+SUMMARY OF FMVSS 212, FMVSS 219 (PARTIAL), AND 301 DATA 
+ 
+ 
+FMVSS 301 FUEL SYSTEM INTEGRITY POST IMPACT DATA 
+ 
+Temperature at Time of Impact:  20.8°C  Test Time:   10:05 a.m.    
+ 
+ 
+A. From impact until vehicle motion ceases:     0   oz.    
+(Maximum allowable = 1 oz.) 
+B. For the 5 minute period after motion ceases:     0   oz.    
+(Maximum allowable = 5 oz.) 
+C. For the following 25 minutes:       0   oz.    
+(Maximum allowable = 1 oz./minute) 
+D. Spillage:      None 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 31
+ 
+27  
+DATA SHEET NO. 16 
+FMVSS 301 STATIC ROLLOVER RESULTS 
+ 
+ 
+ 
+1. The specified fixture rollover rate 
+for each 90° of rotation is 60 to 
+180 seconds. 
+2. The position hold time at each 
+position is 300 seconds 
+(minimum). 
+3. Details of Stoddard Solvent 
+spillage:   None 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SOLVENT COLLECTION TIME TABLE IN SECONDS 
+Test Phase Rotation Time Hold Time Total Time 
+0° to 90° 108 300 408 
+90° to 180° 111 300 411 
+180° to 270° 108 300 408 
+270° to 360° 112 300 412 
+ 
+FMVSS 301 SPILLAGE TABLE (units in ounces) 
+Test Phase First 5 Minutes Sixth Minute Seventh Minute Eight Minute
+0° to 90° 0 0 0 0 
+90° to 180° 0 0 0 0 
+180° to 270° 0 0 0 0 
+270° to 360° 0 0 0 0 
+ 
+SOLVENT SPILLAGE LOCATION TABLE 
+Test Phase Spillage Location 
+0° to 90° 
+90° to 180°  
+180° to 270°  
+270° to 360°  
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 32
+ 
+28  
+DATA SHEET NO. 17 
+DUMMY/VEHICLE TEMPERATURE STABILIZATION DATA 
+ 
+ 
+ 
+Test Vehicle: 2013 Dodge Challenger SXT 2-Dr Coupe NHTSA No.: MD0300 
+Test Program: NCAP Frontal Barrier Impact Test Test Date: 11/08/2012 
+===== page 33
+ 
+  
+APPENDIX A 
+PHOTOGRAPHS 
+===== page 34
+ 
+  
+TABLE OF PHOTOGRAPHS 
+  Page No. 
+Photo No. 1. Load Cell Location A-1 
+Photo No. 2. Load Cell Wall A-1 
+Photo No. 3. Manufacturer’s Label A-2 
+Photo No. 4. Tire Placard A-2 
+Photo No. 5. 2013 Dodge Challenger SXT Frontal As Delivered A-3 
+Photo No. 6. Left Rear 3-4 View, As Received A-3 
+Photo No. 7. Pre-Test Front View of Test Vehicle A-4 
+Photo No. 8. Post-Test Front View of Test Vehicle A-4  
+Photo No. 9. Pre-Test Left View of Test Vehicle A-5  
+Photo No. 10. Post-Test Left View of Test Vehicle A-5  
+Photo No. 11. Pre-Test Right View of Test Vehicle A-6  
+Photo No. 12. Post-Test Right View of Test Vehicle A-6  
+Photo No. 13. Pre-Test Right Front 3-4 View A-7  
+Photo No. 14. Post-Test Right Front 3-4 View A-7  
+Photo No. 15. Pre-Test Left Rear 3-4 View A-8  
+Photo No. 16. Post-Test Left Rear 3-4 View A-8  
+Photo No. 17. Pre-Test Windshield View A-9  
+Photo No. 18. Post-Test Windshield View A-9  
+Photo No. 19. Pre-Test Engine Compartment View A-10  
+Photo No. 20. Post-Test Engine Compartment View A-10  
+Photo No. 21. Pre-Test Fuel Filler Cap View A-11  
+Photo No. 22. Post-Test Fuel Filler Cap View A-11  
+Photo No. 23. Pre-Test Front Underbody View A-12 
+Photo No. 24. Post-Test Front Underbody View A-12 
+Photo No. 25. Pre-Test Mid Front Underbody View A-13  
+Photo No. 26. Post-Test Mid Front Underbody View A-13  
+Photo No. 27. Pre-Test Mid Rear Underbody View A-14  
+Photo No. 28. Post-Test Mid Rear Underbody View A-14  
+Photo No. 29. Pre-Test Rear Underbody View A-15 
+Photo No. 30. Post-Test Rear Underbody View A-15 
+===== page 35
+ 
+  
+  Page No. 
+Photo No. 31. Pre-Test Dummy Cable Routing A-16  
+Photo No. 32. Post-Test Dummy Cable Routing A-16  
+Photo No. 33. Pre-Test Driver Dummy Front View  A-17  
+Photo No. 34. Post-Test Driver Dummy Front View A-17  
+Photo No. 35. Pre-Test Driver Dummy Window View A-18  
+Photo No. 36. Post-Test Driver Dummy Window View A-18  
+Photo No. 37. Pre-Test Driver Dummy and Vehicle Interior (Door Open) A-19 
+Photo No. 38. Post-Test Driver Dummy and Vehicle Interior (Door Open) A-19 
+Photo No. 39. Pre-Test Driver’s Seat Fore-Aft Markings  A-20  
+Photo No. 40. Post-Test Driver’s Seat Fore-Aft Markings A-20  
+Photo No. 41. Pre-Test View of Belt Anchorage for Driver Dummy A-21 
+Photo No. 42. Pre-Test View of Belt Anchorage for Driver Dummy A-21 
+Photo No. 43. Post-Test View of Belt Anchorage for Driver Dummy A-22 
+Photo No. 44. Post-Test View of Belt Anchorage for Driver Dummy A-22 
+Photo No. 45. Pre-Test Driver Dummy Feet A-23 
+Photo No. 46. Post-Test Driver Dummy Feet A-23 
+Photo No. 47. Pre-Test Driver’s Side Knee Bolster (without dummy) A-24 
+Photo No. 48. Post-Test Driver’s Side Knee Bolster (without dummy) A-24 
+Photo No. 49. Pre-Test Driver’s Side Floorpan A-25  
+Photo No. 50. Post-Test Driver’s Side Floorpan A-25  
+Photo No. 51. Post-Test Driver Dummy Face A-26  
+Photo No. 52. Post-Test Driver Dummy Contact with Airbag A-26  
+Photo No. 53. Post-Test Driver Dummy Contact with Headrest A-27  
+Photo No. 54. Post-Test Driver Dummy Contact with Knee Bolster A-27  
+Photo No. 55. Pre-Test View of the Steering Wheel A-28  
+Photo No. 56. Post-Test View of the Steering Wheel A-28 
+Photo No. 57. Pre-Test Passenger Dummy Front View  A-29  
+Photo No. 58. Post-Test Passenger Dummy Front View  A-29  
+Photo No. 59. Pre-Test Passenger Dummy Window View A-30 
+Photo No. 60. Post-Test Passenger Dummy Window View A-30  
+===== page 36
+ 
+  
+  Page No. 
+Photo No. 61. Pre-Test Passenger Dummy and Vehicle Interior (Door Open) A-31 
+Photo No. 62. Post-Test Passenger Dummy and Vehicle Interior (Door Open) A-31 
+Photo No. 63. Pre-Test Passenger’s Seat Fore-Aft Markings A-32 
+Photo No. 64. Post-Test Passenger’s Seat Fore-Aft Markings A-32 
+Photo No. 65. Pre-Test View of Belt Anchorage for Passenger Dummy A-33 
+Photo No. 66. Pre-Test View of Belt Anchorage for Passenger Dummy A-33 
+Photo No. 67. Post-Test View of Belt Anchorage for Passenger Dummy A-34 
+Photo No. 68. Post-Test View of Belt Anchorage for Passenger Dummy A-34 
+Photo No. 69. Pre-Test Passenger Dummy Feet A-35 
+Photo No. 70. Post-Test Passenger Dummy Feet A-35 
+Photo No. 71. Pre-Test Passenger’s Side Knee Bolster (without dummy) A-36 
+Photo No. 72. Post-Test Passenger’s Side Knee Bolster (without dummy) A-36 
+Photo No. 73. Pre-Test Passenger’s Side Floorpan A-37 
+Photo No. 74. Post-Test Passenger’s Side Floorpan A-37 
+Photo No. 75. Post-Test Passenger Dummy Contact with Airbag A-38 
+Photo No. 76. Post-Test Passenger Dummy Contact with Headrest A-38 
+Photo No. 77. Post-Test Passenger Dummy Contact with Glove Box A-39 
+Photo No. 78. Ballast Installed in Vehicle A-39 
+Photo No. 79. Post-Test Stoddard Solvent Spillage Location View A-40 
+Photo No. 80. Post-Test Speed Trap Read-Out A-40 
+Photo No. 81. Vehicle at 0° on Static Rollover Device A-41 
+Photo No. 82. Vehicle at 90° on Static Rollover Device A-41 
+Photo No. 83. Vehicle at 180° on Static Rollover Device A-42 
+Photo No. 84. Vehicle at 270° on Static Rollover Device A-42 
+Photo No. 85. Vehicle at 360° on Static Rollover Device A-43 
+Photo No. 86. 2013 Dodge Challenger SXT Frontal Impact Event  A-43 
+Photo No. 87. Monroney Label  A-44 
+ 
+ 
+ 
+===== page 37
+A-1 
+ 
+Load Cell Location 
+ 
+ 
+Load Cell Wall 
+ 
+===== page 38
+A-2 
+ 
+Manufacturer's Label 
+ 
+ 
+Tire Placard 
+ 
+===== page 39
+A-3 
+ 
+2013 Dodge Challenger SXT Frontal As Delivered 
+ 
+ 
+Left Rear 3-4 View, As Received 
+ 
+===== page 40
+A-4 
+ 
+Pre-Test Front View of Test Vehicle 
+ 
+ 
+Post-Test Front View of Test Vehicle 
+ 
+===== page 41
+A-5 
+ 
+Pre-Test Left View of Test Vehicle 
+ 
+ 
+Post-Test Left View of Test Vehicle 
+ 
+===== page 42
+A-6 
+ 
+Pre-Test Right View of Test Vehicle 
+ 
+ 
+Post-Test Right View of Test Vehicle 
+ 
+===== page 43
+A-7 
+ 
+Pre-Test Right Front 3-4 View 
+ 
+ 
+Post-Test Right Front 3-4 View 
+ 
+===== page 44
+A-8 
+ 
+Pre-Test Left Rear 3-4 View 
+ 
+ 
+Post-Test Left Rear 3-4 View 
+ 
+===== page 45
+A-9 
+ 
+Pre-Test Windshield View 
+ 
+ 
+Post-Test Windshield View 
+ 
+===== page 46
+A-10 
+ 
+Pre-Test Engine Compartment View 
+ 
+ 
+Post-Test Engine Compartment View 
+ 
+===== page 47
+A-11 
+ 
+Pre-Test Fuel Filler Cap View 
+ 
+ 
+Post-Test Fuel Filler Cap View 
+ 
+===== page 48
+A-12 
+ 
+Pre-Test Front Underbody View 
+ 
+ 
+Post-Test Front Underbody View 
+ 
+===== page 49
+A-13 
+ 
+Pre-Test Mid Front Underbody View 
+ 
+ 
+Post-Test Mid Front Underbody View 
+ 
+===== page 50
+A-14 
+ 
+Pre-Test Mid Rear Underbody View 
+ 
+ 
+Post-Test Mid Rear Underbody View 
+ 
+===== page 51
+A-15 
+ 
+Pre-Test Rear Underbody View 
+ 
+ 
+Post-Test Rear Underbody View 
+ 
+===== page 52
+A-16 
+ 
+Pre-Test Dummy Cable Routing 
+ 
+ 
+Post-Test Dummy Cable Routing 
+ 
+===== page 53
+A-17 
+ 
+Pre-Test Driver Dummy Front View 
+ 
+ 
+Post-Test Driver Dummy Front View 
+ 
+===== page 54
+A-18 
+ 
+Pre-Test Driver Dummy Window View 
+ 
+ 
+Post-Test Driver Dummy Window View 
+ 
+===== page 55
+A-19 
+ 
+Pre-Test Driver Dummy and Vehicle Interior (Door Open) 
+ 
+ 
+Post-Test Driver Dummy and Vehicle Interior (Door Open) 
+ 
+===== page 56
+A-20 
+ 
+Pre-Test Driver's Seat Fore-Aft Markings 
+ 
+ 
+Post-Test Driver's Seat Fore-Aft Markings 
+ 
+===== page 57
+A-21 
+ 
+Pre-Test View of Belt Anchorage for Driver Dummy 
+ 
+ 
+Pre-Test View of Belt Anchorage for Driver Dummy 
+ 
+===== page 58
+A-22 
+ 
+Post-Test View of Belt Anchorage for Driver Dummy 
+ 
+ 
+Post-Test View of Belt Anchorage for Driver Dummy 
+ 
+===== page 59
+A-23 
+ 
+Pre-Test Driver Dummy Feet 
+ 
+ 
+Post-Test Driver Dummy Feet 
+ 
+===== page 60
+A-24 
+ 
+Pre-Test Driver's Side Knee Bolster (without dummy) 
+ 
+ 
+Post-Test Driver's Side Knee Bolster (without dummy) 
+ 
+===== page 61
+A-25 
+ 
+Pre-Test Driver's Side Floorpan 
+ 
+ 
+Post-Test Driver's Side Floorpan 
+ 
+===== page 62
+A-26 
+ 
+Post-Test Driver Dummy Face 
+ 
+ 
+Post-Test Driver Dummy Contact with Airbag 
+ 
+===== page 63
+A-27 
+ 
+Post-Test Driver Dummy Contact with Headrest 
+ 
+ 
+Post-Test Driver Dummy Contact with Knee Bolster 
+ 
+===== page 64
+A-28 
+ 
+Pre-Test View of the Steering Wheel 
+ 
+ 
+Post-Test View of the Steering Wheel 
+ 
+===== page 65
+A-29 
+ 
+Pre-Test Passenger Dummy Front View 
+ 
+ 
+Post-Test Passenger Dummy Front View 
+ 
+===== page 66
+A-30 
+ 
+Pre-Test Passenger Dummy Window View 
+ 
+ 
+Post-Test Passenger Dummy Window View 
+ 
+===== page 67
+A-31 
+ 
+Pre-Test Passenger Dummy and Vehicle Interior (Door Open) 
+ 
+ 
+Post-Test Passenger Dummy and Vehicle Interior (Door Open) 
+ 
+===== page 68
+A-32 
+ 
+Pre-Test Passenger's Seat Fore-Aft Markings 
+ 
+ 
+Post-Test Passenger's Seat Fore-Aft Markings 
+ 
+===== page 69
+A-33 
+ 
+Pre-Test View of Belt Anchorage for Passenger Dummy 
+ 
+ 
+Pre-Test View of Belt Anchorage for Passenger Dummy 
+ 
+===== page 70
+A-34 
+ 
+Post-Test View of Belt Anchorage for Passenger Dummy 
+ 
+ 
+Post-Test View of Belt Anchorage for Passenger Dummy 
+ 
+===== page 71
+A-35 
+ 
+Pre-Test Passenger Dummy Feet 
+ 
+ 
+Post-Test Passenger Dummy Feet 
+ 
+===== page 72
+A-36 
+ 
+Pre-Test Passenger's Side Knee Bolster (without dummy) 
+ 
+ 
+Post-Test Passenger's Side Knee Bolster (without dummy) 
+ 
+===== page 73
+A-37 
+ 
+Pre-Test Passenger's Side Floorpan 
+ 
+ 
+Post-Test Passenger's Side Floorpan 
+ 
+===== page 74
+A-38 
+ 
+Post-Test Passenger Dummy Contact with Airbag 
+ 
+ 
+Post-Test Passenger Dummy Contact with Headrest 
+ 
+===== page 75
+A-39 
+ 
+Post-Test Passenger Dummy Contact with Glove Box 
+ 
+ 
+Ballast Installed in Vehicle 
+ 
+===== page 76
+A-40 
+ 
+Post-Test Stoddard Solvent Spillage Location View 
+ 
+ 
+Post-Test Speed Trap Read-Out 
+ 
+===== page 77
+A-41 
+ 
+Vehicle at 0° on Static Rollover Device 
+ 
+ 
+Vehicle at 90° on Static Rollover Device 
+ 
+===== page 78
+A-42 
+ 
+Vehicle at 180° on Static Rollover Device 
+ 
+ 
+Vehicle at 270° on Static Rollover Device 
+ 
+===== page 79
+A-43 
+ 
+Vehicle at 360° on Static Rollover Device 
+ 
+ 
+2013 Dodge Challenger SXT Frontal Impact Event 
+ 
+===== page 80
+A-44 
+ 
+Monroney Label 
+ 
+ 
+===== page 81
+ 
+  
+APPENDIX B 
+DUMMY RESPONSE DATA TRACES
+===== page 82
+ 
+  
+TABLE OF DATA PLOTS 
+  Page No. 
+ List of Data Plots Provided in the Test Report  
+Figure No. 1. Driver 9 Axis Head CG X Acceleration vs. Time B-1  
+Figure No. 2. Driver 9 Axis Head CG Y Acceleration vs. Time B-1  
+Figure No. 3. Driver 9 Axis Head CG Z Acceleration vs. Time B-1  
+Figure No. 4. Driver 9 Axis Head CG Resultant Acceleration vs. Time B-1  
+Figure No. 5. Driver Chest Displacement vs. Time B-2  
+Figure No. 6. Driver Chest X Acceleration vs. Time B-3  
+Figure No. 7. Driver Chest Y Acceleration vs. Time B-3  
+Figure No. 8. Driver Chest Z Acceleration vs. Time B-3  
+Figure No. 9. Driver Chest Resultant Acceleration vs. Time B-3  
+Figure No. 10. Driver Neck Force X vs. Time B-4  
+Figure No. 11. Driver Neck Force Z vs. Time B-4  
+Figure No. 12. Driver Neck Moment Y vs. Time B-4  
+Figure No. 13. Driver Nij (NTF) vs. Time B-5  
+Figure No. 14. Driver Nij (NTE) vs. Time B-5  
+Figure No. 15. Driver Nij (NCF) vs. Time B-5  
+Figure No. 16. Driver Nij (NCE) vs. Time B-5  
+Figure No. 17. Driver Left Femur Force vs. Time B-6  
+Figure No. 18. Driver Right Femur Force vs. Time B-6  
+Figure No. 19. Passenger 9 Axis Head CG X Acceleration vs. Time B-7  
+Figure No. 20. Passenger 9 Axis Head CG Y Acceleration vs. Time B-7  
+Figure No. 21. Passenger 9 Axis Head CG Z Acceleration vs. Time B-7  
+Figure No. 22. Passenger 9 Axis Head CG Resultant Acceleration vs. Time B-7  
+Figure No. 23. Passenger Chest Displacement vs. Time B-8  
+Figure No. 24. Passenger Chest X Acceleration vs. Time B-9  
+Figure No. 25. Passenger Chest Y Acceleration vs. Time B-9  
+Figure No. 26. Passenger Chest Z Acceleration vs. Time B-9  
+Figure No. 27. Passenger Chest Resultant Z Acceleration vs. Time B-9  
+Figure No. 28. Passenger Neck Force X vs. Time B-10  
+Figure No. 29. Passenger Neck Force Z vs. Time B-10  
+===== page 83
+ 
+  
+  Page No. 
+Figure No. 30. Passenger Neck Moment Y vs. Time B-10  
+Figure No. 31. Passenger Nij (NTF) vs. Time B-11  
+Figure No. 32. Passenger Nij (NTE) vs. Time B-11  
+Figure No. 33. Passenger Nij (NCF) vs. Time B-11  
+Figure No. 34. Passenger Nij (NCE) vs. Time B-11  
+Figure No. 35. Passenger Left Femur Force vs. Time B-12  
+Figure No. 36. Passenger Right Femur Force vs. Time B-12  
+   
+   
+The following additional dummy and vehicle response data can be found in the R&D section of 
+the NHTSA website at www.nhtsa.dot.gov  
+ 
+ Driver Head CG X Redundant  
+ Driver Head CG Y Redundant   
+ Driver Head CG Z Redundant  
+ Driver 9 Axis Head X Arm Y  
+ Driver 9 Axis Head X Arm Z  
+ Driver 9 Axis Head Y Arm X  
+ Driver 9 Axis Head Y Arm Z  
+ Driver 9 Axis Head Z Arm X  
+ Driver 9 Axis Head Z Arm Y  
+ Driver Upper Neck Force Y  
+ Driver Upper Neck Moment X  
+ Driver Upper Neck Moment Z  
+ Driver Chest X Redundant  
+ Driver Chest Y Redundant   
+ Driver Chest Z Redundant  
+ Driver Pelvis X  
+ Driver Pelvis Y  
+ Driver Pelvis Z  
+ Driver Left Femur Redundant  
+ Driver Right Femur Redundant  
+===== page 84
+ 
+  
+ Driver Left Upper Tibia Moment X  
+ Driver Left Upper Tibia Moment Y  
+ Driver Left Upper Tibia Force Z  
+ Driver Left Lower Tibia Moment X  
+ Driver Left Lower Tibia Moment Y  
+ Driver Left Lower Tibia Force Z  
+ Driver Right Upper Tibia Moment X  
+ Driver Right Upper Tibia Moment Y  
+ Driver Right Upper Tibia Force Z  
+ Driver Right Lower Tibia Moment X  
+ Driver Right Lower Tibia Moment Y  
+ Driver Right Lower Tibia Force Z  
+ Driver Left Foot Fore Z  
+ Driver Left Foot Aft X  
+ Driver Left Foot Aft Z  
+ Driver Right Foot Fore Z  
+ Driver Right Foot Aft X  
+ Driver Right Foot Aft Z  
+ Driver Lap Belt Force  
+ Driver Shoulder Belt Force   
+ Passenger Head CG X Redundant  
+ Passenger Head CG Y Redundant   
+ Passenger Head CG Z Redundant  
+ Passenger 9 Axis Head X Arm Y  
+ Passenger 9 Axis Head X Arm Z  
+ Passenger 9 Axis Head Y Arm X  
+ Passenger 9 Axis Head Y Arm Z  
+ Passenger 9 Axis Head Z Arm X  
+ Passenger 9 Axis Head Z Arm Y  
+ Passenger Upper Neck Force Y  
+ Passenger Upper Neck Moment X  
+ Passenger Upper Neck Moment Z  
+===== page 85
+ 
+  
+ Passenger Chest X Redundant  
+ Passenger Chest Y Redundant   
+ Passenger Chest Z Redundant  
+ Passenger Pelvis X  
+ Passenger Pelvis Y  
+ Passenger Pelvis Z  
+ Passenger Left Femur Redundant  
+ Passenger Right Femur Redundant  
+ Passenger Left Upper Tibia Moment X  
+ Passenger Left Upper Tibia Moment Y  
+ Passenger Left Upper Tibia Force Z  
+ Passenger Left Lower Tibia Moment X  
+ Passenger Left Lower Tibia Moment Y  
+ Passenger Left Lower Tibia Force Z  
+ Passenger Right Upper Tibia Moment X  
+ Passenger Right Upper Tibia Moment Y  
+ Passenger Right Upper Tibia Force Z  
+ Passenger Right Lower Tibia Moment X  
+ Passenger Right Lower Tibia Moment Y  
+ Passenger Right Lower Tibia Force Z  
+ Passenger Left Foot Fore Z  
+ Passenger Left Foot Aft X  
+ Passenger Left Foot Aft Z  
+ Passenger Right Foot Fore Z  
+ Passenger Right Foot Aft X  
+ Passenger Right Foot Aft Z  
+ Passenger Lap Belt Force  
+ Passenger Shoulder Belt Force   
+ Left Rear Seat Crossmember X  
+ Right Rear Seat Crossmember X  
+ Vehicle Engine Top X  
+ Vehicle Engine Bottom X  
+===== page 86
+ 
+  
+ Left Rear Seat Crossmember Z  
+ Right Rear Seat Crossmember Z  
+ Left Rear Seat Crossmember Xr  
+ Right Rear Seat Crossmember Xr  
+ Advanced Research Load Cell Barrier – 128 channels  
+ 
+===== page 87
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 18.4 G's
+Tmax: 278.0 ms
+Min: -43.1 G's
+Tmin: 114.3 ms
+CFC 1000
+DRIVER 9 AXIS HEAD CG X (G's) vs TIME (ms)
+DRIVER 9 AXIS HEAD CG Y (G's) vs TIME (ms)
+Max: 5.0 G's
+Tmax: 122.2 ms
+Min: -5.4 G's
+Tmin: 95.2 ms
+CFC 1000
+Max: 26.0 G's
+Tmax: 111.8 ms
+Min: -2.3 G's
+Tmin: 73.2 ms
+CFC 1000
+Max: 49.3 G's
+Tmax: 114.2 ms
+Min: 0.0 G's
+Tmin: 17.3 ms
+CFC 1000
+DRIVER 9 AXIS HEAD CG Z (G's) vs TIME (ms)
+DRIVER 9 AXIS HEAD CG Resultant (G's) vs TIME (ms)
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-50
+-40
+-30
+-20
+-10
+0
+10
+20
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-7.5
+-5
+-2.5
+0
+2.5
+5
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-5
+0
+5
+10
+15
+20
+25
+30
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+10
+20
+30
+40
+50
+B-1
+===== page 88
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 0.1 mm
+Tmax: 16.1 ms
+Min: -20.5 mm
+Tmin: 71.0 ms
+CFC 600
+DRIVER CHEST DISPLACEMENT (mm) vs TIME (ms)
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-25
+-20
+-15
+-10
+-5
+0
+5
+B-2
+===== page 89
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 4.3 G's
+Tmax: 276.2 ms
+Min: -39.3 G's
+Tmin: 79.5 ms
+CFC 180
+DRIVER CHEST X (G's) vs TIME (ms)
+DRIVER CHEST Y (G's) vs TIME (ms)
+Max: 3.0 G's
+Tmax: 104.4 ms
+Min: -4.3 G's
+Tmin: 43.0 ms
+CFC 180
+Max: 12.1 G's
+Tmax: 114.9 ms
+Min: -11.8 G's
+Tmin: 73.9 ms
+CFC 180
+Max: 40.2 G's
+Tmax: 79.5 ms
+Min: 0.0 G's
+Tmin: 0.0 ms
+CFC 180
+DRIVER CHEST Z (G's) vs TIME (ms)
+DRIVER CHEST Resultant (G's) vs TIME (ms)
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-40
+-30
+-20
+-10
+0
+10
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-15
+-10
+-5
+0
+5
+10
+15
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+10
+20
+30
+40
+50
+B-3
+===== page 90
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 806.0 N
+Tmax: 71.6 ms
+Min: -356.5 N
+Tmin: 136.6 ms
+CFC 1000
+DRIVER NECK FX (N) vs TIME (ms)
+DRIVER NECK FZ (N) vs TIME (ms)
+Max: 1111.4 N
+Tmax: 111.9 ms
+Min: -45.8 N
+Tmin: 153.3 ms
+CFC 1000
+Max: 68.3 Nm
+Tmax: 68.1 ms
+Min: -23.5 Nm
+Tmin: 104.3 ms
+CFC 600
+DRIVER NECK MY (Nm) vs TIME (ms)
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-500
+-250
+0
+250
+500
+750
+1000
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-250
+0
+250
+500
+750
+1000
+1250
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-40
+-20
+0
+20
+40
+60
+80
+B-4
+===== page 91
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 0.24
+Tmax: 66.8 ms
+Min: 0.00
+Tmin: 0.0 ms
+CFC 600
+Drv. nij (NTF) () vs TIME (ms)
+Drv. nij (NTE) () vs TIME (ms)
+Max: 0.28
+Tmax: 105.9 ms
+Min: 0.00
+Tmin: 0.0 ms
+CFC 600
+Max: 0.11
+Tmax: 144.7 ms
+Min: 0.00
+Tmin: 0.0 ms
+CFC 600
+Max: 0.01
+Tmax: 12.8 ms
+Min: 0.00
+Tmin: 0.0 ms
+CFC 600
+Drv. nij (NCF) () vs TIME (ms)
+Drv. nij (NCE) () vs TIME (ms)
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+0.025
+0.05
+0.075
+0.1
+0.125
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+0.001
+0.002
+0.003
+0.004
+0.005
+0.006
+B-5
+===== page 92
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 905.0 N
+Tmax: 56.2 ms
+Min: -1927.2 N
+Tmin: 69.9 ms
+CFC 600
+DRIVER LEFT FEMUR (N) vs TIME (ms)
+DRIVER RIGHT FEMUR (N) vs TIME (ms)
+Max: 476.5 N
+Tmax: 48.7 ms
+Min: -2968.3 N
+Tmin: 71.0 ms
+CFC 600
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-2000
+-1500
+-1000
+-500
+0
+500
+1000
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-3000
+-2500
+-2000
+-1500
+-1000
+-500
+0
+500
+B-6
+===== page 93
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 27.7 G's
+Tmax: 243.4 ms
+Min: -47.6 G's
+Tmin: 89.4 ms
+CFC 1000
+PASSENGER 9 AXIS HEAD CG X (G's) vs TIME (ms)
+PASSENGER 9 AXIS HEAD CG Y (G's) vs TIME (ms)
+Max: 8.8 G's
+Tmax: 243.9 ms
+Min: -3.7 G's
+Tmin: 94.0 ms
+CFC 1000
+Max: 13.8 G's
+Tmax: 48.6 ms
+Min: -4.9 G's
+Tmin: 97.6 ms
+CFC 1000
+Max: 47.7 G's
+Tmax: 89.4 ms
+Min: 0.0 G's
+Tmin: 0.0 ms
+CFC 1000
+PASSENGER 9 AXIS HEAD CG Z (G's) vs TIME (ms)
+PASSENGER 9 AXIS HEAD CG Resultant (G's) vs TIME (ms)
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-50
+-40
+-30
+-20
+-10
+0
+10
+20
+30
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-5
+-2.5
+0
+2.5
+5
+7.5
+10
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-5
+-2.5
+0
+2.5
+5
+7.5
+10
+12.5
+15
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+10
+20
+30
+40
+50
+B-7
+===== page 94
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 0.3 mm
+Tmax: 6.5 ms
+Min: -8.9 mm
+Tmin: 59.2 ms
+CFC 600
+PASSENGER CHEST DISPLACEMENT (mm) vs TIME (ms)
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-10
+-8
+-6
+-4
+-2
+0
+2
+B-8
+===== page 95
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 4.3 G's
+Tmax: 278.7 ms
+Min: -45.2 G's
+Tmin: 88.7 ms
+CFC 180
+PASSENGER CHEST X (G's) vs TIME (ms)
+PASSENGER CHEST Y (G's) vs TIME (ms)
+Max: 3.9 G's
+Tmax: 37.9 ms
+Min: -6.7 G's
+Tmin: 103.6 ms
+CFC 180
+Max: 9.3 G's
+Tmax: 104.4 ms
+Min: -9.3 G's
+Tmin: 78.7 ms
+CFC 180
+Max: 45.4 G's
+Tmax: 88.8 ms
+Min: 0.1 G's
+Tmin: 0.0 ms
+CFC 180
+PASSENGER CHEST Z (G's) vs TIME (ms)
+PASSENGER CHEST Resultant (G's) vs TIME (ms)
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-50
+-40
+-30
+-20
+-10
+0
+10
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-7.5
+-5
+-2.5
+0
+2.5
+5
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-10
+-7.5
+-5
+-2.5
+0
+2.5
+5
+7.5
+10
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+10
+20
+30
+40
+50
+B-9
+===== page 96
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 357.7 N
+Tmax: 80.2 ms
+Min: -249.2 N
+Tmin: 44.0 ms
+CFC 1000
+PASSENGER NECK FX (N) vs TIME (ms)
+PASSENGER NECK FZ (N) vs TIME (ms)
+Max: 717.8 N
+Tmax: 54.5 ms
+Min: -114.7 N
+Tmin: 80.6 ms
+CFC 1000
+Max: 18.7 Nm
+Tmax: 156.5 ms
+Min: -27.8 Nm
+Tmin: 102.4 ms
+CFC 600
+PASSENGER NECK MY (Nm) vs TIME (ms)
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-300
+-200
+-100
+0
+100
+200
+300
+400
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-200
+0
+200
+400
+600
+800
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-30
+-20
+-10
+0
+10
+20
+B-10
+===== page 97
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 0.17
+Tmax: 65.9 ms
+Min: 0.00
+Tmin: 0.0 ms
+CFC 600
+Pass. nij (NTF) () vs TIME (ms)
+Pass. nij (NTE) () vs TIME (ms)
+Max: 0.40
+Tmax: 102.6 ms
+Min: 0.00
+Tmin: 0.0 ms
+CFC 600
+Max: 0.16
+Tmax: 156.5 ms
+Min: 0.00
+Tmin: 0.0 ms
+CFC 600
+Max: 0.37
+Tmax: 100.4 ms
+Min: 0.00
+Tmin: 0.0 ms
+CFC 600
+Pass. nij (NCF) () vs TIME (ms)
+Pass. nij (NCE) () vs TIME (ms)
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+0.025
+0.05
+0.075
+0.1
+0.125
+0.15
+0.175
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0.35
+0.4
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+0.025
+0.05
+0.075
+0.1
+0.125
+0.15
+0.175
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0.35
+0.4
+B-11
+===== page 98
+NCAP 35mph Frontal Test Date: 11/08/2012
+Speed: 35.0 mph (56.4 km/h)2013 Dodge Challenger - MD0300
+Max: 1133.6 N
+Tmax: 46.6 ms
+Min: -231.1 N
+Tmin: 56.9 ms
+CFC 600
+PASSENGER LEFT FEMUR (N) vs TIME (ms)
+PASSENGER RIGHT FEMUR (N) vs TIME (ms)
+Max: 752.4 N
+Tmax: 46.8 ms
+Min: -673.1 N
+Tmin: 62.8 ms
+CFC 600
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-250
+0
+250
+500
+750
+1000
+1250
+-20 0 20 40 60 80 100 120 140 160 180200 220 240 260280 300
+-750
+-500
+-250
+0
+250
+500
+750
+1000
+B-12
+===== page 99
+ 
+  
+APPENDIX C 
+DUMMY CALIBRATION AND PERFORMANCE VERIFICATION DATA 
+ 
+===== page 100
+Hybrid III, 50th External Measurements 
+SN: 036 
+ 
+HYBRID III, PART 572, SUBPART E EXTERNAL DIMENSIONS 
+DIMENSION DESCRIPTION DETAILS 
+ASSEMBLY 
+DIMENSION 
+(inches) 
+ACTUAL 
+MEASUREMENT 
+A TOTAL SITTING HEIGHT Seat surface to hi ghest point on top of the head. 34.6–35.0 34.7 
+B SHOULDER PIVOT HEIGHT Centerline of shoulder pivot bolt to the seat surface. 19.9-20.5 20.0 
+C H-POINT HEIGHT Reference 3.3-3.5 3.4 
+D H-POINT LOCATION FROM BACKLINE Reference 5.3-5.5 5.4 
+E SHOULDER PIVOT FROM BACKLINE Center of the shoulder clevis to the rear vertical surface of the fixture. 3.3-3.7 3.6 
+F THIGH CLEARANCE Measured at the highest point on the upper femur segment. 5.5-6.1 5.8 
+G BACK OF ELBOW TO WRIST PIVOT back of the elbow flesh to the wrist pivot in line with the elbow and wrist pivots 11.4-12.0 11.5 
+H HEAD BACK TO BACKLINE Back of Skull cap skin to seat rear vertical surface (Reference) 1.6-1.8 1.7 
+I SHOULDER TO- ELBOW LENGTH Measure from the highest point on top of the shoulder clevis to the lowest part of the flesh on the elbow in line with the elbow pivot bolt. 13.0-13.6 13.0 
+J ELBOW REST HEIGHT Measure from the flesh below the elbow pivot bolt to the seat surface. 7.5-8.3 7.9 
+K BUTTOCK TO KNEE LENGTH The forward most part of the knee flesh to the rear vertical surface of the fixture. 22.8-23.8 23.8 
+L POPLITEAL HEIGHT Seat surface to the plane of the horizontal plane of the bottom of the feet. 16.9-17.9 17.3 
+M KNEE PIVOT HEIGHT Centerline of knee pivot bolt to the horizontal plane of the bottom of the feet. 19.1-19.7 19.5 
+N BUTTOCK POPLITEAL LENGTH The rearmost surface of the lower leg to the same point on the rear surface of the buttocks used for dim. “K”. 17.8-18.8 17.9 
+C-1
+===== page 101
+ 
+HYBRID III, SUBPART E EXTERIOR DIMENSIONS, continued 
+DIMENSION DESCRIPTION DETAILS  ACTUAL MEASUREMENT 
+O CHEST DEPTH WITHOUT JACKET Measured 16.9-17.1 in. above seat surface 8.4-9.0 8.8 
+P FOOT LENGTH Tip of toe to rear of heel 9.9-10.5 10.0 
+V SHOULDER BREADTH Outside edges of right  and left shoulder clevises 16.3-17.2 16.4 
+W FOOT BREADTH The widest part of the foot 3.6-4.2 4.1 
+Y CHEST CIRCUMFERENCE (WITH CHEST JACKET) Measured 16.9-17.1 in. above seat surface 38.2-39.4 38.4 
+Z WAIST CIRCUMFERENCE Measured 8.9-9.1 in. above seat surface 32.9-34.1 34.0 
+AA 
+REFERENCE LOCATION 
+FOR MEASUREMENT OF 
+CHEST CIRCUMFERENCE 
+Reference 16.9-17.1 17.0 
+BB 
+REFERENCE LOCATION 
+FOR MEASUREMENT OF 
+WAIST CIRCUMFERENCE 
+Reference 8.9-9.1 9.0 
+NOTE: THE H-POINT IS LOCATED 1.83 INCHES FORWARD AND 2.57 INCHES DOWN FROM THE CENTER OF THE 
+PELVIS ANGLE REFERENCE HOLE. 
+ 
+C-2
+===== page 102
+MGA RESEARCH CORPORATION
+HEAD DROP TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test ID:036 D124211
+Test Date
+11/05/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Peak Resultant Acceleration
+Laboratory Relative Humidity
+Peak Lateral Acceleration G's <= +/- 15.0
+Oscillations
+3.8 Pass
+N/A
+Units
+deg C
+%
+G's
+Unimodal N/A Yes Yes Pass
+within 10% of peak PassYes
+Overall Test Results Pass
+Specification
+18.9 to 25.6
+10 to 70
+225 to 275
+Result Pass/Fail
+21.0
+27
+Pass
+245
+Pass
+Pass
+C-3
+===== page 103
+-20 0 20 40 60 80 100
+0
+50
+100
+150
+200
+250
+-20 0 20 40 60 80 100
+-250
+-200
+-150
+-100
+-50
+0
+50
+TEST DESC: HEAD DROP TEST DATE: 11/05/2012
+TEST #: D124211
+HEAD RESULTANT ACCELERATION (G's) vs TIME (ms)
+Max: 245.3 G's
+Tmax: 1.8 ms
+Min: 0.0 G's
+Tmin: -4.0 ms
+CFC 1000
+HEAD X (G's) vs TIME (ms)
+Max: 2.7 G's
+Tmax: 13.0 ms
+Min: -210.4 G's
+Tmin: 1.8 ms
+CFC 1000
+C-4
+===== page 104
+-20 0 20 40 60 80 100
+-2
+-1
+0
+1
+2
+3
+4
+-20 0 20 40 60 80 100
+-25
+0
+25
+50
+75
+100
+125
+150
+TEST DESC: HEAD DROP TEST DATE: 11/05/2012
+TEST #: D124211
+HEAD Y (G's) vs TIME (ms)
+Max: 3.8 G's
+Tmax: 2.1 ms
+Min: -1.2 G's
+Tmin: 6.1 ms
+CFC 1000
+HEAD Z (G's) vs TIME (ms)
+Max: 126.8 G's
+Tmax: 1.9 ms
+Min: -0.9 G's
+Tmin: 13.1 ms
+CFC 1000
+C-5
+===== page 105
+MGA RESEARCH CORPORATION
+NECK FLEXION TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124212
+Test Date
+11/05/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Pendulum Velocity
+Laboratory Relative Humidity
+Pendulum Deceleration
+Peak Pendulum Deceleration After 30 ms
+Deceleration Decay Time to Cross 5 G's
+Maximum "D" Plane
+"D" Plane Rotation Decay Time To Zero
+Moment About Occipital
+Positive Moment Decay Time To Zero
+Units
+deg C
+%
+m/s
+G's
+G's
+G's
+G's
+ms
+Deg
+ms
+ms
+Nm
+ms
+ms
+10 ms
+20 ms
+30 ms
+Maximum
+Time
+Maximum
+Time
+Specification
+20.6 to 22.2
+10 to 70
+6.89 to 7.13
+22.50 to 27.50
+17.60 to 22.60
+12.50 to 18.50
+<= 29.0
+34.0 to 42.0
+64.0 to 78.0
+57.0 to 64.0
+113.0 to 128.0
+88.1 to 108.5
+47.0 to 58.0
+97.0 to 107.0
+Rotation
+Condyle
+Result Pass/Fail
+Overall Test Results
+Crossing
+Crossing
+20.9
+27
+Pass
+7.06
+23.39
+17.82
+14.4
+14.3
+36.0
+66.7
+60.2
+120.3
+88.7
+49.6
+100.9
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+C-6
+===== page 106
+-20 0 20 40 60 80 100 120 140 160 180 200
+-5
+0
+5
+10
+15
+20
+25
+-20 0 20 40 60 80 100 120 140 160 180 200
+-50
+-25
+0
+25
+50
+75
+TEST DESC: NECK FLEXION TEST DATE: 11/05/2012
+TEST #: D124212VELOCITY: 23.15 ft/s, 7.06 m/s
+PENDULUM DECELERATION (G's) vs TIME (ms)
+Max: 23.8 G's
+Tmax: 9.0 ms
+Min: -2.9 G's
+Tmin: 40.1 ms
+CFC 60
+NECK ROTATION (DEG) vs TIME (ms)
+Max: 66.7 DEG
+Tmax: 60.2 ms
+Min: -46.2 DEG
+Tmin: 182.6 ms
+CFC 60
+C-7
+===== page 107
+-20 0 20 40 60 80 100 120 140 160 180 200
+-50
+-25
+0
+25
+50
+75
+100
+TEST DESC: NECK FLEXION TEST DATE: 11/05/2012
+TEST #: D124212VELOCITY: 23.15 ft/s, 7.06 m/s
+OCCIPITAL MOMENT (Nm) vs TIME (ms)
+Max: 88.7 Nm
+Tmax: 49.6 ms
+Min: -25.3 Nm
+Tmin: 14.0 ms
+CFC 600
+C-8
+===== page 108
+MGA RESEARCH CORPORATION
+NECK EXTENSION TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124213
+Test Date
+11/05/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Pendulum Velocity
+Laboratory Relative Humidity
+Pendulum Deceleration
+Peak Pendulum Deceleration After 30 ms
+Deceleration Decay Time to Cross 5 G's
+Maximum "D" Plane
+"D" Plane Rotation Decay Time To Zero
+Moment About Occipital
+Negative Moment Decay Time To Zero
+Units
+deg C
+%
+m/s
+G's
+G's
+G's
+G's
+ms
+Degrees
+ms
+ms
+Nm
+ms
+ms
+10 ms
+20 ms
+30 ms
+Maximum
+Time
+Maximum
+Time
+Specification
+20.6 to 22.2
+10 to 70
+5.95 to 6.19
+17.20 to 21.20
+14.00 to 19.00
+11.00 to 16.00
+<= 22.0
+38.0 to 46.0
+81.0 to 106.0
+72.0 to 82.0
+147.0 to 174.0
+-52.9 to -79.9
+65.0 to 79.0
+120.0 to 148.0
+Rotation
+Condyle
+Result Pass/Fail
+Overall Test Results
+Crossing
+Crossing
+20.9
+27
+Pass
+6.05
+20.10
+17.03
+14.04
+14.0
+38.2
+97.1
+78.3
+163.3
+-62.0
+70.7
+146.3
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+C-9
+===== page 109
+-20 0 20 40 60 80 100 120 140 160 180 200
+-5
+0
+5
+10
+15
+20
+25
+-20 0 20 40 60 80 100 120 140 160 180 200
+-50
+-25
+0
+25
+50
+75
+100
+TEST DESC: NECK EXTENSION TEST DATE: 11/05/2012
+TEST #: D124213VELOCITY: 19.84 ft/s, 6.05 m/s
+PENDULUM DECELERATION (G's) vs TIME (ms)
+Max: 21.2 G's
+Tmax: 8.6 ms
+Min: -3.2 G's
+Tmin: 44.4 ms
+CFC 60
+NECK ROTATION (DEG) vs TIME (ms)
+Max: 97.1 DEG
+Tmax: 78.3 ms
+Min: -29.0 DEG
+Tmin: 205.1 ms
+CFC 60
+C-10
+===== page 110
+-20 0 20 40 60 80 100 120 140 160 180 200
+-80
+-60
+-40
+-20
+0
+20
+40
+TEST DESC: NECK EXTENSION TEST DATE: 11/05/2012
+TEST #: D124213VELOCITY: 19.84 ft/s, 6.05 m/s
+OCCIPITAL MOMENT (Nm) vs TIME (ms)
+Max: 29.3 Nm
+Tmax: 197.2 ms
+Min: -62.0 Nm
+Tmin: 70.7 ms
+CFC 600
+C-11
+===== page 111
+MGA RESEARCH CORPORATION
+THORAX IMPACT
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124214
+Test Date
+11/06/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Probe Velocity
+Laboratory Relative Humidity
+Peak Probe Force N 5159 to 5893
+Internal Hysteresis
+5,560 Pass
+Pass
+Units
+deg C
+%
+m/s
+Peak Sternum Displacement cm 6.35 to 7.26 6.64 Pass
+% 69 to 85 71
+Overall Test Results Pass
+Specification
+20.6 to 22.2
+10 to 70
+6.58 to 6.82
+Result Pass/Fail
+21.0
+27
+Pass
+6.77
+Pass
+Pass
+C-12
+===== page 112
+-1 0 1 2 3 4 5 6 7
+-1000
+0
+1000
+2000
+3000
+4000
+5000
+6000
+TEST DESC: THORAX IMPACT TEST DATE: 11/06/2012
+TEST #: D124214VELOCITY: 22.22 ft/s, 6.77 m/s
+FORCE (N) vs CHEST DISPLACEMENT (cm)
+Max: 5560.1 N
+Tmax: 6.1 cm
+Min: -13.9 N
+Tmin: 0.0 cm
+CFC 180
+C-13
+===== page 113
+MGA RESEARCH CORPORATION
+RIGHT KNEE IMPACT TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124215
+Test Date
+11/06/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Probe Velocity
+Laboratory Relative Humidity
+Peak Probe Force N 4715 to 5782
+Overall Test Results
+5,079 Pass
+Pass
+Units
+deg C
+%
+m/s
+Specification
+18.9 to 25.6
+10 to 70
+2.07 to 2.13
+Result Pass/Fail
+20.9
+26
+Pass
+2.12
+Pass
+Pass
+C-14
+===== page 114
+-20 0 20 40 60 80 100
+-1000
+0
+1000
+2000
+3000
+4000
+5000
+6000
+TEST DESC: RIGHT KNEE TEST DATE: 11/06/2012
+TEST #: D124215VELOCITY: 6.94 ft/s, 2.12 m/s
+FORCE (N) vs TIME (ms)
+Max: 5079.3 N
+Tmax: 2.4 ms
+Min: -13.3 N
+Tmin: 12.3 ms
+CFC 600
+C-15
+===== page 115
+MGA RESEARCH CORPORATION
+LEFT KNEE IMPACT TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124216
+Test Date
+11/06/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Probe Velocity
+Laboratory Relative Humidity
+Peak Probe Force N 4715 to 5782
+Overall Test Results
+5,253 Pass
+Pass
+Units
+deg C
+%
+m/s
+Specification
+18.9 to 25.6
+10 to 70
+2.07 to 2.13
+Result Pass/Fail
+20.9
+26
+Pass
+2.09
+Pass
+Pass
+C-16
+===== page 116
+-20 0 20 40 60 80 100
+-1000
+0
+1000
+2000
+3000
+4000
+5000
+6000
+TEST DESC: LEFT KNEE TEST DATE: 11/06/2012
+TEST #: D124216VELOCITY: 6.86 ft/s, 2.09 m/s
+FORCE (N) vs TIME (ms)
+Max: 5253.3 N
+Tmax: 2.3 ms
+Min: -20.6 N
+Tmin: 12.0 ms
+CFC 600
+C-17
+===== page 117
+MGA RESEARCH CORPORATION
+HIP-FEMUR FLEXION TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124210
+Test Date
+11/05/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Max Rotation
+Laboratory Relative Humidity
+Laboratory Temperature
+Rotation Rate deg/s 5.0 to 10.0
+150 ft-lbf / 203.4 Nm
+6.3 Pass
+Pass
+Units
+Right
+deg C
+%
+30 Degrees Nm 94.9 Nm Max 75.1 Pass
+Deg
+40.0 to 50.0 Degree
+Overall Test Results
+45.6
+Pass
+21.0
+27
+6.2
+90.4
+44.3
+Specification
+18.9 to 25.6
+10 to 70
+Result Pass/Fail
+Left
+21.0
+27
+Pass
+Pass
+C-18
+===== page 118
+0 20 40
+0
+50
+100
+150
+200
+250
+TEST DESC: RIGHT HIP FEMUR FLEXION TEST DATE: 11/05/2012
+TEST #: D124219
+MOMENT (Nm) vs FEMUR ROTATION (DEG)
+Max: 203.4 Nm
+Tmax: 44.3 DEG
+Min: 0.0 Nm
+Tmin: 0.0 DEG
+10 Hz
+C-19
+===== page 119
+0 20 40
+0
+50
+100
+150
+200
+250
+TEST DESC: LEFT HIP FEMUR FLEXION TEST DATE: 11/05/2012
+TEST #: D124210
+MOMENT (Nm) vs FEMUR ROTATION (DEG)
+Max: 203.4 Nm
+Tmax: 45.6 DEG
+Min: 0.0 Nm
+Tmin: 0.0 DEG
+10 Hz
+C-20
+===== page 120
+MGA RESEARCH CORPORATION
+HEAD DROP TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test ID:036 D124271
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Peak Resultant Acceleration
+Laboratory Relative Humidity
+Peak Lateral Acceleration G's <= +/- 15.0
+Oscillations
+-3.1 Pass
+N/A
+Units
+deg C
+%
+G's
+Unimodal N/A Yes Yes Pass
+within 10% of peak PassYes
+Overall Test Results Pass
+Specification
+18.9 to 25.6
+10 to 70
+225 to 275
+Result Pass/Fail
+21.7
+32
+Pass
+257
+Pass
+Pass
+C-21
+===== page 121
+-20 0 20 40 60 80 100
+0
+50
+100
+150
+200
+250
+300
+-20 0 20 40 60 80 100
+-250
+-200
+-150
+-100
+-50
+0
+50
+TEST DESC: HEAD DROP TEST DATE: 11/08/2012
+TEST #: D124271
+HEAD RESULTANT ACCELERATION (G's) vs TIME (ms)
+Max: 256.6 G's
+Tmax: 1.8 ms
+Min: 0.0 G's
+Tmin: -6.1 ms
+CFC 1000
+HEAD X (G's) vs TIME (ms)
+Max: 2.8 G's
+Tmax: 13.0 ms
+Min: -220.9 G's
+Tmin: 1.8 ms
+CFC 1000
+C-22
+===== page 122
+-20 0 20 40 60 80 100
+-3.5
+-3
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+1
+-20 0 20 40 60 80 100
+-25
+0
+25
+50
+75
+100
+125
+150
+TEST DESC: HEAD DROP TEST DATE: 11/08/2012
+TEST #: D124271
+HEAD Y (G's) vs TIME (ms)
+Max: 0.9 G's
+Tmax: 3.3 ms
+Min: -3.1 G's
+Tmin: 1.9 ms
+CFC 1000
+HEAD Z (G's) vs TIME (ms)
+Max: 130.6 G's
+Tmax: 1.8 ms
+Min: -1.6 G's
+Tmin: 13.1 ms
+CFC 1000
+C-23
+===== page 123
+MGA RESEARCH CORPORATION
+NECK FLEXION TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124272
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Pendulum Velocity
+Laboratory Relative Humidity
+Pendulum Deceleration
+Peak Pendulum Deceleration After 30 ms
+Deceleration Decay Time to Cross 5 G's
+Maximum "D" Plane
+"D" Plane Rotation Decay Time To Zero
+Moment About Occipital
+Positive Moment Decay Time To Zero
+Units
+deg C
+%
+m/s
+G's
+G's
+G's
+G's
+ms
+Deg
+ms
+ms
+Nm
+ms
+ms
+10 ms
+20 ms
+30 ms
+Maximum
+Time
+Maximum
+Time
+Specification
+20.6 to 22.2
+10 to 70
+6.89 to 7.13
+22.50 to 27.50
+17.60 to 22.60
+12.50 to 18.50
+<= 29.0
+34.0 to 42.0
+64.0 to 78.0
+57.0 to 64.0
+113.0 to 128.0
+88.1 to 108.5
+47.0 to 58.0
+97.0 to 107.0
+Rotation
+Condyle
+Result Pass/Fail
+Overall Test Results
+Crossing
+Crossing
+21.7
+30
+Pass
+7.06
+23.47
+18.42
+13.0
+12.9
+36.9
+69.4
+58.1
+119.5
+92.9
+50.6
+98.4
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+C-24
+===== page 124
+-20 0 20 40 60 80 100 120 140 160 180 200
+-5
+0
+5
+10
+15
+20
+25
+-20 0 20 40 60 80 100 120 140 160 180 200
+-50
+-25
+0
+25
+50
+75
+TEST DESC: NECK FLEXION TEST DATE: 11/08/2012
+TEST #: D124272VELOCITY: 23.15 ft/s, 7.06 m/s
+PENDULUM DECELERATION (G's) vs TIME (ms)
+Max: 24.3 G's
+Tmax: 8.7 ms
+Min: -1.7 G's
+Tmin: 41.4 ms
+CFC 60
+NECK ROTATION (DEG) vs TIME (ms)
+Max: 69.4 DEG
+Tmax: 58.1 ms
+Min: -49.2 DEG
+Tmin: 180.8 ms
+CFC 60
+C-25
+===== page 125
+-20 0 20 40 60 80 100 120 140 160 180 200
+-50
+-25
+0
+25
+50
+75
+100
+TEST DESC: NECK FLEXION TEST DATE: 11/08/2012
+TEST #: D124272VELOCITY: 23.15 ft/s, 7.06 m/s
+OCCIPITAL MOMENT (Nm) vs TIME (ms)
+Max: 92.9 Nm
+Tmax: 50.6 ms
+Min: -26.4 Nm
+Tmin: 13.3 ms
+CFC 600
+C-26
+===== page 126
+MGA RESEARCH CORPORATION
+NECK EXTENSION TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124273
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Pendulum Velocity
+Laboratory Relative Humidity
+Pendulum Deceleration
+Peak Pendulum Deceleration After 30 ms
+Deceleration Decay Time to Cross 5 G's
+Maximum "D" Plane
+"D" Plane Rotation Decay Time To Zero
+Moment About Occipital
+Negative Moment Decay Time To Zero
+Units
+deg C
+%
+m/s
+G's
+G's
+G's
+G's
+ms
+Degrees
+ms
+ms
+Nm
+ms
+ms
+10 ms
+20 ms
+30 ms
+Maximum
+Time
+Maximum
+Time
+Specification
+20.6 to 22.2
+10 to 70
+5.95 to 6.19
+17.20 to 21.20
+14.00 to 19.00
+11.00 to 16.00
+<= 22.0
+38.0 to 46.0
+81.0 to 106.0
+72.0 to 82.0
+147.0 to 174.0
+-52.9 to -79.9
+65.0 to 79.0
+120.0 to 148.0
+Rotation
+Condyle
+Result Pass/Fail
+Overall Test Results
+Crossing
+Crossing
+21.7
+30
+Pass
+6.05
+20.04
+16.59
+13.29
+13.2
+38.5
+99.4
+77.6
+160.2
+-67.9
+69.6
+144.8
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+C-27
+===== page 127
+-20 0 20 40 60 80 100 120 140 160 180 200
+-5
+0
+5
+10
+15
+20
+25
+-20 0 20 40 60 80 100 120 140 160 180 200
+-50
+-25
+0
+25
+50
+75
+100
+TEST DESC: NECK EXTENSION TEST DATE: 11/08/2012
+TEST #: D124273VELOCITY: 19.84 ft/s, 6.05 m/s
+PENDULUM DECELERATION (G's) vs TIME (ms)
+Max: 20.9 G's
+Tmax: 8.3 ms
+Min: -3.3 G's
+Tmin: 42.7 ms
+CFC 60
+NECK ROTATION (DEG) vs TIME (ms)
+Max: 99.4 DEG
+Tmax: 77.6 ms
+Min: -29.7 DEG
+Tmin: 201.2 ms
+CFC 60
+C-28
+===== page 128
+-20 0 20 40 60 80 100 120 140 160 180 200
+-80
+-60
+-40
+-20
+0
+20
+40
+TEST DESC: NECK EXTENSION TEST DATE: 11/08/2012
+TEST #: D124273VELOCITY: 19.84 ft/s, 6.05 m/s
+OCCIPITAL MOMENT (Nm) vs TIME (ms)
+Max: 30.3 Nm
+Tmax: 194.0 ms
+Min: -67.9 Nm
+Tmin: 69.6 ms
+CFC 600
+C-29
+===== page 129
+MGA RESEARCH CORPORATION
+THORAX IMPACT
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124274
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Probe Velocity
+Laboratory Relative Humidity
+Peak Probe Force N 5159 to 5893
+Internal Hysteresis
+5,341 Pass
+Pass
+Units
+deg C
+%
+m/s
+Peak Sternum Displacement cm 6.35 to 7.26 6.92 Pass
+% 69 to 85 71
+Overall Test Results Pass
+Specification
+20.6 to 22.2
+10 to 70
+6.58 to 6.82
+Result Pass/Fail
+21.6
+31
+Pass
+6.68
+Pass
+Pass
+C-30
+===== page 130
+-1 0 1 2 3 4 5 6 7
+-1000
+0
+1000
+2000
+3000
+4000
+5000
+6000
+TEST DESC: THORAX IMPACT TEST DATE: 11/08/2012
+TEST #: D124274VELOCITY: 21.93 ft/s, 6.68 m/s
+FORCE (N) vs CHEST DISPLACEMENT (cm)
+Max: 5341.3 N
+Tmax: 6.5 cm
+Min: -71.3 N
+Tmin: -0.0 cm
+CFC 180
+C-31
+===== page 131
+MGA RESEARCH CORPORATION
+RIGHT KNEE IMPACT TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124275
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Probe Velocity
+Laboratory Relative Humidity
+Peak Probe Force N 4715 to 5782
+Overall Test Results
+4,791 Pass
+Pass
+Units
+deg C
+%
+m/s
+Specification
+18.9 to 25.6
+10 to 70
+2.07 to 2.13
+Result Pass/Fail
+21.7
+32
+Pass
+2.12
+Pass
+Pass
+C-32
+===== page 132
+-20 0 20 40 60 80 100
+-1000
+0
+1000
+2000
+3000
+4000
+5000
+TEST DESC: RIGHT KNEE TEST DATE: 11/08/2012
+TEST #: D124275VELOCITY: 6.97 ft/s, 2.12 m/s
+FORCE (N) vs TIME (ms)
+Max: 4791.2 N
+Tmax: 2.3 ms
+Min: -38.3 N
+Tmin: 12.1 ms
+CFC 600
+C-33
+===== page 133
+MGA RESEARCH CORPORATION
+LEFT KNEE IMPACT TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124276
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Probe Velocity
+Laboratory Relative Humidity
+Peak Probe Force N 4715 to 5782
+Overall Test Results
+5,310 Pass
+Pass
+Units
+deg C
+%
+m/s
+Specification
+18.9 to 25.6
+10 to 70
+2.07 to 2.13
+Result Pass/Fail
+21.7
+32
+Pass
+2.12
+Pass
+Pass
+C-34
+===== page 134
+-20 0 20 40 60 80 100
+-1000
+0
+1000
+2000
+3000
+4000
+5000
+6000
+TEST DESC: LEFT KNEE TEST DATE: 11/08/2012
+TEST #: D124276VELOCITY: 6.97 ft/s, 2.12 m/s
+FORCE (N) vs TIME (ms)
+Max: 5309.7 N
+Tmax: 2.2 ms
+Min: -46.6 N
+Tmin: 11.8 ms
+CFC 600
+C-35
+===== page 135
+MGA RESEARCH CORPORATION
+HIP-FEMUR FLEXION TEST
+HYBRID III 50TH PERCENTILE MALE
+ATD Serial No: Test I.D:036 D124270
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Max Rotation
+Laboratory Relative Humidity
+Laboratory Temperature
+Rotation Rate deg/s 5.0 to 10.0
+150 ft-lbf / 203.4 Nm
+6.3 Pass
+Pass
+Units
+Right
+deg C
+%
+30 Degrees Nm 94.9 Nm Max 74.5 Pass
+Deg
+40.0 to 50.0 Degree
+Overall Test Results
+45.8
+Pass
+21.7
+32
+6.2
+84.4
+44.6
+Specification
+18.9 to 25.6
+10 to 70
+Result Pass/Fail
+Left
+21.7
+32
+Pass
+Pass
+C-36
+===== page 136
+0 20 40
+0
+50
+100
+150
+200
+250
+TEST DESC: RIGHT HIP FEMUR FLEXION TEST DATE: 11/08/2012
+TEST #: D124279
+MOMENT (Nm) vs FEMUR ROTATION (DEG)
+Max: 203.4 Nm
+Tmax: 44.6 DEG
+Min: 0.0 Nm
+Tmin: 0.0 DEG
+10 Hz
+C-37
+===== page 137
+0 20 40
+0
+50
+100
+150
+200
+250
+TEST DESC: LEFT HIP FEMUR FLEXION TEST DATE: 11/08/2012
+TEST #: D124270
+MOMENT (Nm) vs FEMUR ROTATION (DEG)
+Max: 203.5 Nm
+Tmax: 45.8 DEG
+Min: 0.0 Nm
+Tmin: 0.0 DEG
+10 Hz
+C-38
+===== page 138
+Hybrid III, 5th External Measurements 
+SN: 634 
+ 
+HYBRID III, PART 572, SUBPART O EXTERNAL DIMENSIONS 
+DIMENSION DESCRIPTION DETAILS 
+ASSEMBLY 
+DIMENSION 
+(mm) 
+ACTUAL 
+MEASUREMENT 
+A TOTAL SITTING HEIGHT Seat surface to hi ghest point on top of the head. 774.7-800.1 784.6 
+B SHOULDER PIVOT HEIGHT Centerline of shoulder  pivot bolt to the seat surface. 431.8-457.2 449.0 
+C H-POINT HEIGHT Reference 81.3-86.3 85.0 
+D H-POINT LOCATION FROM BACKLINE Reference 144.8-149.8 145.0 
+E SHOULDER PIVOT FROM BACKLINE Center of the shoulder clevis to the rear vertical surface of the fixture. 68.6-83.8 79.2 
+F THIGH CLEARANCE Measured at the highest point on the upper femur segment. 119.4-134.6 125.6 
+G BACK OF ELBOW TO WRIST PIVOT back of the elbow flesh to the wrist pivot in line with the elbow and wrist pivots 243.9-259.1 253.4 
+H HEAD BACK TO BACKLINE Back of Skull cap skin to seat rear vertical surface (Reference) 43.2-48.2 45.0 
+I SHOULDER TO- ELBOW LENGTH Measure from the highest point on top of the shoulder clevis to the lowest part of the flesh on the elbow in line with the elbow pivot bolt. 276.8-297.2 277.8 
+J ELBOW REST HEIGHT Measure from the flesh below the elbow pivot bolt to the seat surface. 182.8-203.2 197.5 
+K BUTTOCK TO KNEE LENGTH The forward most part of the knee flesh to the rear vertical surface of the fixture. 520.7-546.1 541.4 
+L POPLITEAL HEIGHT Seat surface to the plane of the horizontal plane of the bottom of the feet. 355.6-376.0 362.1 
+M KNEE PIVOT HEIGHT Centerline of knee pivot bolt to the horizontal plane of the bottom of the feet. 393.7-419.1 400.4 
+N BUTTOCK POPLITEAL LENGTH The rearmost surface of the lower leg to the same point on the rear surface of the buttocks used for dim. “K”. 414-439.4 428.6 
+C-39
+===== page 139
+HYBRID III, SUBPART O EXTERNAL DIMENSIONS, continued 
+DIMENSION DESCRIPTION DETAILS 
+ASSEMBLY 
+DIMENSION 
+(mm) 
+ACTUAL 
+MEASUREMENT 
+O CHEST DEPTH WITHOUT JACKET Measured 304.8 ± 5.1 mm above seat surface 175.3-190.5 181.6 
+eP FOOT LENGTH Tip of toe to rear of heel 218.5-233.7 224.7
+Q STANDING HEIGHT  (THEORETICAL) 1501.1 N/A 
+R BUTTOCK TO KNEE PIVOT LENGTH The rear surface of the buttocks to the knee pivot bolt 457.2-482.6 482.0 
+S HEAD BREADTH The widest part of the head 137.1-147.3 139.6 
+T HEAD DEPTH Back of the head to the forehead 177.8-188.0 179.2 
+U HIP BREADTH The widest part of the hip 299.7-314.9 306.1 
+V SHOULDER BREADTH Outside edges of ri ght and left shoulder clevises 350.5-365.7 355.5 
+W FOOT BREADTH The widest part of the foot 78.8-94.0 90.0 
+X HEAD CIRCUMFERENCE Measured at the point as in dim. “T” 528.3-548.7 540.6 
+Y CHEST CIRCUMFERENCE (WITH CHEST JACKET) Measured 345.4 ± 12.7 mm above seat surface 850.9-881.3 868.7 
+Z WAIST CIRCUMFERENCE Measured 165.1 ± 5.1 mm above seat surface 759.5-789.9 786.8 
+AA 
+REFERENCE LOCATION 
+FOR MEASUREMENT OF 
+CHEST CIRCUMFERENCE 
+Reference 332.7-358.1 345.4 
+BB 
+REFERENCE LOCATION 
+FOR MEASUREMENT OF 
+WAIST CIRCUMFERENCE 
+Reference 160.1-170.2 165.1 
+ 
+C-40
+===== page 140
+MGA RESEARCH CORPORATION
+HEAD DROP TEST
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test ID:634 D124221
+Test Date
+11/06/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Peak Resultant Acceleration
+Laboratory Relative Humidity
+Peak Lateral Acceleration G's <= +/- 15.0
+Oscillations
+10.0 Pass
+N/A
+Units
+deg C
+%
+G's
+Unimodal N/A Yes Yes Pass
+within 10% of peak PassYes
+Overall Test Results Pass
+Specification
+18.9 to 25.6
+10 to 70
+250 to 300
+Result Pass/Fail
+21.0
+27
+Pass
+258
+Pass
+Pass
+C-41
+===== page 141
+-20 0 20 40 60 80 100
+0
+50
+100
+150
+200
+250
+300
+-20 0 20 40 60 80 100
+-250
+-200
+-150
+-100
+-50
+0
+50
+TEST DESC: HEAD DROP TEST DATE: 11/06/2012
+TEST #: D124221
+HEAD RESULTANT ACCELERATION (G's) vs TIME (ms)
+Max: 257.8 G's
+Tmax: 2.2 ms
+Min: 0.2 G's
+Tmin: -6.3 ms
+CFC 1000
+HEAD X (G's) vs TIME (ms)
+Max: 3.8 G's
+Tmax: 8.8 ms
+Min: -215.4 G's
+Tmin: 2.2 ms
+CFC 1000
+C-42
+===== page 142
+-20 0 20 40 60 80 100
+-2.5
+0
+2.5
+5
+7.5
+10
+-20 0 20 40 60 80 100
+-25
+0
+25
+50
+75
+100
+125
+150
+TEST DESC: HEAD DROP TEST DATE: 11/06/2012
+TEST #: D124221
+HEAD Y (G's) vs TIME (ms)
+Max: 10.0 G's
+Tmax: 2.3 ms
+Min: -1.6 G's
+Tmin: 30.5 ms
+CFC 1000
+HEAD Z (G's) vs TIME (ms)
+Max: 141.6 G's
+Tmax: 2.3 ms
+Min: -2.1 G's
+Tmin: 6.1 ms
+CFC 1000
+C-43
+===== page 143
+MGA RESEARCH CORPORATION
+NECK FLEXION TEST
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test I.D:634 D124222
+Test Date
+11/05/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Pendulum Speed
+Laboratory Relative Humidity
+Pendulum Velocity
+D Plane Rotation
+Occipital Condyle Moment within Rotation Corridor
+Positive Moment Time Curve Decay to 10 Nm
+Overall Results Pass
+Units
+deg C
+%
+m/s
+m/s
+m/s
+m/s
+deg
+Nm
+ms
+Max
+20 ms
+30 ms
+Specification
+20.6 to 22.2
+10 to 70
+6.89 to 7.13
+2.1 to 2.5
+4.0 to 5.0
+5.8 to 7.0
+77 to 91
+69 to 83
+80 to 100
+Result Pass/Fail
+21.0
+27
+Pass
+7.06
+2.5
+4.6
+6.4
+83
+69.4
+87
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+10 ms
+C-44
+===== page 144
+-20 0 20 40 60 80 100 120 140 160 180 200
+-2
+0
+2
+4
+6
+8
+10
+-20 0 20 40 60 80 100 120 140 160 180 200
+-75
+-50
+-25
+0
+25
+50
+75
+100
+TEST DESC: NECK FLEXION TEST DATE: 11/05/2012
+TEST #: D124222VELOCITY: 23.15 ft/s, 7.06 m/s
+PENDULUM VELOCITY (m/s) vs TIME (ms)
+Max: 8.0 m/s
+Tmax: 263.8 ms
+Min: -0.0 m/s
+Tmin: -1.0 ms
+CFC 180
+NECK ROTATION (DEG) vs TIME (ms)
+Max: 82.9 DEG
+Tmax: 59.6 ms
+Min: -58.8 DEG
+Tmin: 192.1 ms
+CFC 60
+C-45
+===== page 145
+-20 0 20 40 60 80 100 120 140 160 180 200
+-40
+-20
+0
+20
+40
+60
+80
+TEST DESC: NECK FLEXION TEST DATE: 11/05/2012
+TEST #: D124222VELOCITY: 23.15 ft/s, 7.06 m/s
+OCCIPITAL MOMENT (Nm) vs TIME (ms)
+Max: 69.9 Nm
+Tmax: 47.8 ms
+Min: -25.3 Nm
+Tmin: 14.2 ms
+CFC 600
+C-46
+===== page 146
+ATD Serial No: Test I.D:634 D124223
+Test Date
+11/05/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Pendulum Speed
+Laboratory Relative Humidity
+Pendulum Velocity
+D Plane Rotation
+Occipital Condyle Moment within Rotation Corridor
+Negative Moment Time Curve Decay to -10 Nm
+Overall Results Pass
+Units
+deg C
+%
+m/s
+m/s
+m/s
+m/s
+deg
+Nm
+ms
+Max
+20 ms
+30 ms
+Specification
+20.6 to 22.2
+10 to 70
+5.95 to 6.19
+1.5 to 1.9
+3.1 to 3.9
+4.6 to 5.6
+99 to 114
+-65 to -53
+94 to 114
+Result Pass/Fail
+21.0
+27
+Pass
+6.05
+1.8
+3.6
+5.1
+102
+-57.0
+98
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+10 ms
+MGA RESEARCH CORPORATION
+NECK EXTENSION TEST
+HYBRID III 5TH PERCENTILE
+C-47
+===== page 147
+-20 0 20 40 60 80 100 120 140 160 180 200
+-1
+0
+1
+2
+3
+4
+5
+6
+7
+-20 0 20 40 60 80 100 120 140 160 180 200
+-50
+-25
+0
+25
+50
+75
+100
+125
+TEST DESC: NECK EXTENSION TEST DATE: 11/05/2012
+TEST #: D124223VELOCITY: 19.84 ft/s, 6.05 m/s
+PENDULUM VELOCITY (m/s) vs TIME (ms)
+Max: 6.6 m/s
+Tmax: 258.9 ms
+Min: -0.0 m/s
+Tmin: -0.2 ms
+CFC 180
+NECK ROTATION (DEG) vs TIME (ms)
+Max: 102.1 DEG
+Tmax: 71.0 ms
+Min: -37.3 DEG
+Tmin: 205.1 ms
+CFC 60
+C-48
+===== page 148
+-20 0 20 40 60 80 100 120 140 160 180 200
+-60
+-50
+-40
+-30
+-20
+-10
+0
+10
+20
+TEST DESC: NECK EXTENSION TEST DATE: 11/05/2012
+TEST #: D124223VELOCITY: 19.84 ft/s, 6.05 m/s
+OCCIPITAL MOMENT (Nm) vs TIME (ms)
+Max: 19.9 Nm
+Tmax: 13.5 ms
+Min: -57.0 Nm
+Tmin: 66.8 ms
+CFC 600
+C-49
+===== page 149
+MGA RESEARCH CORPORATION
+THORAX IMPACT
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test I.D:634 D124224
+Test Date
+11/06/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Temperature
+Probe Speed
+Relative Humidity
+Peak Deflection mm 50 to 58
+Internal Hysteresis
+53 Pass
+Pass
+Units
+deg C
+%
+m/s
+Peak Resistive Force w/in Deflection Corridor N 3900 to 4400 4220 Pass
+% 69 to 85
+<= 4600
+71
+PassPeak Force 18 mm - 50 mm N 4153
+Overall Test Results Pass
+Specification
+20.6 to 22.2
+10 to 70
+6.59 to 6.83
+Result Pass/Fail
+21.0
+27
+Pass
+6.77
+Pass
+Pass
+C-50
+===== page 150
+0 10 20 30 40 50 60
+-1000
+0
+1000
+2000
+3000
+4000
+5000
+TEST DESC: THORAX IMPACT TEST DATE: 11/06/2012
+TEST #: D124224VELOCITY: 22.22 ft/s, 6.77 m/s
+FORCE (N) vs CHEST DISPLACEMENT (mm)
+Max: 4220.2 N
+Tmax: 51.0 mm
+Min: -43.1 N
+Tmin: 2.4 mm
+CFC 180
+C-51
+===== page 151
+MGA RESEARCH CORPORATION
+RIGHT KNEE IMPACT TEST
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test I.D:634 D124225
+Test Date
+11/06/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Probe Speed
+Laboratory Relative Humidity
+Maximum Force N 3450 to 4060
+Overall Test Results
+3807 Pass
+Pass
+Units
+deg C
+%
+m/s
+Specification
+18.9 to 25.6
+10 to 70
+2.07 to 2.13
+Result Pass/Fail
+20.9
+26
+Pass
+2.12
+Pass
+Pass
+C-52
+===== page 152
+-20 0 20 40 60 80 100
+-500
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+TEST DESC: RIGHT KNEE TEST DATE: 11/06/2012
+TEST #: D124225VELOCITY: 6.97 ft/s, 2.12 m/s
+FORCE (N) vs TIME (ms)
+Max: 3806.6 N
+Tmax: 2.1 ms
+Min: -38.2 N
+Tmin: 6.5 ms
+CFC 600
+C-53
+===== page 153
+MGA RESEARCH CORPORATION
+LEFT KNEE IMPACT TEST
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test I.D:634 D124226
+Test Date
+11/06/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Probe Speed
+Laboratory Relative Humidity
+Maximum Force N 3450 to 4060
+Overall Test Results
+3974 Pass
+Pass
+Units
+deg C
+%
+m/s
+Specification
+18.9 to 25.6
+10 to 70
+2.07 to 2.13
+Result Pass/Fail
+20.9
+26
+Pass
+2.12
+Pass
+Pass
+C-54
+===== page 154
+-20 0 20 40 60 80 100
+-1000
+0
+1000
+2000
+3000
+4000
+TEST DESC: LEFT KNEE TEST DATE: 11/06/2012
+TEST #: D124226VELOCITY: 6.97 ft/s, 2.12 m/s
+FORCE (N) vs TIME (ms)
+Max: 3974.3 N
+Tmax: 2.0 ms
+Min: -40.2 N
+Tmin: 19.9 ms
+CFC 600
+C-55
+===== page 155
+MGA RESEARCH CORPORATION
+TORSO FLEXION TEST
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test I.D:634 D124227
+Test Date
+11/05/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Initial Angle
+Laboratory Relative Humidity
+Return Angle deg +/- 8
+Upper Torso Deflection Rate
+5 Pass
+deg/s
+Units
+deg C
+%
+deg
+Force at 45 deg N 320 to 390 360 Pass
+0.5 to 1.5 0.9 Pass
+Overall Result Pass
+Specification
+18.9 to 25.6
+10 to 70
+0 to 20
+Result Pass/Fail
+21.0
+27
+Pass
+16
+Pass
+Pass
+C-56
+===== page 156
+MGA RESEARCH CORPORATION
+HEAD DROP TEST
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test ID:634 D124281
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Peak Resultant Acceleration
+Laboratory Relative Humidity
+Peak Lateral Acceleration G's <= +/- 15.0
+Oscillations
+-2.0 Pass
+N/A
+Units
+deg C
+%
+G's
+Unimodal N/A Yes Yes Pass
+within 10% of peak PassYes
+Overall Test Results Pass
+Specification
+18.9 to 25.6
+10 to 70
+250 to 300
+Result Pass/Fail
+21.7
+32
+Pass
+256
+Pass
+Pass
+C-57
+===== page 157
+-20 0 20 40 60 80 100
+0
+50
+100
+150
+200
+250
+300
+-20 0 20 40 60 80 100
+-250
+-200
+-150
+-100
+-50
+0
+50
+TEST DESC: HEAD DROP TEST DATE: 11/08/2012
+TEST #: D124281
+HEAD RESULTANT ACCELERATION (G's) vs TIME (ms)
+Max: 255.6 G's
+Tmax: 2.1 ms
+Min: 0.1 G's
+Tmin: 23.1 ms
+CFC 1000
+HEAD X (G's) vs TIME (ms)
+Max: 2.7 G's
+Tmax: 6.3 ms
+Min: -218.7 G's
+Tmin: 2.0 ms
+CFC 1000
+C-58
+===== page 158
+-20 0 20 40 60 80 100
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+1
+1.5
+-20 0 20 40 60 80 100
+-25
+0
+25
+50
+75
+100
+125
+150
+TEST DESC: HEAD DROP TEST DATE: 11/08/2012
+TEST #: D124281
+HEAD Y (G's) vs TIME (ms)
+Max: 1.3 G's
+Tmax: 2.1 ms
+Min: -2.0 G's
+Tmin: 3.4 ms
+CFC 1000
+HEAD Z (G's) vs TIME (ms)
+Max: 132.5 G's
+Tmax: 2.1 ms
+Min: -1.0 G's
+Tmin: 78.1 ms
+CFC 1000
+C-59
+===== page 159
+MGA RESEARCH CORPORATION
+NECK FLEXION TEST
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test I.D:634D124282
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Pendulum Speed
+Laboratory Relative Humidity
+Pendulum Velocity
+D Plane Rotation
+Occipital Condyle Moment within Rotation Corridor
+Positive Moment Time Curve Decay to 10 Nm
+Overall Results Pass
+Units
+deg C
+%
+m/s
+m/s
+m/s
+m/s
+deg
+Nm
+ms
+Max
+20 ms
+30 ms
+Specification
+20.6 to 22.2
+10 to 70
+6.89 to 7.13
+2.1 to 2.5
+4.0 to 5.0
+5.8 to 7.0
+77 to 91
+69 to 83
+80 to 100
+Result Pass/Fail
+21.7
+30
+Pass
+7.06
+2.4
+4.4
+6.1
+84
+71.9
+86
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+10 ms
+C-60
+===== page 160
+-20 0 20 40 60 80 100 120 140 160 180 200
+-2
+0
+2
+4
+6
+8
+10
+-20 0 20 40 60 80 100 120 140 160 180 200
+-75
+-50
+-25
+0
+25
+50
+75
+100
+TEST DESC: NECK FLEXION TEST DATE: 11/08/2012
+TEST #: D124282VELOCITY: 23.15 ft/s, 7.06 m/s
+PENDULUM VELOCITY (m/s) vs TIME (ms)
+Max: 8.2 m/s
+Tmax: 269.9 ms
+Min: -0.0 m/s
+Tmin: -1.0 ms
+CFC 180
+NECK ROTATION (DEG) vs TIME (ms)
+Max: 84.3 DEG
+Tmax: 61.6 ms
+Min: -59.4 DEG
+Tmin: 197.0 ms
+CFC 60
+C-61
+===== page 161
+-20 0 20 40 60 80 100 120 140 160 180 200
+-40
+-20
+0
+20
+40
+60
+80
+TEST DESC: NECK FLEXION TEST DATE: 11/08/2012
+TEST #: D124282VELOCITY: 23.15 ft/s, 7.06 m/s
+OCCIPITAL MOMENT (Nm) vs TIME (ms)
+Max: 71.9 Nm
+Tmax: 50.7 ms
+Min: -23.3 Nm
+Tmin: 14.2 ms
+CFC 600
+C-62
+===== page 162
+ATD Serial No: Test I.D:634 D124283
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Pendulum Speed
+Laboratory Relative Humidity
+Pendulum Velocity
+D Plane Rotation
+Occipital Condyle Moment within Rotation Corridor
+Negative Moment Time Curve Decay to -10 Nm
+Overall Results Pass
+Units
+deg C
+%
+m/s
+m/s
+m/s
+m/s
+deg
+Nm
+ms
+Max
+20 ms
+30 ms
+Specification
+20.6 to 22.2
+10 to 70
+5.95 to 6.19
+1.5 to 1.9
+3.1 to 3.9
+4.6 to 5.6
+99 to 114
+-65 to -53
+94 to 114
+Result Pass/Fail
+21.7
+30
+Pass
+6.13
+1.8
+3.7
+5.4
+106
+-60.4
+94
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+10 ms
+MGA RESEARCH CORPORATION
+NECK EXTENSION TEST
+HYBRID III 5TH PERCENTILE
+C-63
+===== page 163
+-20 0 20 40 60 80 100 120 140 160 180 200
+-1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+-20 0 20 40 60 80 100 120 140 160 180 200
+-50
+-25
+0
+25
+50
+75
+100
+125
+TEST DESC: NECK EXTENSION TEST DATE: 11/08/2012
+TEST #: D124283VELOCITY: 20.10 ft/s, 6.13 m/s
+PENDULUM VELOCITY (m/s) vs TIME (ms)
+Max: 7.3 m/s
+Tmax: 261.8 ms
+Min: -0.0 m/s
+Tmin: -0.2 ms
+CFC 180
+NECK ROTATION (DEG) vs TIME (ms)
+Max: 106.2 DEG
+Tmax: 70.6 ms
+Min: -39.5 DEG
+Tmin: 203.4 ms
+CFC 60
+C-64
+===== page 164
+-20 0 20 40 60 80 100 120 140 160 180 200
+-80
+-60
+-40
+-20
+0
+20
+40
+TEST DESC: NECK EXTENSION TEST DATE: 11/08/2012
+TEST #: D124283VELOCITY: 20.10 ft/s, 6.13 m/s
+OCCIPITAL MOMENT (Nm) vs TIME (ms)
+Max: 20.4 Nm
+Tmax: 191.0 ms
+Min: -60.4 Nm
+Tmin: 68.0 ms
+CFC 600
+C-65
+===== page 165
+MGA RESEARCH CORPORATION
+THORAX IMPACT
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test I.D:634 D124284
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Temperature
+Probe Speed
+Relative Humidity
+Peak Deflection mm 50 to 58
+Internal Hysteresis
+51 Pass
+Pass
+Units
+deg C
+%
+m/s
+Peak Resistive Force w/in Deflection Corridor N 3900 to 4400 4074 Pass
+% 69 to 85
+<= 4600
+73
+PassPeak Force 18 mm - 50 mm N 4169
+Overall Test Results Pass
+Specification
+20.6 to 22.2
+10 to 70
+6.59 to 6.83
+Result Pass/Fail
+21.6
+31
+Pass
+6.68
+Pass
+Pass
+C-66
+===== page 166
+0 10 20 30 40 50 60
+-1000
+0
+1000
+2000
+3000
+4000
+5000
+TEST DESC: THORAX IMPACT TEST DATE: 11/08/2012
+TEST #: D124284VELOCITY: 21.93 ft/s, 6.68 m/s
+FORCE (N) vs CHEST DISPLACEMENT (mm)
+Max: 4295.9 N
+Tmax: 6.3 mm
+Min: -42.9 N
+Tmin: 2.7 mm
+CFC 180
+C-67
+===== page 167
+MGA RESEARCH CORPORATION
+RIGHT KNEE IMPACT TEST
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test I.D:634 D124285
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Probe Speed
+Laboratory Relative Humidity
+Maximum Force N 3450 to 4060
+Overall Test Results
+3734 Pass
+Pass
+Units
+deg C
+%
+m/s
+Specification
+18.9 to 25.6
+10 to 70
+2.07 to 2.13
+Result Pass/Fail
+21.7
+32
+Pass
+2.12
+Pass
+Pass
+C-68
+===== page 168
+-20 0 20 40 60 80 100
+-500
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+TEST DESC: RIGHT KNEE TEST DATE: 11/08/2012
+TEST #: D124285VELOCITY: 6.97 ft/s, 2.12 m/s
+FORCE (N) vs TIME (ms)
+Max: 3734.2 N
+Tmax: 2.2 ms
+Min: -32.4 N
+Tmin: 9.6 ms
+CFC 600
+C-69
+===== page 169
+MGA RESEARCH CORPORATION
+LEFT KNEE IMPACT TEST
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test I.D:634 D124286
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Probe Speed
+Laboratory Relative Humidity
+Maximum Force N 3450 to 4060
+Overall Test Results
+3881 Pass
+Pass
+Units
+deg C
+%
+m/s
+Specification
+18.9 to 25.6
+10 to 70
+2.07 to 2.13
+Result Pass/Fail
+21.7
+32
+Pass
+2.12
+Pass
+Pass
+C-70
+===== page 170
+-20 0 20 40 60 80 100
+-500
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+TEST DESC: LEFT KNEE TEST DATE: 11/08/2012
+TEST #: D124286VELOCITY: 6.97 ft/s, 2.12 m/s
+FORCE (N) vs TIME (ms)
+Max: 3881.1 N
+Tmax: 2.2 ms
+Min: -39.5 N
+Tmin: 9.9 ms
+CFC 600
+C-71
+===== page 171
+MGA RESEARCH CORPORATION
+TORSO FLEXION TEST
+HYBRID III 5TH PERCENTILE
+ATD Serial No: Test I.D:634 D124287
+Test Date
+11/08/2012
+Laboratory Technician
+Approved By
+Tested Parameter
+Laboratory Temperature
+Initial Angle
+Laboratory Relative Humidity
+Return Angle deg +/- 8
+Upper Torso Deflection Rate
+4 Pass
+deg/s
+Units
+deg C
+%
+deg
+Force at 45 deg N 320 to 390 357 Pass
+0.5 to 1.5 1.0 Pass
+Overall Result Pass
+Specification
+18.9 to 25.6
+10 to 70
+0 to 20
+Result Pass/Fail
+21.7
+32
+Pass
+17
+Pass
+Pass
+C-72

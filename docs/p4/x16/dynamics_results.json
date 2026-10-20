@@ -1,0 +1,16 @@
+{
+  "suite": "hellcat-validation",
+  "time_utc": "2026-10-14T17:07:33Z",
+  "quick": false,
+  "tests": [
+    {"id": "X16", "title": "Diagnostic: driver robot steering at 250 km/h, variants", "pass": true, "seconds": 169.57,
+     "checks": [
+       {"name": "base_yaw0.05: largest path offset after 2 s", "value": 1.1648979235789112, "unit": "m", "limit": "peak yaw rate 3.22 deg/s, RMS 0.71 deg/s; 45.0 s, 282 km/h at the end", "pass": true, "info": true},
+       {"name": "exp1.5_yaw0.05: largest path offset after 2 s", "value": 0.61699724038156889, "unit": "m", "limit": "peak yaw rate 2.84 deg/s, RMS 0.67 deg/s; 45.0 s, 282 km/h at the end", "pass": true, "info": true},
+       {"name": "exp1_yaw0.1: largest path offset after 2 s", "value": 0.6626624336043373, "unit": "m", "limit": "peak yaw rate 4.31 deg/s, RMS 0.85 deg/s; 45.0 s, 283 km/h at the end", "pass": true, "info": true},
+       {"name": "exp1_yaw0.05_f0.1: largest path offset after 2 s", "value": 9.4486790482622247, "unit": "m", "limit": "peak yaw rate 6.93 deg/s, RMS 1.60 deg/s; 45.0 s, 275 km/h at the end", "pass": true, "info": true},
+       {"name": "exp1_yaw0.15: largest path offset after 2 s", "value": 0.39084817957177526, "unit": "m", "limit": "peak yaw rate 2.54 deg/s, RMS 0.52 deg/s; 45.0 s, 283 km/h at the end", "pass": true, "info": true}],
+     "notes": [],
+     "files": ["X16_robot_base_yaw0.05.csv", "X16_robot_exp1.5_yaw0.05.csv", "X16_robot_exp1_yaw0.1.csv", "X16_robot_exp1_yaw0.05_f0.1.csv", "X16_robot_exp1_yaw0.15.csv"]}
+  ]
+}

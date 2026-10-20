@@ -1,0 +1,5 @@
+{
+ "torsion_kNm_per_deg": 6.833,
+ "bending_kN_per_mm": 1.776,
+ "bending_floor_kN_per_mm": 0.799
+}

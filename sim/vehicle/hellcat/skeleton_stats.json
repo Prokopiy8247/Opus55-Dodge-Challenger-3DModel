@@ -1,0 +1,31 @@
+{
+ "stats": {
+  "nodes": 2107,
+  "beams": 11399,
+  "triangles": 2308,
+  "hinges": 1736,
+  "damp_groups": 23,
+  "wheels": 4,
+  "mass_kg": 2040.0,
+  "com_blender": [
+   0.0024,
+   0.2023,
+   0.563
+  ],
+  "min_degree": 3,
+  "isolated_nodes": 0,
+  "components": 1,
+  "duplicate_pairs_1cm": 21,
+  "hydros": [
+   "steering"
+  ]
+ },
+ "mass": {
+  "fixed_kg": 1241.1,
+  "cell_kg": 798.9,
+  "tilt": 0.2,
+  "other_kg": 1241.1
+ },
+ "bytes": 1756493,
+ "seconds": 22.9
+}

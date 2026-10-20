@@ -1,0 +1,17 @@
+{
+  "suite": "hellcat-validation",
+  "time_utc": "2026-10-14T14:37:35Z",
+  "quick": false,
+  "tests": [
+    {"id": "X13", "title": "Diagnostic: traction control and ABS gains on the launch and the stop", "pass": true, "seconds": 22.08,
+     "checks": [
+       {"name": "base: 0-100 km/h (1-ft rollout)", "value": 3.90000018524006, "unit": "s", "limit": "from the throttle 4.26 s, 0-60 mph (rollout) 3.72 s; slip peak 5.45, above 36 km/h 95th pct 0.345, peak 0.46; first second 0.76 g", "pass": true, "info": true},
+       {"name": "tcKi4: 0-100 km/h (1-ft rollout)", "value": 3.9350001869024709, "unit": "s", "limit": "from the throttle 4.30 s, 0-60 mph (rollout) 3.75 s; slip peak 5.45, above 36 km/h 95th pct 0.319, peak 0.42; first second 0.74 g", "pass": true, "info": true},
+       {"name": "tcKp0.4: 0-100 km/h (1-ft rollout)", "value": 3.9800001890398562, "unit": "s", "limit": "from the throttle 4.34 s, 0-60 mph (rollout) 3.79 s; slip peak 5.40, above 36 km/h 95th pct 0.352, peak 0.44; first second 0.74 g", "pass": true, "info": true},
+       {"name": "tcKp0.4_tcKi4: 0-100 km/h (1-ft rollout)", "value": 4.01000019046478, "unit": "s", "limit": "from the throttle 4.37 s, 0-60 mph (rollout) 3.83 s; slip peak 5.39, above 36 km/h 95th pct 0.350, peak 0.43; first second 0.73 g", "pass": true, "info": true},
+       {"name": "tcSlip0.19: 0-100 km/h (1-ft rollout)", "value": 3.9250001864274964, "unit": "s", "limit": "from the throttle 4.29 s, 0-60 mph (rollout) 3.74 s; slip peak 5.45, above 36 km/h 95th pct 0.314, peak 0.41; first second 0.76 g", "pass": true, "info": true},
+       {"name": "tcSlipLow0.28: 0-100 km/h (1-ft rollout)", "value": 3.95500018785242, "unit": "s", "limit": "from the throttle 4.32 s, 0-60 mph (rollout) 3.78 s; slip peak 5.40, above 36 km/h 95th pct 0.321, peak 0.40; first second 0.75 g", "pass": true, "info": true}],
+     "notes": ["rows of assist_tuning.csv: base, tcKi4, tcKp0.4, tcKp0.4_tcKi4, tcSlip0.19, tcSlipLow0.28"],
+     "files": ["X13_launch_base.csv", "X13_launch_tcKi4.csv", "X13_launch_tcKp0.4.csv", "X13_launch_tcKp0.4_tcKi4.csv", "X13_launch_tcSlip0.19.csv", "X13_launch_tcSlipLow0.28.csv", "X13_assist_tuning.csv"]}
+  ]
+}

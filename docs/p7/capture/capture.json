@@ -1,0 +1,15 @@
+{
+ "video": "docs/video_assets/P7/2026-10-15_P7_showcase_1440p60.mp4",
+ "frames_captured": 2707,
+ "frame_size": [
+  2560,
+  1440
+ ],
+ "width": 2560,
+ "height": 1440,
+ "fps": 60.0,
+ "codec": "h264",
+ "frames": 2707,
+ "duration_s": 45.116667,
+ "bytes": 126104293
+}

@@ -1,0 +1,159 @@
+{
+    "unityVersion": "6000.6.0f1",
+    "timestamp": "2026-10-10T18:48:06",
+    "packages": [
+        {
+            "name": "com.unity.burst",
+            "found": false,
+            "error": "no result",
+            "displayName": "",
+            "source": "",
+            "recommended": "",
+            "latestCompatible": "",
+            "latest": "",
+            "compatible": []
+        },
+        {
+            "name": "com.unity.collections",
+            "found": true,
+            "error": "",
+            "displayName": "Collections",
+            "source": "BuiltIn",
+            "recommended": "6.6.0",
+            "latestCompatible": "6.6.0",
+            "latest": "6.6.0",
+            "compatible": [
+                "6.6.0"
+            ]
+        },
+        {
+            "name": "com.unity.mathematics",
+            "found": true,
+            "error": "",
+            "displayName": "Mathematics",
+            "source": "BuiltIn",
+            "recommended": "1.4.0",
+            "latestCompatible": "1.4.0",
+            "latest": "1.4.0",
+            "compatible": [
+                "1.4.0"
+            ]
+        },
+        {
+            "name": "com.unity.jobs",
+            "found": true,
+            "error": "",
+            "displayName": "Jobs",
+            "source": "Registry",
+            "recommended": "",
+            "latestCompatible": "0.70.0-preview.7",
+            "latest": "0.70.0-preview.7",
+            "compatible": [
+                "0.0.7-preview.1",
+                "0.0.7-preview.2",
+                "0.0.7-preview.3",
+                "0.0.7-preview.4",
+                "0.0.7-preview.5",
+                "0.0.7-preview.6",
+                "0.0.7-preview.7",
+                "0.0.7-preview.8",
+                "0.0.7-preview.9",
+                "0.0.7-preview.10",
+                "0.0.7-preview.11",
+                "0.0.7-preview.12",
+                "0.0.7-preview.13",
+                "0.1.0-preview",
+                "0.1.1-preview",
+                "0.2.0-preview.13",
+                "0.2.1-preview.3",
+                "0.2.2-preview.6",
+                "0.2.3-preview.9",
+                "0.2.4-preview.11",
+                "0.2.5-preview.20",
+                "0.2.6-preview.13",
+                "0.2.7-preview.11",
+                "0.2.8-preview.3",
+                "0.2.9-preview.15",
+                "0.2.10-preview.11",
+                "0.2.10-preview.12",
+                "0.2.10-preview.13",
+                "0.4.0-preview.18",
+                "0.5.0-preview.14",
+                "0.7.0-preview.17",
+                "0.8.0-preview.23",
+                "0.11.0-preview.5",
+                "0.11.0-preview.6",
+                "0.50.0-preview.8",
+                "0.50.0-preview.9",
+                "0.51.0-preview.32",
+                "0.70.0-preview.7"
+            ]
+        },
+        {
+            "name": "com.unity.inputsystem",
+            "found": true,
+            "error": "",
+            "displayName": "Input System",
+            "source": "Registry",
+            "recommended": "1.20.1",
+            "latestCompatible": "1.20.1",
+            "latest": "1.20.1",
+            "compatible": [
+                "1.20.0",
+                "1.20.1"
+            ]
+        },
+        {
+            "name": "com.unity.test-framework",
+            "found": true,
+            "error": "",
+            "displayName": "Test Framework",
+            "source": "BuiltIn",
+            "recommended": "1.8.0",
+            "latestCompatible": "1.8.0",
+            "latest": "1.8.0",
+            "compatible": [
+                "1.8.0"
+            ]
+        },
+        {
+            "name": "com.unity.recorder",
+            "found": true,
+            "error": "",
+            "displayName": "Recorder",
+            "source": "Registry",
+            "recommended": "5.1.7",
+            "latestCompatible": "5.1.7",
+            "latest": "5.1.7",
+            "compatible": [
+                "5.1.7"
+            ]
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "found": true,
+            "error": "",
+            "displayName": "Cinemachine",
+            "source": "BuiltIn",
+            "recommended": "6.6.0",
+            "latestCompatible": "6.6.0",
+            "latest": "6.6.0",
+            "compatible": [
+                "6.6.0"
+            ]
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "found": true,
+            "error": "",
+            "displayName": "Universal Render Pipeline",
+            "source": "BuiltIn",
+            "recommended": "17.6.0",
+            "latestCompatible": "17.6.0",
+            "latest": "17.6.0",
+            "compatible": [
+                "17.6.0"
+            ]
+        }
+    ]
+}

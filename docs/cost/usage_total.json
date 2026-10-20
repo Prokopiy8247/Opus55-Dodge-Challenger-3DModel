@@ -1,0 +1,340 @@
+{
+ "first": "2026-10-10T16:05:05.989000+00:00",
+ "last": "2026-10-15T22:45:49.375000+00:00",
+ "wall_clock_h": 126.67871833333334,
+ "active_h": 50.94706500000241,
+ "idle_gap_min": 10.0,
+ "transcripts": [
+  "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\21902aba-585f-4568-9a35-a94579abb2eb.jsonl",
+  "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\7c3138e0-8c03-4683-a5b8-394a4339a707\\subagents\\agent-a863be504e984ef87.jsonl",
+  "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\7c3138e0-8c03-4683-a5b8-394a4339a707.jsonl",
+  "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\87ee4b2f-57ce-4eae-9f91-dd009f0abad4\\subagents\\agent-a41f4e4608676324c.jsonl",
+  "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\87ee4b2f-57ce-4eae-9f91-dd009f0abad4\\subagents\\agent-afbc8449c2990e158.jsonl",
+  "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\87ee4b2f-57ce-4eae-9f91-dd009f0abad4.jsonl",
+  "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\c7a0ed1b-08e5-481c-9db3-6488e8a90ecc.jsonl",
+  "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\ce1e066c-f812-4f81-94c2-7addcdbaf8a6.jsonl"
+ ],
+ "prices": {
+  "claude-opus-5-5": {
+   "input": 4.0,
+   "cache_write_5m": 5.0,
+   "cache_write_1h": 8.0,
+   "cache_read": 0.2,
+   "output": 20.0
+  }
+ },
+ "price_source": "https://platform.claude.com/docs/en/about-claude/pricing",
+ "price_date": "2026-10-15",
+ "per_model": {
+  "claude-opus-5-5 (subagent)": {
+   "messages": 134,
+   "input": 130844,
+   "output": 303289,
+   "cache_write_5m": 2880893,
+   "cache_write_1h": 0,
+   "cache_read": 23223700
+  },
+  "claude-opus-5-5 (main)": {
+   "messages": 4130,
+   "input": 3574927,
+   "output": 7623260,
+   "cache_write_5m": 49162349,
+   "cache_write_1h": 5443174,
+   "cache_read": 2127962163
+  }
+ },
+ "cost_usd": 907.3528386,
+ "phases": {
+  "P0": {
+   "wall_h": 1.590165277777778,
+   "active_h": 1.590165277777777,
+   "per_model": {
+    "claude-opus-5-5 (subagent)": {
+     "messages": 31,
+     "input": 64,
+     "output": 151485,
+     "cache_write_5m": 954355,
+     "cache_write_1h": 0,
+     "cache_read": 4706636
+    },
+    "claude-opus-5-5 (main)": {
+     "messages": 72,
+     "input": 148,
+     "output": 197150,
+     "cache_write_5m": 3722710,
+     "cache_write_1h": 0,
+     "cache_read": 19062832
+    }
+   },
+   "cost_usd": 35.1127666,
+   "tools": {
+    "tool_calls": 171,
+    "blender_calls": 5,
+    "subagents": 1,
+    "unity_batch_calls": 7,
+    "player_run_calls": 1
+   }
+  },
+  "P0.5": {
+   "wall_h": 3.310125,
+   "active_h": 2.8395288888888817,
+   "per_model": {
+    "claude-opus-5-5 (main)": {
+     "messages": 87,
+     "input": 2381,
+     "output": 298745,
+     "cache_write_5m": 3061313,
+     "cache_write_1h": 0,
+     "cache_read": 46849029
+    }
+   },
+   "cost_usd": 30.6607948,
+   "tools": {
+    "tool_calls": 145,
+    "blender_calls": 8,
+    "unity_batch_calls": 6,
+    "player_run_calls": 6
+   }
+  },
+  "P1": {
+   "wall_h": 10.863270555555555,
+   "active_h": 10.175925555555505,
+   "per_model": {
+    "claude-opus-5-5 (subagent)": {
+     "messages": 65,
+     "input": 7409,
+     "output": 120424,
+     "cache_write_5m": 1742142,
+     "cache_write_1h": 0,
+     "cache_read": 13575352
+    },
+    "claude-opus-5-5 (main)": {
+     "messages": 508,
+     "input": 2271,
+     "output": 1093226,
+     "cache_write_5m": 11431280,
+     "cache_write_1h": 0,
+     "cache_read": 244134163
+    }
+   },
+   "cost_usd": 141.720733,
+   "tools": {
+    "tool_calls": 833,
+    "subagents": 1,
+    "blender_calls": 150
+   }
+  },
+  "P1b": {
+   "wall_h": 2.039018611111111,
+   "active_h": 2.0390186111111084,
+   "per_model": {
+    "claude-opus-5-5 (main)": {
+     "messages": 123,
+     "input": 246,
+     "output": 331799,
+     "cache_write_5m": 1528768,
+     "cache_write_1h": 0,
+     "cache_read": 61381259
+    }
+   },
+   "cost_usd": 26.5570558,
+   "tools": {
+    "tool_calls": 233,
+    "blender_calls": 31
+   }
+  },
+  "P2": {
+   "wall_h": 8.628478333333334,
+   "active_h": 2.6671036111111013,
+   "per_model": {
+    "claude-opus-5-5 (main)": {
+     "messages": 142,
+     "input": 286,
+     "output": 356636,
+     "cache_write_5m": 5992366,
+     "cache_write_1h": 0,
+     "cache_read": 57257056
+    }
+   },
+   "cost_usd": 48.547105200000004,
+   "tools": {
+    "tool_calls": 233,
+    "blender_calls": 18
+   }
+  },
+  "P3": {
+   "wall_h": 24.970747222222222,
+   "active_h": 7.732713333333289,
+   "per_model": {
+    "claude-opus-5-5 (main)": {
+     "messages": 611,
+     "input": 7683,
+     "output": 1477402,
+     "cache_write_5m": 8754787,
+     "cache_write_1h": 0,
+     "cache_read": 267420505
+    }
+   },
+   "cost_usd": 126.836808,
+   "tools": {
+    "tool_calls": 689,
+    "unity_batch_calls": 42,
+    "blender_calls": 9,
+    "player_run_calls": 1
+   }
+  },
+  "P3b": {
+   "wall_h": 8.746595277777777,
+   "active_h": 8.579396388888824,
+   "per_model": {
+    "claude-opus-5-5 (main)": {
+     "messages": 669,
+     "input": 2121195,
+     "output": 1445053,
+     "cache_write_5m": 12829286,
+     "cache_write_1h": 0,
+     "cache_read": 330916106
+    }
+   },
+   "cost_usd": 167.71549119999997,
+   "tools": {
+    "tool_calls": 776,
+    "unity_batch_calls": 104,
+    "blender_calls": 6
+   }
+  },
+  "P4": {
+   "wall_h": 38.68908944444445,
+   "active_h": 7.3526613888888255,
+   "per_model": {
+    "claude-opus-5-5 (subagent)": {
+     "messages": 38,
+     "input": 123371,
+     "output": 31380,
+     "cache_write_5m": 184396,
+     "cache_write_1h": 0,
+     "cache_read": 4941712
+    },
+    "claude-opus-5-5 (main)": {
+     "messages": 752,
+     "input": 1438287,
+     "output": 1034875,
+     "cache_write_5m": 1841839,
+     "cache_write_1h": 1646429,
+     "cache_read": 432742807
+    }
+   },
+   "cost_usd": 138.41124280000002,
+   "tools": {
+    "tool_calls": 885,
+    "subagents": 1,
+    "blender_calls": 12,
+    "unity_batch_calls": 75,
+    "player_run_calls": 26
+   }
+  },
+  "P4b": {
+   "wall_h": 2.4806863888888886,
+   "active_h": 2.313957777777761,
+   "per_model": {
+    "claude-opus-5-5 (main)": {
+     "messages": 277,
+     "input": 568,
+     "output": 384035,
+     "cache_write_5m": 0,
+     "cache_write_1h": 689388,
+     "cache_read": 139338859
+    }
+   },
+   "cost_usd": 41.0658478,
+   "tools": {
+    "tool_calls": 284,
+    "unity_batch_calls": 19,
+    "player_run_calls": 8
+   }
+  },
+  "P5": {
+   "wall_h": 0.7128672222222222,
+   "active_h": 0.7128672222222228,
+   "per_model": {
+    "claude-opus-5-5 (main)": {
+     "messages": 59,
+     "input": 118,
+     "output": 153988,
+     "cache_write_5m": 0,
+     "cache_write_1h": 206042,
+     "cache_read": 46520047
+    }
+   },
+   "cost_usd": 14.032577400000001,
+   "tools": {
+    "tool_calls": 67,
+    "player_run_calls": 7,
+    "unity_batch_calls": 6
+   }
+  },
+  "P6": {
+   "wall_h": 21.564861666666665,
+   "active_h": 3.304013611111083,
+   "per_model": {
+    "claude-opus-5-5 (main)": {
+     "messages": 580,
+     "input": 1240,
+     "output": 584656,
+     "cache_write_5m": 0,
+     "cache_write_1h": 2397484,
+     "cache_read": 309628521
+    }
+   },
+   "cost_usd": 92.8036562,
+   "tools": {
+    "tool_calls": 570,
+    "player_run_calls": 19,
+    "unity_batch_calls": 2
+   }
+  },
+  "P7": {
+   "wall_h": 3.0238680555555555,
+   "active_h": 1.5807680555555508,
+   "per_model": {
+    "claude-opus-5-5 (main)": {
+     "messages": 250,
+     "input": 504,
+     "output": 265695,
+     "cache_write_5m": 0,
+     "cache_write_1h": 503831,
+     "cache_read": 172710979
+    }
+   },
+   "cost_usd": 43.8887598,
+   "tools": {
+    "tool_calls": 269,
+    "unity_batch_calls": 3,
+    "player_run_calls": 18
+   }
+  }
+ },
+ "code": {
+  "Unity C# (solver, game, editor tools)": {
+   "files": 96,
+   "lines": 26257
+  },
+  "Unity shaders": {
+   "files": 4,
+   "lines": 205
+  },
+  "Blender Python (hcar package, scripts)": {
+   "files": 61,
+   "lines": 12511
+  },
+  "Python tools (gates, analysis, skeleton design, cost)": {
+   "files": 208,
+   "lines": 22068
+  },
+  "PowerShell scripts": {
+   "files": 11,
+   "lines": 484
+  }
+ },
+ "tracked_files": 2820
+}

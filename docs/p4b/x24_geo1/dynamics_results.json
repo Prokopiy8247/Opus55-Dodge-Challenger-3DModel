@@ -1,0 +1,15 @@
+{
+  "suite": "hellcat-validation",
+  "time_utc": "2026-10-14T19:11:20Z",
+  "quick": true,
+  "tests": [
+    {"id": "X24", "title": "Diagnostic: top-speed attitude drift with the P4 solver changes switched off one at a time", "pass": true, "seconds": 235.53,
+     "checks": [
+       {"name": "steering at zero, cruise 150 km/h, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": -0.16233028611011679, "unit": "deg", "limit": "pitch at 30 s -2.30 deg, at the end -2.46 deg; path offset 73.06 m; broken beams 1", "pass": true, "info": true},
+       {"name": "steering at zero, cruise 150 km/h, wind-up spring off, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": 0.013231169149781952, "unit": "deg", "limit": "pitch at 30 s -0.25 deg, at the end -0.23 deg; path offset 4.74 m; broken beams 0", "pass": true, "info": true},
+       {"name": "steering at zero, neutral from 282 km/h, 60 s: pitch drift from 30 s to the end (nose up negative)", "value": 0.523840389946252, "unit": "deg", "limit": "pitch at 30 s 0.50 deg, at the end 1.02 deg; path offset 350.50 m; broken beams 1", "pass": true, "info": true},
+       {"name": "steering at zero, neutral from 282 km/h, wind-up spring off, 60 s: pitch drift from 30 s to the end (nose up negative)", "value": 0.01424134962931331, "unit": "deg", "limit": "pitch at 30 s -0.10 deg, at the end -0.09 deg; path offset 4.44 m; broken beams 0", "pass": true, "info": true}],
+     "notes": ["steering at zero, cruise 150 km/h, 120 s: rest-length change since the launch (sum, mm): link 60.8, plastic_support 1.1 | plastic work (J): link 1630.1, plastic_support 0.3 | armed beams: none", "steering at zero, cruise 150 km/h, wind-up spring off, 120 s: rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none", "steering at zero, neutral from 282 km/h, 60 s: rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none", "steering at zero, neutral from 282 km/h, wind-up spring off, 60 s: rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none"],
+     "files": ["X24_top_speed_0_long.csv", "X24_top_speed_1_long.csv", "X24_top_speed_2_long.csv", "X24_top_speed_3_long.csv"]}
+  ]
+}

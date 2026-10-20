@@ -1,0 +1,200 @@
+{
+    "timestamp": "2026-10-10T19:11:08",
+    "items": [
+        {
+            "key": "unityVersion",
+            "value": "6000.6.0f1"
+        },
+        {
+            "key": "isBatchMode",
+            "value": "True"
+        },
+        {
+            "key": "os",
+            "value": "Windows 11  (10.0.26200)"
+        },
+        {
+            "key": "cpu",
+            "value": "AMD Ryzen 7 5700X3D 8-Core Processor "
+        },
+        {
+            "key": "cpuLogicalCount",
+            "value": "16"
+        },
+        {
+            "key": "cpuFrequencyMHz",
+            "value": "2994"
+        },
+        {
+            "key": "systemMemoryMB",
+            "value": "65458"
+        },
+        {
+            "key": "gpu",
+            "value": "NVIDIA GeForce RTX 5070"
+        },
+        {
+            "key": "gpuVendor",
+            "value": "NVIDIA"
+        },
+        {
+            "key": "gpuApi",
+            "value": "Direct3D11"
+        },
+        {
+            "key": "gpuApiVersion",
+            "value": "Direct3D 11.0 [level 11.1]"
+        },
+        {
+            "key": "gpuMemoryMB",
+            "value": "11944"
+        },
+        {
+            "key": "gpuShaderLevel",
+            "value": "50"
+        },
+        {
+            "key": "supportsComputeShaders",
+            "value": "True"
+        },
+        {
+            "key": "supportsAsyncGPUReadback",
+            "value": "True"
+        },
+        {
+            "key": "maxComputeWorkGroupSize",
+            "value": "1024"
+        },
+        {
+            "key": "computeSmokeTest",
+            "value": "ok: 4096 values verified, dispatch + readback 6,19 ms"
+        },
+        {
+            "key": "renderPipelineAsset",
+            "value": "none (built-in)"
+        },
+        {
+            "key": "qualityLevels",
+            "value": "Mobile,PC"
+        },
+        {
+            "key": "colorSpace",
+            "value": "Linear"
+        },
+        {
+            "key": "scriptingBackendStandalone",
+            "value": "Mono2x"
+        },
+        {
+            "key": "apiCompatibilityStandalone",
+            "value": "NET_Standard_2_0"
+        },
+        {
+            "key": "graphicsApisWin64",
+            "value": "Direct3D11,Direct3D12"
+        },
+        {
+            "key": "activeInputHandler (0 old, 1 new, 2 both)",
+            "value": "1"
+        },
+        {
+            "key": "burstEnabled",
+            "value": "True"
+        },
+        {
+            "key": "assembly:Unity.Mathematics.float3",
+            "value": "UnityEngine.MathematicsModule"
+        },
+        {
+            "key": "assembly:Unity.Burst.BurstCompileAttribute",
+            "value": "UnityEngine.BurstModule"
+        },
+        {
+            "key": "type:Unity.Collections.NativeList",
+            "value": "loaded from Unity.Collections"
+        },
+        {
+            "key": "type:InputSystem",
+            "value": "loaded from Unity.InputSystem"
+        },
+        {
+            "key": "type:Recorder",
+            "value": "loaded from Unity.Recorder.Editor"
+        },
+        {
+            "key": "type:TestRunnerApi",
+            "value": "loaded from UnityEditor.TestRunner"
+        },
+        {
+            "key": "type:NUnit",
+            "value": "loaded from nunit.framework"
+        },
+        {
+            "key": "type:Cinemachine (not installed on purpose)",
+            "value": "missing"
+        }
+    ],
+    "packages": [
+        "com.unity.ai.navigation@2.0.14 (Registry)",
+        "com.unity.bindings.openimageio@1.0.2 (Registry)",
+        "com.unity.burst@2.0.0 (BuiltIn)",
+        "com.unity.collab-proxy@2.13.6 (Registry)",
+        "com.unity.collections@6.6.0 (BuiltIn)",
+        "com.unity.ext.nunit@2.1.0 (BuiltIn)",
+        "com.unity.graph-authoring@1.0.0 (BuiltIn)",
+        "com.unity.ide.rider@3.0.38 (Registry)",
+        "com.unity.ide.visualstudio@2.0.26 (Registry)",
+        "com.unity.inputsystem@1.20.1 (Registry)",
+        "com.unity.modules.accessibility@1.0.0 (BuiltIn)",
+        "com.unity.modules.adaptiveperformance@1.0.0 (BuiltIn)",
+        "com.unity.modules.ai@1.0.0 (BuiltIn)",
+        "com.unity.modules.androidjni@1.0.0 (BuiltIn)",
+        "com.unity.modules.animation@1.0.0 (BuiltIn)",
+        "com.unity.modules.assetbundle@1.0.0 (BuiltIn)",
+        "com.unity.modules.audio@1.0.0 (BuiltIn)",
+        "com.unity.modules.cloth@1.0.0 (BuiltIn)",
+        "com.unity.modules.director@1.0.0 (BuiltIn)",
+        "com.unity.modules.hierarchycore@1.0.0 (BuiltIn)",
+        "com.unity.modules.imageconversion@1.0.0 (BuiltIn)",
+        "com.unity.modules.imgui@1.0.0 (BuiltIn)",
+        "com.unity.modules.jsonserialize@1.0.0 (BuiltIn)",
+        "com.unity.modules.particlesystem@1.0.0 (BuiltIn)",
+        "com.unity.modules.physics2d@1.0.0 (BuiltIn)",
+        "com.unity.modules.physics@1.0.0 (BuiltIn)",
+        "com.unity.modules.physicscore2d@1.0.0 (BuiltIn)",
+        "com.unity.modules.screencapture@1.0.0 (BuiltIn)",
+        "com.unity.modules.subsystems@1.0.0 (BuiltIn)",
+        "com.unity.modules.terrain@1.0.0 (BuiltIn)",
+        "com.unity.modules.terrainphysics@1.0.0 (BuiltIn)",
+        "com.unity.modules.tetgen@1.0.0 (BuiltIn)",
+        "com.unity.modules.tilemap@1.0.0 (BuiltIn)",
+        "com.unity.modules.timelinefoundation@1.0.0 (BuiltIn)",
+        "com.unity.modules.ui@1.0.0 (BuiltIn)",
+        "com.unity.modules.uielements@1.0.0 (BuiltIn)",
+        "com.unity.modules.umbra@1.0.0 (BuiltIn)",
+        "com.unity.modules.unityanalytics@1.0.0 (BuiltIn)",
+        "com.unity.modules.unitywebrequest@1.0.0 (BuiltIn)",
+        "com.unity.modules.unitywebrequestassetbundle@1.0.0 (BuiltIn)",
+        "com.unity.modules.unitywebrequestaudio@1.0.0 (BuiltIn)",
+        "com.unity.modules.unitywebrequesttexture@1.0.0 (BuiltIn)",
+        "com.unity.modules.unitywebrequestwww@1.0.0 (BuiltIn)",
+        "com.unity.modules.vectorgraphics@1.0.0 (BuiltIn)",
+        "com.unity.modules.vehicles@1.0.0 (BuiltIn)",
+        "com.unity.modules.video@1.0.0 (BuiltIn)",
+        "com.unity.modules.wind@1.0.0 (BuiltIn)",
+        "com.unity.modules.xr@1.0.0 (BuiltIn)",
+        "com.unity.nuget.mono-cecil@1.11.6 (Registry)",
+        "com.unity.profiling.core@1.0.3 (Registry)",
+        "com.unity.recorder@5.1.7 (Registry)",
+        "com.unity.render-pipelines.core@17.6.0 (BuiltIn)",
+        "com.unity.render-pipelines.universal-config@17.6.0 (BuiltIn)",
+        "com.unity.render-pipelines.universal@17.6.0 (BuiltIn)",
+        "com.unity.searcher@4.9.5 (Registry)",
+        "com.unity.shadergraph@17.6.0 (BuiltIn)",
+        "com.unity.test-framework.performance@6.6.0 (BuiltIn)",
+        "com.unity.test-framework@1.8.0 (BuiltIn)",
+        "com.unity.timeline@6.6.0 (BuiltIn)",
+        "com.unity.ugui@2.6.0 (BuiltIn)",
+        "com.unity.visualscripting@1.9.12 (Registry)"
+    ]
+}

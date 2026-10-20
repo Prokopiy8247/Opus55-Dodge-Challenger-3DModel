@@ -1,0 +1,105 @@
+﻿{
+    "timestamp":  "2026-10-10T18:32:09",
+    "os":  {
+               "caption":  "Майкрософт Windows 11 Корпоративная",
+               "version":  "10.0.26200",
+               "build":  "26200"
+           },
+    "cpu":  {
+                "name":  "AMD Ryzen 7 5700X3D 8-Core Processor",
+                "cores":  8,
+                "logical":  16,
+                "maxClockMHz":  3001,
+                "l3KB":  98304
+            },
+    "ramGB":  63.9,
+    "gpus":  [
+                 {
+                     "name":  "NVIDIA GeForce RTX 5070",
+                     "driverVersion":  "32.0.16.1692",
+                     "driverDate":  "09/04/2026 02:00:00",
+                     "videoProcessor":  "NVIDIA GeForce RTX 5070"
+                 }
+             ],
+    "nvidiaSmi":  "NVIDIA GeForce RTX 5070, 616.92, 12227 MiB, 12.0, 4",
+    "disks":  [
+                  {
+                      "drive":  "C:",
+                      "freeGB":  19.1,
+                      "sizeGB":  337.7
+                  },
+                  {
+                      "drive":  "G:",
+                      "freeGB":  63.9,
+                      "sizeGB":  762.7
+                  },
+                  {
+                      "drive":  "W:",
+                      "freeGB":  56.1,
+                      "sizeGB":  761.7
+                  }
+              ],
+    "blender":  {
+                    "path":  "W:\\Blender\\blender.exe",
+                    "productVersion":  "5.2",
+                    "windowTitle":  "3DDodgeChallenger_v001 [W:\\YouTube\\3D Model Dodge Challenger\\3DDodgeChallenger_v001.blend] - Blender 5.2.2 LTS"
+                },
+    "unityHub":  {
+                     "exe":  "W:\\Unity\\Unity Hub\\Unity Hub.exe",
+                     "version":  "3.22.2"
+                 },
+    "unityEditors":  [
+                         {
+                             "version":  "6000.6.0f1",
+                             "exe":  "C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Unity.exe",
+                             "productVersion":  "6000.6.0f1_f7f8ed4d1e24",
+                             "playbackEngines":  [
+                                                     "MacStandaloneSupport",
+                                                     "WebGLSupport",
+                                                     "windowsstandalonesupport"
+                                                 ],
+                             "windowsVariations":  [
+                                                       "mono",
+                                                       "win32_player_development_mono",
+                                                       "win32_player_nondevelopment_mono",
+                                                       "win64_player_development_mono",
+                                                       "win64_player_nondevelopment_mono",
+                                                       "win_arm64_player_development_mono",
+                                                       "win_arm64_player_nondevelopment_mono"
+                                                   ],
+                             "templates":  [
+                                               "com.unity.template.2d-cross-platform-2d-7.0.0.tgz",
+                                               "com.unity.template.urp-blank-17.2.1.tgz"
+                                           ]
+                         }
+                     ],
+    "visualStudio":  [
+                         {
+                             "displayName":  "Visual Studio Community 2026",
+                             "version":  "18.10.12224.181",
+                             "path":  "W:\\Visual Studio",
+                             "vcToolsX64":  true
+                         }
+                     ],
+    "windowsSdks":  [
+                        "10.0.26100.0"
+                    ],
+    "dotnetSdks":  [
+                       "10.0.401 [C:\\Program Files\\dotnet\\sdk]"
+                   ],
+    "python":  "Python 3.12.10",
+    "uv":  "uv 0.12.15 (d35f1f270 2026-09-15 x86_64-pc-windows-msvc)",
+    "git":  {
+                "path":  "W:\\Git\\Git\\cmd\\git.exe",
+                "version":  "git version 2.51.1.windows.1"
+            },
+    "vscode":  "1.141.0",
+    "unrealEngine":  {
+                         "path":  "W:\\Unreal Engine 5\\UE_5.8",
+                         "present":  true,
+                         "version":  "5.8.2"
+                     },
+    "godot":  [
+
+              ]
+}

@@ -1,0 +1,15 @@
+{
+  "suite": "hellcat-validation",
+  "time_utc": "2026-10-14T19:25:13Z",
+  "quick": true,
+  "tests": [
+    {"id": "X24", "title": "Diagnostic: top-speed attitude drift with the P4 solver changes switched off one at a time", "pass": true, "seconds": 303.62,
+     "checks": [
+       {"name": "steering at zero, cruise 150 km/h, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": 0.061068368368630915, "unit": "deg", "limit": "pitch at 30 s -0.08 deg, at the end -0.02 deg; path offset 32.98 m; broken beams 0", "pass": true, "info": true},
+       {"name": "steering at zero, cruise 150 km/h, integrated wind-up angle, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": -2.2747304773523003, "unit": "deg", "limit": "pitch at 30 s -0.33 deg, at the end -2.61 deg; path offset 417.61 m; broken beams 0", "pass": true, "info": true},
+       {"name": "steering at zero, cruise 150 km/h, wind-up spring off, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": 0.013231169149781952, "unit": "deg", "limit": "pitch at 30 s -0.25 deg, at the end -0.23 deg; path offset 4.74 m; broken beams 0", "pass": true, "info": true},
+       {"name": "steering at zero, neutral from 282 km/h, 60 s: pitch drift from 30 s to the end (nose up negative)", "value": 0.046216620017645954, "unit": "deg", "limit": "pitch at 30 s 0.03 deg, at the end 0.07 deg; path offset 1.66 m; broken beams 0", "pass": true, "info": true}],
+     "notes": ["steering at zero, cruise 150 km/h, 120 s: rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none", "steering at zero, cruise 150 km/h, integrated wind-up angle, 120 s: rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none", "steering at zero, cruise 150 km/h, wind-up spring off, 120 s: rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none", "steering at zero, neutral from 282 km/h, 60 s: rest-length change since the launch (sum, mm): none | plastic work (J): none | armed beams: none"],
+     "files": ["X24_top_speed_0_long.csv", "X24_top_speed_1_long.csv", "X24_top_speed_2_long.csv", "X24_top_speed_3_long.csv"]}
+  ]
+}

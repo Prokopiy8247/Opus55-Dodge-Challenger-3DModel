@@ -1,0 +1,27 @@
+{
+  "files": [
+    "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\87ee4b2f-57ce-4eae-9f91-dd009f0abad4\\subagents\\agent-afbc8449c2990e158.jsonl",
+    "C:\Users\<user>\\.claude\\projects\\W--YouTube-3D-Model-Dodge-Challenger\\87ee4b2f-57ce-4eae-9f91-dd009f0abad4.jsonl"
+  ],
+  "first": "2026-10-10T16:05:05.989000+00:00",
+  "last": "2026-10-10T17:41:52.491000+00:00",
+  "wall_clock_h": 1.613,
+  "active_h_est": 1.613,
+  "idle_gap_rule_min": 10.0,
+  "per_model": {
+    "claude-opus-5-5 (subagent)": {
+      "messages": 31,
+      "input_tokens": 64,
+      "output_tokens": 151485,
+      "cache_write_tokens": 954355,
+      "cache_read_tokens": 4706636
+    },
+    "claude-opus-5-5 (main)": {
+      "messages": 73,
+      "input_tokens": 150,
+      "output_tokens": 202319,
+      "cache_write_tokens": 3723517,
+      "cache_read_tokens": 19547392
+    }
+  }
+}

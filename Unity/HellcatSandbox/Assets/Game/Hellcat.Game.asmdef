@@ -1,0 +1,19 @@
+{
+    "name": "Hellcat.Game",
+    "rootNamespace": "Hellcat.Game",
+    "references": [
+        "Hellcat.Sim",
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

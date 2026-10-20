@@ -1,0 +1,12 @@
+{
+  "suite": "hellcat-validation",
+  "time_utc": "2026-10-14T17:31:06Z",
+  "quick": true,
+  "tests": [
+    {"id": "X24", "title": "Diagnostic: top-speed attitude drift with the P4 solver changes switched off one at a time", "pass": true, "seconds": 81.75,
+     "checks": [
+       {"name": "P4 configuration, 120 s: pitch drift from 30 s to the end (nose up negative)", "value": -0.64500980370906424, "unit": "deg", "limit": "pitch at 30 s -0.47 deg, at the end -1.12 deg; path offset 225.88 m; broken beams 0", "pass": true, "info": true}],
+     "notes": ["P4 configuration, 120 s: rest-length change since the launch (sum, mm): link 60.7, panel_support 5.4, plastic_support 0.2 | plastic work (J): link 1498.7, panel_support 2.4, plastic_support 0.1 | armed beams: none"],
+     "files": ["X24_top_speed_P4_23.csv"]}
+  ]
+}

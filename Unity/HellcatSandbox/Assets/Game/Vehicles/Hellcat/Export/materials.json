@@ -1,0 +1,1077 @@
+{
+ "materials": [
+  {
+   "name": "CH_Aluminium",
+   "baseColor": [
+    0.550000011920929,
+    0.5600000023841858,
+    0.5799999833106995,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 0.3499999940395355,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Badge_Red",
+   "baseColor": [
+    0.699999988079071,
+    0.019999999552965164,
+    0.019999999552965164,
+    1.0
+   ],
+   "metallic": 0.4000000059604645,
+   "roughness": 0.25,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Brake_Caliper_Red",
+   "baseColor": [
+    0.6200000047683716,
+    0.05999999865889549,
+    0.029999999329447746,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.30000001192092896,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Brake_Disc",
+   "baseColor": [
+    0.3499999940395355,
+    0.3499999940395355,
+    0.36000001430511475,
+    1.0
+   ],
+   "metallic": 0.8999999761581421,
+   "roughness": 0.41999998688697815,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Chrome",
+   "baseColor": [
+    0.8999999761581421,
+    0.8999999761581421,
+    0.9200000166893005,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 0.05999999865889549,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Engine_Orange",
+   "baseColor": [
+    0.6499999761581421,
+    0.18000000715255737,
+    0.03999999910593033,
+    1.0
+   ],
+   "metallic": 0.30000001192092896,
+   "roughness": 0.4000000059604645,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Exhaust_Steel",
+   "baseColor": [
+    0.09000000357627869,
+    0.08500000089406967,
+    0.07999999821186066,
+    1.0
+   ],
+   "metallic": 0.800000011920929,
+   "roughness": 0.6000000238418579,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_FuelDoor",
+   "baseColor": [
+    0.07999999821186066,
+    0.07999999821186066,
+    0.08500000089406967,
+    1.0
+   ],
+   "metallic": 0.699999988079071,
+   "roughness": 0.30000001192092896,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Glass_Tint",
+   "baseColor": [
+    0.019999999552965164,
+    0.02500000037252903,
+    0.029999999329447746,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.03999999910593033,
+   "alpha": 0.30000001192092896,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Grille_Mesh",
+   "baseColor": [
+    0.014999999664723873,
+    0.014999999664723873,
+    0.01600000075995922,
+    1.0
+   ],
+   "metallic": 0.30000001192092896,
+   "roughness": 0.44999998807907104,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_BeltRed",
+   "baseColor": [
+    0.41999998688697815,
+    0.02500000037252903,
+    0.02500000037252903,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.6499999761581421,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_Carbon",
+   "baseColor": [
+    0.07999999821186066,
+    0.07999999821186066,
+    0.08500000089406967,
+    1.0
+   ],
+   "metallic": 0.20000000298023224,
+   "roughness": 0.2199999988079071,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {
+    "Base Color": "carbon_twill.png"
+   }
+  },
+  {
+   "name": "CH_Int_Carpet",
+   "baseColor": [
+    0.012000000104308128,
+    0.012000000104308128,
+    0.013000000268220901,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 1.0,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_Chrome",
+   "baseColor": [
+    0.800000011920929,
+    0.800000011920929,
+    0.8199999928474426,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 0.11999999731779099,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_ClusterDisplay",
+   "baseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.25,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 1.399999976158142,
+   "textures": {
+    "Base Color": "cluster_display.png",
+    "Emission Color": "cluster_display.png"
+   }
+  },
+  {
+   "name": "CH_Int_DialSpeedo",
+   "baseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.3499999940395355,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 1.600000023841858,
+   "textures": {
+    "Base Color": "speedo_dial.png",
+    "Emission Color": "speedo_dial.png"
+   }
+  },
+  {
+   "name": "CH_Int_DialTach",
+   "baseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.3499999940395355,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 1.600000023841858,
+   "textures": {
+    "Base Color": "tach_dial.png",
+    "Emission Color": "tach_dial.png"
+   }
+  },
+  {
+   "name": "CH_Int_Emboss",
+   "baseColor": [
+    0.029999999329447746,
+    0.029999999329447746,
+    0.029999999329447746,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {
+    "Base Color": "seat_emboss.png",
+    "Alpha": "seat_emboss.png"
+   }
+  },
+  {
+   "name": "CH_Int_FloorMat",
+   "baseColor": [
+    0.009999999776482582,
+    0.009999999776482582,
+    0.010999999940395355,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.949999988079071,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_Frit",
+   "baseColor": [
+    0.004000000189989805,
+    0.004000000189989805,
+    0.004000000189989805,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.30000001192092896,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_GlossBlack",
+   "baseColor": [
+    0.00800000037997961,
+    0.00800000037997961,
+    0.008999999612569809,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.07999999821186066,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_Headliner",
+   "baseColor": [
+    0.03500000014901161,
+    0.03500000014901161,
+    0.03700000047683716,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9200000166893005,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_Leather",
+   "baseColor": [
+    0.019999999552965164,
+    0.019999999552965164,
+    0.020999999716877937,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.41999998688697815,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {
+    "Base Color": "leather_grain.png"
+   }
+  },
+  {
+   "name": "CH_Int_LeatherPerf",
+   "baseColor": [
+    0.017999999225139618,
+    0.017999999225139618,
+    0.01899999938905239,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {
+    "Base Color": "leather_perforated.png"
+   }
+  },
+  {
+   "name": "CH_Int_MirrorGlass",
+   "baseColor": [
+    0.6000000238418579,
+    0.6200000047683716,
+    0.6399999856948853,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 0.019999999552965164,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_NeedleRed",
+   "baseColor": [
+    0.8999999761581421,
+    0.11999999731779099,
+    0.07999999821186066,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4000000059604645,
+   "alpha": 1.0,
+   "emission": [
+    0.8999999761581421,
+    0.11999999731779099,
+    0.07999999821186066
+   ],
+   "emissionStrength": 3.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_PlasticBlack",
+   "baseColor": [
+    0.02199999988079071,
+    0.02199999988079071,
+    0.024000000208616257,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.550000011920929,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_Rubber",
+   "baseColor": [
+    0.014999999664723873,
+    0.014999999664723873,
+    0.014999999664723873,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.8500000238418579,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_SatinSilver",
+   "baseColor": [
+    0.44999998807907104,
+    0.44999998807907104,
+    0.4699999988079071,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 0.3199999928474426,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_SoftTouch",
+   "baseColor": [
+    0.026000000536441803,
+    0.026000000536441803,
+    0.02800000086426735,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.6800000071525574,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {
+    "Base Color": "leather_grain.png"
+   }
+  },
+  {
+   "name": "CH_Int_SpeakerMesh",
+   "baseColor": [
+    0.014999999664723873,
+    0.014999999664723873,
+    0.01600000075995922,
+    1.0
+   ],
+   "metallic": 0.30000001192092896,
+   "roughness": 0.6000000238418579,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {
+    "Base Color": "leather_perforated.png"
+   }
+  },
+  {
+   "name": "CH_Int_StartRed",
+   "baseColor": [
+    0.8500000238418579,
+    0.05999999865889549,
+    0.05000000074505806,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.30000001192092896,
+   "alpha": 1.0,
+   "emission": [
+    0.8500000238418579,
+    0.05999999865889549,
+    0.05000000074505806
+   ],
+   "emissionStrength": 2.5,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_Stitch",
+   "baseColor": [
+    0.6200000047683716,
+    0.6200000047683716,
+    0.6000000238418579,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.699999988079071,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_Touchscreen",
+   "baseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.20000000298023224,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 1.399999976158142,
+   "textures": {
+    "Base Color": "screen_perf_pages.png",
+    "Emission Color": "screen_perf_pages.png"
+   }
+  },
+  {
+   "name": "CH_Int_VentSlat",
+   "baseColor": [
+    0.012000000104308128,
+    0.012000000104308128,
+    0.013000000268220901,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.44999998807907104,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Int_WheelBadge",
+   "baseColor": [
+    0.029999999329447746,
+    0.029999999329447746,
+    0.029999999329447746,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.3499999940395355,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {
+    "Base Color": "wheel_badge.png",
+    "Alpha": "wheel_badge.png"
+   }
+  },
+  {
+   "name": "CH_Lamp_Halo",
+   "baseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "alpha": 1.0,
+   "emission": [
+    0.8500000238418579,
+    0.9200000166893005,
+    1.0
+   ],
+   "emissionStrength": 2.5,
+   "textures": {}
+  },
+  {
+   "name": "CH_Lamp_Lens",
+   "baseColor": [
+    0.8500000238418579,
+    0.8799999952316284,
+    0.8999999761581421,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.019999999552965164,
+   "alpha": 0.3499999940395355,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Lamp_Reverse",
+   "baseColor": [
+    0.75,
+    0.75,
+    0.7799999713897705,
+    1.0
+   ],
+   "metallic": 0.6000000238418579,
+   "roughness": 0.15000000596046448,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Lamp_Smoke",
+   "baseColor": [
+    0.03999999910593033,
+    0.019999999552965164,
+    0.019999999552965164,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.05000000074505806,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Lamp_TailRed",
+   "baseColor": [
+    0.800000011920929,
+    0.019999999552965164,
+    0.019999999552965164,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    0.019999999552965164,
+    0.009999999776482582
+   ],
+   "emissionStrength": 4.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Marker_Red",
+   "baseColor": [
+    0.6000000238418579,
+    0.019999999552965164,
+    0.019999999552965164,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.5,
+   "alpha": 1.0,
+   "emission": [
+    0.5,
+    0.0,
+    0.0
+   ],
+   "emissionStrength": 1.5,
+   "textures": {}
+  },
+  {
+   "name": "CH_Mirror_Glass",
+   "baseColor": [
+    0.800000011920929,
+    0.8199999928474426,
+    0.8500000238418579,
+    1.0
+   ],
+   "metallic": 1.0,
+   "roughness": 0.019999999552965164,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Paint_MatteBlack",
+   "baseColor": [
+    0.02800000086426735,
+    0.02800000086426735,
+    0.029999999329447746,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.7200000286102295,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Paint_White",
+   "baseColor": [
+    0.8799999952316284,
+    0.8899999856948853,
+    0.8999999761581421,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.18000000715255737,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Plastic_BlackGloss",
+   "baseColor": [
+    0.012000000104308128,
+    0.012000000104308128,
+    0.013000000268220901,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.11999999731779099,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Plastic_BlackTrim",
+   "baseColor": [
+    0.019999999552965164,
+    0.019999999552965164,
+    0.020999999716877937,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.550000011920929,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Plate",
+   "baseColor": [
+    0.9200000166893005,
+    0.9200000166893005,
+    0.8999999761581421,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4000000059604645,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Radiator",
+   "baseColor": [
+    0.05000000074505806,
+    0.05000000074505806,
+    0.054999999701976776,
+    1.0
+   ],
+   "metallic": 0.6000000238418579,
+   "roughness": 0.5,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Spring_Red",
+   "baseColor": [
+    0.550000011920929,
+    0.03999999910593033,
+    0.029999999329447746,
+    1.0
+   ],
+   "metallic": 0.4000000059604645,
+   "roughness": 0.3499999940395355,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Steel_Dark",
+   "baseColor": [
+    0.11999999731779099,
+    0.11999999731779099,
+    0.12999999523162842,
+    1.0
+   ],
+   "metallic": 0.800000011920929,
+   "roughness": 0.5,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Tire_Rubber",
+   "baseColor": [
+    0.02199999988079071,
+    0.02199999988079071,
+    0.024000000208616257,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.8199999928474426,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Underbody",
+   "baseColor": [
+    0.029999999329447746,
+    0.029999999329447746,
+    0.03200000151991844,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.800000011920929,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_WheelLiner",
+   "baseColor": [
+    0.014999999664723873,
+    0.014999999664723873,
+    0.014999999664723873,
+    1.0
+   ],
+   "metallic": 0.0,
+   "roughness": 0.8999999761581421,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  },
+  {
+   "name": "CH_Wheel_Graphite",
+   "baseColor": [
+    0.054999999701976776,
+    0.0560000017285347,
+    0.05999999865889549,
+    1.0
+   ],
+   "metallic": 0.8500000238418579,
+   "roughness": 0.3799999952316284,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionStrength": 0.0,
+   "textures": {}
+  }
+ ]
+}

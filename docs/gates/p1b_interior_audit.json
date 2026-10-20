@@ -1,0 +1,138 @@
+{
+ "objects": 35,
+ "bad_names": [],
+ "no_material": [],
+ "no_uv": [],
+ "triangles": 162596,
+ "triangles_by_part": {
+  "CH_Int_SteeringWheel": 23014,
+  "CH_Int_Seat_FL": 15480,
+  "CH_Int_Seat_FR": 15480,
+  "CH_Int_Seat_Rear": 11678,
+  "CH_Int_Carpet": 10504,
+  "CH_Int_Console": 9592,
+  "CH_Int_Headliner": 9280,
+  "CH_Int_CentreStack": 8962,
+  "CH_Int_DoorCard_L": 8680,
+  "CH_Int_DoorCard_R": 8680,
+  "CH_Int_DashExtras": 6980,
+  "CH_Int_Dash": 4628,
+  "CH_Int_QuarterTrim_L": 3840,
+  "CH_Int_QuarterTrim_R": 3840,
+  "CH_Int_Cluster": 3042,
+  "CH_Int_Belts": 2224,
+  "CH_Int_SunVisors": 1728,
+  "CH_Int_Pedal_Brake": 1616,
+  "CH_Glass_Frit": 1452,
+  "CH_Int_Shifter": 1392,
+  "CH_Int_Sill_L": 1296,
+  "CH_Int_Sill_R": 1296,
+  "CH_Int_Pedal_Accelerator": 1184,
+  "CH_Int_SteeringColumn": 832,
+  "CH_Int_APillar_L": 816,
+  "CH_Int_APillar_R": 816,
+  "CH_Int_Armrest": 716,
+  "CH_Int_BPillar_L": 648,
+  "CH_Int_BPillar_R": 648,
+  "CH_Int_Mirror": 634,
+  "CH_Int_ClusterHood": 560,
+  "CH_Int_PackageShelf": 478,
+  "CH_Int_Footrest": 432,
+  "CH_Int_Needle_Tach": 74,
+  "CH_Int_Needle_Speedo": 74
+ },
+ "contacts_by_design": {
+  "CH_Int_Dash|CH_Int_ClusterHood": 266,
+  "CH_Int_Dash|CH_Int_Cluster": 138,
+  "CH_Int_Dash|CH_Int_CentreStack": 238,
+  "CH_Int_Dash|CH_Int_DashExtras": 790,
+  "CH_Int_Dash|CH_Int_APillar_L": 30,
+  "CH_Int_Dash|CH_Int_APillar_R": 28,
+  "CH_Int_ClusterHood|CH_Int_Cluster": 103,
+  "CH_Int_Console|CH_Int_Shifter": 293,
+  "CH_Int_Console|CH_Int_Armrest": 118,
+  "CH_Int_Console|CH_Int_Carpet": 132,
+  "CH_Int_Mirror|CH_Glass_Frit": 19,
+  "CH_Int_Mirror|CH_Glass_Windshield": 28,
+  "CH_Int_Seat_FL|CH_Int_Carpet": 164,
+  "CH_Int_Seat_FR|CH_Int_Carpet": 162,
+  "CH_Int_Seat_Rear|CH_Int_Belts": 80,
+  "CH_Int_Seat_Rear|CH_FloorPan": 728,
+  "CH_Int_QuarterTrim_L|CH_Int_Carpet": 1,
+  "CH_Int_QuarterTrim_R|CH_Int_Carpet": 1,
+  "CH_Int_Carpet|CH_Int_Sill_L": 7,
+  "CH_Int_Carpet|CH_Int_Sill_R": 6
+ },
+ "unexpected_intersections": {},
+ "coincident_faces": {},
+ "eye_clearance_m": {
+  "distance": 0.2082,
+  "nearest": "CH_Int_Seat_FL"
+ },
+ "needles": [
+  {
+   "gauge": "tach",
+   "value": 0,
+   "angle_deg": -120.0,
+   "expected_deg": -120.0,
+   "error_deg": 0.0
+  },
+  {
+   "gauge": "speedo",
+   "value": 0,
+   "angle_deg": -120.0,
+   "expected_deg": -120.0,
+   "error_deg": 0.0
+  },
+  {
+   "gauge": "tach",
+   "value": 3000,
+   "angle_deg": -17.14,
+   "expected_deg": -17.14,
+   "error_deg": 0.0
+  },
+  {
+   "gauge": "speedo",
+   "value": 100,
+   "angle_deg": -0.0,
+   "expected_deg": 0.0,
+   "error_deg": 0.0
+  },
+  {
+   "gauge": "tach",
+   "value": 6000,
+   "angle_deg": 85.71,
+   "expected_deg": 85.71,
+   "error_deg": 0.0
+  },
+  {
+   "gauge": "speedo",
+   "value": 200,
+   "angle_deg": 120.0,
+   "expected_deg": 120.0,
+   "error_deg": 0.0
+  }
+ ],
+ "steering_wheel": [
+  {
+   "steer_deg": -90.0,
+   "rim_top_angle_deg": -90.0,
+   "axial_offset_mm": -0.0
+  },
+  {
+   "steer_deg": 0.0,
+   "rim_top_angle_deg": 0.0,
+   "axial_offset_mm": 0.0
+  },
+  {
+   "steer_deg": 90.0,
+   "rim_top_angle_deg": 90.0,
+   "axial_offset_mm": 0.0
+  },
+  {
+   "steer_deg": 468.0,
+   "rim_top_angle_deg": 108.0,
+   "axial_offset_mm": -0.0
+  }
+ ]
+}

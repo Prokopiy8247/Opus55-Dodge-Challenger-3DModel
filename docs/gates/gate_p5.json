@@ -1,0 +1,139 @@
+{
+ "gate": "G-Map (P5)",
+ "time_utc": "2026-10-15T22:45:38Z",
+ "verdict": "PASS",
+ "fails": 0,
+ "warns": 0,
+ "checks": [
+  {
+   "check": "map layout newer than the map builder",
+   "status": "PASS",
+   "detail": "layout 2026-10-15 22:26:03, builder 2026-10-15 19:59:28 UTC"
+  },
+  {
+   "check": "extent up to 300 x 200 m",
+   "status": "PASS",
+   "detail": "300 x 200 m, 10 m marks in the ground texture"
+  },
+  {
+   "check": "O1: concrete wall, full frontal as specified",
+   "status": "PASS",
+   "detail": "size [12, 3, 1] m (brief 12 x 3 x 1)"
+  },
+  {
+   "check": "O2: concrete wall with 40 % offset line as specified",
+   "status": "PASS",
+   "detail": "size [12, 3, 1] m, overlap line 40 % (brief: same wall, 40 % line)"
+  },
+  {
+   "check": "O3: steel pole as specified",
+   "status": "PASS",
+   "detail": "diameter 0.3 m x 6.0 m (brief 0.30 x 6 m)"
+  },
+  {
+   "check": "O4: jersey barrier row as specified",
+   "status": "PASS",
+   "detail": "6 units 3.66 x 0.81 m at 20 deg (brief 6 x ~3.66 x 0.81 m at 20 deg)"
+  },
+  {
+   "check": "O5: guardrail as specified",
+   "status": "PASS",
+   "detail": "15.2 m, posts every 1.9 m, W-beam top 0.705 m (brief ~15 m, 1.9 m, ~0.7 m)"
+  },
+  {
+   "check": "O6: ramp and landing pad as specified",
+   "status": "PASS",
+   "detail": "ramp 6.0 x 1.2 m, landing 25.0 m beyond (brief 6 x 1.2 m, 25 m)"
+  },
+  {
+   "check": "O7: speed bump and curb as specified",
+   "status": "PASS",
+   "detail": "curb 0.15 m, bump 0.1 x 3.0 m (brief 0.15 m; 0.10 x 3 m)"
+  },
+  {
+   "check": "O8: debris field as specified",
+   "status": "PASS",
+   "detail": "12 barrels [0.58, 0.88] m 20 kg, 20 boxes 0.5 m 5 kg, 8 cones 0.7 m 1.5 kg, 6 fence panels; soft bodies in the car's solver (brief 12 / 20 / 8 / 6)"
+  },
+  {
+   "check": "O9: 3 m ledge with lower pad as specified",
+   "status": "PASS",
+   "detail": "ledge 3.0 m with a lower pad, bank 30 deg (brief 3 m ledge, 30 deg bank)"
+  },
+  {
+   "check": "every obstacle lane has 60 m of clean run-up",
+   "status": "PASS",
+   "detail": "10 lanes, shortest 60.1 m"
+  },
+  {
+   "check": "surfaces and friction documented",
+   "status": "PASS",
+   "detail": "asphalt x1.0, concrete x0.9, grass x0.6 of the tyre friction (car on asphalt: skidpad 0.94 g, tyre peak 1.20: about 0.94 / 0.85 / 0.57 g; brief ~0.9 / 0.8 / 0.6)"
+  },
+  {
+   "check": "map check newer than the map, debris and check sources",
+   "status": "PASS",
+   "detail": "run 2026-10-15T22:40:11Z, newest MapCheck.cs 2026-10-15 20:55:54 UTC"
+  },
+  {
+   "check": "solver stable with the debris in the world (S < 2.5)",
+   "status": "PASS",
+   "detail": "exact S 2.4418 with 46 debris bodies (568 nodes) and the car; 2675 nodes, 13747 beams"
+  },
+  {
+   "check": "debris at rest (no creep, no jitter)",
+   "status": "PASS",
+   "detail": "after 5 s: fastest debris node 0.055 m/s, largest drift 3.3 cm, 0 moved > 5 cm"
+  },
+  {
+   "check": "physics within the 2 kHz real-time budget with the debris",
+   "status": "PASS",
+   "detail": "294.4 us per 0.5 ms substep (solver only, player)"
+  },
+  {
+   "check": "no tunnelling or non-finite values in any lane run",
+   "status": "PASS",
+   "detail": "10 runs; deepest node inside an obstacle 0 mm"
+  },
+  {
+   "check": "teleport speed hold delivers V at the crash obstacles (D-080)",
+   "status": "PASS",
+   "detail": "O1 30.0 km/h, O2 30.0 km/h, O3 30.0 km/h, O4 40.0 km/h, O5 50.0 km/h"
+  },
+  {
+   "check": "the car meets every crash obstacle (damage recorded)",
+   "status": "PASS",
+   "detail": "O1: 1 broken, 494 bent; O2: 3 broken, 444 bent; O3: 3 broken, 482 bent; O4: 2 broken, 127 bent; O5: 0 broken, 37 bent"
+  },
+  {
+   "check": "curb and bump at 30 km/h without structural damage (brief 9): no structural beam broken or bent, skin and trim flow below 3 mm",
+   "status": "PASS",
+   "detail": "over at 29.1 km/h, end 28.5 km/h; broken: none (closure stops released by design, D-034); bent 0: - - structural none, skin flow up to 0.00 mm"
+  },
+  {
+   "check": "curb and bump at 50 km/h without structural damage (brief 9): no structural beam broken or bent, skin and trim flow below 3 mm",
+   "status": "PASS",
+   "detail": "over at 50.5 km/h, end 48.7 km/h; broken: none (closure stops released by design, D-034); bent 0: - - structural none, skin flow up to 0.00 mm"
+  },
+  {
+   "check": "O6 ramp jump flies and lands upright",
+   "status": "PASS",
+   "detail": "airborne 0.845 s, up 1.0, broken none"
+  },
+  {
+   "check": "O9 3 m drop flies and lands upright",
+   "status": "PASS",
+   "detail": "airborne 0.817 s, up 1.0, broken none"
+  },
+  {
+   "check": "O8 debris scatters on impact",
+   "status": "PASS",
+   "detail": "36 props moved, car bent 68 beams"
+  },
+  {
+   "check": "top-down and perspective screenshots with dimensions",
+   "status": "PASS",
+   "detail": "annotated top-down, overview, 10 lane views captioned in map_lanes_sheet.jpg, 10 run views"
+  }
+ ]
+}

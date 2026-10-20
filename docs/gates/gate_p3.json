@@ -1,0 +1,99 @@
+{
+  "gate": "P3 (G-Solver)",
+  "vehicle": "hellcat",
+  "pass": true,
+  "fail": 0,
+  "warn": 0,
+  "checks": [
+    {
+      "check": "full validation run with every required test",
+      "status": "PASS",
+      "detail": "run 2026-10-15T22:11:51Z, quick=False, tests T1, T2, T3, T4, T5, T6, T7, T8, E1, D1; missing: none"
+    },
+    {
+      "check": "results newer than the vehicle data and the solver sources",
+      "status": "PASS",
+      "detail": "results 2026-10-15 22:11:51 UTC, newest input sim\\vehicle\\hellcat\\params.json 2026-10-15 21:09:36 UTC"
+    },
+    {
+      "check": "test 1: Single beam: frequency, damping, static stretch and compression",
+      "status": "PASS",
+      "detail": "6/6 numeric checks pass in 0.7 s"
+    },
+    {
+      "check": "test 2: Pendulum and hanging chain: period and energy",
+      "status": "PASS",
+      "detail": "3/3 numeric checks pass in 0.4 s"
+    },
+    {
+      "check": "test 3: Cube with and without diagonal bracing",
+      "status": "PASS",
+      "detail": "2/2 numeric checks pass in 0.0 s"
+    },
+    {
+      "check": "test 4: Force-displacement: tensile cycle and falling-mass crush",
+      "status": "PASS",
+      "detail": "10/10 numeric checks pass in 0.1 s"
+    },
+    {
+      "check": "test 5: Rigid box: drop on the ground, rest and slide on slopes",
+      "status": "PASS",
+      "detail": "6/6 numeric checks pass in 0.1 s"
+    },
+    {
+      "check": "test 6: Hellcat: drop from 0.2 m, settle, rest",
+      "status": "PASS",
+      "detail": "26/26 numeric checks pass in 17.9 s"
+    },
+    {
+      "check": "test 7: Hellcat: locked-wheel stop from 50 km/h and lateral slide",
+      "status": "PASS",
+      "detail": "2/2 numeric checks pass in 3.2 s"
+    },
+    {
+      "check": "test 8: Tunnelling at 120 km/h: 20 cm static wall, node-beam wall",
+      "status": "PASS",
+      "detail": "6/6 numeric checks pass in 1.8 s"
+    },
+    {
+      "check": "energy drift without impact < 1 % over 10 s (damping on: mechanical + dissipated; off: mechanical)",
+      "status": "PASS",
+      "detail": "free Hellcat, damping on: |drift of (mechanical + dissipated)|, 1 s windows, 10 s = 9.97e-05; free Hellcat, damping off: |drift of the mechanical energy|, 1 s windows, 10 s = 0.000198"
+    },
+    {
+      "check": "angular momentum conserved in free flight (< 0.1 %)",
+      "status": "PASS",
+      "detail": "damping on: angular momentum error = 0.00027; damping off: angular momentum error = 0.000623"
+    },
+    {
+      "check": "deterministic re-run matches (bit-identical, parallel and single-thread)",
+      "status": "PASS",
+      "detail": "re-run with the same inputs gives bit-identical node states (parallel): 1; single-thread run gives bit-identical node states: 1"
+    },
+    {
+      "check": "exact stability S < 2.5 on the built world (D-024) and the C# / Python agreement",
+      "status": "PASS",
+      "detail": "S = 2.4418 (<= 2.5); beams-only S = 2.4413 vs Python 2.4403 +- 2 %"
+    },
+    {
+      "check": "physics time per substep within the 2 kHz real-time budget",
+      "status": "PASS",
+      "detail": "240.0 us (<= 500)"
+    },
+    {
+      "check": "vehicle data in sync with the Unity StreamingAssets copy",
+      "status": "PASS",
+      "detail": "sim\\vehicle\\hellcat -> Unity\\HellcatSandbox\\Assets\\StreamingAssets\\Vehicles\\hellcat: identical"
+    },
+    {
+      "check": "global body stiffness at or above the D-040 floor (torsion >= 5 kN m/deg, bending >= 1.5 kN/mm)",
+      "status": "PASS",
+      "detail": "torsion 6.833 kN m/deg, bending 1.776 kN/mm (real cars ~15-35 / ~10-20: the 2 kHz stability limit, D-040)"
+    },
+    {
+      "check": "validation report written",
+      "status": "PASS",
+      "detail": "docs\\validation_report.md 27,006 bytes"
+    }
+  ]
+}

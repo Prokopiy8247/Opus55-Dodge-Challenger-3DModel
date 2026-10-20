@@ -1,0 +1,189 @@
+{
+ "frame": "car frame, Blender axes (x right, y forward, z up), metres; Unity: (x, z, y)",
+ "eye": [
+  -0.375,
+  -0.36,
+  1.12
+ ],
+ "fov_h_deg": 85.0,
+ "steering_wheel": {
+  "object": "CH_Int_SteeringWheel",
+  "centre": [
+   -0.375,
+   0.25,
+   0.86
+  ],
+  "axis_to_driver": [
+   -0.0,
+   -0.9205048534524404,
+   0.39073112848927377
+  ],
+  "up": [
+   0.0,
+   0.39073112848927377,
+   0.9205048534524404
+  ],
+  "lock_to_lock_turns": 2.6,
+  "positive": "clockwise as seen by the driver = steering right"
+ },
+ "needles": {
+  "tach": {
+   "object": "CH_Int_Needle_Tach",
+   "pivot": [
+    -0.48464393731813876,
+    0.537086759875681,
+    0.9286214912265215
+   ],
+   "axis_to_eye": [
+    0.11868756062040739,
+    -0.971080041439697,
+    0.2071637421738021
+   ],
+   "rest_points_to": [
+    -0.025132987109994398,
+    0.20563353089995418,
+    0.9783062832919691
+   ],
+   "gauge": {
+    "min": 0.0,
+    "max": 7000.0,
+    "a_min": -120.0,
+    "a_max": 120.0,
+    "redline": 6000.0,
+    "unit": "rpm"
+   }
+  },
+  "speedo": {
+   "object": "CH_Int_Needle_Speedo",
+   "pivot": [
+    -0.26535606268186124,
+    0.537086759875681,
+    0.9286214912265215
+   ],
+   "axis_to_eye": [
+    -0.11868756062040739,
+    -0.971080041439697,
+    0.2071637421738021
+   ],
+   "rest_points_to": [
+    0.025132987109994398,
+    0.20563353089995418,
+    0.9783062832919691
+   ],
+   "gauge": {
+    "min": 0.0,
+    "max": 200.0,
+    "a_min": -120.0,
+    "a_max": 120.0,
+    "unit": "mph"
+   }
+  }
+ },
+ "pedals": {
+  "accelerator": {
+   "object": "CH_Int_Pedal_Accelerator",
+   "pivot": [
+    -0.285,
+    0.865,
+    0.665
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "travel_deg": 16.0,
+   "positive": "pressed = rotation by -travel about +x"
+  },
+  "brake": {
+   "object": "CH_Int_Pedal_Brake",
+   "pivot": [
+    -0.43,
+    0.865,
+    0.665
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "travel_deg": 20.0,
+   "positive": "pressed = rotation by -travel about +x"
+  }
+ },
+ "interior_mirror": {
+  "object": "CH_Int_Mirror",
+  "centre": [
+   0.0,
+   0.3,
+   1.305
+  ],
+  "normal": [
+   -0.24987602801714262,
+   -0.9603988451594612,
+   -0.12327217382179025
+  ],
+  "right": [
+   0.9677802022682598,
+   -0.25179650533239434,
+   3.469446951953614e-18
+  ],
+  "up": [
+   -0.03103950257305425,
+   -0.11930036931530023,
+   0.9923728992476821
+  ],
+  "glass_size": [
+   0.232,
+   0.052
+  ]
+ },
+ "side_mirrors": {
+  "left": "CH_Mirror_Glass_L",
+  "right": "CH_Mirror_Glass_R"
+ },
+ "cluster_display": {
+  "centre": [
+   -0.375,
+   0.5439119713456972,
+   0.927165446112918
+  ],
+  "normal": [
+   0.0,
+   -0.9779928364243075,
+   0.208638471770519
+  ],
+  "up": [
+   0.0,
+   0.20863847177051897,
+   0.9779928364243075
+  ],
+  "size": [
+   0.086,
+   0.092
+  ],
+  "material": "CH_Int_ClusterDisplay"
+ },
+ "touchscreen": {
+  "centre": [
+   0.0,
+   0.5634594348766728,
+   0.8653706660823126
+  ],
+  "normal": [
+   0.0,
+   -0.9702957262759965,
+   0.24192189559966773
+  ],
+  "up": [
+   0.0,
+   0.24192189559966773,
+   0.9702957262759965
+  ],
+  "size": [
+   0.186,
+   0.112
+  ],
+  "material": "CH_Int_Touchscreen"
+ }
+}

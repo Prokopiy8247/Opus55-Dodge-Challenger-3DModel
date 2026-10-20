@@ -1,0 +1,7270 @@
+[
+ {
+  "hz": 1.6480003588752474,
+  "zeta": 0.2370909387798318,
+  "tau_s": 0.40733138456175844,
+  "moving": 1420,
+  "families": [
+   [
+    "quarter_R",
+    61.1
+   ],
+   [
+    "quarter_L",
+    56.1
+   ],
+   [
+    "rbumper",
+    52.0
+   ],
+   [
+    "roof",
+    44.2
+   ]
+  ],
+  "nodes": [
+   "rbumper_8_2",
+   "rbumper_8_1",
+   "rbumper_7_2",
+   "rbumper_9_3"
+  ]
+ },
+ {
+  "hz": 1.8364619199616203,
+  "zeta": 0.20334547430304822,
+  "tau_s": 0.4261904295898961,
+  "moving": 1538,
+  "families": [
+   [
+    "roof",
+    71.5
+   ],
+   [
+    "quarter_L",
+    71.1
+   ],
+   [
+    "rail",
+    65.9
+   ],
+   [
+    "quarter_R",
+    65.9
+   ]
+  ],
+  "nodes": [
+   "mirror_L_1",
+   "mirror_L_0",
+   "roof_0_5",
+   "mirror_R_1"
+  ]
+ },
+ {
+  "hz": 2.1221748349605747,
+  "zeta": 0.16808723368256426,
+  "tau_s": 0.44617398212912435,
+  "moving": 1477,
+  "families": [
+   [
+    "hood_o",
+    57.4
+   ],
+   [
+    "fascia",
+    51.9
+   ],
+   [
+    "fender_R",
+    41.7
+   ],
+   [
+    "frail",
+    40.4
+   ]
+  ],
+  "nodes": [
+   "hood_o_5_7",
+   "fascia_6_2",
+   "hood_o_4_7",
+   "hood_o_6_7"
+  ]
+ },
+ {
+  "hz": 3.051647985994385,
+  "zeta": 0.021432241683941235,
+  "tau_s": 2.4334257437296225,
+  "moving": 1537,
+  "families": [
+   [
+    "hood_o",
+    50.8
+   ],
+   [
+    "roof",
+    48.2
+   ],
+   [
+    "fascia",
+    38.3
+   ],
+   [
+    "door_FL_o",
+    37.5
+   ]
+  ],
+  "nodes": [
+   "column_top",
+   "glass_windshield_4_5",
+   "door_FL_o_0_5",
+   "roof_4_7"
+  ]
+ },
+ {
+  "hz": 3.214681078556248,
+  "zeta": 0.034811373741871675,
+  "tau_s": 1.4222013144711316,
+  "moving": 731,
+  "families": [
+   [
+    "quarter_L",
+    29.5
+   ],
+   [
+    "quarter_R",
+    28.4
+   ],
+   [
+    "roof",
+    24.8
+   ],
+   [
+    "rail",
+    20.5
+   ]
+  ],
+  "nodes": [
+   "eng8",
+   "eng9",
+   "exh0_L",
+   "exh0_R"
+  ]
+ },
+ {
+  "hz": 3.4359124743532066,
+  "zeta": 0.015543044397880085,
+  "tau_s": 2.980176267528709,
+  "moving": 876,
+  "families": [
+   [
+    "roof",
+    36.6
+   ],
+   [
+    "rail",
+    32.1
+   ],
+   [
+    "glass_windshield",
+    27.2
+   ],
+   [
+    "quarter_R",
+    26.9
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_5",
+   "glass_windshield_5_5",
+   "glass_windshield_3_5",
+   "hdrF_C"
+  ]
+ },
+ {
+  "hz": 4.223862268559704,
+  "zeta": 0.04833541480645171,
+  "tau_s": 0.7795517186358882,
+  "moving": 1207,
+  "families": [
+   [
+    "door_FL_o",
+    34.4
+   ],
+   [
+    "door_FR_o",
+    34.3
+   ],
+   [
+    "quarter_R",
+    30.4
+   ],
+   [
+    "quarter_L",
+    30.1
+   ]
+  ],
+  "nodes": [
+   "door_FR_o_2_5",
+   "glass_side_FR_1_0",
+   "door_FL_o_2_5",
+   "glass_side_FL_1_0"
+  ]
+ },
+ {
+  "hz": 4.341359279435841,
+  "zeta": 0.03898376795901568,
+  "tau_s": 0.940395603145199,
+  "moving": 1283,
+  "families": [
+   [
+    "door_FR_o",
+    37.2
+   ],
+   [
+    "door_FL_o",
+    36.9
+   ],
+   [
+    "fascia",
+    34.7
+   ],
+   [
+    "hood_o",
+    33.3
+   ]
+  ],
+  "nodes": [
+   "door_FR_o_2_5",
+   "glass_side_FR_1_0",
+   "door_FR_o_0_5",
+   "door_FL_o_2_5"
+  ]
+ },
+ {
+  "hz": 4.40543695621595,
+  "zeta": 0.0034172002296137503,
+  "tau_s": 10.572086652321312,
+  "moving": 530,
+  "families": [
+   [
+    "fascia",
+    19.9
+   ],
+   [
+    "glass_windshield",
+    10.3
+   ],
+   [
+    "door_FR_o",
+    9.6
+   ],
+   [
+    "frail",
+    7.0
+   ]
+  ],
+  "nodes": [
+   "seatFR_t1",
+   "seatFR_t0",
+   "seatFL_t0",
+   "seatFL_t1"
+  ]
+ },
+ {
+  "hz": 5.093208015830259,
+  "zeta": 0.002896345675961937,
+  "tau_s": 10.788928736851782,
+  "moving": 265,
+  "families": [
+   [
+    "fascia",
+    10.3
+   ],
+   [
+    "roof",
+    5.7
+   ],
+   [
+    "door_FR_o",
+    5.7
+   ],
+   [
+    "door_FL_o",
+    5.1
+   ]
+  ],
+  "nodes": [
+   "rack_C",
+   "rsub_cf",
+   "seatFR_t0",
+   "seatFL_t1"
+  ]
+ },
+ {
+  "hz": 5.281258311663821,
+  "zeta": 0.005371086173230555,
+  "tau_s": 5.610745911126053,
+  "moving": 175,
+  "families": [
+   [
+    "door_FR_o",
+    12.6
+   ],
+   [
+    "door_FL_o",
+    12.4
+   ],
+   [
+    "glass_side_FR",
+    5.7
+   ],
+   [
+    "glass_side_FL",
+    5.6
+   ]
+  ],
+  "nodes": [
+   "seatFL_t0",
+   "seatFR_t1",
+   "seatFR_t0",
+   "seatFL_t1"
+  ]
+ },
+ {
+  "hz": 5.567435403602298,
+  "zeta": 0.01397948282880512,
+  "tau_s": 2.04490831024472,
+  "moving": 271,
+  "families": [
+   [
+    "door_FL_o",
+    25.8
+   ],
+   [
+    "door_FR_o",
+    23.9
+   ],
+   [
+    "glass_side_FL",
+    11.3
+   ],
+   [
+    "door_FL_i",
+    9.8
+   ]
+  ],
+  "nodes": [
+   "door_FL_o_4_5",
+   "door_FL_o_5_5",
+   "door_FL_o_3_5",
+   "mirror_L_1"
+  ]
+ },
+ {
+  "hz": 5.7555012638925955,
+  "zeta": 0.014485625743207301,
+  "tau_s": 1.9089726999253245,
+  "moving": 74,
+  "families": [
+   [
+    "glass_windshield",
+    19.5
+   ],
+   [
+    "roof",
+    8.5
+   ],
+   [
+    "glass_windshield_in",
+    4.1
+   ],
+   [
+    "seatFL_t",
+    1.0
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_3",
+   "glass_windshield_4_4",
+   "glass_windshield_in_2_2",
+   "glass_windshield_3_4"
+  ]
+ },
+ {
+  "hz": 5.9024876416457275,
+  "zeta": 0.016250403163656616,
+  "tau_s": 1.659284686591448,
+  "moving": 473,
+  "families": [
+   [
+    "door_FR_o",
+    18.3
+   ],
+   [
+    "fascia",
+    18.1
+   ],
+   [
+    "fender_R",
+    13.2
+   ],
+   [
+    "door_FL_o",
+    12.8
+   ]
+  ],
+  "nodes": [
+   "mirror_R_1",
+   "mirror_R_0",
+   "glass_side_FR_6_2",
+   "glass_side_FR_in_3_1"
+  ]
+ },
+ {
+  "hz": 6.068469210906305,
+  "zeta": 0.014418803294007718,
+  "tau_s": 1.8189123080953782,
+  "moving": 281,
+  "families": [
+   [
+    "rbumper",
+    15.5
+   ],
+   [
+    "quarter_L",
+    9.8
+   ],
+   [
+    "quarter_R",
+    5.3
+   ],
+   [
+    "rrail",
+    3.9
+   ]
+  ],
+  "nodes": [
+   "seatFR_t0",
+   "seatFR_t1",
+   "exh7_L",
+   "exh7_R"
+  ]
+ },
+ {
+  "hz": 6.2452267223864455,
+  "zeta": 0.010502013890938225,
+  "tau_s": 2.4266063734337933,
+  "moving": 449,
+  "families": [
+   [
+    "rail",
+    17.2
+   ],
+   [
+    "fascia",
+    16.1
+   ],
+   [
+    "door_FL_o",
+    15.6
+   ],
+   [
+    "door_FR_o",
+    15.0
+   ]
+  ],
+  "nodes": [
+   "seatFL_t0",
+   "seatFL_t1",
+   "glass_windshield_0_5",
+   "rail3_0_L"
+  ]
+ },
+ {
+  "hz": 6.333429322687996,
+  "zeta": 0.005721279688039395,
+  "tau_s": 4.392259837146422,
+  "moving": 112,
+  "families": [
+   [
+    "door_FR_o",
+    6.9
+   ],
+   [
+    "glass_side_FR",
+    4.7
+   ],
+   [
+    "door_FL_o",
+    3.8
+   ],
+   [
+    "tank",
+    3.5
+   ]
+  ],
+  "nodes": [
+   "seatFL_t0",
+   "seatFL_t1",
+   "seatFR_t1",
+   "tank1"
+  ]
+ },
+ {
+  "hz": 6.451125403241008,
+  "zeta": 0.00839340949332763,
+  "tau_s": 2.939315708615909,
+  "moving": 351,
+  "families": [
+   [
+    "door_FL_o",
+    21.4
+   ],
+   [
+    "door_FR_o",
+    18.4
+   ],
+   [
+    "glass_side_FL",
+    10.8
+   ],
+   [
+    "fascia",
+    10.6
+   ]
+  ],
+  "nodes": [
+   "door_FL_o_4_5",
+   "seatFL_t0",
+   "tank2",
+   "tank5"
+  ]
+ },
+ {
+  "hz": 6.495389183781674,
+  "zeta": 0.011566080646546099,
+  "tau_s": 2.118501313900003,
+  "moving": 125,
+  "families": [
+   [
+    "glass_windshield",
+    14.6
+   ],
+   [
+    "roof",
+    8.6
+   ],
+   [
+    "glass_windshield_in",
+    3.4
+   ],
+   [
+    "door_FR_o",
+    3.2
+   ]
+  ],
+  "nodes": [
+   "seatFR_t1",
+   "seatFR_t0",
+   "glass_windshield_4_3",
+   "glass_windshield_4_2"
+  ]
+ },
+ {
+  "hz": 6.581539574655767,
+  "zeta": 0.008028488227731792,
+  "tau_s": 3.012026993841284,
+  "moving": 12,
+  "families": [
+   [
+    "seatFR_t",
+    2.0
+   ],
+   [
+    "seatFL_t",
+    1.8
+   ],
+   [
+    "door_FR_o",
+    0.6
+   ],
+   [
+    "seatFR",
+    0.5
+   ]
+  ],
+  "nodes": [
+   "seatFR_t1",
+   "seatFR_t0",
+   "seatFL_t0",
+   "seatFL_t1"
+  ]
+ },
+ {
+  "hz": 6.60218681860093,
+  "zeta": 0.008764279134547621,
+  "tau_s": 2.7505283236344455,
+  "moving": 216,
+  "families": [
+   [
+    "rbumper",
+    15.6
+   ],
+   [
+    "trunk_o",
+    10.0
+   ],
+   [
+    "trunk_i",
+    3.6
+   ],
+   [
+    "quarter_L",
+    2.6
+   ]
+  ],
+  "nodes": [
+   "seatFL_t0",
+   "seatFL_t1",
+   "seatFR_t1",
+   "seatFR_t0"
+  ]
+ },
+ {
+  "hz": 7.0151991430782665,
+  "zeta": 0.00846898359996683,
+  "tau_s": 2.6788527105394455,
+  "moving": 665,
+  "families": [
+   [
+    "rail",
+    32.0
+   ],
+   [
+    "roof",
+    30.2
+   ],
+   [
+    "rbumper",
+    23.2
+   ],
+   [
+    "glass_windshield",
+    22.4
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_3_2",
+   "glass_side_FR_3_2",
+   "glass_windshield_0_5",
+   "rail3_2_L"
+  ]
+ },
+ {
+  "hz": 7.130190421178097,
+  "zeta": 0.016094405420026492,
+  "tau_s": 1.386896544713316,
+  "moving": 58,
+  "families": [
+   [
+    "glass_windshield",
+    11.7
+   ],
+   [
+    "glass_windshield_in",
+    3.2
+   ],
+   [
+    "seatFR_t",
+    1.9
+   ],
+   [
+    "fascia",
+    1.6
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_3",
+   "glass_windshield_4_2",
+   "glass_windshield_in_2_1",
+   "seatFR_t1"
+  ]
+ },
+ {
+  "hz": 7.175386131832283,
+  "zeta": 0.017753660974646538,
+  "tau_s": 1.2493580874153394,
+  "moving": 218,
+  "families": [
+   [
+    "fascia",
+    7.1
+   ],
+   [
+    "roof",
+    6.0
+   ],
+   [
+    "glass_windshield",
+    6.0
+   ],
+   [
+    "door_FL_o",
+    5.5
+   ]
+  ],
+  "nodes": [
+   "seatFR_t1",
+   "seatFR_t0",
+   "exh7_R",
+   "exh5_R"
+  ]
+ },
+ {
+  "hz": 7.206134597363732,
+  "zeta": 0.012479377680602087,
+  "tau_s": 1.7698026187674878,
+  "moving": 55,
+  "families": [
+   [
+    "seatFL_t",
+    2.0
+   ],
+   [
+    "fascia",
+    1.6
+   ],
+   [
+    "rail",
+    1.4
+   ],
+   [
+    "glass_windshield",
+    1.3
+   ]
+  ],
+  "nodes": [
+   "seatFL_t0",
+   "seatFL_t1",
+   "seatFR_t1",
+   "seatFR_t0"
+  ]
+ },
+ {
+  "hz": 7.36089886725298,
+  "zeta": 0.01590753145609995,
+  "tau_s": 1.359209777643578,
+  "moving": 118,
+  "families": [
+   [
+    "fascia",
+    17.4
+   ],
+   [
+    "fender_L",
+    4.0
+   ],
+   [
+    "exh",
+    3.6
+   ],
+   [
+    "bbF_t",
+    3.1
+   ]
+  ],
+  "nodes": [
+   "exh7_R",
+   "bbF_b76_L",
+   "bbF_f76_L",
+   "bbF_t76_L"
+  ]
+ },
+ {
+  "hz": 7.466740941962481,
+  "zeta": 0.055025606524886396,
+  "tau_s": 0.3873684176453858,
+  "moving": 8,
+  "families": [
+   [
+    "exh",
+    4.6
+   ],
+   [
+    "bbF_f",
+    0.2
+   ],
+   [
+    "bbF_b",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "exh7_L",
+   "exh7_R",
+   "exh5_L",
+   "exh5_R"
+  ]
+ },
+ {
+  "hz": 7.549725334721346,
+  "zeta": 0.024542523605031407,
+  "tau_s": 0.8589537149702912,
+  "moving": 9,
+  "families": [
+   [
+    "exh",
+    4.5
+   ],
+   [
+    "bbF_f",
+    0.2
+   ],
+   [
+    "bbF_b",
+    0.2
+   ],
+   [
+    "bbF_t",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "exh7_L",
+   "exh7_R",
+   "exh5_L",
+   "exh5_R"
+  ]
+ },
+ {
+  "hz": 7.678665969827796,
+  "zeta": 0.017688040266949943,
+  "tau_s": 1.171803086704593,
+  "moving": 63,
+  "families": [
+   [
+    "exh",
+    2.8
+   ],
+   [
+    "door_FL_o",
+    2.0
+   ],
+   [
+    "fascia",
+    1.8
+   ],
+   [
+    "floor",
+    1.3
+   ]
+  ],
+  "nodes": [
+   "rack_C",
+   "exh7_R",
+   "exh7_L",
+   "seatFL_2"
+  ]
+ },
+ {
+  "hz": 7.6960291645749335,
+  "zeta": 0.012892401926971407,
+  "tau_s": 1.604056237651671,
+  "moving": 414,
+  "families": [
+   [
+    "roof",
+    26.9
+   ],
+   [
+    "rail",
+    22.1
+   ],
+   [
+    "glass_windshield",
+    13.1
+   ],
+   [
+    "door_FR_o",
+    9.6
+   ]
+  ],
+  "nodes": [
+   "exh7_L",
+   "exh5_L",
+   "glass_side_FL_2_2",
+   "glass_side_FL_in_1_1"
+  ]
+ },
+ {
+  "hz": 7.818526991686632,
+  "zeta": 0.01605077577835597,
+  "tau_s": 1.2682333340618015,
+  "moving": 283,
+  "families": [
+   [
+    "roof",
+    12.7
+   ],
+   [
+    "door_FR_o",
+    12.0
+   ],
+   [
+    "glass_side_FR",
+    6.2
+   ],
+   [
+    "door_FR_i",
+    5.0
+   ]
+  ],
+  "nodes": [
+   "exh7_R",
+   "batt1",
+   "exh5_R",
+   "batt0"
+  ]
+ },
+ {
+  "hz": 7.851051180892359,
+  "zeta": 0.01909155716948887,
+  "tau_s": 1.061820170001984,
+  "moving": 73,
+  "families": [
+   [
+    "glass_windshield",
+    10.7
+   ],
+   [
+    "rail",
+    2.6
+   ],
+   [
+    "glass_windshield_in",
+    2.3
+   ],
+   [
+    "fascia",
+    1.9
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_2",
+   "glass_windshield_in_2_1",
+   "glass_windshield_4_3",
+   "glass_windshield_5_2"
+  ]
+ },
+ {
+  "hz": 7.963468255657622,
+  "zeta": 0.014350655162548251,
+  "tau_s": 1.392663359845716,
+  "moving": 302,
+  "families": [
+   [
+    "glass_windshield",
+    12.3
+   ],
+   [
+    "roof",
+    10.7
+   ],
+   [
+    "door_FR_o",
+    9.0
+   ],
+   [
+    "door_FL_o",
+    7.7
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_2",
+   "glass_windshield_in_2_1",
+   "glass_windshield_3_2",
+   "glass_windshield_4_3"
+  ]
+ },
+ {
+  "hz": 8.246282051570832,
+  "zeta": 0.02487467211665218,
+  "tau_s": 0.7758979094057111,
+  "moving": 81,
+  "families": [
+   [
+    "glass_windshield",
+    11.4
+   ],
+   [
+    "roof",
+    2.8
+   ],
+   [
+    "hood_o",
+    2.8
+   ],
+   [
+    "glass_windshield_in",
+    2.0
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_2",
+   "glass_windshield_in_2_1",
+   "glass_windshield_4_3",
+   "glass_windshield_5_2"
+  ]
+ },
+ {
+  "hz": 8.274964715913555,
+  "zeta": 0.01665771138570479,
+  "tau_s": 1.154618861833722,
+  "moving": 73,
+  "families": [
+   [
+    "hood_o",
+    31.6
+   ],
+   [
+    "hood_i",
+    9.8
+   ],
+   [
+    "glass_windshield",
+    0.7
+   ],
+   [
+    "glass_windshield_in",
+    0.3
+   ]
+  ],
+  "nodes": [
+   "hood_o_5_6",
+   "hood_i_3_3",
+   "hood_o_5_7",
+   "hood_o_5_5"
+  ]
+ },
+ {
+  "hz": 8.514361673421421,
+  "zeta": 0.009415331059557707,
+  "tau_s": 1.9853287980158547,
+  "moving": 115,
+  "families": [
+   [
+    "trunk_o",
+    11.9
+   ],
+   [
+    "trunk_i",
+    5.3
+   ],
+   [
+    "glass_windshield",
+    2.3
+   ],
+   [
+    "roof",
+    1.7
+   ]
+  ],
+  "nodes": [
+   "rsub_m_R",
+   "rsub_m_L",
+   "trunk_i_2_0",
+   "trunk_o_3_0"
+  ]
+ },
+ {
+  "hz": 8.574576146135243,
+  "zeta": 0.009901963924881326,
+  "tau_s": 1.8745029595632694,
+  "moving": 73,
+  "families": [
+   [
+    "trunk_o",
+    6.6
+   ],
+   [
+    "glass_rear",
+    3.8
+   ],
+   [
+    "trunk_i",
+    3.1
+   ],
+   [
+    "glass_windshield",
+    1.8
+   ]
+  ],
+  "nodes": [
+   "rack_C",
+   "trunk_i_2_0",
+   "trunk_o_3_0",
+   "rsub_m_L"
+  ]
+ },
+ {
+  "hz": 8.614012429551208,
+  "zeta": 0.017070132073033848,
+  "tau_s": 1.0823750089716269,
+  "moving": 223,
+  "families": [
+   [
+    "door_FL_o",
+    9.5
+   ],
+   [
+    "trunk_o",
+    7.1
+   ],
+   [
+    "glass_windshield",
+    6.4
+   ],
+   [
+    "roof",
+    6.3
+   ]
+  ],
+  "nodes": [
+   "rack_C",
+   "trunk_i_3_0",
+   "trunk_i_2_0",
+   "glass_quarter_L_in_1_0"
+  ]
+ },
+ {
+  "hz": 8.662271081752028,
+  "zeta": 0.018353157880014903,
+  "tau_s": 1.0011002283140469,
+  "moving": 206,
+  "families": [
+   [
+    "trunk_o",
+    13.6
+   ],
+   [
+    "door_FR_o",
+    6.5
+   ],
+   [
+    "glass_windshield",
+    6.4
+   ],
+   [
+    "trunk_i",
+    6.2
+   ]
+  ],
+  "nodes": [
+   "rack_C",
+   "trunk_i_2_0",
+   "trunk_i_1_0",
+   "trunk_o_3_0"
+  ]
+ },
+ {
+  "hz": 8.860659646245196,
+  "zeta": 0.02437567962058902,
+  "tau_s": 0.7368809745183305,
+  "moving": 58,
+  "families": [
+   [
+    "glass_rear",
+    12.5
+   ],
+   [
+    "trunk_o",
+    4.5
+   ],
+   [
+    "glass_rear_in",
+    3.1
+   ],
+   [
+    "trunk_i",
+    2.3
+   ]
+  ],
+  "nodes": [
+   "glass_rear_4_2",
+   "glass_rear_in_2_1",
+   "glass_rear_3_2",
+   "glass_rear_5_2"
+  ]
+ },
+ {
+  "hz": 8.932398135142224,
+  "zeta": 0.0125468399339647,
+  "tau_s": 1.4200959926525418,
+  "moving": 4,
+  "families": [
+   [
+    "core_lo",
+    1.3
+   ],
+   [
+    "rad",
+    0.6
+   ],
+   [
+    "fascia",
+    0.5
+   ]
+  ],
+  "nodes": [
+   "core_lo34_L",
+   "rad3",
+   "fascia_4_0",
+   "core_lo34_R"
+  ]
+ },
+ {
+  "hz": 8.965932815492424,
+  "zeta": 0.01102377137825065,
+  "tau_s": 1.6102542481144755,
+  "moving": 9,
+  "families": [
+   [
+    "glass_rear",
+    1.3
+   ],
+   [
+    "core_lo",
+    1.0
+   ],
+   [
+    "rad",
+    0.6
+   ],
+   [
+    "fascia",
+    0.5
+   ]
+  ],
+  "nodes": [
+   "core_lo34_R",
+   "rad2",
+   "fascia_6_0",
+   "glass_rear_4_2"
+  ]
+ },
+ {
+  "hz": 9.082793093915734,
+  "zeta": 0.019471384672265887,
+  "tau_s": 0.8999199380810068,
+  "moving": 62,
+  "families": [
+   [
+    "glass_rear",
+    11.0
+   ],
+   [
+    "trunk_o",
+    3.9
+   ],
+   [
+    "glass_rear_in",
+    2.5
+   ],
+   [
+    "trunk_i",
+    1.9
+   ]
+  ],
+  "nodes": [
+   "glass_rear_4_2",
+   "glass_rear_in_2_1",
+   "glass_rear_5_2",
+   "glass_rear_3_2"
+  ]
+ },
+ {
+  "hz": 9.141716077943558,
+  "zeta": 0.013646957715094055,
+  "tau_s": 1.2757235033242555,
+  "moving": 6,
+  "families": [
+   [
+    "core_lo",
+    1.5
+   ],
+   [
+    "fascia",
+    0.8
+   ],
+   [
+    "rad",
+    0.8
+   ]
+  ],
+  "nodes": [
+   "core_lo34_L",
+   "fascia_4_0",
+   "core_lo34_R",
+   "rad3"
+  ]
+ },
+ {
+  "hz": 9.228104838169681,
+  "zeta": 0.015436571715301904,
+  "tau_s": 1.1172664480966439,
+  "moving": 30,
+  "families": [
+   [
+    "glass_windshield",
+    2.2
+   ],
+   [
+    "core_lo",
+    1.4
+   ],
+   [
+    "trunk_o",
+    0.9
+   ],
+   [
+    "fascia",
+    0.7
+   ]
+  ],
+  "nodes": [
+   "core_lo34_R",
+   "rack_C",
+   "fascia_6_0",
+   "core_lo34_L"
+  ]
+ },
+ {
+  "hz": 9.331455835054152,
+  "zeta": 0.0106587804503633,
+  "tau_s": 1.6001592634035104,
+  "moving": 408,
+  "families": [
+   [
+    "hood_o",
+    16.3
+   ],
+   [
+    "rail",
+    9.4
+   ],
+   [
+    "glass_windshield",
+    7.7
+   ],
+   [
+    "rbumper",
+    7.1
+   ]
+  ],
+  "nodes": [
+   "seatFL_t1",
+   "core_lo34_R",
+   "seatFR_t0",
+   "seatFL_t0"
+  ]
+ },
+ {
+  "hz": 9.647026795502997,
+  "zeta": 0.0177355947636378,
+  "tau_s": 0.9302097552134845,
+  "moving": 509,
+  "families": [
+   [
+    "glass_windshield",
+    19.1
+   ],
+   [
+    "rail",
+    18.7
+   ],
+   [
+    "roof",
+    13.8
+   ],
+   [
+    "rbumper",
+    11.9
+   ]
+  ],
+  "nodes": [
+   "rack_C",
+   "glass_windshield_2_3",
+   "dash37_R",
+   "glass_windshield_2_2"
+  ]
+ },
+ {
+  "hz": 9.789184176446224,
+  "zeta": 0.018300210235233746,
+  "tau_s": 0.8884184173922626,
+  "moving": 41,
+  "families": [
+   [
+    "glass_windshield",
+    3.6
+   ],
+   [
+    "glass_side_FR",
+    2.5
+   ],
+   [
+    "glass_side_FR_in",
+    1.1
+   ],
+   [
+    "rack_C",
+    1.0
+   ]
+  ],
+  "nodes": [
+   "rack_C",
+   "glass_windshield_6_2",
+   "glass_windshield_in_3_1",
+   "glass_windshield_6_3"
+  ]
+ },
+ {
+  "hz": 10.094333662076178,
+  "zeta": 0.023820109822160512,
+  "tau_s": 0.6619096553073935,
+  "moving": 236,
+  "families": [
+   [
+    "door_FL_o",
+    15.1
+   ],
+   [
+    "glass_windshield",
+    13.3
+   ],
+   [
+    "door_FL_i",
+    6.4
+   ],
+   [
+    "door_FR_o",
+    6.0
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_6_2",
+   "glass_windshield_in_3_1",
+   "glass_windshield_6_1",
+   "glass_windshield_2_2"
+  ]
+ },
+ {
+  "hz": 10.214707621080043,
+  "zeta": 0.02492641205947674,
+  "tau_s": 0.625078298583718,
+  "moving": 182,
+  "families": [
+   [
+    "glass_windshield",
+    13.7
+   ],
+   [
+    "door_FR_o",
+    11.7
+   ],
+   [
+    "door_FL_o",
+    6.3
+   ],
+   [
+    "glass_side_FR",
+    5.6
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_6_1",
+   "glass_windshield_6_2",
+   "glass_windshield_in_3_1",
+   "glass_windshield_2_2"
+  ]
+ },
+ {
+  "hz": 10.38089802664124,
+  "zeta": 0.009046955343352214,
+  "tau_s": 1.694660708006382,
+  "moving": 255,
+  "families": [
+   [
+    "door_FL_o",
+    14.5
+   ],
+   [
+    "door_FR_o",
+    6.7
+   ],
+   [
+    "glass_side_FL",
+    6.3
+   ],
+   [
+    "door_FL_i",
+    5.5
+   ]
+  ],
+  "nodes": [
+   "tank5",
+   "tank0",
+   "tank4",
+   "tank1"
+  ]
+ },
+ {
+  "hz": 10.408164186351327,
+  "zeta": 0.019627905483523504,
+  "tau_s": 0.7790620317140466,
+  "moving": 174,
+  "families": [
+   [
+    "door_FR_o",
+    10.7
+   ],
+   [
+    "door_FL_o",
+    6.8
+   ],
+   [
+    "exh",
+    5.9
+   ],
+   [
+    "door_FR_i",
+    3.8
+   ]
+  ],
+  "nodes": [
+   "exh7_R",
+   "exh5_R",
+   "exh7_L",
+   "exh5_L"
+  ]
+ },
+ {
+  "hz": 10.507988101549294,
+  "zeta": 0.013715827587496864,
+  "tau_s": 1.1042783102749854,
+  "moving": 62,
+  "families": [
+   [
+    "glass_windshield",
+    3.2
+   ],
+   [
+    "rbumper",
+    2.5
+   ],
+   [
+    "hood_o",
+    1.9
+   ],
+   [
+    "exh",
+    1.9
+   ]
+  ],
+  "nodes": [
+   "dash37_R",
+   "exh7_R",
+   "glass_windshield_5_0",
+   "glass_windshield_2_1"
+  ]
+ },
+ {
+  "hz": 10.70028564207661,
+  "zeta": 0.027318324505436357,
+  "tau_s": 0.5444659198452071,
+  "moving": 32,
+  "families": [
+   [
+    "glass_windshield",
+    14.1
+   ],
+   [
+    "glass_windshield_in",
+    2.8
+   ],
+   [
+    "glass_side_FR",
+    0.2
+   ],
+   [
+    "glass_side_FL",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_2_2",
+   "glass_windshield_in_1_1",
+   "glass_windshield_6_2",
+   "glass_windshield_in_3_1"
+  ]
+ },
+ {
+  "hz": 10.85520564812036,
+  "zeta": 0.03929225168968773,
+  "tau_s": 0.3731428797687197,
+  "moving": 35,
+  "families": [
+   [
+    "exh",
+    6.7
+   ],
+   [
+    "glass_windshield",
+    2.6
+   ],
+   [
+    "glass_quarter_L",
+    0.9
+   ],
+   [
+    "glass_windshield_in",
+    0.6
+   ]
+  ],
+  "nodes": [
+   "exh7_R",
+   "exh5_R",
+   "exh7_L",
+   "exh5_L"
+  ]
+ },
+ {
+  "hz": 10.928340162365773,
+  "zeta": 0.033343058754166585,
+  "tau_s": 0.4367777324136335,
+  "moving": 77,
+  "families": [
+   [
+    "rbumper",
+    4.8
+   ],
+   [
+    "exh",
+    4.1
+   ],
+   [
+    "bbR_b",
+    1.8
+   ],
+   [
+    "bbR_f",
+    1.8
+   ]
+  ],
+  "nodes": [
+   "exh5_L",
+   "exh7_L",
+   "exh4_L",
+   "bbR_f78_R"
+  ]
+ },
+ {
+  "hz": 11.063813934205458,
+  "zeta": 0.02517831407238738,
+  "tau_s": 0.5713320950979421,
+  "moving": 422,
+  "families": [
+   [
+    "hood_o",
+    25.6
+   ],
+   [
+    "door_FR_o",
+    24.1
+   ],
+   [
+    "door_FL_o",
+    22.1
+   ],
+   [
+    "glass_side_FL",
+    10.5
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_6_2",
+   "glass_side_FR_in_3_1",
+   "glass_side_FR_5_1",
+   "glass_side_FR_6_1"
+  ]
+ },
+ {
+  "hz": 11.079234708023025,
+  "zeta": 0.022476304227400278,
+  "tau_s": 0.6391245015337547,
+  "moving": 298,
+  "families": [
+   [
+    "door_FL_o",
+    22.9
+   ],
+   [
+    "glass_side_FL",
+    10.4
+   ],
+   [
+    "rbumper",
+    10.2
+   ],
+   [
+    "door_FR_o",
+    10.1
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_6_2",
+   "glass_side_FL_in_3_1",
+   "glass_side_FL_5_1",
+   "glass_side_FL_6_1"
+  ]
+ },
+ {
+  "hz": 11.212447964664463,
+  "zeta": 0.01861658769427438,
+  "tau_s": 0.7624644696394535,
+  "moving": 337,
+  "families": [
+   [
+    "hood_o",
+    55.8
+   ],
+   [
+    "hood_i",
+    15.5
+   ],
+   [
+    "door_FR_o",
+    14.3
+   ],
+   [
+    "glass_windshield",
+    10.9
+   ]
+  ],
+  "nodes": [
+   "hood_i_4_3",
+   "hood_i_0_3",
+   "glass_side_FR_6_2",
+   "hood_o_7_6"
+  ]
+ },
+ {
+  "hz": 11.37563363158408,
+  "zeta": 0.019493055299034254,
+  "tau_s": 0.7177358186679074,
+  "moving": 266,
+  "families": [
+   [
+    "hood_o",
+    16.8
+   ],
+   [
+    "glass_side_FR",
+    8.3
+   ],
+   [
+    "rbumper",
+    6.6
+   ],
+   [
+    "door_FL_o",
+    6.4
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_2_1",
+   "bbR_f78_R",
+   "bbR_b78_R",
+   "glass_quarter_R_2_0"
+  ]
+ },
+ {
+  "hz": 11.489839440410037,
+  "zeta": 0.02065975767442206,
+  "tau_s": 0.6704724674998908,
+  "moving": 51,
+  "families": [
+   [
+    "glass_quarter_L",
+    4.7
+   ],
+   [
+    "rbumper",
+    3.3
+   ],
+   [
+    "glass_quarter_R",
+    2.8
+   ],
+   [
+    "glass_quarter_L_in",
+    2.6
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_2_1",
+   "glass_quarter_L_2_0",
+   "glass_quarter_L_in_1_0",
+   "glass_quarter_L_in_1_1"
+  ]
+ },
+ {
+  "hz": 11.734627863127336,
+  "zeta": 0.024268880649070384,
+  "tau_s": 0.5588574750699663,
+  "moving": 70,
+  "families": [
+   [
+    "glass_side_FL",
+    11.4
+   ],
+   [
+    "glass_side_FR",
+    7.8
+   ],
+   [
+    "glass_side_FL_in",
+    4.1
+   ],
+   [
+    "glass_side_FR_in",
+    2.8
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_6_2",
+   "glass_side_FL_in_3_1",
+   "glass_side_FL_0_1",
+   "glass_side_FL_6_1"
+  ]
+ },
+ {
+  "hz": 11.848639940805965,
+  "zeta": 0.027213124930661827,
+  "tau_s": 0.4935977984314481,
+  "moving": 70,
+  "families": [
+   [
+    "glass_side_FR",
+    10.6
+   ],
+   [
+    "glass_side_FL",
+    6.4
+   ],
+   [
+    "exh",
+    4.1
+   ],
+   [
+    "glass_side_FR_in",
+    3.8
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_6_2",
+   "glass_side_FR_0_1",
+   "glass_side_FR_in_3_1",
+   "glass_side_FR_6_1"
+  ]
+ },
+ {
+  "hz": 11.971053138287541,
+  "zeta": 0.02326824748932998,
+  "tau_s": 0.571378768382536,
+  "moving": 199,
+  "families": [
+   [
+    "door_FR_o",
+    15.2
+   ],
+   [
+    "glass_side_FR",
+    11.5
+   ],
+   [
+    "door_FL_o",
+    5.1
+   ],
+   [
+    "door_FR_i",
+    4.4
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_0_1",
+   "glass_side_FR_in_0_1",
+   "glass_side_FR_0_2",
+   "glass_side_FR_1_2"
+  ]
+ },
+ {
+  "hz": 12.07504999956185,
+  "zeta": 0.017679422698616686,
+  "tau_s": 0.7455265501032244,
+  "moving": 76,
+  "families": [
+   [
+    "glass_side_FL",
+    6.3
+   ],
+   [
+    "glass_quarter_L",
+    4.4
+   ],
+   [
+    "exh",
+    3.4
+   ],
+   [
+    "glass_quarter_L_in",
+    2.4
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_2_1",
+   "glass_quarter_L_in_1_0",
+   "glass_quarter_L_2_0",
+   "glass_quarter_L_in_1_1"
+  ]
+ },
+ {
+  "hz": 12.108501221528458,
+  "zeta": 0.02231078286028733,
+  "tau_s": 0.5891351461011666,
+  "moving": 154,
+  "families": [
+   [
+    "roof",
+    8.6
+   ],
+   [
+    "glass_side_FL",
+    8.6
+   ],
+   [
+    "glass_rear",
+    7.3
+   ],
+   [
+    "glass_quarter_R",
+    4.4
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_2_1",
+   "glass_quarter_R_2_0",
+   "glass_quarter_R_in_1_0",
+   "glass_side_FL_0_1"
+  ]
+ },
+ {
+  "hz": 12.146759408529382,
+  "zeta": 0.04057363009170057,
+  "tau_s": 0.32293553531425506,
+  "moving": 320,
+  "families": [
+   [
+    "hood_o",
+    14.8
+   ],
+   [
+    "door_FR_o",
+    12.4
+   ],
+   [
+    "exh",
+    11.9
+   ],
+   [
+    "door_FL_o",
+    11.3
+   ]
+  ],
+  "nodes": [
+   "exh7_R",
+   "exh3_R",
+   "exh5_R",
+   "exh6_R"
+  ]
+ },
+ {
+  "hz": 12.3395974507798,
+  "zeta": 0.023694540357016267,
+  "tau_s": 0.5443407547592378,
+  "moving": 116,
+  "families": [
+   [
+    "glass_side_FR",
+    9.0
+   ],
+   [
+    "exh",
+    7.4
+   ],
+   [
+    "glass_side_FL",
+    6.2
+   ],
+   [
+    "glass_quarter_L",
+    4.4
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_2_1",
+   "glass_side_FR_0_1",
+   "glass_side_FR_in_0_1",
+   "glass_quarter_L_2_0"
+  ]
+ },
+ {
+  "hz": 12.425508555029106,
+  "zeta": 0.017255592679621096,
+  "tau_s": 0.742294219035513,
+  "moving": 77,
+  "families": [
+   [
+    "glass_side_FR",
+    5.6
+   ],
+   [
+    "glass_quarter_R",
+    4.8
+   ],
+   [
+    "glass_side_FL",
+    3.9
+   ],
+   [
+    "glass_quarter_R_in",
+    2.5
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_2_1",
+   "glass_quarter_R_2_0",
+   "glass_quarter_R_in_1_0",
+   "glass_quarter_R_in_1_1"
+  ]
+ },
+ {
+  "hz": 12.493424382949334,
+  "zeta": 0.01778464820090836,
+  "tau_s": 0.7162973760983851,
+  "moving": 89,
+  "families": [
+   [
+    "glass_side_FR",
+    4.6
+   ],
+   [
+    "glass_quarter_L",
+    4.2
+   ],
+   [
+    "exh",
+    2.5
+   ],
+   [
+    "glass_side_FL",
+    2.2
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_2_1",
+   "glass_quarter_L_in_1_0",
+   "glass_quarter_L_2_0",
+   "glass_quarter_L_in_1_1"
+  ]
+ },
+ {
+  "hz": 12.623481242602184,
+  "zeta": 0.018391276741074547,
+  "tau_s": 0.6855341800215806,
+  "moving": 158,
+  "families": [
+   [
+    "glass_side_FL",
+    8.7
+   ],
+   [
+    "glass_quarter_R",
+    4.1
+   ],
+   [
+    "glass_windshield",
+    3.9
+   ],
+   [
+    "glass_side_FL_in",
+    3.6
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_2_1",
+   "glass_side_FL_in_0_1",
+   "glass_side_FL_0_1",
+   "glass_side_FL_0_2"
+  ]
+ },
+ {
+  "hz": 12.68347885752477,
+  "zeta": 0.02458920132635296,
+  "tau_s": 0.5103138079694701,
+  "moving": 82,
+  "families": [
+   [
+    "glass_windshield",
+    10.0
+   ],
+   [
+    "glass_quarter_L",
+    3.0
+   ],
+   [
+    "glass_windshield_in",
+    2.5
+   ],
+   [
+    "exh",
+    2.2
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_2_1",
+   "glass_windshield_6_1",
+   "glass_quarter_L_2_1",
+   "glass_windshield_4_3"
+  ]
+ },
+ {
+  "hz": 12.723875323596799,
+  "zeta": 0.02584710161564746,
+  "tau_s": 0.4839370541047634,
+  "moving": 100,
+  "families": [
+   [
+    "glass_quarter_R",
+    3.9
+   ],
+   [
+    "glass_windshield",
+    3.7
+   ],
+   [
+    "trunk_o",
+    2.9
+   ],
+   [
+    "glass_side_FR",
+    2.8
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_2_1",
+   "glass_quarter_R_in_1_0",
+   "glass_quarter_R_2_0",
+   "glass_quarter_L_2_1"
+  ]
+ },
+ {
+  "hz": 12.995496280133503,
+  "zeta": 0.02975251421793677,
+  "tau_s": 0.4116267508353337,
+  "moving": 21,
+  "families": [
+   [
+    "glass_windshield",
+    9.3
+   ],
+   [
+    "glass_windshield_in",
+    2.3
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_6_1",
+   "glass_windshield_2_1",
+   "glass_windshield_4_1",
+   "glass_windshield_4_2"
+  ]
+ },
+ {
+  "hz": 13.056638454938039,
+  "zeta": 0.019662464277237918,
+  "tau_s": 0.6199416382018229,
+  "moving": 77,
+  "families": [
+   [
+    "glass_side_FL",
+    8.8
+   ],
+   [
+    "glass_quarter_L",
+    4.1
+   ],
+   [
+    "glass_side_FL_in",
+    2.8
+   ],
+   [
+    "glass_quarter_L_in",
+    2.4
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_2_1",
+   "glass_quarter_L_in_1_0",
+   "glass_quarter_L_2_0",
+   "glass_side_FL_6_2"
+  ]
+ },
+ {
+  "hz": 13.109423547015206,
+  "zeta": 0.020371266438627796,
+  "tau_s": 0.5959619156844529,
+  "moving": 116,
+  "families": [
+   [
+    "glass_side_FR",
+    11.3
+   ],
+   [
+    "glass_quarter_R",
+    4.3
+   ],
+   [
+    "glass_side_FR_in",
+    3.7
+   ],
+   [
+    "glass_windshield",
+    3.1
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_2_1",
+   "glass_side_FR_6_2",
+   "glass_side_FR_6_1",
+   "glass_side_FR_6_0"
+  ]
+ },
+ {
+  "hz": 13.2458258586735,
+  "zeta": 0.023110763927111977,
+  "tau_s": 0.5199083460381427,
+  "moving": 155,
+  "families": [
+   [
+    "glass_side_FR",
+    7.5
+   ],
+   [
+    "door_FL_o",
+    7.0
+   ],
+   [
+    "glass_side_FL",
+    6.5
+   ],
+   [
+    "glass_quarter_R",
+    4.1
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_2_1",
+   "glass_side_FL_0_1",
+   "glass_quarter_R_in_1_0",
+   "glass_quarter_R_2_0"
+  ]
+ },
+ {
+  "hz": 13.284262144243625,
+  "zeta": 0.024057180812417683,
+  "tau_s": 0.4980098838602761,
+  "moving": 166,
+  "families": [
+   [
+    "glass_windshield",
+    8.3
+   ],
+   [
+    "glass_rear",
+    6.3
+   ],
+   [
+    "glass_side_FL",
+    5.6
+   ],
+   [
+    "door_FL_o",
+    5.4
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_2_1",
+   "glass_quarter_L_in_1_0",
+   "glass_quarter_L_2_0",
+   "glass_quarter_R_in_1_0"
+  ]
+ },
+ {
+  "hz": 13.30604147105733,
+  "zeta": 0.035296759276515086,
+  "tau_s": 0.33887257745081245,
+  "moving": 22,
+  "families": [
+   [
+    "exh",
+    4.2
+   ],
+   [
+    "fascia",
+    1.0
+   ],
+   [
+    "tfloor",
+    0.9
+   ],
+   [
+    "bbF_f",
+    0.6
+   ]
+  ],
+  "nodes": [
+   "exh4_L",
+   "exh4_R",
+   "tfloor1_C",
+   "exh6_L"
+  ]
+ },
+ {
+  "hz": 13.344183415017785,
+  "zeta": 0.028354642735419537,
+  "tau_s": 0.4206335887539458,
+  "moving": 212,
+  "families": [
+   [
+    "glass_rear",
+    11.3
+   ],
+   [
+    "glass_side_FR",
+    10.9
+   ],
+   [
+    "trunk_o",
+    7.6
+   ],
+   [
+    "fascia",
+    5.7
+   ]
+  ],
+  "nodes": [
+   "glass_rear_2_2",
+   "glass_rear_in_1_1",
+   "glass_side_FR_0_1",
+   "glass_rear_3_2"
+  ]
+ },
+ {
+  "hz": 13.363716631449202,
+  "zeta": 0.029631948152699646,
+  "tau_s": 0.40191356875350187,
+  "moving": 240,
+  "families": [
+   [
+    "fascia",
+    16.1
+   ],
+   [
+    "glass_rear",
+    11.9
+   ],
+   [
+    "glass_side_FL",
+    8.0
+   ],
+   [
+    "trunk_o",
+    5.8
+   ]
+  ],
+  "nodes": [
+   "glass_rear_6_2",
+   "glass_rear_in_3_1",
+   "glass_rear_2_2",
+   "glass_rear_in_1_1"
+  ]
+ },
+ {
+  "hz": 13.526777615082302,
+  "zeta": 0.0308696773652255,
+  "tau_s": 0.3811480401957032,
+  "moving": 113,
+  "families": [
+   [
+    "glass_side_FR",
+    10.0
+   ],
+   [
+    "door_FR_o",
+    3.8
+   ],
+   [
+    "glass_side_FR_in",
+    3.1
+   ],
+   [
+    "glass_windshield",
+    2.8
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_1_1",
+   "glass_side_FR_0_1",
+   "glass_side_FR_2_1",
+   "glass_side_FR_2_2"
+  ]
+ },
+ {
+  "hz": 13.607728243101205,
+  "zeta": 0.033165639232625714,
+  "tau_s": 0.35265182189278094,
+  "moving": 325,
+  "families": [
+   [
+    "door_FR_o",
+    12.3
+   ],
+   [
+    "trunk_o",
+    11.1
+   ],
+   [
+    "glass_side_FL",
+    10.0
+   ],
+   [
+    "door_FL_o",
+    9.7
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_1_1",
+   "glass_side_FL_2_1",
+   "glass_side_FL_3_1",
+   "glass_side_FL_in_1_1"
+  ]
+ },
+ {
+  "hz": 13.616624404308459,
+  "zeta": 0.025214754514890882,
+  "tau_s": 0.4635492994781371,
+  "moving": 58,
+  "families": [
+   [
+    "glass_rear",
+    11.1
+   ],
+   [
+    "trunk_o",
+    6.8
+   ],
+   [
+    "trunk_i",
+    2.8
+   ],
+   [
+    "glass_rear_in",
+    2.0
+   ]
+  ],
+  "nodes": [
+   "glass_rear_2_2",
+   "glass_rear_in_1_1",
+   "glass_rear_6_2",
+   "glass_rear_in_3_1"
+  ]
+ },
+ {
+  "hz": 13.653757109830098,
+  "zeta": 0.02949625621904614,
+  "tau_s": 0.3951855550395725,
+  "moving": 138,
+  "families": [
+   [
+    "glass_side_FL",
+    10.6
+   ],
+   [
+    "glass_windshield",
+    8.9
+   ],
+   [
+    "fascia",
+    3.5
+   ],
+   [
+    "glass_side_FL_in",
+    3.2
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_2_1",
+   "glass_side_FL_1_1",
+   "glass_windshield_4_1",
+   "glass_side_FL_0_1"
+  ]
+ },
+ {
+  "hz": 13.696132937279586,
+  "zeta": 0.028865919331902586,
+  "tau_s": 0.4025657061173068,
+  "moving": 80,
+  "families": [
+   [
+    "glass_windshield",
+    10.9
+   ],
+   [
+    "glass_side_FR",
+    5.9
+   ],
+   [
+    "glass_windshield_in",
+    2.2
+   ],
+   [
+    "glass_side_FL",
+    1.5
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_5_4",
+   "glass_windshield_3_4",
+   "glass_windshield_4_1",
+   "glass_windshield_4_4"
+  ]
+ },
+ {
+  "hz": 13.924024816952798,
+  "zeta": 0.03125954682736185,
+  "tau_s": 0.36565596730042127,
+  "moving": 331,
+  "families": [
+   [
+    "door_FR_o",
+    12.5
+   ],
+   [
+    "fender_R",
+    11.3
+   ],
+   [
+    "door_FL_o",
+    11.2
+   ],
+   [
+    "glass_side_FR",
+    9.2
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_in_1_1",
+   "glass_side_FR_2_2",
+   "glass_side_FR_2_1",
+   "glass_side_FR_1_1"
+  ]
+ },
+ {
+  "hz": 13.954813272922664,
+  "zeta": 0.022891300507803938,
+  "tau_s": 0.4982251371114279,
+  "moving": 182,
+  "families": [
+   [
+    "fender_R",
+    15.6
+   ],
+   [
+    "fascia",
+    15.4
+   ],
+   [
+    "glass_windshield",
+    3.8
+   ],
+   [
+    "glass_side_FR",
+    3.8
+   ]
+  ],
+  "nodes": [
+   "headlight_R_1",
+   "column_top",
+   "fascia_10_4",
+   "fascia_10_2"
+  ]
+ },
+ {
+  "hz": 13.994116892514914,
+  "zeta": 0.02014870581733598,
+  "tau_s": 0.5644526007719072,
+  "moving": 161,
+  "families": [
+   [
+    "rbumper",
+    11.7
+   ],
+   [
+    "trunk_o",
+    8.5
+   ],
+   [
+    "quarter_R",
+    6.4
+   ],
+   [
+    "glass_windshield",
+    4.4
+   ]
+  ],
+  "nodes": [
+   "tfloor4_C",
+   "bbR_t_C",
+   "rbumper_5_0",
+   "batt3"
+  ]
+ },
+ {
+  "hz": 14.180764317951969,
+  "zeta": 0.026753470580862884,
+  "tau_s": 0.41950811262296084,
+  "moving": 357,
+  "families": [
+   [
+    "fascia",
+    27.5
+   ],
+   [
+    "fender_L",
+    18.2
+   ],
+   [
+    "door_FL_o",
+    15.4
+   ],
+   [
+    "glass_rear",
+    8.4
+   ]
+  ],
+  "nodes": [
+   "headlight_L_1",
+   "fascia_10_2",
+   "column_top",
+   "headlight_R_1"
+  ]
+ },
+ {
+  "hz": 14.28989819232364,
+  "zeta": 0.01094276983603624,
+  "tau_s": 1.0178030133586395,
+  "moving": 36,
+  "families": [
+   [
+    "rbumper",
+    3.7
+   ],
+   [
+    "RR_link",
+    1.0
+   ],
+   [
+    "RL_link",
+    1.0
+   ],
+   [
+    "arbR_tip_L",
+    1.0
+   ]
+  ],
+  "nodes": [
+   "arbR_tip_L",
+   "arbR_tip_R",
+   "rbumper_8_4",
+   "arbR_axis_L"
+  ]
+ },
+ {
+  "hz": 14.421739738794791,
+  "zeta": 0.025969486428858303,
+  "tau_s": 0.4249512555072576,
+  "moving": 369,
+  "families": [
+   [
+    "fascia",
+    21.7
+   ],
+   [
+    "glass_rear",
+    18.3
+   ],
+   [
+    "roof",
+    12.9
+   ],
+   [
+    "fender_L",
+    8.5
+   ]
+  ],
+  "nodes": [
+   "headlight_L_1",
+   "glass_rear_4_2",
+   "glass_rear_5_2",
+   "glass_rear_in_2_1"
+  ]
+ },
+ {
+  "hz": 14.484348555638555,
+  "zeta": 0.043210814563438706,
+  "tau_s": 0.2542896658651619,
+  "moving": 25,
+  "families": [
+   [
+    "rbumper",
+    8.3
+   ],
+   [
+    "trunk_i",
+    0.7
+   ],
+   [
+    "arbR_tip_L",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "rbumper_8_4",
+   "rbumper_2_4",
+   "rbumper_10_4",
+   "rbumper_9_4"
+  ]
+ },
+ {
+  "hz": 14.528365351206187,
+  "zeta": 0.03729652197604283,
+  "tau_s": 0.29372103144763384,
+  "moving": 69,
+  "families": [
+   [
+    "rbumper",
+    9.6
+   ],
+   [
+    "roof",
+    2.3
+   ],
+   [
+    "glass_rear",
+    2.0
+   ],
+   [
+    "glass_windshield",
+    1.9
+   ]
+  ],
+  "nodes": [
+   "rbumper_8_4",
+   "rbumper_2_4",
+   "rbumper_0_4",
+   "rbumper_9_4"
+  ]
+ },
+ {
+  "hz": 14.70718705309414,
+  "zeta": 0.03436692495976974,
+  "tau_s": 0.314883454277802,
+  "moving": 182,
+  "families": [
+   [
+    "trunk_o",
+    14.8
+   ],
+   [
+    "trunk_i",
+    6.6
+   ],
+   [
+    "quarter_L",
+    5.9
+   ],
+   [
+    "glass_windshield",
+    4.3
+   ]
+  ],
+  "nodes": [
+   "trunk_i_3_0",
+   "trunk_i_1_0",
+   "trunk_i_0_0",
+   "trunk_i_4_0"
+  ]
+ },
+ {
+  "hz": 14.811123654238695,
+  "zeta": 0.032649002075861876,
+  "tau_s": 0.3291260156991986,
+  "moving": 18,
+  "families": [
+   [
+    "glass_windshield",
+    8.0
+   ],
+   [
+    "glass_windshield_in",
+    1.1
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_2_1",
+   "glass_windshield_6_1",
+   "glass_windshield_1_4",
+   "glass_windshield_3_4"
+  ]
+ },
+ {
+  "hz": 15.023190796077298,
+  "zeta": 0.033861017642428055,
+  "tau_s": 0.3128656923800637,
+  "moving": 101,
+  "families": [
+   [
+    "rbumper",
+    6.1
+   ],
+   [
+    "fascia",
+    4.8
+   ],
+   [
+    "trunk_o",
+    2.7
+   ],
+   [
+    "fender_R",
+    2.1
+   ]
+  ],
+  "nodes": [
+   "rbumper_8_4",
+   "exh3_R",
+   "exh3_L",
+   "rbumper_2_4"
+  ]
+ },
+ {
+  "hz": 15.110084934353438,
+  "zeta": 0.03334607184612822,
+  "tau_s": 0.31587011939230836,
+  "moving": 103,
+  "families": [
+   [
+    "trunk_o",
+    7.5
+   ],
+   [
+    "rbumper",
+    5.1
+   ],
+   [
+    "door_FL_o",
+    4.8
+   ],
+   [
+    "trunk_i",
+    3.6
+   ]
+  ],
+  "nodes": [
+   "exh3_L",
+   "exh3_R",
+   "rbumper_8_4",
+   "trunk_i_1_0"
+  ]
+ },
+ {
+  "hz": 15.157791085935058,
+  "zeta": 0.02686715670920974,
+  "tau_s": 0.3908071548498059,
+  "moving": 441,
+  "families": [
+   [
+    "door_FR_o",
+    18.0
+   ],
+   [
+    "glass_rear",
+    14.5
+   ],
+   [
+    "fascia",
+    13.7
+   ],
+   [
+    "rbumper",
+    13.1
+   ]
+  ],
+  "nodes": [
+   "rbumper_2_4",
+   "rbumper_8_4",
+   "rbumper_0_4",
+   "door_FR_o_0_1"
+  ]
+ },
+ {
+  "hz": 15.298250111200312,
+  "zeta": 0.025720858094464765,
+  "tau_s": 0.40447615270841886,
+  "moving": 344,
+  "families": [
+   [
+    "fascia",
+    15.0
+   ],
+   [
+    "door_FR_o",
+    9.6
+   ],
+   [
+    "glass_windshield",
+    8.6
+   ],
+   [
+    "rbumper",
+    7.7
+   ]
+  ],
+  "nodes": [
+   "rbumper_8_4",
+   "exh2_R",
+   "glass_side_FL_0_1",
+   "glass_windshield_4_1"
+  ]
+ },
+ {
+  "hz": 15.366998253318688,
+  "zeta": 0.03663795082261427,
+  "tau_s": 0.2826831449489517,
+  "moving": 106,
+  "families": [
+   [
+    "door_FL_o",
+    7.7
+   ],
+   [
+    "exh",
+    5.2
+   ],
+   [
+    "glass_side_FL",
+    3.7
+   ],
+   [
+    "door_FL_i",
+    3.0
+   ]
+  ],
+  "nodes": [
+   "exh2_L",
+   "exh6_L",
+   "exh6_R",
+   "door_FL_o_0_0"
+  ]
+ },
+ {
+  "hz": 15.40256672478055,
+  "zeta": 0.0328380737629353,
+  "tau_s": 0.3146656661700853,
+  "moving": 60,
+  "families": [
+   [
+    "exh",
+    4.9
+   ],
+   [
+    "door_FR_o",
+    3.2
+   ],
+   [
+    "glass_rear",
+    2.9
+   ],
+   [
+    "rbumper",
+    2.1
+   ]
+  ],
+  "nodes": [
+   "exh2_R",
+   "exh2_L",
+   "exh6_L",
+   "exh6_R"
+  ]
+ },
+ {
+  "hz": 15.53661841501571,
+  "zeta": 0.03276620852252694,
+  "tau_s": 0.31263488846627807,
+  "moving": 199,
+  "families": [
+   [
+    "door_FL_o",
+    16.4
+   ],
+   [
+    "glass_side_FL",
+    8.8
+   ],
+   [
+    "door_FL_i",
+    5.9
+   ],
+   [
+    "glass_windshield",
+    4.9
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_6_1",
+   "door_FL_o_0_1",
+   "door_FL_o_0_0",
+   "door_FL_i_0_0"
+  ]
+ },
+ {
+  "hz": 15.568168572865398,
+  "zeta": 0.03328774471374861,
+  "tau_s": 0.30711302374984983,
+  "moving": 95,
+  "families": [
+   [
+    "door_FR_o",
+    5.5
+   ],
+   [
+    "exh",
+    3.4
+   ],
+   [
+    "glass_rear",
+    3.3
+   ],
+   [
+    "door_FR_i",
+    2.2
+   ]
+  ],
+  "nodes": [
+   "exh2_R",
+   "exh2_L",
+   "glass_windshield_2_1",
+   "exh3_L"
+  ]
+ },
+ {
+  "hz": 15.603719041964291,
+  "zeta": 0.03374680895194046,
+  "tau_s": 0.3022451195527674,
+  "moving": 294,
+  "families": [
+   [
+    "fascia",
+    29.8
+   ],
+   [
+    "fender_L",
+    11.2
+   ],
+   [
+    "fender_R",
+    8.9
+   ],
+   [
+    "exh",
+    5.8
+   ]
+  ],
+  "nodes": [
+   "headlight_R_1",
+   "exh2_R",
+   "exh6_R",
+   "headlight_R_2"
+  ]
+ },
+ {
+  "hz": 15.733056024104517,
+  "zeta": 0.03643468280208659,
+  "tau_s": 0.2776464018067143,
+  "moving": 36,
+  "families": [
+   [
+    "exh",
+    5.4
+   ],
+   [
+    "rbumper",
+    2.7
+   ],
+   [
+    "glass_quarter_L",
+    0.8
+   ],
+   [
+    "glass_side_FR",
+    0.7
+   ]
+  ],
+  "nodes": [
+   "exh2_L",
+   "exh6_L",
+   "exh6_R",
+   "exh2_R"
+  ]
+ },
+ {
+  "hz": 15.764202688719418,
+  "zeta": 0.030470779153303783,
+  "tau_s": 0.33133290021063533,
+  "moving": 277,
+  "families": [
+   [
+    "glass_rear",
+    12.7
+   ],
+   [
+    "fascia",
+    12.3
+   ],
+   [
+    "rbumper",
+    8.3
+   ],
+   [
+    "trunk_o",
+    7.8
+   ]
+  ],
+  "nodes": [
+   "exh2_L",
+   "glass_rear_4_2",
+   "rbumper_0_1",
+   "rbumper_0_4"
+  ]
+ },
+ {
+  "hz": 15.856604735495807,
+  "zeta": 0.02239366497200551,
+  "tau_s": 0.4482133157690793,
+  "moving": 89,
+  "families": [
+   [
+    "glass_rear",
+    19.2
+   ],
+   [
+    "glass_rear_in",
+    5.5
+   ],
+   [
+    "roof",
+    2.1
+   ],
+   [
+    "glass_side_FR",
+    1.1
+   ]
+  ],
+  "nodes": [
+   "glass_rear_4_3",
+   "glass_rear_4_2",
+   "glass_rear_in_2_1",
+   "glass_rear_7_2"
+  ]
+ },
+ {
+  "hz": 15.959977076296033,
+  "zeta": 0.03335366194610345,
+  "tau_s": 0.2989815201737136,
+  "moving": 148,
+  "families": [
+   [
+    "exh",
+    4.7
+   ],
+   [
+    "door_FR_o",
+    4.4
+   ],
+   [
+    "rbumper",
+    4.2
+   ],
+   [
+    "glass_windshield",
+    4.0
+   ]
+  ],
+  "nodes": [
+   "exh2_L",
+   "glass_windshield_2_1",
+   "exh2_R",
+   "glass_quarter_L_1_0"
+  ]
+ },
+ {
+  "hz": 16.00941845139864,
+  "zeta": 0.03801610010894979,
+  "tau_s": 0.2615032030578331,
+  "moving": 16,
+  "families": [
+   [
+    "exh",
+    3.8
+   ],
+   [
+    "rbumper",
+    1.8
+   ],
+   [
+    "glass_quarter_R",
+    0.3
+   ],
+   [
+    "glass_windshield",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "exh2_R",
+   "exh2_L",
+   "exh3_R",
+   "exh3_L"
+  ]
+ },
+ {
+  "hz": 16.138730243270693,
+  "zeta": 0.03128688987248854,
+  "tau_s": 0.31520157264912696,
+  "moving": 26,
+  "families": [
+   [
+    "glass_windshield",
+    7.3
+   ],
+   [
+    "rbumper",
+    2.4
+   ],
+   [
+    "glass_windshield_in",
+    1.0
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_6_1",
+   "glass_windshield_2_1",
+   "glass_windshield_7_4",
+   "glass_windshield_1_4"
+  ]
+ },
+ {
+  "hz": 16.178227646084405,
+  "zeta": 0.033739536289242686,
+  "tau_s": 0.29157486289307255,
+  "moving": 203,
+  "families": [
+   [
+    "door_FR_o",
+    9.1
+   ],
+   [
+    "rbumper",
+    5.9
+   ],
+   [
+    "fender_R",
+    5.6
+   ],
+   [
+    "door_FR_i",
+    3.8
+   ]
+  ],
+  "nodes": [
+   "rbumper_8_4",
+   "glass_side_FR_in_1_1",
+   "glass_side_FR_2_2",
+   "glass_side_FL_in_1_1"
+  ]
+ },
+ {
+  "hz": 16.235088550354345,
+  "zeta": 0.032339396342744915,
+  "tau_s": 0.3031332396631783,
+  "moving": 26,
+  "families": [
+   [
+    "glass_windshield",
+    5.9
+   ],
+   [
+    "rbumper",
+    1.7
+   ],
+   [
+    "glass_windshield_in",
+    0.8
+   ],
+   [
+    "glass_side_FR",
+    0.6
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_6_1",
+   "glass_windshield_2_1",
+   "glass_windshield_1_4",
+   "glass_windshield_7_4"
+  ]
+ },
+ {
+  "hz": 16.294615375471807,
+  "zeta": 0.03299607635514137,
+  "tau_s": 0.29601499958469385,
+  "moving": 164,
+  "families": [
+   [
+    "hood_o",
+    13.5
+   ],
+   [
+    "door_FL_o",
+    6.5
+   ],
+   [
+    "glass_side_FL",
+    4.8
+   ],
+   [
+    "hood_i",
+    4.4
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_2_1",
+   "glass_side_FL_in_1_1",
+   "glass_side_FL_2_2",
+   "glass_windshield_6_1"
+  ]
+ },
+ {
+  "hz": 16.363388571890166,
+  "zeta": 0.024147717919178472,
+  "tau_s": 0.4027826864285853,
+  "moving": 225,
+  "families": [
+   [
+    "fascia",
+    11.9
+   ],
+   [
+    "glass_side_FL",
+    6.3
+   ],
+   [
+    "rbumper",
+    5.6
+   ],
+   [
+    "glass_side_FR",
+    4.8
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_3_2",
+   "glass_side_FR_in_1_1",
+   "glass_side_FR_2_2",
+   "rbumper_8_4"
+  ]
+ },
+ {
+  "hz": 16.38857840833203,
+  "zeta": 0.044580130540577904,
+  "tau_s": 0.2178399419056174,
+  "moving": 123,
+  "families": [
+   [
+    "glass_side_FL",
+    6.5
+   ],
+   [
+    "door_FL_o",
+    5.8
+   ],
+   [
+    "hood_o",
+    3.9
+   ],
+   [
+    "glass_windshield",
+    3.1
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_in_1_1",
+   "glass_side_FL_2_2",
+   "glass_side_FL_3_2",
+   "glass_windshield_2_1"
+  ]
+ },
+ {
+  "hz": 16.487529558331108,
+  "zeta": 0.03620509497234465,
+  "tau_s": 0.26662130725038224,
+  "moving": 25,
+  "families": [
+   [
+    "glass_windshield",
+    6.2
+   ],
+   [
+    "glass_side_FR",
+    1.6
+   ],
+   [
+    "glass_side_FR_in",
+    0.8
+   ],
+   [
+    "glass_quarter_R",
+    0.8
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_2_1",
+   "glass_windshield_6_1",
+   "glass_windshield_3_2",
+   "glass_windshield_5_1"
+  ]
+ },
+ {
+  "hz": 16.512945438803335,
+  "zeta": 0.038972312804827276,
+  "tau_s": 0.2473087065372313,
+  "moving": 20,
+  "families": [
+   [
+    "glass_windshield",
+    7.2
+   ],
+   [
+    "glass_side_FR",
+    1.8
+   ],
+   [
+    "glass_side_FR_in",
+    0.8
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_2_1",
+   "glass_windshield_6_1",
+   "glass_windshield_3_1",
+   "glass_windshield_5_1"
+  ]
+ },
+ {
+  "hz": 16.55514727522786,
+  "zeta": 0.03722296237415645,
+  "tau_s": 0.25827130069481774,
+  "moving": 93,
+  "families": [
+   [
+    "fender_L",
+    8.7
+   ],
+   [
+    "fascia",
+    5.1
+   ],
+   [
+    "hood_o",
+    3.2
+   ],
+   [
+    "rbumper",
+    2.0
+   ]
+  ],
+  "nodes": [
+   "exh3_R",
+   "headlight_L_1",
+   "fender_L_6_1",
+   "headlight_L_2"
+  ]
+ },
+ {
+  "hz": 16.61274584991799,
+  "zeta": 0.029292642153034214,
+  "tau_s": 0.3270545266308621,
+  "moving": 75,
+  "families": [
+   [
+    "glass_windshield",
+    5.1
+   ],
+   [
+    "glass_side_FR",
+    3.9
+   ],
+   [
+    "glass_side_FL",
+    2.0
+   ],
+   [
+    "hood_o",
+    1.4
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_5_0",
+   "exh3_L",
+   "glass_windshield_5_1",
+   "glass_windshield_3_1"
+  ]
+ },
+ {
+  "hz": 16.748386817287102,
+  "zeta": 0.03742521201224734,
+  "tau_s": 0.25391179731797686,
+  "moving": 150,
+  "families": [
+   [
+    "door_FR_o",
+    6.1
+   ],
+   [
+    "exh",
+    5.6
+   ],
+   [
+    "glass_windshield",
+    5.0
+   ],
+   [
+    "glass_side_FR",
+    4.3
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_0",
+   "exh6_L",
+   "glass_windshield_4_1",
+   "exh6_R"
+  ]
+ },
+ {
+  "hz": 16.852751468727714,
+  "zeta": 0.03529555834736282,
+  "tau_s": 0.26756497285098835,
+  "moving": 50,
+  "families": [
+   [
+    "hood_o",
+    7.1
+   ],
+   [
+    "glass_windshield",
+    4.5
+   ],
+   [
+    "hood_i",
+    2.0
+   ],
+   [
+    "exh",
+    1.3
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_0",
+   "glass_windshield_3_1",
+   "glass_windshield_2_1",
+   "glass_windshield_1_2"
+  ]
+ },
+ {
+  "hz": 16.897971706714834,
+  "zeta": 0.03604831190830305,
+  "tau_s": 0.26127666314266723,
+  "moving": 171,
+  "families": [
+   [
+    "hood_o",
+    8.2
+   ],
+   [
+    "trunk_o",
+    7.5
+   ],
+   [
+    "rbumper",
+    5.0
+   ],
+   [
+    "exh",
+    4.9
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_3_2",
+   "exh3_R",
+   "glass_side_FL_in_1_1",
+   "glass_side_FL_2_2"
+  ]
+ },
+ {
+  "hz": 17.054871424800425,
+  "zeta": 0.03381530876057183,
+  "tau_s": 0.27596774493442283,
+  "moving": 24,
+  "families": [
+   [
+    "glass_windshield",
+    8.5
+   ],
+   [
+    "glass_windshield_in",
+    0.7
+   ],
+   [
+    "rbumper",
+    0.4
+   ],
+   [
+    "exh",
+    0.4
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_0",
+   "glass_windshield_5_0",
+   "glass_windshield_5_1",
+   "glass_windshield_3_1"
+  ]
+ },
+ {
+  "hz": 17.092553497406946,
+  "zeta": 0.033741900599934004,
+  "tau_s": 0.275958415140332,
+  "moving": 26,
+  "families": [
+   [
+    "glass_windshield",
+    6.1
+   ],
+   [
+    "exh",
+    1.1
+   ],
+   [
+    "rbumper",
+    0.9
+   ],
+   [
+    "glass_windshield_in",
+    0.5
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_1",
+   "glass_windshield_1_4",
+   "glass_windshield_2_1",
+   "glass_windshield_5_0"
+  ]
+ },
+ {
+  "hz": 17.16729296811281,
+  "zeta": 0.04524239430352609,
+  "tau_s": 0.2049145197419569,
+  "moving": 30,
+  "families": [
+   [
+    "rbumper",
+    4.1
+   ],
+   [
+    "glass_windshield",
+    2.0
+   ],
+   [
+    "glass_side_FR",
+    1.2
+   ],
+   [
+    "glass_rear",
+    0.8
+   ]
+  ],
+  "nodes": [
+   "rbumper_8_4",
+   "glass_windshield_3_0",
+   "rbumper_2_4",
+   "glass_rear_7_2"
+  ]
+ },
+ {
+  "hz": 17.21665275831876,
+  "zeta": 0.029530880716480887,
+  "tau_s": 0.3130365236539303,
+  "moving": 27,
+  "families": [
+   [
+    "glass_windshield",
+    8.1
+   ],
+   [
+    "glass_windshield_in",
+    1.0
+   ],
+   [
+    "glass_quarter_R",
+    0.6
+   ],
+   [
+    "glass_quarter_R_in",
+    0.5
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_1",
+   "glass_windshield_7_4",
+   "glass_windshield_1_4",
+   "glass_windshield_6_1"
+  ]
+ },
+ {
+  "hz": 17.24212012150256,
+  "zeta": 0.033940198308258826,
+  "tau_s": 0.2719662980249671,
+  "moving": 14,
+  "families": [
+   [
+    "glass_windshield",
+    3.6
+   ],
+   [
+    "exh",
+    0.9
+   ],
+   [
+    "rbumper",
+    0.5
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_1",
+   "glass_windshield_3_0",
+   "glass_windshield_5_0",
+   "glass_windshield_5_2"
+  ]
+ },
+ {
+  "hz": 17.259073469554583,
+  "zeta": 0.023667204776819793,
+  "tau_s": 0.38963295812519794,
+  "moving": 67,
+  "families": [
+   [
+    "glass_windshield",
+    4.8
+   ],
+   [
+    "glass_rear",
+    4.5
+   ],
+   [
+    "glass_quarter_L",
+    4.5
+   ],
+   [
+    "glass_quarter_R",
+    3.9
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_in_0_0",
+   "glass_quarter_L_0_0",
+   "glass_quarter_L_1_0",
+   "glass_quarter_R_1_0"
+  ]
+ },
+ {
+  "hz": 17.31155860037021,
+  "zeta": 0.03538001144677585,
+  "tau_s": 0.259851957258816,
+  "moving": 103,
+  "families": [
+   [
+    "glass_windshield",
+    4.6
+   ],
+   [
+    "glass_side_FL",
+    4.3
+   ],
+   [
+    "rbumper",
+    4.1
+   ],
+   [
+    "glass_side_FR",
+    4.1
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_in_1_1",
+   "glass_side_FL_2_2",
+   "glass_side_FL_3_2",
+   "glass_side_FR_3_2"
+  ]
+ },
+ {
+  "hz": 17.391908894536332,
+  "zeta": 0.027441044444708743,
+  "tau_s": 0.33348188117094796,
+  "moving": 47,
+  "families": [
+   [
+    "glass_windshield",
+    3.7
+   ],
+   [
+    "rbumper",
+    3.1
+   ],
+   [
+    "glass_quarter_R",
+    2.1
+   ],
+   [
+    "glass_quarter_L",
+    1.2
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_5_0",
+   "rbumper_8_4",
+   "glass_windshield_5_1",
+   "rbumper_0_4"
+  ]
+ },
+ {
+  "hz": 17.417922830729527,
+  "zeta": 0.02397494590936927,
+  "tau_s": 0.38112385577969404,
+  "moving": 49,
+  "families": [
+   [
+    "glass_windshield",
+    5.3
+   ],
+   [
+    "glass_quarter_L",
+    3.3
+   ],
+   [
+    "glass_rear",
+    3.2
+   ],
+   [
+    "rbumper",
+    2.3
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_1",
+   "glass_quarter_L_in_0_0",
+   "glass_quarter_L_0_0",
+   "glass_rear_7_2"
+  ]
+ },
+ {
+  "hz": 17.48061965902681,
+  "zeta": 0.03421068662671213,
+  "tau_s": 0.26613470826200203,
+  "moving": 20,
+  "families": [
+   [
+    "glass_windshield",
+    5.3
+   ],
+   [
+    "glass_rear",
+    0.7
+   ],
+   [
+    "glass_side_FL",
+    0.6
+   ],
+   [
+    "glass_side_FL_in",
+    0.3
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_1",
+   "glass_windshield_3_2",
+   "glass_windshield_1_4",
+   "glass_windshield_1_2"
+  ]
+ },
+ {
+  "hz": 17.522546926860635,
+  "zeta": 0.03536488070933681,
+  "tau_s": 0.2568329276982714,
+  "moving": 85,
+  "families": [
+   [
+    "glass_windshield",
+    6.3
+   ],
+   [
+    "hood_o",
+    6.1
+   ],
+   [
+    "rbumper",
+    3.0
+   ],
+   [
+    "fender_L",
+    2.8
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_0",
+   "glass_windshield_4_1",
+   "glass_windshield_3_1",
+   "rbumper_8_4"
+  ]
+ },
+ {
+  "hz": 17.564728611242238,
+  "zeta": 0.04054770075805569,
+  "tau_s": 0.223466514362674,
+  "moving": 31,
+  "families": [
+   [
+    "rbumper",
+    3.8
+   ],
+   [
+    "glass_windshield",
+    3.6
+   ],
+   [
+    "fender_R",
+    1.2
+   ],
+   [
+    "hood_o",
+    0.9
+   ]
+  ],
+  "nodes": [
+   "rbumper_8_4",
+   "glass_windshield_3_0",
+   "glass_windshield_5_1",
+   "glass_windshield_5_0"
+  ]
+ },
+ {
+  "hz": 17.606773541672975,
+  "zeta": 0.0373351839083292,
+  "tau_s": 0.24211520167299153,
+  "moving": 38,
+  "families": [
+   [
+    "glass_windshield",
+    5.3
+   ],
+   [
+    "rbumper",
+    2.8
+   ],
+   [
+    "glass_quarter_R",
+    1.8
+   ],
+   [
+    "glass_rear",
+    1.4
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_5_0",
+   "rbumper_8_4",
+   "glass_windshield_5_1",
+   "glass_windshield_3_1"
+  ]
+ },
+ {
+  "hz": 17.685551237634677,
+  "zeta": 0.04499211036300099,
+  "tau_s": 0.20001619743956714,
+  "moving": 51,
+  "families": [
+   [
+    "glass_windshield",
+    7.5
+   ],
+   [
+    "glass_side_FL",
+    3.0
+   ],
+   [
+    "rbumper",
+    2.6
+   ],
+   [
+    "glass_side_FL_in",
+    1.6
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_7_4",
+   "glass_side_FL_in_1_1",
+   "glass_side_FL_2_2",
+   "glass_windshield_1_2"
+  ]
+ },
+ {
+  "hz": 17.783709212102064,
+  "zeta": 0.02931320591229716,
+  "tau_s": 0.30530538498075505,
+  "moving": 24,
+  "families": [
+   [
+    "glass_windshield",
+    6.2
+   ],
+   [
+    "glass_side_FL",
+    0.9
+   ],
+   [
+    "glass_rear",
+    0.6
+   ],
+   [
+    "glass_quarter_R",
+    0.6
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_7_4",
+   "glass_windshield_5_0",
+   "glass_windshield_5_4",
+   "glass_windshield_5_2"
+  ]
+ },
+ {
+  "hz": 17.80072536826102,
+  "zeta": 0.036479822964181716,
+  "tau_s": 0.24509232390399335,
+  "moving": 32,
+  "families": [
+   [
+    "glass_windshield",
+    6.3
+   ],
+   [
+    "glass_rear",
+    1.3
+   ],
+   [
+    "glass_side_FL",
+    1.0
+   ],
+   [
+    "glass_side_FR",
+    0.7
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_7_2",
+   "glass_windshield_5_2",
+   "glass_windshield_3_0",
+   "glass_windshield_3_2"
+  ]
+ },
+ {
+  "hz": 17.870740550587822,
+  "zeta": 0.0309165573445966,
+  "tau_s": 0.2880623199543005,
+  "moving": 17,
+  "families": [
+   [
+    "glass_windshield",
+    7.2
+   ],
+   [
+    "glass_side_FL",
+    0.2
+   ],
+   [
+    "glass_side_FL_in",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_1_2",
+   "glass_windshield_3_2",
+   "glass_windshield_7_2",
+   "glass_windshield_5_2"
+  ]
+ },
+ {
+  "hz": 17.947799342116365,
+  "zeta": 0.03486520179191985,
+  "tau_s": 0.254341215851087,
+  "moving": 145,
+  "families": [
+   [
+    "door_FR_o",
+    7.2
+   ],
+   [
+    "fender_L",
+    6.7
+   ],
+   [
+    "rbumper",
+    6.1
+   ],
+   [
+    "glass_windshield",
+    4.8
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_1_4",
+   "glass_windshield_3_4",
+   "rbumper_2_4",
+   "rbumper_3_4"
+  ]
+ },
+ {
+  "hz": 17.997068357699785,
+  "zeta": 0.034235814115081926,
+  "tau_s": 0.25830791013238696,
+  "moving": 16,
+  "families": [
+   [
+    "glass_windshield",
+    4.5
+   ],
+   [
+    "rbumper",
+    0.7
+   ],
+   [
+    "glass_side_FR",
+    0.7
+   ],
+   [
+    "glass_side_FR_in",
+    0.3
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_1_4",
+   "glass_windshield_3_4",
+   "glass_windshield_7_4",
+   "glass_windshield_5_4"
+  ]
+ },
+ {
+  "hz": 18.06435702218448,
+  "zeta": 0.045228657057250286,
+  "tau_s": 0.19479774758131027,
+  "moving": 23,
+  "families": [
+   [
+    "glass_windshield",
+    2.5
+   ],
+   [
+    "exh",
+    1.9
+   ],
+   [
+    "door_FL_o",
+    1.2
+   ],
+   [
+    "door_FR_o",
+    0.6
+   ]
+  ],
+  "nodes": [
+   "exh1_R",
+   "exh1_L",
+   "glass_windshield_5_4",
+   "glass_windshield_7_4"
+  ]
+ },
+ {
+  "hz": 18.095380144791196,
+  "zeta": 0.04413407852643488,
+  "tau_s": 0.1992867189970172,
+  "moving": 42,
+  "families": [
+   [
+    "glass_windshield",
+    4.8
+   ],
+   [
+    "door_FL_o",
+    2.9
+   ],
+   [
+    "rbumper",
+    2.9
+   ],
+   [
+    "door_FL_i",
+    1.0
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_1_4",
+   "glass_windshield_7_4",
+   "glass_windshield_3_4",
+   "glass_windshield_5_4"
+  ]
+ },
+ {
+  "hz": 18.125893309785976,
+  "zeta": 0.028921625917551406,
+  "tau_s": 0.3035973719053813,
+  "moving": 137,
+  "families": [
+   [
+    "rbumper",
+    13.3
+   ],
+   [
+    "glass_rear",
+    5.0
+   ],
+   [
+    "glass_side_FR",
+    4.3
+   ],
+   [
+    "glass_windshield",
+    3.6
+   ]
+  ],
+  "nodes": [
+   "exh1_L",
+   "rbumper_10_4",
+   "glass_side_FR_3_2",
+   "glass_rear_1_2"
+  ]
+ },
+ {
+  "hz": 18.173696618342472,
+  "zeta": 0.03758036270565687,
+  "tau_s": 0.23303217591578015,
+  "moving": 179,
+  "families": [
+   [
+    "door_FR_o",
+    22.1
+   ],
+   [
+    "door_FR_i",
+    6.5
+   ],
+   [
+    "hood_o",
+    5.2
+   ],
+   [
+    "door_FL_o",
+    3.7
+   ]
+  ],
+  "nodes": [
+   "mirror_R_1",
+   "door_FR_i_1_1",
+   "door_FR_o_2_2",
+   "door_FR_o_3_2"
+  ]
+ },
+ {
+  "hz": 18.226236115110915,
+  "zeta": 0.04750689086440594,
+  "tau_s": 0.18380889787118854,
+  "moving": 64,
+  "families": [
+   [
+    "door_FL_o",
+    3.1
+   ],
+   [
+    "glass_side_FR",
+    2.9
+   ],
+   [
+    "glass_windshield",
+    2.7
+   ],
+   [
+    "rbumper",
+    2.0
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_in_1_1",
+   "glass_side_FR_2_2",
+   "glass_side_FR_3_2",
+   "glass_windshield_1_4"
+  ]
+ },
+ {
+  "hz": 18.287925344883245,
+  "zeta": 0.0543347479243861,
+  "tau_s": 0.16016884170346216,
+  "moving": 37,
+  "families": [
+   [
+    "rbumper",
+    10.4
+   ],
+   [
+    "glass_windshield",
+    1.1
+   ],
+   [
+    "glass_side_FL",
+    0.8
+   ],
+   [
+    "glass_side_FL_in",
+    0.6
+   ]
+  ],
+  "nodes": [
+   "rbumper_2_4",
+   "rbumper_8_4",
+   "rbumper_10_4",
+   "rbumper_10_1"
+  ]
+ },
+ {
+  "hz": 18.334869736749997,
+  "zeta": 0.027591325620772426,
+  "tau_s": 0.31460798145086954,
+  "moving": 201,
+  "families": [
+   [
+    "fascia",
+    11.1
+   ],
+   [
+    "hood_o",
+    10.0
+   ],
+   [
+    "rbumper",
+    8.8
+   ],
+   [
+    "fender_R",
+    6.6
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_in_1_1",
+   "glass_side_FR_2_2",
+   "rbumper_2_4",
+   "rad1"
+  ]
+ },
+ {
+  "hz": 18.48803567781861,
+  "zeta": 0.03594627845884975,
+  "tau_s": 0.23948340635357304,
+  "moving": 105,
+  "families": [
+   [
+    "rbumper",
+    17.3
+   ],
+   [
+    "trunk_o",
+    5.2
+   ],
+   [
+    "quarter_R",
+    3.0
+   ],
+   [
+    "trunk_i",
+    2.8
+   ]
+  ],
+  "nodes": [
+   "rbumper_0_4",
+   "rbumper_10_4",
+   "rbumper_6_4",
+   "rbumper_4_4"
+  ]
+ },
+ {
+  "hz": 18.516563737399718,
+  "zeta": 0.03360656000716699,
+  "tau_s": 0.2557617984892543,
+  "moving": 155,
+  "families": [
+   [
+    "fender_R",
+    12.6
+   ],
+   [
+    "glass_windshield",
+    9.1
+   ],
+   [
+    "fender_L",
+    8.5
+   ],
+   [
+    "fascia",
+    2.9
+   ]
+  ],
+  "nodes": [
+   "fender_R_6_1",
+   "fender_R_6_0",
+   "fender_L_6_1",
+   "fender_R_5_2"
+  ]
+ },
+ {
+  "hz": 18.5889097906159,
+  "zeta": 0.026891660318213915,
+  "tau_s": 0.3183820648145801,
+  "moving": 139,
+  "families": [
+   [
+    "rbumper",
+    11.0
+   ],
+   [
+    "fender_L",
+    5.8
+   ],
+   [
+    "glass_windshield",
+    4.2
+   ],
+   [
+    "door_FL_o",
+    3.4
+   ]
+  ],
+  "nodes": [
+   "rbumper_8_4",
+   "rbumper_2_4",
+   "arbR_tip_L",
+   "glass_rear_7_2"
+  ]
+ },
+ {
+  "hz": 18.665851221137025,
+  "zeta": 0.02804655050908508,
+  "tau_s": 0.30401350571721913,
+  "moving": 4,
+  "families": [
+   [
+    "glass_rear",
+    3.9
+   ]
+  ],
+  "nodes": [
+   "glass_rear_5_2",
+   "glass_rear_3_2",
+   "glass_rear_1_2",
+   "glass_rear_7_2"
+  ]
+ },
+ {
+  "hz": 18.772512031775612,
+  "zeta": 0.03194081056949658,
+  "tau_s": 0.2654311001717227,
+  "moving": 64,
+  "families": [
+   [
+    "glass_windshield",
+    8.8
+   ],
+   [
+    "rbumper",
+    3.1
+   ],
+   [
+    "trunk_o",
+    2.0
+   ],
+   [
+    "door_FR_o",
+    1.3
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_1",
+   "glass_windshield_7_4",
+   "glass_windshield_4_3",
+   "glass_windshield_7_2"
+  ]
+ },
+ {
+  "hz": 18.850739553372314,
+  "zeta": 0.027039377602963325,
+  "tau_s": 0.31224468010349904,
+  "moving": 96,
+  "families": [
+   [
+    "fascia",
+    10.2
+   ],
+   [
+    "glass_windshield",
+    3.7
+   ],
+   [
+    "hood_o",
+    3.0
+   ],
+   [
+    "headlight_L",
+    1.5
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_1",
+   "headlight_L_1",
+   "headlight_R_1",
+   "bbF_f_C"
+  ]
+ },
+ {
+  "hz": 18.871341233219308,
+  "zeta": 0.02837866658833753,
+  "tau_s": 0.2971839688369619,
+  "moving": 18,
+  "families": [
+   [
+    "glass_windshield",
+    8.2
+   ],
+   [
+    "trunk_o",
+    0.3
+   ],
+   [
+    "glass_windshield_in",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_3",
+   "glass_windshield_1_2",
+   "glass_windshield_7_2",
+   "glass_windshield_3_0"
+  ]
+ },
+ {
+  "hz": 18.90937157759197,
+  "zeta": 0.03163572699533951,
+  "tau_s": 0.26605119659208265,
+  "moving": 69,
+  "families": [
+   [
+    "glass_windshield",
+    8.3
+   ],
+   [
+    "fascia",
+    6.7
+   ],
+   [
+    "fender_L",
+    2.8
+   ],
+   [
+    "fender_R",
+    1.7
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_4_3",
+   "glass_windshield_1_2",
+   "glass_windshield_7_2",
+   "glass_windshield_5_0"
+  ]
+ },
+ {
+  "hz": 19.071749943241496,
+  "zeta": 0.029132952413999314,
+  "tau_s": 0.2864475343141196,
+  "moving": 80,
+  "families": [
+   [
+    "fascia",
+    6.9
+   ],
+   [
+    "glass_side_FR",
+    3.8
+   ],
+   [
+    "glass_side_FR_in",
+    2.1
+   ],
+   [
+    "glass_windshield",
+    2.0
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_in_2_1",
+   "glass_side_FR_4_2",
+   "glass_side_FR_2_2",
+   "glass_side_FR_in_1_1"
+  ]
+ },
+ {
+  "hz": 19.12111423881576,
+  "zeta": 0.029165729772359015,
+  "tau_s": 0.28538693537463483,
+  "moving": 60,
+  "families": [
+   [
+    "rbumper",
+    4.3
+   ],
+   [
+    "exh",
+    4.0
+   ],
+   [
+    "glass_quarter_R",
+    1.6
+   ],
+   [
+    "glass_windshield",
+    1.5
+   ]
+  ],
+  "nodes": [
+   "exh4_R",
+   "exh4_L",
+   "rbumper_2_4",
+   "rbumper_8_4"
+  ]
+ },
+ {
+  "hz": 19.23299340847215,
+  "zeta": 0.0489644242673122,
+  "tau_s": 0.16900229277433912,
+  "moving": 92,
+  "families": [
+   [
+    "glass_windshield",
+    3.9
+   ],
+   [
+    "rbumper",
+    3.8
+   ],
+   [
+    "glass_side_FR",
+    3.8
+   ],
+   [
+    "glass_side_FL",
+    3.7
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_in_2_1",
+   "glass_side_FR_4_2",
+   "glass_side_FL_in_2_1",
+   "glass_side_FL_4_2"
+  ]
+ },
+ {
+  "hz": 19.255583415439936,
+  "zeta": 0.041258942789139975,
+  "tau_s": 0.20032970638767195,
+  "moving": 130,
+  "families": [
+   [
+    "trunk_o",
+    5.8
+   ],
+   [
+    "quarter_L",
+    4.2
+   ],
+   [
+    "rbumper",
+    4.1
+   ],
+   [
+    "glass_windshield",
+    4.1
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_in_2_1",
+   "glass_side_FL_4_2",
+   "glass_side_FL_2_2",
+   "glass_side_FL_in_1_1"
+  ]
+ },
+ {
+  "hz": 19.35558261238743,
+  "zeta": 0.03392947197999441,
+  "tau_s": 0.24234651688901448,
+  "moving": 30,
+  "families": [
+   [
+    "glass_windshield",
+    7.9
+   ],
+   [
+    "glass_side_FR",
+    1.7
+   ],
+   [
+    "glass_side_FR_in",
+    1.3
+   ],
+   [
+    "glass_rear",
+    1.2
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_1",
+   "glass_windshield_3_4",
+   "glass_windshield_2_3",
+   "glass_windshield_5_4"
+  ]
+ },
+ {
+  "hz": 19.434904471522238,
+  "zeta": 0.027989755322353066,
+  "tau_s": 0.2925759469505955,
+  "moving": 15,
+  "families": [
+   [
+    "glass_windshield",
+    6.9
+   ],
+   [
+    "rbumper",
+    0.4
+   ],
+   [
+    "exh",
+    0.3
+   ],
+   [
+    "glass_side_FL",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_5_1",
+   "glass_windshield_7_2",
+   "glass_windshield_6_3",
+   "glass_windshield_5_0"
+  ]
+ },
+ {
+  "hz": 19.48005094116511,
+  "zeta": 0.03690527533417755,
+  "tau_s": 0.2213816365627573,
+  "moving": 34,
+  "families": [
+   [
+    "glass_windshield",
+    5.9
+   ],
+   [
+    "glass_side_FL",
+    1.3
+   ],
+   [
+    "glass_side_FR",
+    1.1
+   ],
+   [
+    "glass_side_FL_in",
+    1.0
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_1_2",
+   "glass_windshield_3_1",
+   "glass_windshield_2_3",
+   "glass_windshield_3_0"
+  ]
+ },
+ {
+  "hz": 19.49360869634663,
+  "zeta": 0.030774305393094822,
+  "tau_s": 0.26530145289413715,
+  "moving": 31,
+  "families": [
+   [
+    "glass_windshield",
+    9.4
+   ],
+   [
+    "glass_side_FL",
+    1.0
+   ],
+   [
+    "rbumper",
+    0.9
+   ],
+   [
+    "glass_side_FL_in",
+    0.7
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_7_2",
+   "glass_windshield_6_3",
+   "glass_windshield_5_0",
+   "glass_windshield_5_1"
+  ]
+ },
+ {
+  "hz": 19.55151847425289,
+  "zeta": 0.030285397352691142,
+  "tau_s": 0.26878582584579686,
+  "moving": 43,
+  "families": [
+   [
+    "glass_windshield",
+    9.4
+   ],
+   [
+    "glass_side_FR",
+    2.5
+   ],
+   [
+    "exh",
+    2.0
+   ],
+   [
+    "glass_side_FR_in",
+    1.7
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_0",
+   "exh0_R",
+   "glass_windshield_1_2",
+   "glass_windshield_2_3"
+  ]
+ },
+ {
+  "hz": 19.57715001798891,
+  "zeta": 0.019951348703680958,
+  "tau_s": 0.4074725936502714,
+  "moving": 40,
+  "families": [
+   [
+    "glass_windshield",
+    9.2
+   ],
+   [
+    "glass_side_FL",
+    1.6
+   ],
+   [
+    "exh",
+    1.2
+   ],
+   [
+    "tank",
+    1.1
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_5_0",
+   "glass_windshield_3_0",
+   "glass_windshield_3_1",
+   "glass_windshield_1_2"
+  ]
+ },
+ {
+  "hz": 19.678679555824186,
+  "zeta": 0.02578484105618614,
+  "tau_s": 0.3136604196551084,
+  "moving": 21,
+  "families": [
+   [
+    "glass_rear",
+    6.9
+   ],
+   [
+    "glass_windshield",
+    3.1
+   ],
+   [
+    "rbumper",
+    0.9
+   ]
+  ],
+  "nodes": [
+   "glass_rear_1_2",
+   "glass_rear_2_3",
+   "glass_rear_7_2",
+   "glass_rear_3_2"
+  ]
+ },
+ {
+  "hz": 19.731800290351206,
+  "zeta": 0.02474657025831356,
+  "tau_s": 0.3259405573583651,
+  "moving": 22,
+  "families": [
+   [
+    "glass_rear",
+    5.7
+   ],
+   [
+    "rbumper",
+    1.4
+   ],
+   [
+    "exh",
+    0.5
+   ],
+   [
+    "rpanel_lo_C",
+    0.3
+   ]
+  ],
+  "nodes": [
+   "glass_rear_5_2",
+   "glass_rear_1_2",
+   "glass_rear_2_3",
+   "glass_rear_6_3"
+  ]
+ },
+ {
+  "hz": 19.799452481341895,
+  "zeta": 0.03124852805928098,
+  "tau_s": 0.2572393395262229,
+  "moving": 67,
+  "families": [
+   [
+    "fascia",
+    7.8
+   ],
+   [
+    "exh",
+    2.5
+   ],
+   [
+    "glass_rear",
+    2.3
+   ],
+   [
+    "glass_windshield",
+    2.2
+   ]
+  ],
+  "nodes": [
+   "exh0_R",
+   "exh0_L",
+   "glass_rear_7_2",
+   "headlight_R_0"
+  ]
+ },
+ {
+  "hz": 19.86288636316786,
+  "zeta": 0.029548755422056195,
+  "tau_s": 0.2711680888668742,
+  "moving": 51,
+  "families": [
+   [
+    "glass_windshield",
+    7.2
+   ],
+   [
+    "rbumper",
+    2.7
+   ],
+   [
+    "glass_rear",
+    2.7
+   ],
+   [
+    "glass_side_FR",
+    1.0
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_1",
+   "glass_windshield_3_2",
+   "glass_windshield_5_0",
+   "glass_windshield_3_4"
+  ]
+ },
+ {
+  "hz": 19.892046348639163,
+  "zeta": 0.028015635842768723,
+  "tau_s": 0.28558815154559575,
+  "moving": 17,
+  "families": [
+   [
+    "glass_windshield",
+    6.0
+   ],
+   [
+    "glass_rear",
+    1.6
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_5_1",
+   "glass_windshield_5_2",
+   "glass_windshield_5_4",
+   "glass_windshield_5_0"
+  ]
+ },
+ {
+  "hz": 19.91621228259912,
+  "zeta": 0.03025874061812238,
+  "tau_s": 0.2640964335748373,
+  "moving": 27,
+  "families": [
+   [
+    "glass_windshield",
+    6.5
+   ],
+   [
+    "glass_rear",
+    4.4
+   ],
+   [
+    "glass_rear_in",
+    0.5
+   ],
+   [
+    "glass_side_FR",
+    0.5
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_1",
+   "glass_rear_4_3",
+   "glass_windshield_3_2",
+   "glass_windshield_3_0"
+  ]
+ },
+ {
+  "hz": 19.963995212188685,
+  "zeta": 0.027560064717789524,
+  "tau_s": 0.28926270393726217,
+  "moving": 20,
+  "families": [
+   [
+    "glass_rear",
+    5.2
+   ],
+   [
+    "glass_windshield",
+    2.1
+   ],
+   [
+    "glass_rear_in",
+    0.7
+   ]
+  ],
+  "nodes": [
+   "glass_rear_4_3",
+   "glass_rear_1_2",
+   "glass_rear_5_2",
+   "glass_rear_7_2"
+  ]
+ },
+ {
+  "hz": 20.064131243175606,
+  "zeta": 0.029011666869205133,
+  "tau_s": 0.2734179921413882,
+  "moving": 22,
+  "families": [
+   [
+    "glass_windshield",
+    7.5
+   ],
+   [
+    "glass_rear",
+    0.7
+   ],
+   [
+    "exh",
+    0.6
+   ],
+   [
+    "glass_quarter_L",
+    0.3
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_2",
+   "glass_windshield_3_1",
+   "glass_windshield_5_1",
+   "glass_windshield_5_2"
+  ]
+ },
+ {
+  "hz": 20.11468839672356,
+  "zeta": 0.03193225493599139,
+  "tau_s": 0.24778626797389863,
+  "moving": 136,
+  "families": [
+   [
+    "fascia",
+    10.1
+   ],
+   [
+    "hood_o",
+    6.0
+   ],
+   [
+    "glass_windshield",
+    6.0
+   ],
+   [
+    "glass_rear",
+    4.5
+   ]
+  ],
+  "nodes": [
+   "glass_rear_4_3",
+   "glass_windshield_5_1",
+   "glass_windshield_5_0",
+   "glass_side_FR_in_2_1"
+  ]
+ },
+ {
+  "hz": 20.17088190384528,
+  "zeta": 0.031889604958700725,
+  "tau_s": 0.24742643949749157,
+  "moving": 51,
+  "families": [
+   [
+    "rbumper",
+    3.8
+   ],
+   [
+    "glass_windshield",
+    3.4
+   ],
+   [
+    "glass_rear",
+    3.2
+   ],
+   [
+    "trunk_i",
+    1.6
+   ]
+  ],
+  "nodes": [
+   "rbumper_6_4",
+   "glass_rear_4_3",
+   "glass_rear_3_2",
+   "glass_windshield_5_2"
+  ]
+ },
+ {
+  "hz": 20.24560844129548,
+  "zeta": 0.03876518235327872,
+  "tau_s": 0.20279043519823142,
+  "moving": 128,
+  "families": [
+   [
+    "glass_windshield",
+    9.4
+   ],
+   [
+    "door_FR_o",
+    6.2
+   ],
+   [
+    "glass_rear",
+    3.6
+   ],
+   [
+    "glass_side_FR",
+    3.5
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_2",
+   "glass_rear_3_2",
+   "glass_windshield_2_3",
+   "glass_side_FL_in_2_1"
+  ]
+ },
+ {
+  "hz": 20.314008701082695,
+  "zeta": 0.030180113594737077,
+  "tau_s": 0.25959936596360006,
+  "moving": 52,
+  "families": [
+   [
+    "glass_rear",
+    6.5
+   ],
+   [
+    "glass_windshield",
+    4.5
+   ],
+   [
+    "rbumper",
+    3.1
+   ],
+   [
+    "fascia",
+    1.1
+   ]
+  ],
+  "nodes": [
+   "glass_rear_2_3",
+   "glass_rear_1_2",
+   "glass_rear_3_2",
+   "glass_rear_7_2"
+  ]
+ },
+ {
+  "hz": 20.35168766772718,
+  "zeta": 0.02945586586715209,
+  "tau_s": 0.2654898420410584,
+  "moving": 44,
+  "families": [
+   [
+    "glass_rear",
+    5.5
+   ],
+   [
+    "glass_windshield",
+    2.8
+   ],
+   [
+    "glass_side_FR",
+    2.2
+   ],
+   [
+    "glass_side_FL",
+    1.4
+   ]
+  ],
+  "nodes": [
+   "glass_rear_5_2",
+   "glass_rear_6_3",
+   "glass_rear_7_2",
+   "glass_side_FR_in_2_1"
+  ]
+ },
+ {
+  "hz": 20.425445256149096,
+  "zeta": 0.0615514487632506,
+  "tau_s": 0.1265931829541827,
+  "moving": 58,
+  "families": [
+   [
+    "door_FL_o",
+    3.3
+   ],
+   [
+    "glass_side_FL",
+    3.1
+   ],
+   [
+    "glass_side_FR",
+    2.1
+   ],
+   [
+    "glass_windshield",
+    2.0
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_in_2_1",
+   "glass_side_FL_4_2",
+   "glass_side_FR_in_2_1",
+   "glass_side_FR_4_2"
+  ]
+ },
+ {
+  "hz": 20.491408442674476,
+  "zeta": 0.027298542674666405,
+  "tau_s": 0.28451741795402014,
+  "moving": 63,
+  "families": [
+   [
+    "glass_rear",
+    8.0
+   ],
+   [
+    "glass_windshield",
+    4.3
+   ],
+   [
+    "trunk_o",
+    2.1
+   ],
+   [
+    "trunk_i",
+    1.5
+   ]
+  ],
+  "nodes": [
+   "glass_rear_2_3",
+   "glass_rear_6_3",
+   "glass_rear_1_2",
+   "glass_rear_5_2"
+  ]
+ },
+ {
+  "hz": 20.603187248089363,
+  "zeta": 0.03024010434212382,
+  "tau_s": 0.2554479588086541,
+  "moving": 35,
+  "families": [
+   [
+    "glass_rear",
+    8.2
+   ],
+   [
+    "fascia",
+    1.8
+   ],
+   [
+    "headlight_R",
+    0.9
+   ],
+   [
+    "rbumper",
+    0.6
+   ]
+  ],
+  "nodes": [
+   "glass_rear_3_2",
+   "glass_rear_6_3",
+   "glass_rear_5_2",
+   "glass_rear_2_3"
+  ]
+ },
+ {
+  "hz": 20.694914422958423,
+  "zeta": 0.04319896559983107,
+  "tau_s": 0.17802588320824658,
+  "moving": 100,
+  "families": [
+   [
+    "fascia",
+    12.6
+   ],
+   [
+    "glass_rear",
+    5.7
+   ],
+   [
+    "trunk_o",
+    3.1
+   ],
+   [
+    "rbumper",
+    2.9
+   ]
+  ],
+  "nodes": [
+   "headlight_R_0",
+   "fascia_9_4",
+   "glass_rear_6_3",
+   "glass_rear_5_2"
+  ]
+ },
+ {
+  "hz": 20.733000534488877,
+  "zeta": 0.037495706910499874,
+  "tau_s": 0.20472761492932698,
+  "moving": 116,
+  "families": [
+   [
+    "glass_windshield",
+    9.2
+   ],
+   [
+    "glass_side_FR",
+    4.2
+   ],
+   [
+    "glass_side_FL",
+    3.4
+   ],
+   [
+    "roof",
+    3.1
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_in_2_1",
+   "glass_side_FR_4_2",
+   "glass_side_FL_in_2_1",
+   "glass_side_FL_4_2"
+  ]
+ },
+ {
+  "hz": 20.7849089106609,
+  "zeta": 0.032556412600218174,
+  "tau_s": 0.23519899531070704,
+  "moving": 132,
+  "families": [
+   [
+    "rbumper",
+    14.2
+   ],
+   [
+    "trunk_o",
+    7.9
+   ],
+   [
+    "trunk_i",
+    3.6
+   ],
+   [
+    "glass_side_FL",
+    1.8
+   ]
+  ],
+  "nodes": [
+   "rbumper_2_4",
+   "rbumper_6_4",
+   "rbumper_8_4",
+   "trunk_i_4_0"
+  ]
+ },
+ {
+  "hz": 20.846217410914445,
+  "zeta": 0.025744594235578646,
+  "tau_s": 0.2965560698928011,
+  "moving": 96,
+  "families": [
+   [
+    "glass_quarter_R",
+    4.3
+   ],
+   [
+    "glass_side_FR",
+    3.7
+   ],
+   [
+    "trunk_o",
+    2.4
+   ],
+   [
+    "glass_rear",
+    2.4
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_1_0",
+   "glass_quarter_L_1_0",
+   "glass_quarter_R_2_1",
+   "glass_quarter_R_in_0_0"
+  ]
+ },
+ {
+  "hz": 20.941210099513796,
+  "zeta": 0.03288066052211223,
+  "tau_s": 0.2311414452025656,
+  "moving": 202,
+  "families": [
+   [
+    "trunk_o",
+    8.8
+   ],
+   [
+    "fascia",
+    6.7
+   ],
+   [
+    "trunk_i",
+    5.0
+   ],
+   [
+    "door_FR_o",
+    4.6
+   ]
+  ],
+  "nodes": [
+   "headlight_L_0",
+   "glass_quarter_L_1_0",
+   "rbumper_6_4",
+   "fascia_1_4"
+  ]
+ },
+ {
+  "hz": 21.072644302029584,
+  "zeta": 0.029167834541883784,
+  "tau_s": 0.2589386666811908,
+  "moving": 217,
+  "families": [
+   [
+    "glass_side_FR",
+    7.5
+   ],
+   [
+    "door_FR_o",
+    7.0
+   ],
+   [
+    "fascia",
+    6.1
+   ],
+   [
+    "rbumper",
+    6.1
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_0_1",
+   "glass_quarter_R_1_0",
+   "glass_side_FR_3_2",
+   "glass_quarter_R_2_1"
+  ]
+ },
+ {
+  "hz": 21.11673867765305,
+  "zeta": 0.030322318781917233,
+  "tau_s": 0.24855979205515863,
+  "moving": 88,
+  "families": [
+   [
+    "glass_side_FL",
+    6.3
+   ],
+   [
+    "glass_windshield",
+    5.5
+   ],
+   [
+    "door_FL_o",
+    4.0
+   ],
+   [
+    "glass_side_FL_in",
+    1.9
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_1_0",
+   "glass_side_FL_3_2",
+   "glass_windshield_7_0",
+   "glass_quarter_L_1_0"
+  ]
+ },
+ {
+  "hz": 21.206746662875926,
+  "zeta": 0.03002428651478669,
+  "tau_s": 0.24996165273663964,
+  "moving": 86,
+  "families": [
+   [
+    "glass_windshield",
+    6.5
+   ],
+   [
+    "glass_side_FR",
+    4.3
+   ],
+   [
+    "rbumper",
+    3.8
+   ],
+   [
+    "glass_quarter_L",
+    3.0
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_7_0",
+   "glass_windshield_1_0",
+   "glass_quarter_L_2_1",
+   "glass_quarter_L_1_0"
+  ]
+ },
+ {
+  "hz": 21.3835006729309,
+  "zeta": 0.03389602322209914,
+  "tau_s": 0.21957989773299844,
+  "moving": 147,
+  "families": [
+   [
+    "fascia",
+    10.0
+   ],
+   [
+    "glass_side_FL",
+    5.9
+   ],
+   [
+    "glass_quarter_R",
+    3.6
+   ],
+   [
+    "fender_L",
+    3.1
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_1_0",
+   "glass_side_FL_3_2",
+   "glass_quarter_R_2_1",
+   "fascia_0_1"
+  ]
+ },
+ {
+  "hz": 21.487075189272492,
+  "zeta": 0.03791986426422198,
+  "tau_s": 0.195333195118414,
+  "moving": 124,
+  "families": [
+   [
+    "fascia",
+    19.1
+   ],
+   [
+    "rbumper",
+    9.5
+   ],
+   [
+    "glass_side_FR",
+    2.1
+   ],
+   [
+    "glass_quarter_L",
+    1.8
+   ]
+  ],
+  "nodes": [
+   "rbumper_10_4",
+   "rbumper_0_4",
+   "headlight_L_0",
+   "fascia_0_2"
+  ]
+ },
+ {
+  "hz": 21.61821996010189,
+  "zeta": 0.021853993190969874,
+  "tau_s": 0.33687547651371935,
+  "moving": 47,
+  "families": [
+   [
+    "glass_quarter_L",
+    3.0
+   ],
+   [
+    "glass_windshield",
+    2.6
+   ],
+   [
+    "rbumper",
+    2.3
+   ],
+   [
+    "glass_side_FL",
+    1.7
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_1_0",
+   "glass_quarter_L_2_1",
+   "rbumper_6_4",
+   "rbumper_4_4"
+  ]
+ },
+ {
+  "hz": 21.693786645744467,
+  "zeta": 0.024007493199632347,
+  "tau_s": 0.3055891654911334,
+  "moving": 24,
+  "families": [
+   [
+    "glass_quarter_R",
+    2.9
+   ],
+   [
+    "rbumper",
+    1.6
+   ],
+   [
+    "glass_side_FR",
+    1.1
+   ],
+   [
+    "glass_quarter_R_in",
+    0.5
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_1_0",
+   "glass_quarter_R_2_1",
+   "glass_side_FR_3_2",
+   "rbumper_10_4"
+  ]
+ },
+ {
+  "hz": 21.799197117565537,
+  "zeta": 0.03951893067539798,
+  "tau_s": 0.184745746618887,
+  "moving": 33,
+  "families": [
+   [
+    "glass_side_FR",
+    2.6
+   ],
+   [
+    "glass_quarter_L",
+    2.6
+   ],
+   [
+    "rbumper",
+    1.5
+   ],
+   [
+    "glass_quarter_R",
+    1.3
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_1_0",
+   "glass_quarter_L_2_1",
+   "glass_quarter_R_1_0",
+   "glass_side_FR_3_2"
+  ]
+ },
+ {
+  "hz": 21.887161003743376,
+  "zeta": 0.039616769631060644,
+  "tau_s": 0.18354883778152953,
+  "moving": 136,
+  "families": [
+   [
+    "glass_side_FL",
+    6.8
+   ],
+   [
+    "hood_o",
+    6.0
+   ],
+   [
+    "door_FL_o",
+    3.9
+   ],
+   [
+    "rbumper",
+    3.5
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_1_0",
+   "glass_side_FL_in_2_1",
+   "glass_side_FL_4_2",
+   "glass_side_FR_6_2"
+  ]
+ },
+ {
+  "hz": 21.93908640476506,
+  "zeta": 0.033160241886387096,
+  "tau_s": 0.21876805378761005,
+  "moving": 18,
+  "families": [
+   [
+    "glass_quarter_R",
+    2.6
+   ],
+   [
+    "glass_side_FR",
+    1.3
+   ],
+   [
+    "glass_quarter_L",
+    1.3
+   ],
+   [
+    "glass_side_FR_in",
+    1.0
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_1_0",
+   "glass_quarter_R_2_1",
+   "glass_quarter_L_1_0",
+   "glass_quarter_L_2_1"
+  ]
+ },
+ {
+  "hz": 21.969441656761656,
+  "zeta": 0.030947307850448216,
+  "tau_s": 0.23408750720317076,
+  "moving": 33,
+  "families": [
+   [
+    "rbumper",
+    5.1
+   ],
+   [
+    "glass_quarter_L",
+    2.7
+   ],
+   [
+    "glass_quarter_R",
+    1.0
+   ],
+   [
+    "glass_side_FL",
+    0.5
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_2_1",
+   "glass_quarter_L_1_0",
+   "rbumper_0_4",
+   "rbumper_10_4"
+  ]
+ },
+ {
+  "hz": 22.00395804036128,
+  "zeta": 0.029103972525777316,
+  "tau_s": 0.24852326569452013,
+  "moving": 122,
+  "families": [
+   [
+    "rbumper",
+    15.1
+   ],
+   [
+    "fascia",
+    4.0
+   ],
+   [
+    "glass_side_FR",
+    2.8
+   ],
+   [
+    "glass_rear",
+    2.7
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_L_2_1",
+   "rbumper_10_4",
+   "rbumper_0_4",
+   "arbF_axis_L"
+  ]
+ },
+ {
+  "hz": 22.209478790607548,
+  "zeta": 0.04056303897602369,
+  "tau_s": 0.17666531012893552,
+  "moving": 116,
+  "families": [
+   [
+    "rbumper",
+    7.2
+   ],
+   [
+    "glass_windshield",
+    5.6
+   ],
+   [
+    "glass_side_FL",
+    4.5
+   ],
+   [
+    "glass_side_FR",
+    3.5
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_7_0",
+   "glass_windshield_1_0",
+   "glass_side_FL_3_2",
+   "glass_side_FR_in_2_1"
+  ]
+ },
+ {
+  "hz": 22.21366835358125,
+  "zeta": 0.040827084988923776,
+  "tau_s": 0.17548963680282129,
+  "moving": 101,
+  "families": [
+   [
+    "rbumper",
+    16.7
+   ],
+   [
+    "trunk_o",
+    3.8
+   ],
+   [
+    "glass_side_FR",
+    2.9
+   ],
+   [
+    "trunk_i",
+    2.3
+   ]
+  ],
+  "nodes": [
+   "rbumper_10_4",
+   "rbumper_8_4",
+   "rbumper_0_4",
+   "rbumper_2_4"
+  ]
+ },
+ {
+  "hz": 22.38822263712156,
+  "zeta": 0.036512434178303375,
+  "tau_s": 0.19469720971920254,
+  "moving": 129,
+  "families": [
+   [
+    "trunk_o",
+    7.4
+   ],
+   [
+    "rbumper",
+    6.0
+   ],
+   [
+    "glass_side_FR",
+    5.8
+   ],
+   [
+    "trunk_i",
+    4.4
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_in_0_1",
+   "glass_side_FR_0_2",
+   "glass_rear_3_3",
+   "glass_side_FR_6_2"
+  ]
+ },
+ {
+  "hz": 22.454315489288998,
+  "zeta": 0.05148045917686187,
+  "tau_s": 0.13768223250405948,
+  "moving": 73,
+  "families": [
+   [
+    "fascia",
+    12.0
+   ],
+   [
+    "glass_quarter_R",
+    1.9
+   ],
+   [
+    "headlight_L",
+    1.2
+   ],
+   [
+    "glass_quarter_L",
+    1.1
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_2_1",
+   "glass_quarter_R_1_0",
+   "glass_quarter_L_2_1",
+   "headlight_L_0"
+  ]
+ },
+ {
+  "hz": 22.521562717394254,
+  "zeta": 0.04051961188601767,
+  "tau_s": 0.17440395644638967,
+  "moving": 63,
+  "families": [
+   [
+    "fascia",
+    9.9
+   ],
+   [
+    "glass_quarter_R",
+    1.9
+   ],
+   [
+    "glass_rear",
+    1.8
+   ],
+   [
+    "rbumper",
+    1.3
+   ]
+  ],
+  "nodes": [
+   "glass_quarter_R_2_1",
+   "glass_quarter_L_2_1",
+   "glass_quarter_R_1_0",
+   "rbumper_6_4"
+  ]
+ },
+ {
+  "hz": 22.599423254938525,
+  "zeta": 0.04913299515091271,
+  "tau_s": 0.1433341040624318,
+  "moving": 157,
+  "families": [
+   [
+    "hood_o",
+    8.8
+   ],
+   [
+    "glass_windshield",
+    7.7
+   ],
+   [
+    "glass_side_FL",
+    5.3
+   ],
+   [
+    "roof",
+    4.5
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_1_0",
+   "glass_side_FL_6_2",
+   "glass_side_FL_in_3_1",
+   "glass_side_FR_6_2"
+  ]
+ },
+ {
+  "hz": 22.803675927182983,
+  "zeta": 0.03269253694137711,
+  "tau_s": 0.21348464718673874,
+  "moving": 18,
+  "families": [
+   [
+    "glass_rear",
+    5.9
+   ],
+   [
+    "glass_rear_in",
+    0.7
+   ],
+   [
+    "rbumper",
+    0.2
+   ],
+   [
+    "glass_windshield",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "glass_rear_3_3",
+   "glass_rear_5_3",
+   "glass_rear_2_1",
+   "glass_rear_6_1"
+  ]
+ },
+ {
+  "hz": 22.812883238041234,
+  "zeta": 0.03906231059874031,
+  "tau_s": 0.17860023461313831,
+  "moving": 103,
+  "families": [
+   [
+    "glass_windshield",
+    7.1
+   ],
+   [
+    "glass_side_FL",
+    5.0
+   ],
+   [
+    "glass_side_FR",
+    3.8
+   ],
+   [
+    "glass_rear",
+    2.8
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_6_2",
+   "glass_side_FL_in_3_1",
+   "glass_side_FL_3_2",
+   "glass_side_FR_6_2"
+  ]
+ },
+ {
+  "hz": 22.868389309157468,
+  "zeta": 0.03197862025215893,
+  "tau_s": 0.21763304218245716,
+  "moving": 63,
+  "families": [
+   [
+    "glass_rear",
+    4.9
+   ],
+   [
+    "door_FL_o",
+    2.2
+   ],
+   [
+    "glass_side_FL",
+    2.0
+   ],
+   [
+    "glass_side_FR",
+    1.9
+   ]
+  ],
+  "nodes": [
+   "glass_rear_5_3",
+   "glass_rear_3_3",
+   "arbF_tip_R",
+   "arbF_tip_L"
+  ]
+ },
+ {
+  "hz": 22.88230500585559,
+  "zeta": 0.03346779730829502,
+  "tau_s": 0.2078228189517208,
+  "moving": 40,
+  "families": [
+   [
+    "glass_windshield",
+    11.3
+   ],
+   [
+    "glass_windshield_in",
+    3.6
+   ],
+   [
+    "glass_side_FL",
+    1.2
+   ],
+   [
+    "glass_side_FR",
+    0.7
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_5_3",
+   "glass_windshield_4_4",
+   "glass_windshield_in_2_2",
+   "glass_windshield_3_3"
+  ]
+ },
+ {
+  "hz": 22.96389172853542,
+  "zeta": 0.03543716442054517,
+  "tau_s": 0.19557605311462725,
+  "moving": 78,
+  "families": [
+   [
+    "glass_rear",
+    4.6
+   ],
+   [
+    "door_FL_o",
+    4.1
+   ],
+   [
+    "glass_windshield",
+    3.1
+   ],
+   [
+    "door_FR_o",
+    2.4
+   ]
+  ],
+  "nodes": [
+   "glass_rear_5_3",
+   "arbF_tip_R",
+   "arbF_tip_L",
+   "glass_side_FR_6_2"
+  ]
+ },
+ {
+  "hz": 23.009189246064096,
+  "zeta": 0.04292475484845935,
+  "tau_s": 0.1611428320642068,
+  "moving": 33,
+  "families": [
+   [
+    "glass_windshield",
+    5.7
+   ],
+   [
+    "glass_rear",
+    2.1
+   ],
+   [
+    "door_FL_o",
+    1.8
+   ],
+   [
+    "door_FL_i",
+    0.6
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_3",
+   "glass_windshield_5_3",
+   "glass_rear_5_3",
+   "glass_windshield_7_3"
+  ]
+ },
+ {
+  "hz": 23.049127544298948,
+  "zeta": 0.034473582892186494,
+  "tau_s": 0.2002992014596425,
+  "moving": 41,
+  "families": [
+   [
+    "glass_rear",
+    6.8
+   ],
+   [
+    "door_FR_o",
+    2.0
+   ],
+   [
+    "glass_windshield",
+    1.8
+   ],
+   [
+    "glass_side_FL",
+    1.2
+   ]
+  ],
+  "nodes": [
+   "glass_rear_3_3",
+   "glass_rear_5_3",
+   "glass_rear_4_1",
+   "glass_windshield_3_3"
+  ]
+ },
+ {
+  "hz": 23.083936853474686,
+  "zeta": 0.03848650639322049,
+  "tau_s": 0.17914379254255786,
+  "moving": 15,
+  "families": [
+   [
+    "glass_windshield",
+    4.3
+   ],
+   [
+    "door_FL_o",
+    0.9
+   ],
+   [
+    "door_FL_i",
+    0.2
+   ],
+   [
+    "glass_rear",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_5_3",
+   "glass_windshield_3_3",
+   "glass_windshield_7_3",
+   "glass_windshield_1_3"
+  ]
+ },
+ {
+  "hz": 23.117468489061327,
+  "zeta": 0.034687217356770744,
+  "tau_s": 0.1984770953815206,
+  "moving": 56,
+  "families": [
+   [
+    "glass_rear",
+    6.8
+   ],
+   [
+    "rbumper",
+    3.8
+   ],
+   [
+    "glass_windshield",
+    2.0
+   ],
+   [
+    "door_FR_o",
+    1.9
+   ]
+  ],
+  "nodes": [
+   "rbumper_6_4",
+   "glass_rear_5_3",
+   "glass_rear_3_3",
+   "glass_windshield_1_3"
+  ]
+ },
+ {
+  "hz": 23.145754701018404,
+  "zeta": 0.04030546555807078,
+  "tau_s": 0.1706022849433174,
+  "moving": 33,
+  "families": [
+   [
+    "glass_rear",
+    7.1
+   ],
+   [
+    "door_FR_o",
+    2.1
+   ],
+   [
+    "glass_windshield",
+    1.1
+   ],
+   [
+    "glass_side_FL",
+    0.8
+   ]
+  ],
+  "nodes": [
+   "glass_rear_3_3",
+   "glass_rear_5_3",
+   "glass_windshield_1_3",
+   "glass_rear_4_1"
+  ]
+ },
+ {
+  "hz": 23.179018007278444,
+  "zeta": 0.03169739218070003,
+  "tau_s": 0.21662150335233135,
+  "moving": 7,
+  "families": [
+   [
+    "glass_windshield",
+    3.9
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_1_3",
+   "glass_windshield_7_3",
+   "glass_windshield_3_3",
+   "glass_windshield_5_3"
+  ]
+ },
+ {
+  "hz": 23.224784956329906,
+  "zeta": 0.04402471384295605,
+  "tau_s": 0.15565815855741277,
+  "moving": 39,
+  "families": [
+   [
+    "glass_windshield",
+    3.3
+   ],
+   [
+    "glass_side_FR",
+    3.0
+   ],
+   [
+    "door_FR_o",
+    1.3
+   ],
+   [
+    "glass_side_FR_in",
+    1.2
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_1_3",
+   "glass_side_FR_3_2",
+   "glass_windshield_7_3",
+   "glass_side_FR_6_2"
+  ]
+ },
+ {
+  "hz": 23.29639418213086,
+  "zeta": 0.0269074111862274,
+  "tau_s": 0.25389813458741056,
+  "moving": 7,
+  "families": [
+   [
+    "glass_windshield",
+    3.9
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_7_3",
+   "glass_windshield_1_3",
+   "glass_windshield_3_3",
+   "glass_windshield_5_3"
+  ]
+ },
+ {
+  "hz": 23.31030280332384,
+  "zeta": 0.03560638966732844,
+  "tau_s": 0.19175393116052566,
+  "moving": 27,
+  "families": [
+   [
+    "glass_windshield",
+    4.7
+   ],
+   [
+    "rbumper",
+    2.0
+   ],
+   [
+    "door_FL_o",
+    0.9
+   ],
+   [
+    "glass_rear",
+    0.5
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_1_3",
+   "glass_windshield_7_3",
+   "glass_windshield_5_3",
+   "rbumper_6_4"
+  ]
+ },
+ {
+  "hz": 23.353359685488492,
+  "zeta": 0.04398345241982897,
+  "tau_s": 0.15494638474804798,
+  "moving": 44,
+  "families": [
+   [
+    "glass_windshield",
+    3.6
+   ],
+   [
+    "rbumper",
+    2.7
+   ],
+   [
+    "door_FR_o",
+    1.9
+   ],
+   [
+    "glass_side_FL",
+    1.6
+   ]
+  ],
+  "nodes": [
+   "rbumper_6_4",
+   "glass_windshield_3_3",
+   "glass_windshield_1_3",
+   "glass_rear_3_3"
+  ]
+ },
+ {
+  "hz": 23.409885093732445,
+  "zeta": 0.05783746638449921,
+  "tau_s": 0.11754701079766586,
+  "moving": 55,
+  "families": [
+   [
+    "glass_windshield",
+    5.6
+   ],
+   [
+    "door_FL_o",
+    4.4
+   ],
+   [
+    "door_FR_o",
+    2.1
+   ],
+   [
+    "glass_rear",
+    2.1
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_5_3",
+   "glass_windshield_1_3",
+   "glass_windshield_3_3",
+   "glass_rear_5_3"
+  ]
+ },
+ {
+  "hz": 23.435151705390933,
+  "zeta": 0.03236496385123619,
+  "tau_s": 0.20983466511685514,
+  "moving": 16,
+  "families": [
+   [
+    "glass_windshield",
+    5.4
+   ],
+   [
+    "glass_windshield_in",
+    0.5
+   ],
+   [
+    "glass_rear",
+    0.3
+   ],
+   [
+    "glass_quarter_L",
+    0.3
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_3_3",
+   "glass_windshield_5_3",
+   "glass_windshield_4_3",
+   "glass_windshield_7_3"
+  ]
+ },
+ {
+  "hz": 23.47302952772762,
+  "zeta": 0.03667465221778013,
+  "tau_s": 0.18487789275510547,
+  "moving": 41,
+  "families": [
+   [
+    "rbumper",
+    3.4
+   ],
+   [
+    "glass_side_FL",
+    2.7
+   ],
+   [
+    "glass_side_FR",
+    1.5
+   ],
+   [
+    "glass_side_FL_in",
+    0.9
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_3_2",
+   "rbumper_10_4",
+   "glass_side_FL_5_2",
+   "glass_side_FR_3_2"
+  ]
+ },
+ {
+  "hz": 23.535614607078994,
+  "zeta": 0.03959256981200644,
+  "tau_s": 0.170797258928647,
+  "moving": 92,
+  "families": [
+   [
+    "fascia",
+    8.5
+   ],
+   [
+    "glass_rear",
+    3.9
+   ],
+   [
+    "glass_windshield",
+    3.0
+   ],
+   [
+    "glass_side_FR",
+    2.6
+   ]
+  ],
+  "nodes": [
+   "glass_rear_3_3",
+   "glass_rear_5_3",
+   "fascia_0_1",
+   "glass_side_FR_6_2"
+  ]
+ },
+ {
+  "hz": 23.570564634430426,
+  "zeta": 0.05102586171499841,
+  "tau_s": 0.13233045254577958,
+  "moving": 5,
+  "families": [
+   [
+    "rbumper",
+    2.1
+   ],
+   [
+    "glass_windshield",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "rbumper_6_4",
+   "rbumper_4_4",
+   "rbumper_6_3",
+   "glass_windshield_1_0"
+  ]
+ },
+ {
+  "hz": 23.70931171694025,
+  "zeta": 0.05286755776318781,
+  "tau_s": 0.12697316249534182,
+  "moving": 60,
+  "families": [
+   [
+    "hood_o",
+    7.5
+   ],
+   [
+    "glass_side_FL",
+    3.0
+   ],
+   [
+    "hood_i",
+    2.9
+   ],
+   [
+    "glass_side_FR",
+    1.8
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_3_2",
+   "hood_i_0_3",
+   "hood_o_1_7",
+   "hood_o_0_7"
+  ]
+ },
+ {
+  "hz": 23.849758094632666,
+  "zeta": 0.04861051543489598,
+  "tau_s": 0.13727957537157,
+  "moving": 26,
+  "families": [
+   [
+    "glass_rear",
+    5.6
+   ],
+   [
+    "glass_side_FR",
+    1.2
+   ],
+   [
+    "glass_rear_in",
+    1.1
+   ],
+   [
+    "glass_side_FL",
+    0.9
+   ]
+  ],
+  "nodes": [
+   "glass_rear_4_3",
+   "glass_rear_4_1",
+   "glass_rear_6_3",
+   "glass_side_FR_3_2"
+  ]
+ },
+ {
+  "hz": 23.922307023835582,
+  "zeta": 0.052599136010770396,
+  "tau_s": 0.12648483577436362,
+  "moving": 30,
+  "families": [
+   [
+    "glass_rear",
+    4.6
+   ],
+   [
+    "glass_side_FR",
+    1.5
+   ],
+   [
+    "glass_side_FL",
+    1.2
+   ],
+   [
+    "glass_rear_in",
+    0.9
+   ]
+  ],
+  "nodes": [
+   "glass_rear_4_3",
+   "glass_side_FR_3_2",
+   "glass_rear_4_1",
+   "glass_side_FL_3_2"
+  ]
+ },
+ {
+  "hz": 24.020091099419723,
+  "zeta": 0.03691594245522356,
+  "tau_s": 0.17948638934235903,
+  "moving": 22,
+  "families": [
+   [
+    "glass_rear",
+    6.2
+   ],
+   [
+    "rbumper",
+    1.0
+   ],
+   [
+    "glass_side_FL",
+    0.6
+   ],
+   [
+    "trunk_i",
+    0.3
+   ]
+  ],
+  "nodes": [
+   "glass_rear_2_3",
+   "glass_rear_3_3",
+   "glass_rear_5_3",
+   "glass_rear_6_3"
+  ]
+ },
+ {
+  "hz": 24.024541997104638,
+  "zeta": 0.07981239832028901,
+  "tau_s": 0.0830031650885636,
+  "moving": 25,
+  "families": [
+   [
+    "glass_side_FL",
+    2.8
+   ],
+   [
+    "glass_side_FR",
+    2.3
+   ],
+   [
+    "glass_side_FL_in",
+    1.2
+   ],
+   [
+    "glass_windshield",
+    1.0
+   ]
+  ],
+  "nodes": [
+   "glass_side_FR_3_2",
+   "glass_side_FL_3_2",
+   "glass_windshield_1_0",
+   "glass_side_FR_5_2"
+  ]
+ },
+ {
+  "hz": 24.214125631890607,
+  "zeta": 0.0353839593344766,
+  "tau_s": 0.18575688216197475,
+  "moving": 98,
+  "families": [
+   [
+    "quarter_L",
+    6.1
+   ],
+   [
+    "glass_windshield",
+    5.3
+   ],
+   [
+    "rbumper",
+    3.4
+   ],
+   [
+    "roof",
+    2.5
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_7_0",
+   "quarter_L_2_6",
+   "rbumper_4_4",
+   "glass_quarter_R_2_1"
+  ]
+ },
+ {
+  "hz": 24.243531663447143,
+  "zeta": 0.04017855948819155,
+  "tau_s": 0.1633916595535376,
+  "moving": 127,
+  "families": [
+   [
+    "rbumper",
+    8.3
+   ],
+   [
+    "glass_windshield",
+    6.4
+   ],
+   [
+    "glass_side_FR",
+    5.3
+   ],
+   [
+    "quarter_L",
+    4.9
+   ]
+  ],
+  "nodes": [
+   "rbumper_4_4",
+   "glass_windshield_7_0",
+   "quarter_L_2_6",
+   "glass_side_FR_3_2"
+  ]
+ },
+ {
+  "hz": 24.276333741641025,
+  "zeta": 0.03420009553386051,
+  "tau_s": 0.19169452673063456,
+  "moving": 21,
+  "families": [
+   [
+    "glass_rear",
+    6.6
+   ],
+   [
+    "quarter_L",
+    0.8
+   ],
+   [
+    "glass_side_FL",
+    0.4
+   ],
+   [
+    "trunk_i",
+    0.2
+   ]
+  ],
+  "nodes": [
+   "glass_rear_5_3",
+   "glass_rear_4_3",
+   "glass_rear_3_3",
+   "glass_rear_6_3"
+  ]
+ },
+ {
+  "hz": 24.32454718577766,
+  "zeta": 0.04026846011190349,
+  "tau_s": 0.16248390387571315,
+  "moving": 69,
+  "families": [
+   [
+    "rbumper",
+    9.9
+   ],
+   [
+    "glass_rear",
+    6.6
+   ],
+   [
+    "quarter_R",
+    1.8
+   ],
+   [
+    "trunk_i",
+    1.8
+   ]
+  ],
+  "nodes": [
+   "glass_rear_6_3",
+   "rbumper_0_4",
+   "rbumper_2_4",
+   "glass_rear_2_3"
+  ]
+ },
+ {
+  "hz": 24.384229688947084,
+  "zeta": 0.03444360313069731,
+  "tau_s": 0.18949707666431279,
+  "moving": 38,
+  "families": [
+   [
+    "glass_windshield",
+    8.1
+   ],
+   [
+    "glass_windshield_in",
+    2.0
+   ],
+   [
+    "glass_rear",
+    1.8
+   ],
+   [
+    "glass_side_FR",
+    1.8
+   ]
+  ],
+  "nodes": [
+   "glass_windshield_7_0",
+   "glass_windshield_1_0",
+   "glass_windshield_5_4",
+   "glass_windshield_7_1"
+  ]
+ },
+ {
+  "hz": 24.465557228008016,
+  "zeta": 0.044846570738638264,
+  "tau_s": 0.14505602768712691,
+  "moving": 88,
+  "families": [
+   [
+    "glass_rear",
+    7.4
+   ],
+   [
+    "rbumper",
+    6.8
+   ],
+   [
+    "glass_side_FL",
+    3.0
+   ],
+   [
+    "quarter_L",
+    2.7
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_in_0_1",
+   "glass_side_FL_0_2",
+   "glass_rear_4_3",
+   "rbumper_6_4"
+  ]
+ },
+ {
+  "hz": 24.47549320721289,
+  "zeta": 0.040595395539676116,
+  "tau_s": 0.16018133256747727,
+  "moving": 56,
+  "families": [
+   [
+    "quarter_R",
+    3.7
+   ],
+   [
+    "rbumper",
+    2.6
+   ],
+   [
+    "glass_windshield",
+    2.5
+   ],
+   [
+    "quarter_L",
+    1.9
+   ]
+  ],
+  "nodes": [
+   "quarter_R_2_6",
+   "quarter_L_2_6",
+   "quarter_R_1_6",
+   "rbumper_4_4"
+  ]
+ },
+ {
+  "hz": 24.625237520850966,
+  "zeta": 0.027965508463898097,
+  "tau_s": 0.23110906657409636,
+  "moving": 103,
+  "families": [
+   [
+    "glass_windshield",
+    6.7
+   ],
+   [
+    "quarter_L",
+    3.7
+   ],
+   [
+    "rbumper",
+    3.3
+   ],
+   [
+    "quarter_R",
+    2.5
+   ]
+  ],
+  "nodes": [
+   "quarter_L_2_6",
+   "arbF_tip_R",
+   "arbF_tip_L",
+   "quarter_R_2_6"
+  ]
+ },
+ {
+  "hz": 24.669191498405823,
+  "zeta": 0.03428445131966823,
+  "tau_s": 0.188177637515884,
+  "moving": 60,
+  "families": [
+   [
+    "glass_windshield",
+    9.9
+   ],
+   [
+    "quarter_R",
+    3.5
+   ],
+   [
+    "glass_windshield_in",
+    2.8
+   ],
+   [
+    "quarter_L",
+    1.2
+   ]
+  ],
+  "nodes": [
+   "quarter_R_2_6",
+   "glass_windshield_3_4",
+   "glass_windshield_2_4",
+   "glass_windshield_in_1_2"
+  ]
+ },
+ {
+  "hz": 24.701047939669085,
+  "zeta": 0.04468606760537804,
+  "tau_s": 0.14418916102436455,
+  "moving": 280,
+  "families": [
+   [
+    "fascia",
+    14.1
+   ],
+   [
+    "glass_windshield",
+    12.0
+   ],
+   [
+    "fender_L",
+    10.6
+   ],
+   [
+    "fender_R",
+    9.9
+   ]
+  ],
+  "nodes": [
+   "glass_side_FL_1_1",
+   "glass_windshield_2_4",
+   "glass_windshield_in_1_2",
+   "glass_side_FL_in_0_1"
+  ]
+ },
+ {
+  "hz": 24.759193531975722,
+  "zeta": 0.04738837747242711,
+  "tau_s": 0.13564750120620234,
+  "moving": 52,
+  "families": [
+   [
+    "rbumper",
+    5.2
+   ],
+   [
+    "quarter_L",
+    3.3
+   ],
+   [
+    "glass_rear",
+    2.1
+   ],
+   [
+    "glass_windshield",
+    1.6
+   ]
+  ],
+  "nodes": [
+   "quarter_L_2_6",
+   "rbumper_10_4",
+   "rbumper_4_4",
+   "glass_rear_2_3"
+  ]
+ },
+ {
+  "hz": 24.81662250204605,
+  "zeta": 0.042681749419461554,
+  "tau_s": 0.1502571840016319,
+  "moving": 83,
+  "families": [
+   [
+    "rbumper",
+    4.3
+   ],
+   [
+    "glass_windshield",
+    4.2
+   ],
+   [
+    "quarter_L",
+    3.3
+   ],
+   [
+    "glass_rear",
+    2.7
+   ]
+  ],
+  "nodes": [
+   "quarter_L_2_6",
+   "rbumper_10_4",
+   "glass_rear_2_3",
+   "glass_side_FR_in_0_1"
+  ]
+ },
+ {
+  "hz": 24.92249115902293,
+  "zeta": 0.044006988824379575,
+  "tau_s": 0.14511323637411153,
+  "moving": 79,
+  "families": [
+   [
+    "glass_windshield",
+    7.0
+   ],
+   [
+    "quarter_R",
+    4.5
+   ],
+   [
+    "rbumper",
+    4.0
+   ],
+   [
+    "glass_windshield_in",
+    1.9
+   ]
+  ],
+  "nodes": [
+   "quarter_R_2_6",
+   "glass_windshield_1_1",
+   "glass_windshield_2_3",
+   "glass_side_FL_in_0_1"
+  ]
+ },
+ {
+  "hz": 24.94102795995586,
+  "zeta": 0.04176409132336851,
+  "tau_s": 0.15279274935698461,
+  "moving": 56,
+  "families": [
+   [
+    "quarter_R",
+    3.5
+   ],
+   [
+    "trunk_o",
+    2.9
+   ],
+   [
+    "glass_windshield",
+    2.9
+   ],
+   [
+    "glass_quarter_L",
+    2.0
+   ]
+  ],
+  "nodes": [
+   "quarter_R_2_6",
+   "glass_quarter_L_2_1",
+   "trunk_o_0_5",
+   "quarter_R_3_6"
+  ]
+ },
+ {
+  "hz": 24.970840898665816,
+  "zeta": 0.04609902438334211,
+  "tau_s": 0.1382595788921197,
+  "moving": 91,
+  "families": [
+   [
+    "rbumper",
+    7.6
+   ],
+   [
+    "quarter_R",
+    6.5
+   ],
+   [
+    "trunk_o",
+    2.2
+   ],
+   [
+    "trunk_i",
+    1.9
+   ]
+  ],
+  "nodes": [
+   "rbumper_10_4",
+   "quarter_R_2_6",
+   "rbumper_10_0",
+   "rbumper_10_1"
+  ]
+ }
+]

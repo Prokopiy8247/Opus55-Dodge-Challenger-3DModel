@@ -1,0 +1,395 @@
+{
+ "dt": 0.0005,
+ "nodes": 2107,
+ "beams": 11399,
+ "hinges": 1736,
+ "missing_materials": [],
+ "S_exact_max": 2.4403,
+ "S_exact_top": [
+  2.4403,
+  2.4337,
+  2.4175,
+  2.4139,
+  2.402,
+  2.397
+ ],
+ "hard_limit": 2.5,
+ "exact_limit": 4.0,
+ "pass": true,
+ "top_modes": [
+  {
+   "S": 2.4403,
+   "nodes": [
+    [
+     "sill8_3_R",
+     0.426
+    ],
+    [
+     "whouse2_R",
+     0.335
+    ],
+    [
+     "cp1a_R",
+     0.227
+    ],
+    [
+     "sill7_0_R",
+     0.209
+    ],
+    [
+     "cp1f_R",
+     0.173
+    ]
+   ]
+  },
+  {
+   "S": 2.4337,
+   "nodes": [
+    [
+     "sill8_3_L",
+     0.356
+    ],
+    [
+     "whouse2_L",
+     0.312
+    ],
+    [
+     "cp1a_L",
+     0.214
+    ],
+    [
+     "shelf35_L",
+     0.182
+    ],
+    [
+     "cp1f_L",
+     0.179
+    ]
+   ]
+  },
+  {
+   "S": 2.4175,
+   "nodes": [
+    [
+     "rail2_0_R",
+     0.289
+    ],
+    [
+     "rail1_1_R",
+     0.227
+    ],
+    [
+     "rail2_2_R",
+     0.211
+    ],
+    [
+     "rail3_1_R",
+     0.207
+    ],
+    [
+     "rail3_0_R",
+     0.195
+    ]
+   ]
+  },
+  {
+   "S": 2.4139,
+   "nodes": [
+    [
+     "sill1_1_R",
+     0.232
+    ],
+    [
+     "rrail1_2_L",
+     0.207
+    ],
+    [
+     "rrail2_1_L",
+     0.199
+    ],
+    [
+     "sill2_1_R",
+     0.18
+    ],
+    [
+     "sill8_3_L",
+     0.175
+    ]
+   ]
+  },
+  {
+   "S": 2.402,
+   "nodes": [
+    [
+     "sill1_1_L",
+     0.182
+    ],
+    [
+     "rrail1_2_R",
+     0.149
+    ],
+    [
+     "sill8_3_R",
+     0.147
+    ],
+    [
+     "sill2_1_L",
+     0.146
+    ],
+    [
+     "rail2_0_L",
+     0.131
+    ]
+   ]
+  },
+  {
+   "S": 2.397,
+   "nodes": [
+    [
+     "quarter_L_3_4",
+     0.238
+    ],
+    [
+     "quarter_L_7_3",
+     0.212
+    ],
+    [
+     "quarter_L_6_2",
+     0.205
+    ],
+    [
+     "quarter_L_4_0",
+     0.204
+    ],
+    [
+     "quarter_L_5_3",
+     0.202
+    ]
+   ]
+  }
+ ],
+ "family_S": {
+  "quarter_L": 2.386,
+  "quarter_R": 2.377,
+  "rail": 2.366,
+  "sill": 2.327,
+  "rrail": 2.287,
+  "roof": 2.221,
+  "whouse": 2.206,
+  "floor": 2.184,
+  "hinge": 2.127,
+  "glass_rear": 2.118,
+  "fender_R": 2.105,
+  "fender_L": 2.105,
+  "tunnel": 2.103,
+  "glass_windshield": 2.096,
+  "tfloor": 2.063,
+  "bp": 2.037,
+  "frail": 2.032,
+  "door_FR_o": 2.007,
+  "door_FL_o": 2.007,
+  "wheel_trC": 1.988,
+  "fw": 1.976,
+  "hdrR_m_R": 1.97,
+  "hdrR_m_L": 1.964,
+  "wheel_trI": 1.904,
+  "wheel_trO": 1.904,
+  "shelf": 1.898,
+  "cp": 1.888,
+  "bbR_t": 1.874,
+  "glass_side_FR": 1.871,
+  "glass_side_FL": 1.871,
+  "bbR_b": 1.842,
+  "wheel_rimO": 1.834,
+  "glass_rear_in": 1.829,
+  "bulk_C": 1.823,
+  "hdrF_C": 1.82,
+  "bbR_f": 1.817,
+  "bowB_m_R": 1.816,
+  "bowB_m_L": 1.816,
+  "rpanel_lo_C": 1.812,
+  "glass_windshield_in": 1.812,
+  "hdrR_C": 1.803,
+  "hdrF_m_R": 1.791,
+  "hdrF_m_L": 1.791,
+  "bulk": 1.78,
+  "xm": 1.777,
+  "rsub_ca": 1.773,
+  "rtower_R": 1.762,
+  "rtower_L": 1.762,
+  "rsub_cf": 1.752,
+  "hood_o": 1.743,
+  "trunk_o": 1.722,
+  "bowB_C": 1.715,
+  "shelf_C": 1.71,
+  "rpanel_lo": 1.698,
+  "rpanel_hi": 1.698,
+  "arbF_axis_R": 1.69,
+  "arbF_axis_L": 1.69,
+  "rsub_m_R": 1.689,
+  "rsub_m_L": 1.689,
+  "cowl": 1.686,
+  "rack_C": 1.66,
+  "glass_quarter_R": 1.658,
+  "glass_quarter_L": 1.658,
+  "traylip": 1.604,
+  "rpanel_hi_C": 1.533,
+  "apron": 1.51,
+  "trans": 1.51,
+  "wheel_lbj": 1.51,
+  "bbR_b_C": 1.505,
+  "bbR_f_C": 1.502,
+  "wheel_lca_f": 1.48,
+  "bbR_t_C": 1.448,
+  "rsub_f_R": 1.422,
+  "rsub_f_L": 1.422,
+  "diff": 1.42,
+  "eng": 1.398,
+  "fw_C": 1.377,
+  "cowl_C": 1.371,
+  "aplo": 1.348,
+  "wheel_lca_r": 1.337,
+  "mirror_R": 1.321,
+  "mirror_L": 1.321,
+  "arbF_tip_R": 1.287,
+  "arbF_tip_L": 1.287,
+  "wheel_rimI": 1.283,
+  "glass_side_FR_in": 1.271,
+  "glass_side_FL_in": 1.271,
+  "bbF_b": 1.258,
+  "hood_i": 1.244,
+  "rbumper": 1.219,
+  "bbF_f": 1.213,
+  "fascia": 1.194,
+  "arbR_axis_R": 1.176,
+  "arbR_axis_L": 1.176,
+  "bbF_t": 1.15,
+  "bbF_t_C": 1.144,
+  "core_hi": 1.127,
+  "rsub_a_R": 1.123,
+  "rsub_a_L": 1.123,
+  "cowllip": 1.115,
+  "wheel_ubj": 1.101,
+  "exh": 1.092,
+  "trunk_i": 1.046,
+  "wheel_axle_in": 1.035,
+  "wheel_axle_out": 1.002,
+  "glass_quarter_R_in": 0.989,
+  "glass_quarter_L_in": 0.989,
+  "core_hi_C": 0.978,
+  "rack_R": 0.977,
+  "rack_L": 0.977,
+  "bbF_b_C": 0.97,
+  "wheel_link": 0.967,
+  "bbF_f_C": 0.96,
+  "door_FR_i": 0.956,
+  "door_FL_i": 0.956,
+  "wheel_uca_r": 0.949,
+  "wheel_klr": 0.946,
+  "core_lo": 0.913,
+  "wheel_klf": 0.905,
+  "wheel_uca_f": 0.878,
+  "wheel_kup": 0.877,
+  "core_lo_C": 0.858,
+  "arbR_tip_R": 0.78,
+  "arbR_tip_L": 0.78,
+  "wheel_tre": 0.736,
+  "headlight_R": 0.73,
+  "headlight_L": 0.73,
+  "wheel_lca_sh": 0.728,
+  "tank": 0.711,
+  "rad": 0.684,
+  "seatFR_t": 0.533,
+  "seatFL_t": 0.533,
+  "dash": 0.505,
+  "seatFR": 0.332,
+  "seatFL": 0.332,
+  "dshaft": 0.299,
+  "column_top": 0.281,
+  "seatR": 0.262,
+  "column_mid": 0.213,
+  "dash_C": 0.205,
+  "batt": 0.192
+ },
+ "gershgorin_max": 6.551,
+ "gershgorin_over_2": 1913,
+ "omega_dt_max": 1.605,
+ "omega_dt_warnings": 2051,
+ "worst_gershgorin": [
+  [
+   "whouse3_R",
+   6.551,
+   0.733
+  ],
+  [
+   "rrail1_1_L",
+   6.455,
+   1.57
+  ],
+  [
+   "whouse2_L",
+   6.436,
+   1.098
+  ],
+  [
+   "whouse2_R",
+   6.407,
+   1.106
+  ],
+  [
+   "whouse3_L",
+   6.401,
+   0.758
+  ],
+  [
+   "rrail1_1_R",
+   6.328,
+   1.616
+  ],
+  [
+   "RL_axle_out",
+   6.27,
+   4.0
+  ],
+  [
+   "RL_axle_in",
+   6.27,
+   4.0
+  ],
+  [
+   "RR_axle_out",
+   6.27,
+   4.0
+  ],
+  [
+   "RR_axle_in",
+   6.27,
+   4.0
+  ],
+  [
+   "floor8_L",
+   6.209,
+   1.737
+  ],
+  [
+   "floor8_R",
+   6.177,
+   1.748
+  ],
+  [
+   "cp2a_L",
+   6.065,
+   2.079
+  ],
+  [
+   "shelf35_R",
+   6.003,
+   1.245
+  ],
+  [
+   "rrail0_0_L",
+   5.997,
+   1.503
+  ]
+ ]
+}

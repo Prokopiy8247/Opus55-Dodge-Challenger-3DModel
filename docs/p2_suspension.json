@@ -1,0 +1,97 @@
+{
+ "mass": 2039.99999992,
+ "com": [
+  0.0024,
+  0.5632,
+  0.2024
+ ],
+ "front_share": 0.5685795920626181,
+ "axles": {
+  "F": {
+   "corner_load_kg": 579.9511838811272,
+   "unsprung_kg": 72.999999984,
+   "sprung_kg": 506.95118389712724,
+   "motion_ratio": 0.9324807658767212,
+   "spring_inclination_deg": 14.583010499497906,
+   "spring_length_m": 0.635472462031204,
+   "track_m": 1.6669999999999996,
+   "ride_hz": 1.4,
+   "wheel_rate": 39226.71586411181,
+   "spring_rate": 45113.049473784304,
+   "preload_N": 5333.290825956082,
+   "static_compression_m": 0.11822057892706447,
+   "ride_hz_with_tire": 1.3147277084151157,
+   "damper_compression": 2871.9859286808,
+   "damper_rebound": 3897.6951889239426,
+   "roll_centre_m": 0.0896463401653925,
+   "camber_gain_deg_per_m": -22.88507040202775,
+   "bump_steer_deg_per_m": -0.41689020929645937,
+   "arb_lever_rad_per_m": 3.748170807105671,
+   "kinematics_conditioning": 0.11949277242133853,
+   "roll_stiffness_springs": 54503.34461045287,
+   "roll_stiffness_target": 130406.30012831179,
+   "arb_roll_stiffness": 75902.95551785892,
+   "arb_torsion_Nm_per_rad": 1944.2349218803133
+  },
+  "R": {
+   "corner_load_kg": 440.04881607887273,
+   "unsprung_kg": 59.999999984,
+   "sprung_kg": 380.04881609487273,
+   "motion_ratio": 0.9107922764491805,
+   "spring_inclination_deg": 19.144846240698662,
+   "spring_length_m": 0.5345654777480491,
+   "track_m": 1.669,
+   "ride_hz": 1.55,
+   "wheel_rate": 36046.451407083645,
+   "spring_rate": 43453.40754556498,
+   "preload_N": 4093.445873768044,
+   "static_compression_m": 0.09420310408281977,
+   "ride_hz_with_tire": 1.4626108175385055,
+   "damper_compression": 2498.620502474493,
+   "damper_rebound": 3390.9849676439553,
+   "roll_centre_m": 0.09870547185181838,
+   "camber_gain_deg_per_m": -22.77050367703868,
+   "bump_steer_deg_per_m": -8.430820817821856e-15,
+   "arb_lever_rad_per_m": 4.946718474928859,
+   "kinematics_conditioning": 0.08138359604584493,
+   "roll_stiffness_springs": 50204.794613983664,
+   "roll_stiffness_target": 86937.53341887455,
+   "arb_roll_stiffness": 36732.73880489088,
+   "arb_torsion_Nm_per_rad": 538.8975980466254
+  }
+ },
+ "sprung_mass_kg": 1773.999999984,
+ "sprung_com_height_m": 0.5948918027694955,
+ "roll_axis_height_at_com_m": 0.09355463445310881,
+ "roll_moment_arm_m": 0.5013371683163866,
+ "roll_stiffness_total": 217343.83354718634,
+ "targets": {
+  "ride_hz": {
+   "F": 1.4,
+   "R": 1.55
+  },
+  "zeta_compression": 0.28,
+  "zeta_rebound": 0.38,
+  "fast_ratio": 0.4,
+  "roll_gradient_deg_per_g": 2.3,
+  "front_roll_share": 0.6,
+  "tire_rate_assumed": 292900.0,
+  "rear_roll_centre_fallback": 0.12
+ },
+ "current_params": {
+  "axles": {
+   "F": {
+    "ride_hz": 1.4019684534569457,
+    "zeta_compression": 0.2803870850256754,
+    "roll_stiffness": 131175.1442914019
+   },
+   "R": {
+    "ride_hz": 1.547082849462845,
+    "zeta_compression": 0.27956011191440105,
+    "roll_stiffness": 87505.50730360494
+   }
+  },
+  "roll_gradient_deg_per_g": 2.2859398557322694,
+  "front_roll_share": 0.5998479670452794
+ }
+}

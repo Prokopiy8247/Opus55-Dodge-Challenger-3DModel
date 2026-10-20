@@ -1,0 +1,4 @@
+frames 2707
+fps 60
+window 2560x1440
+time_utc 2026-10-15T22:43:25Z

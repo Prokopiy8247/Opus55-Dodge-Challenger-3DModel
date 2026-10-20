@@ -1,0 +1,3747 @@
+{
+ "frame": "Unity: x right, y up, z forward (Blender x, z, y); metres; transforms and modifiers applied",
+ "fbx": [
+  {
+   "file": "body.fbx",
+   "group": "body",
+   "objects": [
+    {
+     "name": "CH_Antenna",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Plastic_BlackTrim"
+     ],
+     "vertices": 80,
+     "triangles": 112,
+     "bbox_min": [
+      -0.012000000104308128,
+      1.440999984741211,
+      -1.0119999647140503
+     ],
+     "bbox_max": [
+      0.012000000104308128,
+      1.600464105606079,
+      -0.9184411764144897
+     ]
+    },
+    {
+     "name": "CH_Badge_DODGE",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Chrome"
+     ],
+     "vertices": 2544,
+     "triangles": 5072,
+     "bbox_min": [
+      -0.07558126747608185,
+      0.8693023324012756,
+      -2.5028574466705322
+     ],
+     "bbox_max": [
+      0.07705874741077423,
+      0.8916521072387695,
+      -2.4937407970428467
+     ]
+    },
+    {
+     "name": "CH_CoreSupport",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 32,
+     "triangles": 48,
+     "bbox_min": [
+      -0.7049999833106995,
+      0.29499998688697815,
+      2.049999952316284
+     ],
+     "bbox_max": [
+      0.7049999833106995,
+      0.824999988079071,
+      2.109999895095825
+     ]
+    },
+    {
+     "name": "CH_Cowl",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Plastic_BlackTrim"
+     ],
+     "vertices": 1422,
+     "triangles": 2840,
+     "bbox_min": [
+      -0.7681172490119934,
+      0.9538500905036926,
+      0.8408827781677246
+     ],
+     "bbox_max": [
+      0.7681172490119934,
+      1.0111198425292969,
+      1.1600185632705688
+     ]
+    },
+    {
+     "name": "CH_Differential",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Aluminium"
+     ],
+     "vertices": 16,
+     "triangles": 28,
+     "bbox_min": [
+      -0.15000000596046448,
+      0.20999999344348907,
+      -1.625499963760376
+     ],
+     "bbox_max": [
+      0.15000000596046448,
+      0.44999998807907104,
+      -1.3255000114440918
+     ]
+    },
+    {
+     "name": "CH_DriveShaft",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 32,
+     "triangles": 32,
+     "bbox_min": [
+      -0.04500000178813934,
+      0.27500084042549133,
+      -1.2957735061645508
+     ],
+     "bbox_max": [
+      0.04500000178813934,
+      0.37499916553497314,
+      0.3502734303474426
+     ]
+    },
+    {
+     "name": "CH_Flare_rear_L",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 1998,
+     "triangles": 3992,
+     "bbox_min": [
+      -0.9930447340011597,
+      0.1831721067428589,
+      -2.0283403396606445
+     ],
+     "bbox_max": [
+      -0.8478931188583374,
+      0.9017335772514343,
+      -0.9245948195457458
+     ]
+    },
+    {
+     "name": "CH_Flare_rear_R",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 1998,
+     "triangles": 3992,
+     "bbox_min": [
+      0.8478931188583374,
+      0.1831721067428589,
+      -2.0283403396606445
+     ],
+     "bbox_max": [
+      0.9930447340011597,
+      0.9017335772514343,
+      -0.9245948195457458
+     ]
+    },
+    {
+     "name": "CH_FloorPan",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Underbody"
+     ],
+     "vertices": 12264,
+     "triangles": 24524,
+     "bbox_min": [
+      -0.800000011920929,
+      0.2050139456987381,
+      -2.299999952316284
+     ],
+     "bbox_max": [
+      0.800000011920929,
+      0.526531994342804,
+      1.0
+     ]
+    },
+    {
+     "name": "CH_FuelDoor",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_FuelDoor"
+     ],
+     "vertices": 144,
+     "triangles": 284,
+     "bbox_min": [
+      -0.9376299977302551,
+      0.9009384512901306,
+      -1.205016851425171
+     ],
+     "bbox_max": [
+      -0.9290202260017395,
+      1.0709384679794312,
+      -1.0349763631820679
+     ]
+    },
+    {
+     "name": "CH_Glass_Frit",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_Frit"
+     ],
+     "vertices": 1052,
+     "triangles": 1452,
+     "bbox_min": [
+      -0.7398945093154907,
+      1.0002975463867188,
+      -1.7054686546325684
+     ],
+     "bbox_max": [
+      0.7398945093154907,
+      1.3905962705612183,
+      0.9875447750091553
+     ]
+    },
+    {
+     "name": "CH_Marker_Rear_L",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Marker_Red"
+     ],
+     "vertices": 64,
+     "triangles": 124,
+     "bbox_min": [
+      -0.9178751707077026,
+      0.5368841290473938,
+      -2.2051479816436768
+     ],
+     "bbox_max": [
+      -0.9148752093315125,
+      0.5668841600418091,
+      -2.055147886276245
+     ]
+    },
+    {
+     "name": "CH_Marker_Rear_R",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Marker_Red"
+     ],
+     "vertices": 64,
+     "triangles": 124,
+     "bbox_min": [
+      0.9148752093315125,
+      0.5368841290473938,
+      -2.2051479816436768
+     ],
+     "bbox_max": [
+      0.9178751707077026,
+      0.5668841600418091,
+      -2.055147886276245
+     ]
+    },
+    {
+     "name": "CH_Pillars_L",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 3960,
+     "triangles": 7916,
+     "bbox_min": [
+      -0.8427895307540894,
+      0.9960921406745911,
+      -1.621999979019165
+     ],
+     "bbox_max": [
+      -0.562003493309021,
+      1.4192540645599365,
+      0.8459999561309814
+     ]
+    },
+    {
+     "name": "CH_Pillars_R",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 3960,
+     "triangles": 7916,
+     "bbox_min": [
+      0.562003493309021,
+      0.9960921406745911,
+      -1.621999979019165
+     ],
+     "bbox_max": [
+      0.8427895307540894,
+      1.4192540645599365,
+      0.8459999561309814
+     ]
+    },
+    {
+     "name": "CH_Quarter_L",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 7256,
+     "triangles": 14508,
+     "bbox_min": [
+      -0.9588488340377808,
+      0.2875485122203827,
+      -2.354964256286621
+     ],
+     "bbox_max": [
+      -0.7275547981262207,
+      1.1470592021942139,
+      -0.5424104332923889
+     ]
+    },
+    {
+     "name": "CH_Quarter_R",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 7256,
+     "triangles": 14508,
+     "bbox_min": [
+      0.7275547981262207,
+      0.2875485122203827,
+      -2.354964256286621
+     ],
+     "bbox_max": [
+      0.9588488340377808,
+      1.1470592021942139,
+      -0.5424104332923889
+     ]
+    },
+    {
+     "name": "CH_Rocker_L",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 1632,
+     "triangles": 3260,
+     "bbox_min": [
+      -0.9162110686302185,
+      0.17873676121234894,
+      -0.966702938079834
+     ],
+     "bbox_max": [
+      -0.878372311592102,
+      0.2837923765182495,
+      0.9962652921676636
+     ]
+    },
+    {
+     "name": "CH_Rocker_R",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 1632,
+     "triangles": 3260,
+     "bbox_min": [
+      0.878372311592102,
+      0.17873676121234894,
+      -0.966702938079834
+     ],
+     "bbox_max": [
+      0.9162110686302185,
+      0.2837923765182495,
+      0.9962652921676636
+     ]
+    },
+    {
+     "name": "CH_Roof",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Paint_MatteBlack"
+     ],
+     "vertices": 7040,
+     "triangles": 14076,
+     "bbox_min": [
+      -0.6633223295211792,
+      1.350740909576416,
+      -1.240907073020935
+     ],
+     "bbox_max": [
+      0.6633223295211792,
+      1.4539999961853027,
+      0.28773605823516846
+     ]
+    },
+    {
+     "name": "CH_SideSill_L",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Plastic_BlackTrim"
+     ],
+     "vertices": 500,
+     "triangles": 996,
+     "bbox_min": [
+      -0.9353529810905457,
+      0.1449057161808014,
+      -0.9800165295600891
+     ],
+     "bbox_max": [
+      -0.862870991230011,
+      0.18712997436523438,
+      0.9900034070014954
+     ]
+    },
+    {
+     "name": "CH_SideSill_R",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Plastic_BlackTrim"
+     ],
+     "vertices": 500,
+     "triangles": 996,
+     "bbox_min": [
+      0.862870991230011,
+      0.1449057161808014,
+      -0.9800165295600891
+     ],
+     "bbox_max": [
+      0.9353529810905457,
+      0.18712997436523438,
+      0.9900034070014954
+     ]
+    },
+    {
+     "name": "CH_Subframe_Front",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 32,
+     "triangles": 48,
+     "bbox_min": [
+      -0.45500001311302185,
+      0.23499999940395355,
+      0.9599999785423279
+     ],
+     "bbox_max": [
+      0.45500001311302185,
+      0.3449999988079071,
+      2.0399999618530273
+     ]
+    },
+    {
+     "name": "CH_Subframe_Rear",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 32,
+     "triangles": 48,
+     "bbox_min": [
+      -0.4399999976158142,
+      0.20000000298023224,
+      -1.8504999876022339
+     ],
+     "bbox_max": [
+      0.4399999976158142,
+      0.3100000023841858,
+      -1.1004999876022339
+     ]
+    },
+    {
+     "name": "CH_TailLamp_Bar",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Lamp_Reverse"
+     ],
+     "vertices": 1976,
+     "triangles": 3936,
+     "bbox_min": [
+      -0.7773210406303406,
+      0.8700619339942932,
+      -2.5113630294799805
+     ],
+     "bbox_max": [
+      0.7773210406303406,
+      0.8929110765457153,
+      -2.4789175987243652
+     ]
+    },
+    {
+     "name": "CH_TailLamp_Lens",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Lamp_Smoke"
+     ],
+     "vertices": 4808,
+     "triangles": 9600,
+     "bbox_min": [
+      -0.7981336712837219,
+      0.8231936693191528,
+      -2.509230613708496
+     ],
+     "bbox_max": [
+      0.7981336712837219,
+      0.9352378845214844,
+      -2.448233127593994
+     ]
+    },
+    {
+     "name": "CH_TailLamp_Red",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Lamp_TailRed"
+     ],
+     "vertices": 800,
+     "triangles": 800,
+     "bbox_min": [
+      -0.8115445971488953,
+      0.812777578830719,
+      -2.51450777053833
+     ],
+     "bbox_max": [
+      0.8115445971488953,
+      0.9494672417640686,
+      -2.4477627277374268
+     ]
+    },
+    {
+     "name": "CH_TailPanel",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Plastic_BlackGloss"
+     ],
+     "vertices": 7212,
+     "triangles": 14420,
+     "bbox_min": [
+      -0.8519378900527954,
+      0.7453023791313171,
+      -2.5397939682006836
+     ],
+     "bbox_max": [
+      0.8519378900527954,
+      1.0148719549179077,
+      -2.4011635780334473
+     ]
+    },
+    {
+     "name": "CH_WheelLiners_L",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_WheelLiner"
+     ],
+     "vertices": 1298,
+     "triangles": 2576,
+     "bbox_min": [
+      -0.8899999856948853,
+      0.2708298861980438,
+      -1.9255000352859497
+     ],
+     "bbox_max": [
+      -0.5980000495910645,
+      0.8019999861717224,
+      1.905500054359436
+     ]
+    },
+    {
+     "name": "CH_WheelLiners_R",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_WheelLiner"
+     ],
+     "vertices": 1298,
+     "triangles": 2576,
+     "bbox_min": [
+      0.5980000495910645,
+      0.2708298861980438,
+      -1.9255000352859497
+     ],
+     "bbox_max": [
+      0.8899999856948853,
+      0.8019999861717224,
+      1.905500054359436
+     ]
+    }
+   ]
+  },
+  {
+   "file": "bumper_F.fbx",
+   "group": "bumper_F",
+   "objects": [
+    {
+     "name": "CH_Badge_SRT_Front",
+     "bind": [
+      "bumper_F"
+     ],
+     "materials": [
+      "CH_Chrome"
+     ],
+     "vertices": 896,
+     "triangles": 888,
+     "bbox_min": [
+      -0.47672000527381897,
+      0.6860949993133545,
+      2.257460117340088
+     ],
+     "bbox_max": [
+      -0.4043149948120117,
+      0.7175949811935425,
+      2.2598602771759033
+     ]
+    },
+    {
+     "name": "CH_Bumper_F",
+     "bind": [
+      "bumper_F"
+     ],
+     "materials": [
+      "CH_Paint_White",
+      "CH_Plastic_BlackTrim"
+     ],
+     "vertices": 16070,
+     "triangles": 32152,
+     "bbox_min": [
+      -0.9214931130409241,
+      0.24392667412757874,
+      1.9529997110366821
+     ],
+     "bbox_max": [
+      0.9214931130409241,
+      0.8587478399276733,
+      2.439852237701416
+     ]
+    },
+    {
+     "name": "CH_Grille_Duct_L",
+     "bind": [
+      "bumper_F"
+     ],
+     "materials": [
+      "CH_Grille_Mesh"
+     ],
+     "vertices": 288,
+     "triangles": 572,
+     "bbox_min": [
+      -0.7685698866844177,
+      0.26185810565948486,
+      2.237757682800293
+     ],
+     "bbox_max": [
+      -0.6156562566757202,
+      0.42789426445961,
+      2.2750182151794434
+     ]
+    },
+    {
+     "name": "CH_Grille_Duct_R",
+     "bind": [
+      "bumper_F"
+     ],
+     "materials": [
+      "CH_Grille_Mesh"
+     ],
+     "vertices": 288,
+     "triangles": 572,
+     "bbox_min": [
+      0.6156562566757202,
+      0.26185810565948486,
+      2.237757682800293
+     ],
+     "bbox_max": [
+      0.7685698866844177,
+      0.42789426445961,
+      2.2750182151794434
+     ]
+    },
+    {
+     "name": "CH_Grille_Lower",
+     "bind": [
+      "bumper_F"
+     ],
+     "materials": [
+      "CH_Grille_Mesh"
+     ],
+     "vertices": 2350,
+     "triangles": 4696,
+     "bbox_min": [
+      -0.6123722195625305,
+      0.26682546734809875,
+      2.239330291748047
+     ],
+     "bbox_max": [
+      0.6123722195625305,
+      0.43084266781806946,
+      2.3485264778137207
+     ]
+    },
+    {
+     "name": "CH_Grille_Upper",
+     "bind": [
+      "bumper_F"
+     ],
+     "materials": [
+      "CH_Grille_Mesh"
+     ],
+     "vertices": 1738,
+     "triangles": 3456,
+     "bbox_min": [
+      -0.8335092067718506,
+      0.6125975847244263,
+      2.1755685806274414
+     ],
+     "bbox_max": [
+      0.8335092067718506,
+      0.7821449637413025,
+      2.300185441970825
+     ]
+    },
+    {
+     "name": "CH_Splitter",
+     "bind": [
+      "bumper_F"
+     ],
+     "materials": [
+      "CH_Plastic_BlackTrim"
+     ],
+     "vertices": 714,
+     "triangles": 1416,
+     "bbox_min": [
+      -0.8899999856948853,
+      0.19300000369548798,
+      1.934999942779541
+     ],
+     "bbox_max": [
+      0.8899999856948853,
+      0.23600000143051147,
+      2.385999917984009
+     ]
+    }
+   ]
+  },
+  {
+   "file": "bumper_R.fbx",
+   "group": "bumper_R",
+   "objects": [
+    {
+     "name": "CH_Bumper_R",
+     "bind": [
+      "bumper_R"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 17060,
+     "triangles": 34120,
+     "bbox_min": [
+      -0.9267571568489075,
+      0.36837589740753174,
+      -2.579968214035034
+     ],
+     "bbox_max": [
+      0.9267571568489075,
+      1.0655150413513184,
+      -1.9780066013336182
+     ]
+    },
+    {
+     "name": "CH_Exhaust_Tips_L",
+     "bind": [
+      "bumper_R"
+     ],
+     "materials": [
+      "CH_Plastic_BlackGloss"
+     ],
+     "vertices": 128,
+     "triangles": 252,
+     "bbox_min": [
+      -0.6244999766349792,
+      0.21299999952316284,
+      -2.510831117630005
+     ],
+     "bbox_max": [
+      -0.45249998569488525,
+      0.26899999380111694,
+      -2.450831174850464
+     ]
+    },
+    {
+     "name": "CH_Exhaust_Tips_R",
+     "bind": [
+      "bumper_R"
+     ],
+     "materials": [
+      "CH_Plastic_BlackGloss"
+     ],
+     "vertices": 128,
+     "triangles": 252,
+     "bbox_min": [
+      0.45249998569488525,
+      0.21299999952316284,
+      -2.510831117630005
+     ],
+     "bbox_max": [
+      0.6244999766349792,
+      0.26899999380111694,
+      -2.450831174850464
+     ]
+    },
+    {
+     "name": "CH_PlateRecess",
+     "bind": [
+      "bumper_R"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 1260,
+     "triangles": 2516,
+     "bbox_min": [
+      -0.2586638927459717,
+      0.5014383792877197,
+      -2.553255081176758
+     ],
+     "bbox_max": [
+      0.2586638927459717,
+      0.6336578726768494,
+      -2.5198428630828857
+     ]
+    },
+    {
+     "name": "CH_Plate_Rear",
+     "bind": [
+      "bumper_R"
+     ],
+     "materials": [
+      "CH_Plate"
+     ],
+     "vertices": 64,
+     "triangles": 124,
+     "bbox_min": [
+      -0.2560221552848816,
+      0.5120751857757568,
+      -2.5637383460998535
+     ],
+     "bbox_max": [
+      0.2559778094291687,
+      0.6194010376930237,
+      -2.535662889480591
+     ]
+    },
+    {
+     "name": "CH_Valance",
+     "bind": [
+      "bumper_R"
+     ],
+     "materials": [
+      "CH_Plastic_BlackTrim"
+     ],
+     "vertices": 3228,
+     "triangles": 6452,
+     "bbox_min": [
+      -0.8849623203277588,
+      0.20499999821186066,
+      -2.5239999294281006
+     ],
+     "bbox_max": [
+      0.8849623203277588,
+      0.4440600275993347,
+      -2.0468218326568604
+     ]
+    }
+   ]
+  },
+  {
+   "file": "door_FL.fbx",
+   "group": "door_FL",
+   "objects": [
+    {
+     "name": "CH_Door_Handle_L",
+     "bind": [
+      "door_FL"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 192,
+     "triangles": 376,
+     "bbox_min": [
+      -0.9372630715370178,
+      0.901608943939209,
+      -0.541981041431427
+     ],
+     "bbox_max": [
+      -0.9277631044387817,
+      0.933608889579773,
+      -0.3819810450077057
+     ]
+    },
+    {
+     "name": "CH_Door_L",
+     "bind": [
+      "door_FL"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 4592,
+     "triangles": 9180,
+     "bbox_min": [
+      -0.9601383209228516,
+      0.2689197063446045,
+      -0.62446129322052
+     ],
+     "bbox_max": [
+      -0.841616690158844,
+      1.0298361778259277,
+      0.7965004444122314
+     ]
+    },
+    {
+     "name": "CH_Int_DoorCard_L",
+     "bind": [
+      "door_FL"
+     ],
+     "materials": [
+      "CH_Int_Leather",
+      "CH_Int_PlasticBlack",
+      "CH_Int_Chrome",
+      "CH_Int_Stitch",
+      "CH_Int_SpeakerMesh",
+      "CH_Int_SatinSilver"
+     ],
+     "vertices": 5545,
+     "triangles": 8680,
+     "bbox_min": [
+      -0.8619999885559082,
+      0.30000001192092896,
+      -0.5849999785423279
+     ],
+     "bbox_max": [
+      -0.7260000109672546,
+      0.9800000190734863,
+      0.7350000143051147
+     ]
+    }
+   ]
+  },
+  {
+   "file": "door_FR.fbx",
+   "group": "door_FR",
+   "objects": [
+    {
+     "name": "CH_Door_Handle_R",
+     "bind": [
+      "door_FR"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 192,
+     "triangles": 376,
+     "bbox_min": [
+      0.9277631044387817,
+      0.901608943939209,
+      -0.541981041431427
+     ],
+     "bbox_max": [
+      0.9372630715370178,
+      0.933608889579773,
+      -0.3819810450077057
+     ]
+    },
+    {
+     "name": "CH_Door_R",
+     "bind": [
+      "door_FR"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 4592,
+     "triangles": 9180,
+     "bbox_min": [
+      0.841616690158844,
+      0.2689197063446045,
+      -0.62446129322052
+     ],
+     "bbox_max": [
+      0.9601383209228516,
+      1.0298361778259277,
+      0.7965004444122314
+     ]
+    },
+    {
+     "name": "CH_Int_DoorCard_R",
+     "bind": [
+      "door_FR"
+     ],
+     "materials": [
+      "CH_Int_Leather",
+      "CH_Int_PlasticBlack",
+      "CH_Int_Chrome",
+      "CH_Int_Stitch",
+      "CH_Int_SpeakerMesh",
+      "CH_Int_SatinSilver"
+     ],
+     "vertices": 5545,
+     "triangles": 8680,
+     "bbox_min": [
+      0.7260000109672546,
+      0.30000001192092896,
+      -0.5849999785423279
+     ],
+     "bbox_max": [
+      0.8619999885559082,
+      0.9800000190734863,
+      0.7350000143051147
+     ]
+    }
+   ]
+  },
+  {
+   "file": "engine.fbx",
+   "group": "engine",
+   "objects": [
+    {
+     "name": "CH_Engine",
+     "bind": [
+      "engine"
+     ],
+     "materials": [
+      "CH_Engine_Orange"
+     ],
+     "vertices": 80,
+     "triangles": 140,
+     "bbox_min": [
+      -0.3011746406555176,
+      0.3700000047683716,
+      1.0700000524520874
+     ],
+     "bbox_max": [
+      0.3011746406555176,
+      0.9300000071525574,
+      1.7899999618530273
+     ]
+    },
+    {
+     "name": "CH_Engine_Pulleys",
+     "bind": [
+      "engine"
+     ],
+     "materials": [
+      "CH_Aluminium"
+     ],
+     "vertices": 384,
+     "triangles": 576,
+     "bbox_min": [
+      -0.2199999988079071,
+      0.3799999952316284,
+      1.7000000476837158
+     ],
+     "bbox_max": [
+      0.2199999988079071,
+      0.8949999809265137,
+      1.7300000190734863
+     ]
+    },
+    {
+     "name": "CH_Transmission",
+     "bind": [
+      "engine"
+     ],
+     "materials": [
+      "CH_Aluminium"
+     ],
+     "vertices": 80,
+     "triangles": 160,
+     "bbox_min": [
+      -0.14000000059604645,
+      0.220014289021492,
+      0.3480001986026764
+     ],
+     "bbox_max": [
+      0.14000000059604645,
+      0.5099857449531555,
+      1.051999807357788
+     ]
+    }
+   ]
+  },
+  {
+   "file": "exhaust.fbx",
+   "group": "exhaust",
+   "objects": [
+    {
+     "name": "CH_Exhaust_L",
+     "bind": [
+      "exhaust"
+     ],
+     "materials": [
+      "CH_Exhaust_Steel"
+     ],
+     "vertices": 736,
+     "triangles": 1444,
+     "bbox_min": [
+      -0.57220059633255,
+      0.12000000476837158,
+      -2.3894481658935547
+     ],
+     "bbox_max": [
+      -0.1850000023841858,
+      0.4517785906791687,
+      1.314666986465454
+     ]
+    },
+    {
+     "name": "CH_Exhaust_R",
+     "bind": [
+      "exhaust"
+     ],
+     "materials": [
+      "CH_Exhaust_Steel"
+     ],
+     "vertices": 736,
+     "triangles": 1444,
+     "bbox_min": [
+      0.1850000023841858,
+      0.12000000476837158,
+      -2.3894481658935547
+     ],
+     "bbox_max": [
+      0.57220059633255,
+      0.4517785906791687,
+      1.314666986465454
+     ]
+    }
+   ]
+  },
+  {
+   "file": "fender_L.fbx",
+   "group": "fender_L",
+   "objects": [
+    {
+     "name": "CH_Badge_Hellcat_L",
+     "bind": [
+      "fender_L"
+     ],
+     "materials": [
+      "CH_Badge_Red"
+     ],
+     "vertices": 80,
+     "triangles": 156,
+     "bbox_min": [
+      -0.9587693810462952,
+      0.7680827975273132,
+      0.9540094137191772
+     ],
+     "bbox_max": [
+      -0.9572693705558777,
+      0.8120827674865723,
+      1.0060094594955444
+     ]
+    },
+    {
+     "name": "CH_Fender_L",
+     "bind": [
+      "fender_L"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 6084,
+     "triangles": 12164,
+     "bbox_min": [
+      -0.9589971303939819,
+      0.26770877838134766,
+      0.7017524242401123
+     ],
+     "bbox_max": [
+      -0.7363213896751404,
+      0.9963546395301819,
+      2.2007241249084473
+     ]
+    },
+    {
+     "name": "CH_Flare_front_L",
+     "bind": [
+      "fender_L"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 1752,
+     "triangles": 3500,
+     "bbox_min": [
+      -0.992263674736023,
+      0.1727297306060791,
+      0.9645549654960632
+     ],
+     "bbox_max": [
+      -0.8378506898880005,
+      0.8238166570663452,
+      1.984795093536377
+     ]
+    },
+    {
+     "name": "CH_Marker_Front_L",
+     "bind": [
+      "fender_L"
+     ],
+     "materials": [
+      "CH_Plastic_BlackGloss"
+     ],
+     "vertices": 64,
+     "triangles": 124,
+     "bbox_min": [
+      -0.9523488879203796,
+      0.4493049681186676,
+      1.933728575706482
+     ],
+     "bbox_max": [
+      -0.9493489265441895,
+      0.4713049530982971,
+      2.0437285900115967
+     ]
+    }
+   ]
+  },
+  {
+   "file": "fender_R.fbx",
+   "group": "fender_R",
+   "objects": [
+    {
+     "name": "CH_Badge_Hellcat_R",
+     "bind": [
+      "fender_R"
+     ],
+     "materials": [
+      "CH_Badge_Red"
+     ],
+     "vertices": 80,
+     "triangles": 156,
+     "bbox_min": [
+      0.9572693705558777,
+      0.7680827975273132,
+      0.9540094137191772
+     ],
+     "bbox_max": [
+      0.9587693810462952,
+      0.8120827674865723,
+      1.0060094594955444
+     ]
+    },
+    {
+     "name": "CH_Fender_R",
+     "bind": [
+      "fender_R"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 6084,
+     "triangles": 12164,
+     "bbox_min": [
+      0.7363213896751404,
+      0.26770877838134766,
+      0.7017524242401123
+     ],
+     "bbox_max": [
+      0.9589971303939819,
+      0.9963546395301819,
+      2.2007241249084473
+     ]
+    },
+    {
+     "name": "CH_Flare_front_R",
+     "bind": [
+      "fender_R"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 1752,
+     "triangles": 3500,
+     "bbox_min": [
+      0.8378506898880005,
+      0.1727297306060791,
+      0.9645549654960632
+     ],
+     "bbox_max": [
+      0.992263674736023,
+      0.8238166570663452,
+      1.984795093536377
+     ]
+    },
+    {
+     "name": "CH_Marker_Front_R",
+     "bind": [
+      "fender_R"
+     ],
+     "materials": [
+      "CH_Plastic_BlackGloss"
+     ],
+     "vertices": 64,
+     "triangles": 124,
+     "bbox_min": [
+      0.9493489265441895,
+      0.4493049681186676,
+      1.933728575706482
+     ],
+     "bbox_max": [
+      0.9523488879203796,
+      0.4713049530982971,
+      2.0437285900115967
+     ]
+    }
+   ]
+  },
+  {
+   "file": "fuel_tank.fbx",
+   "group": "fuel_tank",
+   "objects": [
+    {
+     "name": "CH_FuelTank",
+     "bind": [
+      "fuel_tank"
+     ],
+     "materials": [
+      "CH_Underbody"
+     ],
+     "vertices": 32,
+     "triangles": 56,
+     "bbox_min": [
+      -0.3400000035762787,
+      0.2199999988079071,
+      -1.1299999952316284
+     ],
+     "bbox_max": [
+      0.3400000035762787,
+      0.3799999952316284,
+      -0.7099999785423279
+     ]
+    }
+   ]
+  },
+  {
+   "file": "glass_quarter_L.fbx",
+   "group": "glass_quarter_L",
+   "objects": [
+    {
+     "name": "CH_Glass_Quarter_L",
+     "bind": [
+      "glass_quarter_L"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 712,
+     "triangles": 1420,
+     "bbox_min": [
+      -0.8368774652481079,
+      1.0374584197998047,
+      -0.9654684066772461
+     ],
+     "bbox_max": [
+      -0.6741970777511597,
+      1.3133163452148438,
+      -0.6415579915046692
+     ]
+    },
+    {
+     "name": "CH_Glass_Quarter_L_Shards",
+     "bind": [
+      "glass_quarter_L"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 1135,
+     "triangles": 1420,
+     "bbox_min": [
+      -0.8364379405975342,
+      1.0378105640411377,
+      -0.9643990397453308
+     ],
+     "bbox_max": [
+      -0.6745490431785583,
+      1.3131108283996582,
+      -0.6420806646347046
+     ]
+    }
+   ]
+  },
+  {
+   "file": "glass_quarter_R.fbx",
+   "group": "glass_quarter_R",
+   "objects": [
+    {
+     "name": "CH_Glass_Quarter_R",
+     "bind": [
+      "glass_quarter_R"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 712,
+     "triangles": 1420,
+     "bbox_min": [
+      0.6741970777511597,
+      1.0374584197998047,
+      -0.9654684066772461
+     ],
+     "bbox_max": [
+      0.8368774652481079,
+      1.3133163452148438,
+      -0.6415579915046692
+     ]
+    },
+    {
+     "name": "CH_Glass_Quarter_R_Shards",
+     "bind": [
+      "glass_quarter_R"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 1181,
+     "triangles": 1420,
+     "bbox_min": [
+      0.6745490431785583,
+      1.0378105640411377,
+      -0.9642437100410461
+     ],
+     "bbox_max": [
+      0.8366531133651733,
+      1.3131108283996582,
+      -0.6420302391052246
+     ]
+    }
+   ]
+  },
+  {
+   "file": "glass_rear.fbx",
+   "group": "glass_rear",
+   "objects": [
+    {
+     "name": "CH_Glass_Rear",
+     "bind": [
+      "glass_rear"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 4020,
+     "triangles": 8036,
+     "bbox_min": [
+      -0.7351120114326477,
+      1.1221203804016113,
+      -1.7089999914169312
+     ],
+     "bbox_max": [
+      0.7351120114326477,
+      1.396033763885498,
+      -1.223097801208496
+     ]
+    },
+    {
+     "name": "CH_Glass_Rear_Shards",
+     "bind": [
+      "glass_rear"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 6269,
+     "triangles": 8036,
+     "bbox_min": [
+      -0.7340874075889587,
+      1.1229321956634521,
+      -1.7083948850631714
+     ],
+     "bbox_max": [
+      0.7340643405914307,
+      1.3959429264068604,
+      -1.2231398820877075
+     ]
+    }
+   ]
+  },
+  {
+   "file": "glass_side_FL.fbx",
+   "group": "glass_side_FL",
+   "objects": [
+    {
+     "name": "CH_Glass_Door_L",
+     "bind": [
+      "glass_side_FL"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 2100,
+     "triangles": 4196,
+     "bbox_min": [
+      -0.8453562259674072,
+      0.9901391863822937,
+      -0.638211727142334
+     ],
+     "bbox_max": [
+      -0.6649730801582336,
+      1.3185057640075684,
+      0.5983969569206238
+     ]
+    },
+    {
+     "name": "CH_Glass_Door_L_Shards",
+     "bind": [
+      "glass_side_FL"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 3344,
+     "triangles": 4196,
+     "bbox_min": [
+      -0.8451477885246277,
+      0.9906583428382874,
+      -0.6380312442779541
+     ],
+     "bbox_max": [
+      -0.6651475429534912,
+      1.318210244178772,
+      0.5969546437263489
+     ]
+    }
+   ]
+  },
+  {
+   "file": "glass_side_FR.fbx",
+   "group": "glass_side_FR",
+   "objects": [
+    {
+     "name": "CH_Glass_Door_R",
+     "bind": [
+      "glass_side_FR"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 2100,
+     "triangles": 4196,
+     "bbox_min": [
+      0.6649730801582336,
+      0.9901390075683594,
+      -0.638211727142334
+     ],
+     "bbox_max": [
+      0.8453562259674072,
+      1.3185057640075684,
+      0.5983969569206238
+     ]
+    },
+    {
+     "name": "CH_Glass_Door_R_Shards",
+     "bind": [
+      "glass_side_FR"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 3394,
+     "triangles": 4196,
+     "bbox_min": [
+      0.6653224229812622,
+      0.9905028343200684,
+      -0.6379538178443909
+     ],
+     "bbox_max": [
+      0.8451153635978699,
+      1.3177908658981323,
+      0.5969954133033752
+     ]
+    }
+   ]
+  },
+  {
+   "file": "glass_windshield.fbx",
+   "group": "glass_windshield",
+   "objects": [
+    {
+     "name": "CH_Glass_Windshield",
+     "bind": [
+      "glass_windshield"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 4020,
+     "triangles": 8036,
+     "bbox_min": [
+      -0.7774511575698853,
+      0.9801327586174011,
+      0.2680724561214447
+     ],
+     "bbox_max": [
+      0.7774511575698853,
+      1.3672246932983398,
+      0.9900000095367432
+     ]
+    },
+    {
+     "name": "CH_Glass_Windshield_Shards",
+     "bind": [
+      "glass_windshield"
+     ],
+     "materials": [
+      "CH_Glass_Tint"
+     ],
+     "vertices": 6520,
+     "triangles": 8036,
+     "bbox_min": [
+      -0.7762954831123352,
+      0.9810637831687927,
+      0.2684604823589325
+     ],
+     "bbox_max": [
+      0.7762954831123352,
+      1.3668625354766846,
+      0.9892725348472595
+     ]
+    }
+   ]
+  },
+  {
+   "file": "headlight_L.fbx",
+   "group": "headlight_L",
+   "objects": [
+    {
+     "name": "CH_Headlamp_Halo_L",
+     "bind": [
+      "headlight_L"
+     ],
+     "materials": [
+      "CH_Lamp_Halo"
+     ],
+     "vertices": 512,
+     "triangles": 1024,
+     "bbox_min": [
+      -0.8031013607978821,
+      0.6330000162124634,
+      2.2246551513671875
+     ],
+     "bbox_max": [
+      -0.5121374130249023,
+      0.7570003867149353,
+      2.2674400806427
+     ]
+    },
+    {
+     "name": "CH_Headlamp_Housing_L",
+     "bind": [
+      "headlight_L"
+     ],
+     "materials": [
+      "CH_Plastic_BlackGloss"
+     ],
+     "vertices": 1280,
+     "triangles": 2560,
+     "bbox_min": [
+      -0.8182592988014221,
+      0.6200000047683716,
+      2.172658681869507
+     ],
+     "bbox_max": [
+      -0.5011270642280579,
+      0.7700003385543823,
+      2.28175687789917
+     ]
+    },
+    {
+     "name": "CH_Headlamp_Lens_L",
+     "bind": [
+      "headlight_L"
+     ],
+     "materials": [
+      "CH_Lamp_Lens"
+     ],
+     "vertices": 864,
+     "triangles": 1280,
+     "bbox_min": [
+      -0.8124186992645264,
+      0.6255000233650208,
+      2.2121758460998535
+     ],
+     "bbox_max": [
+      -0.5062432289123535,
+      0.7645003795623779,
+      2.2780585289001465
+     ]
+    },
+    {
+     "name": "CH_Headlamp_Reflector_L",
+     "bind": [
+      "headlight_L"
+     ],
+     "materials": [
+      "CH_Chrome"
+     ],
+     "vertices": 512,
+     "triangles": 768,
+     "bbox_min": [
+      -0.8067280054092407,
+      0.6299999952316284,
+      2.1955649852752686
+     ],
+     "bbox_max": [
+      -0.5096994638442993,
+      0.7600003480911255,
+      2.270024061203003
+     ]
+    }
+   ]
+  },
+  {
+   "file": "headlight_R.fbx",
+   "group": "headlight_R",
+   "objects": [
+    {
+     "name": "CH_Headlamp_Halo_R",
+     "bind": [
+      "headlight_R"
+     ],
+     "materials": [
+      "CH_Lamp_Halo"
+     ],
+     "vertices": 512,
+     "triangles": 1024,
+     "bbox_min": [
+      0.5121374130249023,
+      0.6330000162124634,
+      2.2246551513671875
+     ],
+     "bbox_max": [
+      0.8031013607978821,
+      0.7570003867149353,
+      2.2674400806427
+     ]
+    },
+    {
+     "name": "CH_Headlamp_Housing_R",
+     "bind": [
+      "headlight_R"
+     ],
+     "materials": [
+      "CH_Plastic_BlackGloss"
+     ],
+     "vertices": 1280,
+     "triangles": 2560,
+     "bbox_min": [
+      0.5011270642280579,
+      0.619434654712677,
+      2.1718664169311523
+     ],
+     "bbox_max": [
+      0.8187224268913269,
+      0.7705660462379456,
+      2.28175687789917
+     ]
+    },
+    {
+     "name": "CH_Headlamp_Lens_R",
+     "bind": [
+      "headlight_R"
+     ],
+     "materials": [
+      "CH_Lamp_Lens"
+     ],
+     "vertices": 864,
+     "triangles": 1280,
+     "bbox_min": [
+      0.5062432289123535,
+      0.6255000233650208,
+      2.2121758460998535
+     ],
+     "bbox_max": [
+      0.8124186992645264,
+      0.7645003795623779,
+      2.2780585289001465
+     ]
+    },
+    {
+     "name": "CH_Headlamp_Reflector_R",
+     "bind": [
+      "headlight_R"
+     ],
+     "materials": [
+      "CH_Chrome"
+     ],
+     "vertices": 512,
+     "triangles": 768,
+     "bbox_min": [
+      0.5096994638442993,
+      0.6299999952316284,
+      2.1955649852752686
+     ],
+     "bbox_max": [
+      0.8067280054092407,
+      0.7600003480911255,
+      2.270024061203003
+     ]
+    }
+   ]
+  },
+  {
+   "file": "hood.fbx",
+   "group": "hood",
+   "objects": [
+    {
+     "name": "CH_Hood",
+     "bind": [
+      "hood"
+     ],
+     "materials": [
+      "CH_Paint_MatteBlack"
+     ],
+     "vertices": 7762,
+     "triangles": 15520,
+     "bbox_min": [
+      -0.7885795831680298,
+      0.8524123430252075,
+      0.952412486076355
+     ],
+     "bbox_max": [
+      0.7885795831680298,
+      1.016017198562622,
+      2.2944839000701904
+     ]
+    },
+    {
+     "name": "CH_Hood_Extractor_L",
+     "bind": [
+      "hood"
+     ],
+     "materials": [
+      "CH_Paint_MatteBlack"
+     ],
+     "vertices": 220,
+     "triangles": 436,
+     "bbox_min": [
+      -0.5049999952316284,
+      0.9990803599357605,
+      1.2098087072372437
+     ],
+     "bbox_max": [
+      -0.33500000834465027,
+      1.0437508821487427,
+      1.4299999475479126
+     ]
+    },
+    {
+     "name": "CH_Hood_Extractor_R",
+     "bind": [
+      "hood"
+     ],
+     "materials": [
+      "CH_Paint_MatteBlack"
+     ],
+     "vertices": 220,
+     "triangles": 436,
+     "bbox_min": [
+      0.33500000834465027,
+      0.9990803599357605,
+      1.2098087072372437
+     ],
+     "bbox_max": [
+      0.5049999952316284,
+      1.0437508821487427,
+      1.4299999475479126
+     ]
+    },
+    {
+     "name": "CH_Hood_Extractor_Vent_L",
+     "bind": [
+      "hood"
+     ],
+     "materials": [
+      "CH_Grille_Mesh"
+     ],
+     "vertices": 44,
+     "triangles": 84,
+     "bbox_min": [
+      -0.5049999952316284,
+      1.0031644105911255,
+      1.2120000123977661
+     ],
+     "bbox_max": [
+      -0.33500000834465027,
+      1.0417509078979492,
+      1.2135000228881836
+     ]
+    },
+    {
+     "name": "CH_Hood_Extractor_Vent_R",
+     "bind": [
+      "hood"
+     ],
+     "materials": [
+      "CH_Grille_Mesh"
+     ],
+     "vertices": 44,
+     "triangles": 84,
+     "bbox_min": [
+      0.33500000834465027,
+      1.0031644105911255,
+      1.2120000123977661
+     ],
+     "bbox_max": [
+      0.5049999952316284,
+      1.0417509078979492,
+      1.2135000228881836
+     ]
+    },
+    {
+     "name": "CH_Hood_Scoop",
+     "bind": [
+      "hood"
+     ],
+     "materials": [
+      "CH_Paint_MatteBlack"
+     ],
+     "vertices": 650,
+     "triangles": 1296,
+     "bbox_min": [
+      -0.29499998688697815,
+      1.0113335847854614,
+      1.159999966621399
+     ],
+     "bbox_max": [
+      0.29499998688697815,
+      1.070001482963562,
+      1.2999999523162842
+     ]
+    },
+    {
+     "name": "CH_Hood_Scoop_Mesh",
+     "bind": [
+      "hood"
+     ],
+     "materials": [
+      "CH_Grille_Mesh"
+     ],
+     "vertices": 100,
+     "triangles": 196,
+     "bbox_min": [
+      -0.27434998750686646,
+      1.0163908004760742,
+      1.2865021228790283
+     ],
+     "bbox_max": [
+      0.27434998750686646,
+      1.0630813837051392,
+      1.2899999618530273
+     ]
+    }
+   ]
+  },
+  {
+   "file": "interior.fbx",
+   "group": "interior",
+   "objects": [
+    {
+     "name": "CH_Int_APillar_L",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack"
+     ],
+     "vertices": 410,
+     "triangles": 816,
+     "bbox_min": [
+      -0.8245627284049988,
+      0.9968525767326355,
+      -0.02596423029899597
+     ],
+     "bbox_max": [
+      -0.6404913067817688,
+      1.3038763999938965,
+      0.8332675099372864
+     ]
+    },
+    {
+     "name": "CH_Int_APillar_R",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack"
+     ],
+     "vertices": 410,
+     "triangles": 816,
+     "bbox_min": [
+      0.6404913067817688,
+      0.9968525767326355,
+      -0.02596423029899597
+     ],
+     "bbox_max": [
+      0.8245627284049988,
+      1.3038763999938965,
+      0.8332675099372864
+     ]
+    },
+    {
+     "name": "CH_Int_Armrest",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_Leather",
+      "CH_Int_Stitch"
+     ],
+     "vertices": 786,
+     "triangles": 716,
+     "bbox_min": [
+      -0.10249999910593033,
+      0.5799999833106995,
+      -0.5600000023841858
+     ],
+     "bbox_max": [
+      0.10249999910593033,
+      0.666100025177002,
+      -0.11500000208616257
+     ]
+    },
+    {
+     "name": "CH_Int_BPillar_L",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_Chrome"
+     ],
+     "vertices": 328,
+     "triangles": 648,
+     "bbox_min": [
+      -0.831935465335846,
+      0.9921378493309021,
+      -0.699999988079071
+     ],
+     "bbox_max": [
+      -0.6474641561508179,
+      1.3016716241836548,
+      -0.6175000071525574
+     ]
+    },
+    {
+     "name": "CH_Int_BPillar_R",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_Chrome"
+     ],
+     "vertices": 328,
+     "triangles": 648,
+     "bbox_min": [
+      0.6474641561508179,
+      0.9921378493309021,
+      -0.699999988079071
+     ],
+     "bbox_max": [
+      0.831935465335846,
+      1.3016716241836548,
+      -0.6175000071525574
+     ]
+    },
+    {
+     "name": "CH_Int_Belts",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_BeltRed"
+     ],
+     "vertices": 1126,
+     "triangles": 2224,
+     "bbox_min": [
+      -0.7658628821372986,
+      0.29603680968284607,
+      -1.5302188396453857
+     ],
+     "bbox_max": [
+      0.7658628821372986,
+      1.180593490600586,
+      -0.5213008522987366
+     ]
+    },
+    {
+     "name": "CH_Int_Carpet",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_Carpet",
+      "CH_Int_FloorMat"
+     ],
+     "vertices": 5724,
+     "triangles": 10504,
+     "bbox_min": [
+      -0.7950000166893005,
+      0.20691293478012085,
+      -0.699999988079071
+     ],
+     "bbox_max": [
+      0.7950000166893005,
+      0.8999999761581421,
+      0.9850000143051147
+     ]
+    },
+    {
+     "name": "CH_Int_CentreStack",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_Chrome",
+      "CH_Int_SatinSilver",
+      "CH_Int_Carbon",
+      "CH_Int_GlossBlack",
+      "CH_Int_Touchscreen",
+      "CH_Int_StartRed",
+      "CH_Int_VentSlat"
+     ],
+     "vertices": 4577,
+     "triangles": 8962,
+     "bbox_min": [
+      -0.2224999964237213,
+      0.6821135878562927,
+      0.5491381883621216
+     ],
+     "bbox_max": [
+      0.2224999964237213,
+      0.9643067717552185,
+      0.6191724538803101
+     ]
+    },
+    {
+     "name": "CH_Int_Cluster",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_Chrome",
+      "CH_Int_GlossBlack",
+      "CH_Int_DialTach",
+      "CH_Int_DialSpeedo",
+      "CH_Int_ClusterDisplay"
+     ],
+     "vertices": 1978,
+     "triangles": 3042,
+     "bbox_min": [
+      -0.5586692094802856,
+      0.8330368995666504,
+      0.48275521397590637
+     ],
+     "bbox_max": [
+      -0.19133077561855316,
+      1.008341670036316,
+      0.6225426197052002
+     ]
+    },
+    {
+     "name": "CH_Int_ClusterHood",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_SoftTouch"
+     ],
+     "vertices": 282,
+     "triangles": 560,
+     "bbox_min": [
+      -0.6150000095367432,
+      0.9789999723434448,
+      0.47200000286102295
+     ],
+     "bbox_max": [
+      -0.13500000536441803,
+      1.0549999475479126,
+      0.699999988079071
+     ]
+    },
+    {
+     "name": "CH_Int_Console",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_SatinSilver",
+      "CH_Int_Carbon",
+      "CH_Int_GlossBlack",
+      "CH_Int_StartRed"
+     ],
+     "vertices": 5038,
+     "triangles": 9592,
+     "bbox_min": [
+      -0.10249999910593033,
+      0.4169999957084656,
+      -0.5849999785423279
+     ],
+     "bbox_max": [
+      0.10249999910593033,
+      0.7426044344902039,
+      0.5450000166893005
+     ]
+    },
+    {
+     "name": "CH_Int_Dash",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_SoftTouch"
+     ],
+     "vertices": 2316,
+     "triangles": 4628,
+     "bbox_min": [
+      -0.7749999761581421,
+      0.5600000023841858,
+      0.5569999814033508
+     ],
+     "bbox_max": [
+      0.7749999761581421,
+      1.0039994716644287,
+      0.8600000143051147
+     ]
+    },
+    {
+     "name": "CH_Int_DashExtras",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_SatinSilver",
+      "CH_Int_SoftTouch",
+      "CH_Int_GlossBlack",
+      "CH_Int_VentSlat"
+     ],
+     "vertices": 3520,
+     "triangles": 6980,
+     "bbox_min": [
+      -0.7204999923706055,
+      0.5952036380767822,
+      0.5527588129043579
+     ],
+     "bbox_max": [
+      0.7204999923706055,
+      0.9441035389900208,
+      0.6043827533721924
+     ]
+    },
+    {
+     "name": "CH_Int_Footrest",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_Rubber"
+     ],
+     "vertices": 218,
+     "triangles": 432,
+     "bbox_min": [
+      -0.6575000286102295,
+      0.24544517695903778,
+      0.792089581489563
+     ],
+     "bbox_max": [
+      -0.5824999809265137,
+      0.4185548424720764,
+      0.9399104118347168
+     ]
+    },
+    {
+     "name": "CH_Int_Headliner",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_Headliner"
+     ],
+     "vertices": 4778,
+     "triangles": 9280,
+     "bbox_min": [
+      -0.6650000214576721,
+      1.2946395874023438,
+      -1.3999961614608765
+     ],
+     "bbox_max": [
+      0.6650000214576721,
+      1.440500020980835,
+      0.2829435467720032
+     ]
+    },
+    {
+     "name": "CH_Int_Mirror",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_MirrorGlass"
+     ],
+     "vertices": 324,
+     "triangles": 634,
+     "bbox_min": [
+      -0.11990781873464584,
+      1.2719990015029907,
+      0.2576056122779846
+     ],
+     "bbox_max": [
+      0.12290633469820023,
+      1.3465430736541748,
+      0.3492281436920166
+     ]
+    },
+    {
+     "name": "CH_Int_Needle_Speedo",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_GlossBlack",
+      "CH_Int_NeedleRed"
+     ],
+     "vertices": 77,
+     "triangles": 74,
+     "bbox_min": [
+      -0.3120094835758209,
+      0.9019338488578796,
+      0.533362090587616
+     ],
+     "bbox_max": [
+      -0.25375083088874817,
+      0.9382261037826538,
+      0.5393548607826233
+     ]
+    },
+    {
+     "name": "CH_Int_Needle_Tach",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_GlossBlack",
+      "CH_Int_NeedleRed"
+     ],
+     "vertices": 77,
+     "triangles": 74,
+     "bbox_min": [
+      -0.5300045013427734,
+      0.9019338488578796,
+      0.5259633660316467
+     ],
+     "bbox_max": [
+      -0.4732358157634735,
+      0.9382261037826538,
+      0.5398631691932678
+     ]
+    },
+    {
+     "name": "CH_Int_PackageShelf",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_SpeakerMesh"
+     ],
+     "vertices": 314,
+     "triangles": 478,
+     "bbox_min": [
+      -0.6349999904632568,
+      1.100000023841858,
+      -1.6950000524520874
+     ],
+     "bbox_max": [
+      0.6349999904632568,
+      1.1180000305175781,
+      -1.5099999904632568
+     ]
+    },
+    {
+     "name": "CH_Int_Pedal_Accelerator",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_Rubber"
+     ],
+     "vertices": 598,
+     "triangles": 1184,
+     "bbox_min": [
+      -0.3149999976158142,
+      0.2591773569583893,
+      0.7265496253967285
+     ],
+     "bbox_max": [
+      -0.2549999952316284,
+      0.6825000047683716,
+      0.8824999928474426
+     ]
+    },
+    {
+     "name": "CH_Int_Pedal_Brake",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_SatinSilver",
+      "CH_Int_Rubber"
+     ],
+     "vertices": 816,
+     "triangles": 1616,
+     "bbox_min": [
+      -0.4975000023841858,
+      0.369335412979126,
+      0.6977320909500122
+     ],
+     "bbox_max": [
+      -0.36250001192092896,
+      0.6825000047683716,
+      0.8824999928474426
+     ]
+    },
+    {
+     "name": "CH_Int_QuarterTrim_L",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_Leather",
+      "CH_Int_PlasticBlack"
+     ],
+     "vertices": 2080,
+     "triangles": 3840,
+     "bbox_min": [
+      -0.8617410659790039,
+      0.41999998688697815,
+      -1.6399999856948853
+     ],
+     "bbox_max": [
+      -0.5899999737739563,
+      1.3300000429153442,
+      -0.6320000290870667
+     ]
+    },
+    {
+     "name": "CH_Int_QuarterTrim_R",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_Leather",
+      "CH_Int_PlasticBlack"
+     ],
+     "vertices": 2080,
+     "triangles": 3840,
+     "bbox_min": [
+      0.5899999737739563,
+      0.41999998688697815,
+      -1.6399999856948853
+     ],
+     "bbox_max": [
+      0.8617337346076965,
+      1.3300000429153442,
+      -0.6320000290870667
+     ]
+    },
+    {
+     "name": "CH_Int_Shifter",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_Leather",
+      "CH_Int_Chrome"
+     ],
+     "vertices": 700,
+     "triangles": 1392,
+     "bbox_min": [
+      -0.018671052530407906,
+      0.5923570394515991,
+      0.20900000631809235
+     ],
+     "bbox_max": [
+      0.018671052530407906,
+      0.7100793123245239,
+      0.31788989901542664
+     ]
+    },
+    {
+     "name": "CH_Int_Sill_L",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_SatinSilver"
+     ],
+     "vertices": 654,
+     "triangles": 1296,
+     "bbox_min": [
+      -0.8650000095367432,
+      0.2150000035762787,
+      -0.5950000286102295
+     ],
+     "bbox_max": [
+      -0.7944999933242798,
+      0.6150000095367432,
+      0.9750000238418579
+     ]
+    },
+    {
+     "name": "CH_Int_Sill_R",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_SatinSilver"
+     ],
+     "vertices": 654,
+     "triangles": 1296,
+     "bbox_min": [
+      0.7944999933242798,
+      0.2150000035762787,
+      -0.5950000286102295
+     ],
+     "bbox_max": [
+      0.8650000095367432,
+      0.6150000095367432,
+      0.9750000238418579
+     ]
+    },
+    {
+     "name": "CH_Int_SteeringColumn",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack"
+     ],
+     "vertices": 422,
+     "triangles": 832,
+     "bbox_min": [
+      -0.566518247127533,
+      0.7035170197486877,
+      0.30896511673927307
+     ],
+     "bbox_max": [
+      -0.18348173797130585,
+      0.8626188039779663,
+      0.586851954460144
+     ]
+    },
+    {
+     "name": "CH_Int_SteeringWheel",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_Leather",
+      "CH_Int_LeatherPerf",
+      "CH_Int_PlasticBlack",
+      "CH_Int_Chrome",
+      "CH_Int_Stitch",
+      "CH_Int_SatinSilver",
+      "CH_Int_GlossBlack",
+      "CH_Int_WheelBadge"
+     ],
+     "vertices": 11716,
+     "triangles": 23014,
+     "bbox_min": [
+      -0.5731691122055054,
+      0.7052609324455261,
+      0.17566080391407013
+     ],
+     "bbox_max": [
+      -0.1768430918455124,
+      1.044037938117981,
+      0.33677592873573303
+     ]
+    },
+    {
+     "name": "CH_Int_SunVisors",
+     "bind": [
+      "body"
+     ],
+     "materials": [
+      "CH_Int_PlasticBlack",
+      "CH_Int_Headliner"
+     ],
+     "vertices": 872,
+     "triangles": 1728,
+     "bbox_min": [
+      -0.5274999737739563,
+      1.3288319110870361,
+      0.0949999988079071
+     ],
+     "bbox_max": [
+      0.5274999737739563,
+      1.3638447523117065,
+      0.27000001072883606
+     ]
+    }
+   ]
+  },
+  {
+   "file": "mirror_L.fbx",
+   "group": "mirror_L",
+   "objects": [
+    {
+     "name": "CH_Mirror_Glass_L",
+     "bind": [
+      "mirror_L"
+     ],
+     "materials": [
+      "CH_Mirror_Glass"
+     ],
+     "vertices": 82,
+     "triangles": 160,
+     "bbox_min": [
+      -1.075600028038025,
+      0.9949600100517273,
+      0.3709999918937683
+     ],
+     "bbox_max": [
+      -0.8823999762535095,
+      1.1090400218963623,
+      0.3718000054359436
+     ]
+    },
+    {
+     "name": "CH_Mirror_Housing_L",
+     "bind": [
+      "mirror_L"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 1440,
+     "triangles": 2880,
+     "bbox_min": [
+      -1.0839999914169312,
+      0.9900000095367432,
+      0.3749733567237854
+     ],
+     "bbox_max": [
+      -0.8740000128746033,
+      1.1139999628067017,
+      0.4300000071525574
+     ]
+    },
+    {
+     "name": "CH_Mirror_Stalk_L",
+     "bind": [
+      "mirror_L"
+     ],
+     "materials": [
+      "CH_Plastic_BlackTrim"
+     ],
+     "vertices": 64,
+     "triangles": 64,
+     "bbox_min": [
+      -0.9477654099464417,
+      0.972886860370636,
+      0.3857607841491699
+     ],
+     "bbox_max": [
+      -0.8739669919013977,
+      1.041690468788147,
+      0.44161519408226013
+     ]
+    }
+   ]
+  },
+  {
+   "file": "mirror_R.fbx",
+   "group": "mirror_R",
+   "objects": [
+    {
+     "name": "CH_Mirror_Glass_R",
+     "bind": [
+      "mirror_R"
+     ],
+     "materials": [
+      "CH_Mirror_Glass"
+     ],
+     "vertices": 82,
+     "triangles": 160,
+     "bbox_min": [
+      0.8823999762535095,
+      0.9949600100517273,
+      0.3709999918937683
+     ],
+     "bbox_max": [
+      1.075600028038025,
+      1.1090400218963623,
+      0.3718000054359436
+     ]
+    },
+    {
+     "name": "CH_Mirror_Housing_R",
+     "bind": [
+      "mirror_R"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 1440,
+     "triangles": 2880,
+     "bbox_min": [
+      0.8740000128746033,
+      0.9900000095367432,
+      0.3749733567237854
+     ],
+     "bbox_max": [
+      1.0839999914169312,
+      1.1139999628067017,
+      0.4300000071525574
+     ]
+    },
+    {
+     "name": "CH_Mirror_Stalk_R",
+     "bind": [
+      "mirror_R"
+     ],
+     "materials": [
+      "CH_Plastic_BlackTrim"
+     ],
+     "vertices": 128,
+     "triangles": 256,
+     "bbox_min": [
+      0.8739669919013977,
+      0.972886860370636,
+      0.3857607841491699
+     ],
+     "bbox_max": [
+      0.9477654099464417,
+      1.041690468788147,
+      0.44161519408226013
+     ]
+    }
+   ]
+  },
+  {
+   "file": "radiator.fbx",
+   "group": "radiator",
+   "objects": [
+    {
+     "name": "CH_Radiator",
+     "bind": [
+      "radiator"
+     ],
+     "materials": [
+      "CH_Radiator"
+     ],
+     "vertices": 8,
+     "triangles": 12,
+     "bbox_min": [
+      -0.6600000262260437,
+      0.3499999940395355,
+      1.9950000047683716
+     ],
+     "bbox_max": [
+      0.6600000262260437,
+      0.7799999713897705,
+      2.0450000762939453
+     ]
+    },
+    {
+     "name": "CH_RadiatorShroud",
+     "bind": [
+      "radiator"
+     ],
+     "materials": [
+      "CH_Plastic_BlackTrim"
+     ],
+     "vertices": 594,
+     "triangles": 1180,
+     "bbox_min": [
+      -0.6499999761581421,
+      0.828000009059906,
+      1.9700000286102295
+     ],
+     "bbox_max": [
+      0.6499999761581421,
+      0.871999979019165,
+      2.2860000133514404
+     ]
+    }
+   ]
+  },
+  {
+   "file": "running_gear.fbx",
+   "group": "running_gear",
+   "objects": [
+    {
+     "name": "CH_HalfShaft_L",
+     "bind": [
+      "body",
+      "wheel_RL"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 24,
+     "triangles": 24,
+     "bbox_min": [
+      -0.7154566645622253,
+      0.3050183057785034,
+      -1.500499963760376
+     ],
+     "bbox_max": [
+      -0.13904336094856262,
+      0.3769816756248474,
+      -1.4505000114440918
+     ]
+    },
+    {
+     "name": "CH_HalfShaft_R",
+     "bind": [
+      "body",
+      "wheel_RR"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 24,
+     "triangles": 24,
+     "bbox_min": [
+      0.13904336094856262,
+      0.3050183057785034,
+      -1.500499963760376
+     ],
+     "bbox_max": [
+      0.7154566645622253,
+      0.3769816756248474,
+      -1.4505000114440918
+     ]
+    },
+    {
+     "name": "CH_Knuckles_L",
+     "bind": [
+      "wheel_FL",
+      "wheel_RL"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 32,
+     "triangles": 56,
+     "bbox_min": [
+      -0.7444999814033508,
+      0.24199999868869781,
+      -1.5355000495910645
+     ],
+     "bbox_max": [
+      -0.6834999918937683,
+      0.4620000123977661,
+      1.5355000495910645
+     ]
+    },
+    {
+     "name": "CH_Knuckles_R",
+     "bind": [
+      "wheel_FR",
+      "wheel_RR"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 32,
+     "triangles": 56,
+     "bbox_min": [
+      0.6834999918937683,
+      0.24199999868869781,
+      -1.5355000495910645
+     ],
+     "bbox_max": [
+      0.7444999814033508,
+      0.4620000123977661,
+      1.5355000495910645
+     ]
+    },
+    {
+     "name": "CH_Susp_Front_Arms_L",
+     "bind": [
+      "body",
+      "wheel_FL"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 280,
+     "triangles": 560,
+     "bbox_min": [
+      -0.7217259407043457,
+      0.2201143056154251,
+      1.2647799253463745
+     ],
+     "bbox_max": [
+      -0.3700000047683716,
+      0.6310871839523315,
+      1.6854567527770996
+     ]
+    },
+    {
+     "name": "CH_Susp_Front_Arms_R",
+     "bind": [
+      "body",
+      "wheel_FR"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 140,
+     "triangles": 140,
+     "bbox_min": [
+      0.3700000047683716,
+      0.2201143056154251,
+      1.2647799253463745
+     ],
+     "bbox_max": [
+      0.7217259407043457,
+      0.6310871839523315,
+      1.6854567527770996
+     ]
+    },
+    {
+     "name": "CH_Susp_Front_Damper_L",
+     "bind": [
+      "body",
+      "wheel_FL"
+     ],
+     "materials": [
+      "CH_Aluminium"
+     ],
+     "vertices": 64,
+     "triangles": 128,
+     "bbox_min": [
+      -0.6769777536392212,
+      0.28702059388160706,
+      1.4515000581741333
+     ],
+     "bbox_max": [
+      -0.5265222191810608,
+      0.7849794030189514,
+      1.499500036239624
+     ]
+    },
+    {
+     "name": "CH_Susp_Front_Damper_R",
+     "bind": [
+      "body",
+      "wheel_FR"
+     ],
+     "materials": [
+      "CH_Aluminium"
+     ],
+     "vertices": 64,
+     "triangles": 128,
+     "bbox_min": [
+      0.5265222191810608,
+      0.28702059388160706,
+      1.4515000581741333
+     ],
+     "bbox_max": [
+      0.6769777536392212,
+      0.7849794030189514,
+      1.499500036239624
+     ]
+    },
+    {
+     "name": "CH_Susp_Front_Spring_L",
+     "bind": [
+      "body",
+      "wheel_FL"
+     ],
+     "materials": [
+      "CH_Spring_Red"
+     ],
+     "vertices": 2496,
+     "triangles": 4992,
+     "bbox_min": [
+      -0.6571310758590698,
+      0.5527029037475586,
+      1.412513017654419
+     ],
+     "bbox_max": [
+      -0.5064454674720764,
+      0.7258458137512207,
+      1.5384869575500488
+     ]
+    },
+    {
+     "name": "CH_Susp_Front_Spring_R",
+     "bind": [
+      "body",
+      "wheel_FR"
+     ],
+     "materials": [
+      "CH_Spring_Red"
+     ],
+     "vertices": 1248,
+     "triangles": 2480,
+     "bbox_min": [
+      0.5039339065551758,
+      0.5462341904640198,
+      1.412513017654419
+     ],
+     "bbox_max": [
+      0.654619574546814,
+      0.7193771004676819,
+      1.5384870767593384
+     ]
+    },
+    {
+     "name": "CH_Susp_Rear_Damper_L",
+     "bind": [
+      "body",
+      "wheel_RL"
+     ],
+     "materials": [
+      "CH_Aluminium"
+     ],
+     "vertices": 64,
+     "triangles": 128,
+     "bbox_min": [
+      -0.6359832286834717,
+      0.26726245880126953,
+      -1.5874865055084229
+     ],
+     "bbox_max": [
+      -0.4985167980194092,
+      0.7047375440597534,
+      -1.5285135507583618
+     ]
+    },
+    {
+     "name": "CH_Susp_Rear_Damper_R",
+     "bind": [
+      "body",
+      "wheel_RR"
+     ],
+     "materials": [
+      "CH_Aluminium"
+     ],
+     "vertices": 64,
+     "triangles": 128,
+     "bbox_min": [
+      0.4985167980194092,
+      0.26726245880126953,
+      -1.5874865055084229
+     ],
+     "bbox_max": [
+      0.6359832286834717,
+      0.7047375440597534,
+      -1.5285135507583618
+     ]
+    },
+    {
+     "name": "CH_Susp_Rear_Links_L",
+     "bind": [
+      "body",
+      "wheel_RL"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 100,
+     "triangles": 100,
+     "bbox_min": [
+      -0.7203963994979858,
+      0.24059000611305237,
+      -1.7661997079849243
+     ],
+     "bbox_max": [
+      -0.35410356521606445,
+      0.5611616969108582,
+      -1.1450486183166504
+     ]
+    },
+    {
+     "name": "CH_Susp_Rear_Links_R",
+     "bind": [
+      "body",
+      "wheel_RR"
+     ],
+     "materials": [
+      "CH_Steel_Dark"
+     ],
+     "vertices": 100,
+     "triangles": 100,
+     "bbox_min": [
+      0.35410356521606445,
+      0.24059000611305237,
+      -1.7661997079849243
+     ],
+     "bbox_max": [
+      0.7203963994979858,
+      0.5611616969108582,
+      -1.1450486183166504
+     ]
+    },
+    {
+     "name": "CH_Susp_Rear_Spring_L",
+     "bind": [
+      "body",
+      "wheel_RL"
+     ],
+     "materials": [
+      "CH_Spring_Red"
+     ],
+     "vertices": 1248,
+     "triangles": 2480,
+     "bbox_min": [
+      -0.6406989693641663,
+      0.3946169912815094,
+      -1.6222038269042969
+     ],
+     "bbox_max": [
+      -0.47757500410079956,
+      0.6754072904586792,
+      -1.4971222877502441
+     ]
+    },
+    {
+     "name": "CH_Susp_Rear_Spring_R",
+     "bind": [
+      "body",
+      "wheel_RR"
+     ],
+     "materials": [
+      "CH_Spring_Red"
+     ],
+     "vertices": 1248,
+     "triangles": 2480,
+     "bbox_min": [
+      0.4730110466480255,
+      0.3907526731491089,
+      -1.6221777200698853
+     ],
+     "bbox_max": [
+      0.6361349821090698,
+      0.6715430021286011,
+      -1.4970961809158325
+     ]
+    }
+   ]
+  },
+  {
+   "file": "seat_FL.fbx",
+   "group": "seat_FL",
+   "objects": [
+    {
+     "name": "CH_Int_Seat_FL",
+     "bind": [
+      "seat_FL"
+     ],
+     "materials": [
+      "CH_Int_Leather",
+      "CH_Int_LeatherPerf",
+      "CH_Int_PlasticBlack",
+      "CH_Int_Chrome",
+      "CH_Int_Stitch",
+      "CH_Int_Emboss"
+     ],
+     "vertices": 9480,
+     "triangles": 15480,
+     "bbox_min": [
+      -0.6650000214576721,
+      0.21799999475479126,
+      -0.7039108872413635
+     ],
+     "bbox_max": [
+      -0.11999999731779099,
+      1.3039121627807617,
+      0.2849999964237213
+     ]
+    }
+   ]
+  },
+  {
+   "file": "seat_FR.fbx",
+   "group": "seat_FR",
+   "objects": [
+    {
+     "name": "CH_Int_Seat_FR",
+     "bind": [
+      "seat_FR"
+     ],
+     "materials": [
+      "CH_Int_Leather",
+      "CH_Int_LeatherPerf",
+      "CH_Int_PlasticBlack",
+      "CH_Int_Chrome",
+      "CH_Int_Stitch",
+      "CH_Int_Emboss"
+     ],
+     "vertices": 9480,
+     "triangles": 15480,
+     "bbox_min": [
+      0.11999999731779099,
+      0.21799999475479126,
+      -0.7039108872413635
+     ],
+     "bbox_max": [
+      0.6650000214576721,
+      1.3039121627807617,
+      0.2849999964237213
+     ]
+    }
+   ]
+  },
+  {
+   "file": "seat_rear.fbx",
+   "group": "seat_rear",
+   "objects": [
+    {
+     "name": "CH_Int_Seat_Rear",
+     "bind": [
+      "seat_rear"
+     ],
+     "materials": [
+      "CH_Int_Leather",
+      "CH_Int_LeatherPerf",
+      "CH_Int_PlasticBlack",
+      "CH_Int_Stitch"
+     ],
+     "vertices": 6284,
+     "triangles": 11678,
+     "bbox_min": [
+      -0.6650000214576721,
+      0.41999998688697815,
+      -1.510054111480713
+     ],
+     "bbox_max": [
+      0.6650000214576721,
+      1.183580994606018,
+      -0.7049999833106995
+     ]
+    }
+   ]
+  },
+  {
+   "file": "trunk.fbx",
+   "group": "trunk",
+   "objects": [
+    {
+     "name": "CH_Badge_SRT_Rear",
+     "bind": [
+      "trunk"
+     ],
+     "materials": [
+      "CH_Chrome"
+     ],
+     "vertices": 896,
+     "triangles": 888,
+     "bbox_min": [
+      0.568280041217804,
+      1.0876399278640747,
+      -2.456199884414673
+     ],
+     "bbox_max": [
+      0.63264000415802,
+      1.1156399250030518,
+      -2.4537997245788574
+     ]
+    },
+    {
+     "name": "CH_DeckLid",
+     "bind": [
+      "trunk"
+     ],
+     "materials": [
+      "CH_Paint_White"
+     ],
+     "vertices": 5196,
+     "triangles": 10388,
+     "bbox_min": [
+      -0.7437594532966614,
+      1.0174720287322998,
+      -2.4275095462799072
+     ],
+     "bbox_max": [
+      0.7437594532966614,
+      1.1485694646835327,
+      -1.622017741203308
+     ]
+    },
+    {
+     "name": "CH_Spoiler",
+     "bind": [
+      "trunk"
+     ],
+     "materials": [
+      "CH_Plastic_BlackGloss"
+     ],
+     "vertices": 6192,
+     "triangles": 12376,
+     "bbox_min": [
+      -0.800000011920929,
+      1.031000018119812,
+      -2.4609999656677246
+     ],
+     "bbox_max": [
+      0.800000011920929,
+      1.1180000305175781,
+      -2.2912027835845947
+     ]
+    }
+   ]
+  },
+  {
+   "file": "wheel_FL.fbx",
+   "group": "wheel_FL",
+   "objects": [
+    {
+     "name": "CH_Wheel_FL_Caliper",
+     "bind": [
+      "wheel_FL"
+     ],
+     "materials": [
+      "CH_Brake_Caliper_Red"
+     ],
+     "vertices": 240,
+     "triangles": 468,
+     "bbox_min": [
+      -0.8605000376701355,
+      0.33686283230781555,
+      1.2585058212280273
+     ],
+     "bbox_max": [
+      -0.7465000152587891,
+      0.5470383167266846,
+      1.4110593795776367
+     ]
+    },
+    {
+     "name": "CH_Wheel_FL_Disc",
+     "bind": [
+      "wheel_FL"
+     ],
+     "materials": [
+      "CH_Brake_Disc"
+     ],
+     "vertices": 384,
+     "triangles": 768,
+     "bbox_min": [
+      -0.8205000162124634,
+      0.15700000524520874,
+      1.2804999351501465
+     ],
+     "bbox_max": [
+      -0.7865000367164612,
+      0.546999990940094,
+      1.6705000400543213
+     ]
+    },
+    {
+     "name": "CH_Wheel_FL_Rim",
+     "bind": [
+      "wheel_FL"
+     ],
+     "materials": [
+      "CH_Wheel_Graphite"
+     ],
+     "vertices": 17128,
+     "triangles": 34256,
+     "bbox_min": [
+      -0.9802000522613525,
+      0.08070290088653564,
+      1.2042028903961182
+     ],
+     "bbox_max": [
+      -0.6917999982833862,
+      0.6232970952987671,
+      1.7467970848083496
+     ]
+    },
+    {
+     "name": "CH_Wheel_FL_Tire",
+     "bind": [
+      "wheel_FL"
+     ],
+     "materials": [
+      "CH_Tire_Rubber"
+     ],
+     "vertices": 13824,
+     "triangles": 27360,
+     "bbox_min": [
+      -0.9860000610351562,
+      -0.008749991655349731,
+      1.1147500276565552
+     ],
+     "bbox_max": [
+      -0.6815380454063416,
+      0.7127499580383301,
+      1.8362499475479126
+     ]
+    }
+   ]
+  },
+  {
+   "file": "wheel_FR.fbx",
+   "group": "wheel_FR",
+   "objects": [
+    {
+     "name": "CH_Wheel_FR_Caliper",
+     "bind": [
+      "wheel_FR"
+     ],
+     "materials": [
+      "CH_Brake_Caliper_Red"
+     ],
+     "vertices": 240,
+     "triangles": 468,
+     "bbox_min": [
+      0.7465000152587891,
+      0.33686283230781555,
+      1.2585058212280273
+     ],
+     "bbox_max": [
+      0.8605000376701355,
+      0.5470383167266846,
+      1.4110593795776367
+     ]
+    },
+    {
+     "name": "CH_Wheel_FR_Disc",
+     "bind": [
+      "wheel_FR"
+     ],
+     "materials": [
+      "CH_Brake_Disc"
+     ],
+     "vertices": 384,
+     "triangles": 768,
+     "bbox_min": [
+      0.7865000367164612,
+      0.15700000524520874,
+      1.2804999351501465
+     ],
+     "bbox_max": [
+      0.8205000162124634,
+      0.546999990940094,
+      1.6705000400543213
+     ]
+    },
+    {
+     "name": "CH_Wheel_FR_Rim",
+     "bind": [
+      "wheel_FR"
+     ],
+     "materials": [
+      "CH_Wheel_Graphite"
+     ],
+     "vertices": 17128,
+     "triangles": 34256,
+     "bbox_min": [
+      0.6917999982833862,
+      0.08070290088653564,
+      1.2042028903961182
+     ],
+     "bbox_max": [
+      0.9802000522613525,
+      0.6232970952987671,
+      1.7467970848083496
+     ]
+    },
+    {
+     "name": "CH_Wheel_FR_Tire",
+     "bind": [
+      "wheel_FR"
+     ],
+     "materials": [
+      "CH_Tire_Rubber"
+     ],
+     "vertices": 13824,
+     "triangles": 27360,
+     "bbox_min": [
+      0.6815380454063416,
+      -0.008749991655349731,
+      1.1147500276565552
+     ],
+     "bbox_max": [
+      0.9860000610351562,
+      0.7127499580383301,
+      1.8362499475479126
+     ]
+    }
+   ]
+  },
+  {
+   "file": "wheel_RL.fbx",
+   "group": "wheel_RL",
+   "objects": [
+    {
+     "name": "CH_Wheel_RL_Caliper",
+     "bind": [
+      "wheel_RL"
+     ],
+     "materials": [
+      "CH_Brake_Caliper_Red"
+     ],
+     "vertices": 240,
+     "triangles": 468,
+     "bbox_min": [
+      -0.8615000247955322,
+      0.3586466610431671,
+      -1.6722300052642822
+     ],
+     "bbox_max": [
+      -0.7475000023841858,
+      0.5172181129455566,
+      -1.5446691513061523
+     ]
+    },
+    {
+     "name": "CH_Wheel_RL_Disc",
+     "bind": [
+      "wheel_RL"
+     ],
+     "materials": [
+      "CH_Brake_Disc"
+     ],
+     "vertices": 384,
+     "triangles": 768,
+     "bbox_min": [
+      -0.8215000033378601,
+      0.1770000010728836,
+      -1.650499939918518
+     ],
+     "bbox_max": [
+      -0.7875000238418579,
+      0.5270000100135803,
+      -1.3005000352859497
+     ]
+    },
+    {
+     "name": "CH_Wheel_RL_Rim",
+     "bind": [
+      "wheel_RL"
+     ],
+     "materials": [
+      "CH_Wheel_Graphite"
+     ],
+     "vertices": 17128,
+     "triangles": 34256,
+     "bbox_min": [
+      -0.9811999797821045,
+      0.08070290088653564,
+      -1.7467970848083496
+     ],
+     "bbox_max": [
+      -0.6928000450134277,
+      0.6232970952987671,
+      -1.2042028903961182
+     ]
+    },
+    {
+     "name": "CH_Wheel_RL_Tire",
+     "bind": [
+      "wheel_RL"
+     ],
+     "materials": [
+      "CH_Tire_Rubber"
+     ],
+     "vertices": 13824,
+     "triangles": 27360,
+     "bbox_min": [
+      -0.9869999885559082,
+      -0.008749991655349731,
+      -1.8362499475479126
+     ],
+     "bbox_max": [
+      -0.6825380325317383,
+      0.7127499580383301,
+      -1.1147500276565552
+     ]
+    }
+   ]
+  },
+  {
+   "file": "wheel_RR.fbx",
+   "group": "wheel_RR",
+   "objects": [
+    {
+     "name": "CH_Wheel_RR_Caliper",
+     "bind": [
+      "wheel_RR"
+     ],
+     "materials": [
+      "CH_Brake_Caliper_Red"
+     ],
+     "vertices": 240,
+     "triangles": 468,
+     "bbox_min": [
+      0.7475000023841858,
+      0.3586466610431671,
+      -1.6722300052642822
+     ],
+     "bbox_max": [
+      0.8615000247955322,
+      0.5172181129455566,
+      -1.5446691513061523
+     ]
+    },
+    {
+     "name": "CH_Wheel_RR_Disc",
+     "bind": [
+      "wheel_RR"
+     ],
+     "materials": [
+      "CH_Brake_Disc"
+     ],
+     "vertices": 384,
+     "triangles": 768,
+     "bbox_min": [
+      0.7875000238418579,
+      0.1770000010728836,
+      -1.650499939918518
+     ],
+     "bbox_max": [
+      0.8215000033378601,
+      0.5270000100135803,
+      -1.3005000352859497
+     ]
+    },
+    {
+     "name": "CH_Wheel_RR_Rim",
+     "bind": [
+      "wheel_RR"
+     ],
+     "materials": [
+      "CH_Wheel_Graphite"
+     ],
+     "vertices": 17128,
+     "triangles": 34256,
+     "bbox_min": [
+      0.6928000450134277,
+      0.08070290088653564,
+      -1.7467970848083496
+     ],
+     "bbox_max": [
+      0.9811999797821045,
+      0.6232970952987671,
+      -1.2042028903961182
+     ]
+    },
+    {
+     "name": "CH_Wheel_RR_Tire",
+     "bind": [
+      "wheel_RR"
+     ],
+     "materials": [
+      "CH_Tire_Rubber"
+     ],
+     "vertices": 13824,
+     "triangles": 27360,
+     "bbox_min": [
+      0.6825380325317383,
+      -0.008749991655349731,
+      -1.8362499475479126
+     ],
+     "bbox_max": [
+      0.9869999885559082,
+      0.7127499580383301,
+      -1.1147500276565552
+     ]
+    }
+   ]
+  }
+ ]
+}

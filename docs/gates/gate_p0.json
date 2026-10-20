@@ -1,0 +1,113 @@
+{
+  "gate": "P0",
+  "pass": true,
+  "fail": 0,
+  "warn": 3,
+  "checks": [
+    {
+      "check": "original .blend untouched",
+      "status": "PASS",
+      "detail": "sha256 AA42CA0C78B5BE03BCDE065E7861075C6BADFBBFD7FDDEF8DF9B2D74F9CFAE68"
+    },
+    {
+      "check": "working file v001 saved",
+      "status": "PASS",
+      "detail": "3DDodgeChallenger_v001.blend 97468 bytes"
+    },
+    {
+      "check": "Blender MCP scripts kept as files",
+      "status": "PASS",
+      "detail": "p0_01_save_as_v001.py, p0_02_inspect_and_capture.py"
+    },
+    {
+      "check": "P0 video asset (Blender before-state screenshot)",
+      "status": "PASS",
+      "detail": "2026-10-10_P0_blender_initial_scene.png"
+    },
+    {
+      "check": "hardware matches brief (CPU, RAM, GPU, driver)",
+      "status": "PASS",
+      "detail": "AMD Ryzen 7 5700X3D 8-Core Processor 8C/16T, 63.9 GB, NVIDIA GeForce RTX 5070, 616.92, 12227 MiB, 12.0, 4"
+    },
+    {
+      "check": "drive C: low on space (everything on W:)",
+      "status": "WARN",
+      "detail": "C: 19.1 GB free at audit time"
+    },
+    {
+      "check": "Unity editor 6000.6.0f1 installed",
+      "status": "PASS",
+      "detail": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Unity.exe (6000.6.0f1_f7f8ed4d1e24); Windows variations: mono, win32_player_development_mono, win32_player_nondevelopment_mono, win64_player_development_mono, win64_player_nondevelopment_mono, win_arm64_player_development_mono, win_arm64_player_nondevelopment_mono"
+    },
+    {
+      "check": "IL2CPP module",
+      "status": "WARN",
+      "detail": "not installed; Mono backend is used for Windows builds"
+    },
+    {
+      "check": "Unity project created",
+      "status": "PASS",
+      "detail": "W:\\YouTube\\3D Model Dodge Challenger\\Unity\\HellcatSandbox"
+    },
+    {
+      "check": "Unity licence works in batch mode",
+      "status": "PASS",
+      "detail": "Unity Personal; log also shows 'Access token is unavailable' (non-blocking)"
+    },
+    {
+      "check": "package versions pinned in manifest.json",
+      "status": "PASS",
+      "detail": "com.unity.burst@2.0.0, com.unity.collections@6.6.0, com.unity.inputsystem@1.20.1, com.unity.test-framework@1.8.0, com.unity.recorder@5.1.7, com.unity.render-pipelines.universal@17.6.0"
+    },
+    {
+      "check": "package assemblies load (Collections, Input System, Recorder, Test Framework, NUnit)",
+      "status": "PASS",
+      "detail": "burstEnabled=True; Mathematics in UnityEngine.MathematicsModule; Burst in UnityEngine.BurstModule"
+    },
+    {
+      "check": "GPU visible to Unity + compute shader smoke test",
+      "status": "PASS",
+      "detail": "NVIDIA GeForce RTX 5070 Direct3D11 11944 MB; ok: 4096 values verified, dispatch + readback 6,19 ms"
+    },
+    {
+      "check": "docs/physics_notes.md written from official docs",
+      "status": "PASS",
+      "detail": "640 lines, sections 1-9 present=True"
+    },
+    {
+      "check": "benchmark matches spec (3,000 nodes / 15,000 beams / dt 0.5 ms)",
+      "status": "PASS",
+      "detail": "editor: 3000 nodes, 15000 beams; player: 3000 nodes, 15000 beams"
+    },
+    {
+      "check": "Burst code executed in every run, no NaN/Inf",
+      "status": "PASS",
+      "detail": "28 runs"
+    },
+    {
+      "check": "determinism: identical state hash across runs, thread counts, ST/MT and editor/player",
+      "status": "PASS",
+      "detail": "shuffled: ['dfce03a034eda5e7']; ordered: ['5ee7da084acbd50e']"
+    },
+    {
+      "check": "real time at 2000 Hz (player build)",
+      "status": "PASS",
+      "detail": "ST 7296 steps/s (x3.6); MT 29023 steps/s (x14.5, 15 workers)"
+    },
+    {
+      "check": "60 fps frame budget (33 substeps per frame, player build)",
+      "status": "PASS",
+      "detail": "MT mean 1.14 ms / p99 1.53 ms; ST mean 4.52 ms / p99 5.70 ms (budget 16.67 ms)"
+    },
+    {
+      "check": "plastic deformation and breaking exercised",
+      "status": "PASS",
+      "detail": "976 plastic, 99 broken beams after the wall impact"
+    },
+    {
+      "check": "stability guideline omega*dt < 0.5 on the synthetic lattice",
+      "status": "WARN",
+      "detail": "max omega*dt 0.520, 402 nodes >= 0.5 (valence up to 18); run stayed stable"
+    }
+  ]
+}

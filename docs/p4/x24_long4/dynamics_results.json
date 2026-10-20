@@ -1,0 +1,12 @@
+{
+  "suite": "hellcat-validation",
+  "time_utc": "2026-10-14T17:47:52Z",
+  "quick": true,
+  "tests": [
+    {"id": "X24", "title": "Diagnostic: top-speed attitude drift with the P4 solver changes switched off one at a time", "pass": false, "seconds": 177.64,
+     "checks": [],
+     "notes": [],
+     "files": [],
+     "error": "System.IO.DirectoryNotFoundException: Could not find a part of the path \"W:\\YouTube\\3D Model Dodge Challenger\\docs\\p4\\x24_long4\\X24_top_speed_robot:_29.csv\".\n  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x00164] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 \n  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 \n  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)\n  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 \n  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 \n  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)\n  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <c5ae8a4eeb824526b5df2932bc2395e0>:0 \n  at Hellcat.Sim.Validation.Series.Write (System.String path) [0x00093] in W:\\YouTube\\3D Model Dodge Challenger\\Unity\\HellcatSandbox\\Assets\\Sim\\Validation\\ValidationSuite.cs:106 \n  at Hellcat.Sim.Validation.CrashDiagnostics.TopSpeedDrift (Hellcat.Sim.Validation.ValidationContext ctx) [0x00584] in W:\\YouTube\\3D Model Dodge Challenger\\Unity\\HellcatSandbox\\Assets\\Sim\\Validation\\CrashDiagnostics.cs:425 \n  at Hellcat.Sim.Validation.ValidationSuite.Run (Hellcat.Sim.Validation.ValidationContext ctx, System.Collections.Generic.ICollection`1[T] ids, System.Collections.Generic.List`1[T] tests) [0x000b1] in W:\\YouTube\\3D Model Dodge Challenger\\Unity\\HellcatSandbox\\Assets\\Sim\\Validation\\ValidationSuite.cs:192 "}
+  ]
+}

@@ -1,0 +1,7 @@
+﻿<Solution>
+  <Project Path="Hellcat.Game.csproj" />
+  <Project Path="Hellcat.Sim.csproj" />
+  <Project Path="Hellcat.Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+</Solution>

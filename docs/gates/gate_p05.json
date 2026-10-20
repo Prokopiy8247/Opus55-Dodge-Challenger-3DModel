@@ -1,0 +1,68 @@
+{
+  "gate": "P0.5",
+  "pass": true,
+  "fail": 0,
+  "warn": 0,
+  "checks": [
+    {
+      "check": "original .blend untouched",
+      "status": "PASS",
+      "detail": "SHA-256 compared with the P0 fingerprint"
+    },
+    {
+      "check": "box car skeleton exported from Blender (30-60 nodes, 4 wheels)",
+      "status": "PASS",
+      "detail": "60 nodes, 250 beams, 4 wheels, 1334 kg, hydros ['steering']"
+    },
+    {
+      "check": "exported geometry reaches the Unity project",
+      "status": "PASS",
+      "detail": "Unity\\HellcatSandbox\\Assets\\StreamingAssets\\Vehicles\\boxcar\\geometry.json"
+    },
+    {
+      "check": "standalone slice build exists",
+      "status": "PASS",
+      "detail": "Builds\\P05_Slice\\HellcatSlice.exe"
+    },
+    {
+      "check": "driven on the plane to the target speed (50 km/h +/- 10 %)",
+      "status": "PASS",
+      "detail": "entry speed 48.5 km/h"
+    },
+    {
+      "check": "crash: plastic deformation, no NaN, settles",
+      "status": "PASS",
+      "detail": "crush 0.270 m, 26 plastic beams, plastic work 63.3 kJ, peak 31.9 g (frame avg), max node speed after 3 s 0.03 m/s"
+    },
+    {
+      "check": "damage grows with speed",
+      "status": "PASS",
+      "detail": "48.5 km/h: 0.270 m / 63 kJ  vs  67.6 km/h: 0.508 m / 130 kJ"
+    },
+    {
+      "check": "deterministic re-run (time series byte-identical, capture on vs off)",
+      "status": "PASS",
+      "detail": "84769 bytes, sha256 3408b86ebbbef983"
+    },
+    {
+      "check": "stability report (S < 2 hard limit)",
+      "status": "PASS",
+      "detail": "max S 1.745"
+    },
+    {
+      "check": "physics cost of the slice",
+      "status": "PASS",
+      "detail": "7.5 us/substep, 15.0 ms per simulated second"
+    },
+    {
+      "check": "windowed live-drive mode runs in real time (2000 Hz)",
+      "status": "PASS",
+      "detail": "physics 2000 Hz x1,00"
+    },
+    {
+      "check": "video assets (MP4 chase + side, slow motion, stills)",
+      "status": "PASS",
+      "detail": "2026-10-10_P05_boxcar_wall_50kmh_chase.mp4, 2026-10-10_P05_boxcar_wall_50kmh_side.mp4, 2026-10-10_P05_boxcar_wall_50kmh_side_slowmo_0.25x.mp4, 2026-10-10_P05_boxcar_wall_80kmh_chase.mp4, 2026-10-10_P05_boxcar_wall_80kmh_side.mp4, 2026-10-10_P05_boxcar_skeleton_blender.png, 2026-10-10_P05_boxcar_wall_50kmh_after_side.png, 2026-10-10_P05_boxcar_wall_50kmh_impact_side.png, 2026-10-10_P05_boxcar_wall_80kmh_after_side.png"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "gate": "P2 (G-Skeleton)",
+  "vehicle": "hellcat",
+  "pass": true,
+  "fail": 0,
+  "warn": 2,
+  "checks": [
+    {
+      "check": "node, beam and triangle counts reported",
+      "status": "PASS",
+      "detail": "2107 nodes, 11399 beams (NORMAL 11363, SUPPORT 30, BOUNDED 4, HYDRO 2), 2308 triangles (COLLIDE 1924, PRESSURE 384), 4 wheels, 4 pressure groups, 2 torsion bars, 30 parts, 3 camera mounts"
+    },
+    {
+      "check": "complexity vs the brief's starting target (4.5: 2,500-6,000 nodes, 12,000-40,000 beams, 3,000-8,000 triangles)",
+      "status": "WARN",
+      "detail": "nodes 2107 < 2500; beams 11399 < 12000; triangles 2308 < 3000 - the resolution is set by the 2 kHz stability limit at the real mass budget (D-024; docs/P2_report.md section 'Resolution')"
+    },
+    {
+      "check": "total mass equals target +-1 %",
+      "status": "PASS",
+      "detail": "2040.0 kg vs 2040 kg (-0.00 %)"
+    },
+    {
+      "check": "centre of mass and axle load split reported (target 57 / 43 %, brief 55-57 % front)",
+      "status": "PASS",
+      "detail": "CoM (Unity x, y, z) = (+0.0024, 0.5630, +0.2023) m, i.e. 1.678 m ahead of the rear axle, height 0.563 m; wheelbase 2.951 m; front 56.9 % / rear 43.1 %; rigid-body corner loads FL 578 kg, FR 582 kg, RL 439 kg, RR 441 kg"
+    },
+    {
+      "check": "every node connected, no isolated components",
+      "status": "PASS",
+      "detail": "0 nodes without beams, 1 connected component(s); valence min 3, median 10, max 52; nodes with fewer than 3 beams: 0"
+    },
+    {
+      "check": "no duplicate nodes within 1 cm unless intentional; no degenerate beams",
+      "status": "PASS",
+      "detail": "21 pairs within 1 cm, all between separate parts meeting at a shut line (intentional: each part keeps its own nodes so it can detach): body/bumper_R 4, body/door_FR 2, body/door_FL 2, door_FR/fender_R 3, bumper_F/fender_R 1, door_FL/fender_L 3, bumper_F/fender_L 1, bumper_F/hood 3, bumper_R/trunk 1, glass_rear/trunk 1; same-part pairs: none; beams shorter than 2 cm: 0 (shortest 20.0 mm)"
+    },
+    {
+      "check": "every beam, torsion bar and node references a defined material preset (params.json)",
+      "status": "PASS",
+      "detail": "81 beam materials used of 85 defined, 5 contact materials; missing beam none, torsion none, contact none; triangles with bad node index 0"
+    },
+    {
+      "check": "break groups of section 6.3 defined",
+      "status": "PASS",
+      "detail": "39 groups: bumper_F, bumper_R, differential, door_FL, door_FL_latch, door_FR, door_FR_latch, engine_mount, exhaust, fuel_tank, glass_quarter_L, glass_quarter_R, glass_rear, glass_side_FL, glass_side_FR, glass_windshield, headlight_L, headlight_R, hood, hood_latch, mirror_L, mirror_R, radiator, seat_FL, seat_FR, subframe_L, subframe_R, tierod_FL, tierod_FR, tire_FL, tire_FR, tire_RL, tire_RR, trunk, trunk_latch, wheel_FL, wheel_FR, wheel_RL, wheel_RR; missing none"
+    },
+    {
+      "check": "closure hinges and latches hold their nodes in 3D (smallest singular value of the beam directions >= 0.3, D-063)",
+      "status": "PASS",
+      "detail": "18 joints, smallest 0.34 (hood_o_0_1)"
+    },
+    {
+      "check": "stability at dt = 0.50 ms: exact S = lambda_max(M^-1 (dt^2 K + 2 dt C + contact)) < 2.5 (D-024, exact limit 4)",
+      "status": "PASS",
+      "detail": "S = 2.4403 (top modes [2.4403, 2.4337, 2.4175, 2.4139, 2.402, 2.397]); stiffest families: quarter_L 2.386, quarter_R 2.377, rail 2.366, sill 2.327, rrail 2.287, roof 2.221; Gershgorin upper bound max 6.551 (D-004 bound, superseded)"
+    },
+    {
+      "check": "omega*dt >= 0.5 per node (warning only, user answer 4 / D-004; the hard limit is the exact criterion)",
+      "status": "WARN",
+      "detail": "2051 of 2107 nodes at omega*dt >= 0.5 (max 1.605); omega = sqrt(sum k / m) ignores that neighbours move with the node, so it overstates the step-size demand of stiff clusters; the exact spectral S above is the stability criterion"
+    },
+    {
+      "check": "tire air volumes: closed, consistently wound, positive volume (normals out of the cavity)",
+      "status": "PASS",
+      "detail": "tire_FR: 240 tris, open edges 0, inconsistent 0, 52.54 l; tire_FL: 240 tris, open edges 0, inconsistent 0, 52.54 l; tire_RR: 240 tris, open edges 0, inconsistent 0, 52.54 l; tire_RL: 240 tris, open edges 0, inconsistent 0, 52.54 l"
+    },
+    {
+      "check": "every outer-surface triangle wound outward (numeric: patch consistency + ray-escape voting)",
+      "status": "PASS",
+      "detail": "1344 surface triangles in 19 patches: 19 outward, 0 inward, 0 undecided; inconsistent shared edges 0, edges shared by 3+ triangles 0, degenerate triangles 0, two-sided triangles 4; weakest patches: glass_rear vote 0.429 (64 tris); glass_windshield vote 0.516 (80 tris); trunk vote 0.559 (60 tris) (details docs/gates/p2_winding.json)"
+    },
+    {
+      "check": "export pipeline: geometry.json + params.json written for the Unity project (StreamingAssets copy in sync)",
+      "status": "PASS",
+      "detail": "sim\\vehicle\\hellcat -> Unity\\HellcatSandbox\\Assets\\StreamingAssets\\Vehicles\\hellcat: identical; geometry.json 1,756,493 bytes"
+    },
+    {
+      "check": "evidence: skeleton debug-view renders (skeleton alone and over the paint)",
+      "status": "PASS",
+      "detail": "27 stills (9 overlays)"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+ "objects": 128,
+ "meshes": 124,
+ "bad_names": [],
+ "no_material": [],
+ "no_uv": [],
+ "missing_parts": {},
+ "left_right_wrong_side_vertices": {},
+ "triangles": 638176,
+ "body_nonmanifold_edges": {},
+ "visible_backface_fraction_above_1pct": {},
+ "visibility_rays": 1548800,
+ "panel_intersections": {},
+ "attached_detail_contacts": {
+  "CH_Door_R|CH_Door_Handle_R": 275,
+  "CH_Fender_R|CH_Badge_Hellcat_R": 74,
+  "CH_Bumper_R|CH_Marker_Rear_R": 100,
+  "CH_Bumper_R|CH_Marker_Rear_L": 96,
+  "CH_Roof|CH_Antenna": 25,
+  "CH_Hood|CH_Hood_Scoop": 159,
+  "CH_Hood|CH_Hood_Extractor_R": 238,
+  "CH_Hood|CH_Hood_Extractor_Vent_R": 204,
+  "CH_Hood|CH_Hood_Extractor_L": 245,
+  "CH_Hood|CH_Hood_Extractor_Vent_L": 224,
+  "CH_Spoiler|CH_Badge_SRT_Rear": 138,
+  "CH_Mirror_Housing_R|CH_Mirror_Stalk_R": 370,
+  "CH_FuelDoor|CH_Quarter_L": 138,
+  "CH_Hood_Scoop|CH_Hood_Scoop_Mesh": 2,
+  "CH_Hood_Extractor_R|CH_Hood_Extractor_Vent_R": 74,
+  "CH_Engine|CH_Engine_Pulleys": 16,
+  "CH_Subframe_Front|CH_Susp_Front_Arms_L": 174,
+  "CH_Subframe_Front|CH_Susp_Front_Arms_R": 78,
+  "CH_Subframe_Rear|CH_Susp_Rear_Links_L": 123,
+  "CH_Subframe_Rear|CH_Susp_Rear_Links_R": 123,
+  "CH_Differential|CH_HalfShaft_L": 26,
+  "CH_Differential|CH_HalfShaft_R": 26,
+  "CH_Knuckles_L|CH_Susp_Front_Arms_L": 56,
+  "CH_Knuckles_L|CH_HalfShaft_L": 26,
+  "CH_Knuckles_R|CH_Susp_Front_Arms_R": 24,
+  "CH_Knuckles_R|CH_HalfShaft_R": 26,
+  "CH_Door_L|CH_Door_Handle_L": 274,
+  "CH_Fender_L|CH_Badge_Hellcat_L": 70,
+  "CH_Mirror_Housing_L|CH_Mirror_Stalk_L": 200,
+  "CH_Hood_Extractor_L|CH_Hood_Extractor_Vent_L": 74
+ },
+ "unexpected_contacts": {},
+ "coincident_faces": {},
+ "gaps_mm": {
+  "CH_Door_R|CH_Fender_R": 4.63,
+  "CH_Door_R|CH_Quarter_R": 4.83,
+  "CH_Hood|CH_Fender_R": 4.69,
+  "CH_DeckLid|CH_Quarter_R": 6.53,
+  "CH_Bumper_F|CH_Fender_R": 1.92,
+  "CH_Door_R|CH_Rocker_R": 5.0
+ },
+ "wheels": {
+  "FL": {
+   "centre": [
+    -0.8335,
+    1.4755,
+    0.352
+   ],
+   "spec_centre": [
+    -0.8335,
+    1.4755,
+    0.352
+   ],
+   "centre_error_mm": 0.0,
+   "radius_max": 0.3608,
+   "out_of_round_mm": 0.01
+  },
+  "FR": {
+   "centre": [
+    0.8335,
+    1.4755,
+    0.352
+   ],
+   "spec_centre": [
+    0.8335,
+    1.4755,
+    0.352
+   ],
+   "centre_error_mm": 0.0,
+   "radius_max": 0.3608,
+   "out_of_round_mm": 0.01
+  },
+  "RL": {
+   "centre": [
+    -0.8345,
+    -1.4755,
+    0.352
+   ],
+   "spec_centre": [
+    -0.8345,
+    -1.4755,
+    0.352
+   ],
+   "centre_error_mm": 0.0,
+   "radius_max": 0.3608,
+   "out_of_round_mm": 0.01
+  },
+  "RR": {
+   "centre": [
+    0.8345,
+    -1.4755,
+    0.352
+   ],
+   "spec_centre": [
+    0.8345,
+    -1.4755,
+    0.352
+   ],
+   "centre_error_mm": 0.0,
+   "radius_max": 0.3608,
+   "out_of_round_mm": 0.01
+  }
+ }
+}

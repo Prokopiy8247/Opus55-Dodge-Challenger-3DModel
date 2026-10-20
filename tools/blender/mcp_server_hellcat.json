@@ -1,0 +1,14 @@
+{
+  "_comment": "Pinned MCP server entry for this project's Blender (port 9876), in the format of ~/.mirasim/mcp.json 'servers'. Not installed globally on purpose, see docs/decisions.md D-003.",
+  "name": "custom-blender-hellcat",
+  "enabled": true,
+  "type": "stdio",
+  "command": "uvx",
+  "args": ["mcp-for-blender@2.1.9", "--host", "localhost", "--port", "9876"],
+  "env": {
+    "BLENDER_MCP_SAFE_MODE": "1",
+    "DISABLE_TELEMETRY": "true"
+  },
+  "catalogId": "custom-blender-hellcat",
+  "agents": ["claude"]
+}

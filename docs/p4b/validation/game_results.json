@@ -1,0 +1,26 @@
+{
+  "suite": "hellcat-validation",
+  "time_utc": "2026-10-15T22:17:50Z",
+  "quick": false,
+  "tests": [
+    {"id": "T15", "title": "Record / replay: the same input recording reproduces the same path", "pass": true, "seconds": 43.39,
+     "checks": [
+       {"name": "recorded run: duration / frames", "value": 12.000000569969416, "unit": "s", "limit": "741 frames, 24000 substeps", "pass": true, "info": true},
+       {"name": "recorded run: speed at the wall", "value": 54.490214999930821, "unit": "km/h", "limit": "the run includes a crash", "pass": true, "info": true},
+       {"name": "recorded run: broken / plastic beams at the end", "value": 7, "unit": "", "limit": "plastic 949", "pass": true, "info": true},
+       {"name": "world snapshot size", "value": 3.8308591842651367, "unit": "MB", "limit": "all native arrays of the world, uncompressed", "pass": true, "info": true},
+       {"name": "snapshot restore reproduces the captured state", "value": 1, "unit": "", "limit": "hash equal", "pass": true, "info": false},
+       {"name": "replay, recorded partition: end state bit-identical", "value": 1, "unit": "", "limit": "hash equal", "pass": true, "info": false},
+       {"name": "replay, recorded partition: largest path deviation", "value": 0, "unit": "m", "limit": "<= 1e-9", "pass": true, "info": false},
+       {"name": "replay at 8 substeps per frame: largest path deviation", "value": 0, "unit": "m", "limit": "<= 0.05", "pass": true, "info": false},
+       {"name": "replay at 8 substeps per frame: end state bit-identical", "value": 1, "unit": "", "limit": "1 = the frame partition does not change the run", "pass": true, "info": true},
+       {"name": "recording file round trip: end state bit-identical", "value": 1, "unit": "", "limit": "hash equal", "pass": true, "info": false},
+       {"name": "recording file size (gzip, snapshot included)", "value": 0.62753200531005859, "unit": "MB", "limit": "741 frames", "pass": true, "info": true},
+       {"name": "respawn start after another history: settled state identical", "value": 1, "unit": "", "limit": "hash equal (clock excluded)", "pass": true, "info": false},
+       {"name": "respawn start after another history: replay bit-identical", "value": 1, "unit": "", "limit": "hash equal (clock excluded)", "pass": true, "info": false},
+       {"name": "respawn start: largest path deviation between the two replays", "value": 0, "unit": "m", "limit": "", "pass": true, "info": true},
+       {"name": "solver time of the recorded run (editor)", "value": 0.53888947440412338, "unit": "s per simulated s", "limit": "", "pass": true, "info": true}],
+     "notes": ["Recorded 12.0 s: driver robot on a 3.5 m lane change at 55 km/h into a rigid wall 90 m ahead, frames of 25-40 substeps (seeded). Path = centre of mass at every recorded frame end; the 250 fps replay is compared where its frame ends coincide. Respawn runs: settled car at the origin, the second after a 2 s full-lock burnout elsewhere."],
+     "files": ["T15_paths.csv", "T15_inputs.csv"]}
+  ]
+}
