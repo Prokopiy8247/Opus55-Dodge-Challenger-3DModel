@@ -4,7 +4,7 @@ reprojection error per landmark. Large residuals show where the modelled layout 
 
 Usage: tools/.venv/Scripts/python.exe tools/ref/interior_pnp.py cabin2
 Writes docs/p1b/photo_cams/<photo>.json (focal, camera in the car frame, residuals).
-2D points were read from gridded crops (tools/ref/gridcrop.py) of reference/Салон 2.jpg.
+2D points were read from gridded crops (tools/ref/gridcrop.py) of reference/Interior 2.jpg.
 """
 import json
 import math
@@ -58,7 +58,7 @@ def landmarks():
 
 
 PHOTOS = {
-    "cabin2": {"file": "Салон 2.jpg", "size": (1920, 1280), "uv": {
+    "cabin2": {"file": "Interior 2.jpg", "size": (1920, 1280), "uv": {
         "wheel_badge": (596, 403), "tach_centre": (704, 226), "speedo_centre": (994, 259),
         "screen_tl": (1307, 244), "screen_tr": (1611, 267), "screen_bl": (1267, 455), "screen_br": (1580, 490),
         "vent_left": (1193, 331), "vent_right": (1705, 377), "start_button": (1130, 575),

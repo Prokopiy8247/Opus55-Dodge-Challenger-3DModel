@@ -233,19 +233,19 @@ def write_md(d, order):
     def k_(x):
         return x.get
 
-    md += ["## Итоговая таблица (summary, Russian)", "",
-           "| Показатель | Значение |", "|---|---|",
-           f"| Календарное время от первого сообщения до финала | {d['wall_clock_h']:.1f} ч ({d['wall_clock_h'] / 24:.1f} сут) |",
-           f"| Активное время агента (паузы > {d['idle_gap_min']:.0f} мин не считаются) | {d['active_h']:.1f} ч |",
-           f"| Модель | Claude Opus 5.5 (`claude-opus-5-5`): основная сессия и суб-агенты |",
-           f"| Входные токены (без кэша) | {fm(allk['input'])} |",
-           f"| Выходные токены | {fm(allk['output'])} |",
-           f"| Запись в кэш (5 мин / 1 ч) | {fm(allk['cache_write_5m'])} / {fm(allk['cache_write_1h'])} |",
-           f"| Чтение из кэша | {fm(allk['cache_read'])} |",
-           f"| Стоимость по ценам API (эквивалент) | **${d['cost_usd']:,.2f}** (основная сессия ${c_main:,.2f}, суб-агенты ${c_sub:,.2f}) |",
-           f"| Фаз выполнено | {len([o for o in order if o != 'after'])} (P0, P0.5, P1, P1b, P2, P3, P3b, P4, P4b, P5, P6, P7) |",
-           f"| Строк кода (в git) | {fm(sum(v['lines'] for v in d['code'].values()))} в {fm(sum(v['files'] for v in d['code'].values()))} файлах |",
-           f"| Запусков Unity в batch-режиме / плеера / вызовов Blender | {tools_tot['unity_batch_calls']} / {tools_tot['player_run_calls']} / {tools_tot['blender_calls']} (вызовы инструментов агента) |",
+    md += ["## Summary table", "",
+           "| Metric | Value |", "|---|---|",
+           f"| Calendar time from the first message to the end | {d['wall_clock_h']:.1f} h ({d['wall_clock_h'] / 24:.1f} days) |",
+           f"| Active agent time (pauses > {d['idle_gap_min']:.0f} min not counted) | {d['active_h']:.1f} h |",
+           f"| Model | Claude Opus 5.5 (`claude-opus-5-5`): main session and sub-agents |",
+           f"| Input tokens (uncached) | {fm(allk['input'])} |",
+           f"| Output tokens | {fm(allk['output'])} |",
+           f"| Cache writes (5 min / 1 h) | {fm(allk['cache_write_5m'])} / {fm(allk['cache_write_1h'])} |",
+           f"| Cache reads | {fm(allk['cache_read'])} |",
+           f"| Cost at API prices (equivalent) | **${d['cost_usd']:,.2f}** (main session ${c_main:,.2f}, sub-agents ${c_sub:,.2f}) |",
+           f"| Phases completed | {len([o for o in order if o != 'after'])} (P0, P0.5, P1, P1b, P2, P3, P3b, P4, P4b, P5, P6, P7) |",
+           f"| Lines of code (in git) | {fm(sum(v['lines'] for v in d['code'].values()))} in {fm(sum(v['files'] for v in d['code'].values()))} files |",
+           f"| Unity batch runs / player runs / Blender calls | {tools_tot['unity_batch_calls']} / {tools_tot['player_run_calls']} / {tools_tot['blender_calls']} (agent tool calls) |",
            ""]
 
     md += ["## 1. Time", "",

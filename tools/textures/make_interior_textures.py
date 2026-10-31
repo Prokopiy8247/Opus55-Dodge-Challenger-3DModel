@@ -121,7 +121,7 @@ def dial(kind):
 
 def cluster_display(gear="P", speed="0"):
     """Centre TFT between the pods (0.086 x 0.092 m): range, speed in km/h, PRNDM column on the right,
-    temperature and fuel bars on the left (the layout of reference/Панель.jpg)."""
+    temperature and fuel bars on the left (the layout of reference/Instrument cluster.jpg)."""
     W, H = 704, 768
     img = Image.new("RGB", (W, H), (8, 10, 18))
     a = np.asarray(img).astype(float)

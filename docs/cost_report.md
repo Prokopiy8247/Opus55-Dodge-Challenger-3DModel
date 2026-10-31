@@ -2,21 +2,21 @@
 
 Data: the Claude Code transcripts of this project (8 files: main sessions and sub-agents) from 2026-10-10T16:05:05Z to 2026-10-15T22:45:49Z, read by `tools/cost/make_cost_report.py`; raw rows per phase in `docs/cost_log.csv`, totals in `docs/cost/usage_total.json`. All money figures are an **API-equivalent estimate** at the official Anthropic API list prices - not the user's actual subscription billing.
 
-## Итоговая таблица (summary, Russian)
+## Summary table
 
-| Показатель | Значение |
+| Metric | Value |
 |---|---|
-| Календарное время от первого сообщения до финала | 126.7 ч (5.3 сут) |
-| Активное время агента (паузы > 10 мин не считаются) | 50.9 ч |
-| Модель | Claude Opus 5.5 (`claude-opus-5-5`): основная сессия и суб-агенты |
-| Входные токены (без кэша) | 3 705 771 |
-| Выходные токены | 7 926 549 |
-| Запись в кэш (5 мин / 1 ч) | 52 043 242 / 5 443 174 |
-| Чтение из кэша | 2 151 185 863 |
-| Стоимость по ценам API (эквивалент) | **$907.35** (основная сессия $881.71, суб-агенты $25.64) |
-| Фаз выполнено | 12 (P0, P0.5, P1, P1b, P2, P3, P3b, P4, P4b, P5, P6, P7) |
-| Строк кода (в git) | 61 525 в 380 файлах |
-| Запусков Unity в batch-режиме / плеера / вызовов Blender | 264 / 86 / 239 (вызовы инструментов агента) |
+| Calendar time from the first message to the end | 126.7 h (5.3 days) |
+| Active agent time (pauses > 10 min not counted) | 50.9 h |
+| Model | Claude Opus 5.5 (`claude-opus-5-5`): main session and sub-agents |
+| Input tokens (uncached) | 3 705 771 |
+| Output tokens | 7 926 549 |
+| Cache writes (5 min / 1 h) | 52 043 242 / 5 443 174 |
+| Cache reads | 2 151 185 863 |
+| Cost at API prices (equivalent) | **$907.35** (main session $881.71, sub-agents $25.64) |
+| Phases completed | 12 (P0, P0.5, P1, P1b, P2, P3, P3b, P4, P4b, P5, P6, P7) |
+| Lines of code (in git) | 61 525 in 380 files |
+| Unity batch runs / player runs / Blender calls | 264 / 86 / 239 (agent tool calls) |
 
 ## 1. Time
 

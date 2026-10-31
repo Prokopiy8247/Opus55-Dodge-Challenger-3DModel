@@ -4,7 +4,7 @@ Inputs:
     docs/gates/p1b_interior_audit.json   hcar.gate_interior:audit (names, materials, UVs, triangles,
                                          intersections, coincident faces, eye clearance, needle angles,
                                          steering wheel rotation)
-    docs/p1b/photo_cams/cabin2.json      tools/ref/interior_pnp.py (camera fitted to reference/Салон 2.jpg)
+    docs/p1b/photo_cams/cabin2.json      tools/ref/interior_pnp.py (camera fitted to reference/Interior 2.jpg)
     sim/vehicle/hellcat/cockpit.json     hcar.interior:export_cockpit (pivots / axes for Unity)
     docs/video_assets/P1b/               renders (driver view, gauges, steering, cut-aways, animation)
 
@@ -71,7 +71,7 @@ def main():
     lay_ok = cam["rms_pct_width"] <= 2.0 and all(pp[k] < 40 for k in ("wheel_badge", "tach_centre", "screen_tl",
                                                                      "screen_br", "start_button"))
     check("layout matches the reference (wheel, cluster, centre screen, vents, start button, console) - camera fitted "
-          "to reference/Салон 2.jpg", "PASS" if lay_ok else "FAIL",
+          "to reference/Interior 2.jpg", "PASS" if lay_ok else "FAIL",
           f"fit on {len(cam['fit_landmarks'])} landmarks: RMS {cam['rms_fit_px']} px ({cam['rms_pct_width']} % of the "
           f"width), lens {cam['lens_mm_36']} mm eq.; residuals (px): " + ", ".join(f"{k} {v}" for k, v in pp.items())
           + "; overlay docs/p1b/photo_cams/overlay_cabin2.jpg")

@@ -11,7 +11,7 @@ t += (
     "estimate and keeps the hood scoop visible over the dash. |\n"
     "| D-021 | 2026-10-11 | G-Interior is split: layout, budget, clipping, needle and steering-wheel kinematics are verified in "
     "Blender in P1b; 'mirrors show the scene' and gauges driven by the simulation are verified in the Unity cockpit (P4b). "
-    "The layout check is a camera fitted to cockpit landmarks of reference/Салон 2.jpg (solvePnP, RMS < 2 % of the width) "
+    "The layout check is a camera fitted to cockpit landmarks of reference/Interior 2.jpg (solvePnP, RMS < 2 % of the width) "
     "plus a render overlay. | Mirrors need render textures and the live vehicle state, which exist only in the Unity "
     "runtime; the reference photos are not taken from the driver's eye, so a fitted camera is the fair comparison. |\n"
     "| D-022 | 2026-10-11 | Interior built procedurally (numpy lofts / sweeps / lathes, ikit.py) in the car frame; shell-following "
@@ -28,7 +28,7 @@ ct += ("| P1b | 2026-10-11 | P1b | Interior and cockpit: 35 CH_Int_* parts (162,
        "hcar.interior:build_interior (dash, cluster with needles, flat-bottom SRT wheel, stack with Performance Pages screen, "
        "console waterfall with switch bank and selector, seats with pleats and emboss, rear bench, door cards, ray-cast trims, "
        "headliner, carpet, pedals, belts, mirror, visors, frit); generated interior textures; cockpit.json for Unity; photo "
-       "camera fit on reference/Салон 2.jpg (0.89 % RMS); interior audit (no clipping); see-through tinted glass; floor tunnel "
+       "camera fit on reference/Interior 2.jpg (0.89 % RMS); interior audit (no clipping); see-through tinted glass; floor tunnel "
        "narrowed under the seats; G-Interior gate PASS (1 warn: mirrors in P4b). Blender `3DDodgeChallenger_v007.blend`. |\n")
 c.write_text(ct, encoding="utf-8")
 m = ROOT / "docs" / "model_notes.md"

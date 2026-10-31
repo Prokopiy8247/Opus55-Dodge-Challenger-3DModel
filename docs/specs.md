@@ -460,7 +460,7 @@ Nothing found anywhere publishes the seating reference point (SgRP, H-point) hei
 3. SgRP ≈ 0.50–0.54 m above the ground.
 4. The SAE J941 eyellipse centroid sits ≈ 638 mm above the SgRP. That gives an eye height of ≈ 1.14–1.18 m.
 
-**Use 1.16 m ± 0.05 m.** This is higher than the project brief's 1.05–1.10 m. Before fixing the cockpit camera, check it in Blender against `reference/Салон 2.jpg`, using the visible hood scoop and cowl line. The driver's weight lowers the car by a few millimetres.
+**Use 1.16 m ± 0.05 m.** This is higher than the project brief's 1.05–1.10 m. Before fixing the cockpit camera, check it in Blender against `reference/Interior 2.jpg`, using the visible hood scoop and cowl line. The driver's weight lowers the car by a few millimetres.
 
 ## 10. Not found or not verified
 

@@ -41,7 +41,7 @@ Date: 2026-10-11. Gate: `docs/gates/gate_p1b.md` — **PASS** (11 checks: 0 FAIL
 
 ## Numbers
 - **Driver eye** at (-0.375, -0.36, 1.12) m. The H-point is at 0.49 m (0.27 m above the floor); horizontal FOV 85° (D-020).
-- **Layout check against `reference/Салон 2.jpg`:** a camera is fitted to 9 landmarks.
+- **Layout check against `reference/Interior 2.jpg`:** a camera is fitted to 9 landmarks.
   - Landmarks: wheel badge, two dial centres, four screen corners, two vents.
   - Fit RMS 17.1 px (0.89 % of the width), lens 41 mm equivalent.
   - The start button and the console knobs and selector are not in the fit; their residuals are 12 px and 30-80 px.

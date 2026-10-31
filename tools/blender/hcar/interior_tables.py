@@ -69,7 +69,7 @@ REAR_BACK_TOP = (-1.395, 1.075)
 # console (front seats are 0.51 m wide: 1 cm clearance to the console on each side)
 CONSOLE_W = 0.205
 # console top: flat at 0.585 m, rising as a 35 deg "waterfall" to the stack (switch bank on it);
-# positions from back-projecting reference/Салон 2.jpg through the fitted camera (tools/ref/backproject.py)
+# positions from back-projecting reference/Interior 2.jpg through the fitted camera (tools/ref/backproject.py)
 CONSOLE_TOP = ((-0.585, 0.585), (0.05, 0.580), (0.34, 0.592), (0.545, 0.738))   # (y, z)
 SWITCH_BANK_Y = 0.417                            # centre of the switch bank on the waterfall
 SHIFTER = (0.0, 0.300, 0.585)                    # base of the selector lever
