@@ -72,4 +72,9 @@ see **[docs/README.md](docs/README.md)** for building from source, physics tunin
 phase reports are in `docs/P0_report.md … P7_report.md`, design decisions in `docs/decisions.md`.
 Reference photos and heavy videos are not part of the repository.
 
+### Connect Claude Code or Codex to Blender
+
+**[Blender_MCP_Guide.pdf](Blender_MCP_Guide.pdf)** is a short step-by-step guide: one Unity project, one Blender file
+and Blender MCP on one port, connected to Claude Code or Codex (Desktop or VS Code), with an example first prompt.
+
 ![Crash scenarios](docs/images/crash_scenarios.jpg)
